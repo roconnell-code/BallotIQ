@@ -1,0 +1,1167 @@
+[
+  {
+    "state": "AL",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Open seat. Republican Tommy Tuberville is leaving the Senate to run for governor. The winner serves a six-year term starting January 3, 2027.",
+    "candidates": [
+      {
+        "name": "Barry Moore",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Represents Alabama in the U.S. House and won the June 16, 2026 Republican runoff for this open seat.",
+          "Entered Congress after a term in the Alabama House. He is part of the conservative House Freedom Caucus wing."
+        ],
+        "policy": [
+          "Campaigns as a conservative: tighter immigration enforcement, opposition to abortion, and a smaller federal role in daily life.",
+          "Aligned with the Trump-era Republican primary electorate that decided this nomination."
+        ]
+      },
+      {
+        "name": "Everett Wess",
+        "party": "Democratic",
+        "role": "Attorney",
+        "accomplishments": [
+          "Won the Democratic runoff with 54.6 percent after no candidate cleared 50 percent in the May primary."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "AK",
+    "office": "U.S. Senate",
+    "rating": "Tossup",
+    "summary": "Incumbent Republican Dan Sullivan is seeking a third term. Alaska sends the top four primary finishers to a ranked-choice general election.",
+    "candidates": [
+      {
+        "name": "Dan S. Sullivan",
+        "party": "Republican",
+        "role": "U.S. senator since 2015",
+        "accomplishments": [
+          "Marine Corps officer, former Alaska attorney general, and former commissioner of the Alaska Department of Natural Resources.",
+          "Reelected in 2020 with 53.9 percent. Advanced from the August 18, 2026 primary."
+        ],
+        "policy": [
+          "Supports expanded oil, gas, and mining on federal land in Alaska and a larger military presence in the state.",
+          "Votes as a conventional Senate Republican on taxes, immigration, and judicial nominations."
+        ]
+      },
+      {
+        "name": "Mary Peltola",
+        "party": "Democratic",
+        "role": "Former U.S. representative",
+        "accomplishments": [
+          "First Alaska Native member of Congress. Won the 2022 special election for the state's at-large House seat and lost it in 2024.",
+          "Advanced to this Senate general election from the 2026 top-four primary."
+        ],
+        "policy": [
+          "Built her House record around fisheries, subsistence, and a pro-development stance she paired with Democratic votes on abortion rights.",
+          "Presents herself as a cross-party candidate in a state that uses ranked-choice voting."
+        ]
+      },
+      {
+        "name": "Gerald Heikes",
+        "party": "Republican",
+        "role": "Perennial candidate",
+        "accomplishments": [
+          "Finished in the top four of the nonpartisan primary and advanced to the ranked-choice general."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Dan J. Sullivan",
+        "party": "Republican",
+        "role": "Former U.S. Forest Service employee",
+        "accomplishments": [
+          "Advanced to the general despite sharing a name with the incumbent. Some Republicans have said the similar name could confuse voters."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "AR",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Republican Tom Cotton is seeking a third term.",
+    "candidates": [
+      {
+        "name": "Tom Cotton",
+        "party": "Republican",
+        "role": "U.S. senator since 2015",
+        "accomplishments": [
+          "Army veteran and former House member. Chairs Republican work on the Senate intelligence committee.",
+          "Reelected in 2020 with 66.5 percent and was renominated on March 3, 2026."
+        ],
+        "policy": [
+          "Argues for stricter immigration laws, a harder line toward China, and higher defense spending.",
+          "Opposes abortion and votes with Senate Republican leadership on taxes and judicial confirmations."
+        ]
+      },
+      {
+        "name": "Hallie Shoffner",
+        "party": "Democratic",
+        "role": "Rice farmer",
+        "accomplishments": [
+          "Defeated Ethan Dunbar in the March 3 Democratic primary."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Jeff Wadlin", "party": "Libertarian" }]
+  },
+  {
+    "state": "CO",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Democrat John Hickenlooper is seeking a second term and has said it will be his last.",
+    "candidates": [
+      {
+        "name": "John Hickenlooper",
+        "party": "Democratic",
+        "role": "U.S. senator, former governor",
+        "accomplishments": [
+          "Geologist and brewpub owner who served as Denver mayor and Colorado governor before winning this seat in 2020.",
+          "Defeated state Senator Julie Gonzales in the 2026 primary, 53 percent to 47 percent."
+        ],
+        "policy": [
+          "A business-friendly Democrat who has backed public-lands protection, gun legislation after his gubernatorial record, and climate measures.",
+          "Often works on bipartisan small-business and technology bills."
+        ]
+      },
+      {
+        "name": "Mark Baisley",
+        "party": "Republican",
+        "role": "State senator",
+        "accomplishments": [
+          "Became the Republican nominee through the April 11 state assembly after dropping a bid for governor."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Christopher Baum", "party": "Approval Voting" },
+      { "name": "Bob Chew", "party": "Forward" },
+      { "name": "Blake Huber", "party": "Libertarian" },
+      { "name": "Adam Withrow", "party": "Unity" }
+    ]
+  },
+  {
+    "state": "DE",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Chris Coons is seeking another term.",
+    "candidates": [
+      {
+        "name": "Chris Coons",
+        "party": "Democratic",
+        "role": "U.S. senator since 2010",
+        "accomplishments": [
+          "Won a 2010 special election and full terms in 2014 and 2020, the last with 59.4 percent.",
+          "Won the 2026 Democratic primary with about 78 percent."
+        ],
+        "policy": [
+          "Foreign-relations Democrat who argues for alliances, aid to partners, and bipartisan manufacturing bills.",
+          "Votes with the Democratic caucus on judicial nominations, health care, and abortion rights."
+        ]
+      },
+      {
+        "name": "Michael Katz",
+        "party": "Republican",
+        "role": "Former state senator",
+        "accomplishments": [
+          "A former Democratic state senator who was the Independent Party's 2024 Senate nominee. He won the 2026 Republican primary."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "FL",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Special election for the two years left on Marco Rubio's term. Rubio resigned in 2025 to become secretary of state. Governor Ron DeSantis appointed Attorney General Ashley Moody to the seat.",
+    "candidates": [
+      {
+        "name": "Ashley Moody",
+        "party": "Republican",
+        "role": "U.S. senator, former attorney general",
+        "accomplishments": [
+          "Elected Florida attorney general in 2018 and 2022, then appointed to the Senate in January 2025.",
+          "Won the August 18, 2026 Republican primary for the remainder of the term."
+        ],
+        "policy": [
+          "As attorney general she emphasized opioids, human trafficking prosecutions, and lawsuits aligned with Republican state leaders.",
+          "Supports immigration enforcement and the DeSantis-era conservative legal agenda."
+        ]
+      },
+      {
+        "name": "Angie Nixon",
+        "party": "Democratic",
+        "role": "State representative",
+        "accomplishments": [
+          "Jacksonville Democrat in the Florida House. Defeated Alexander Vindman in the August 18 primary."
+        ],
+        "policy": [
+          "Her campaign has framed the race as a contest about wages and costs for working households."
+        ]
+      }
+    ],
+    "others": [{ "name": "Neil Gillespie", "party": "Independent" }]
+  },
+  {
+    "state": "GA",
+    "office": "U.S. Senate",
+    "rating": "Likely Democratic",
+    "summary": "Democrat Jon Ossoff is seeking a second term in a state Donald Trump carried narrowly in 2024.",
+    "candidates": [
+      {
+        "name": "Jon Ossoff",
+        "party": "Democratic",
+        "role": "U.S. senator since 2021",
+        "accomplishments": [
+          "Investigative journalist and documentary producer before Congress. Won a 2021 runoff with 50.6 percent.",
+          "Was the only Democrat to qualify for the 2026 primary ballot."
+        ],
+        "policy": [
+          "Senate Democrat focused on voting access, ethics rules, and manufacturing investment.",
+          "Supports abortion rights and the party's health-care and foreign-aid positions."
+        ]
+      },
+      {
+        "name": "Mike Collins",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Represents Georgia's 10th district. Owns a trucking company. Won the June 16 runoff over Derek Dooley with 56 percent."
+        ],
+        "policy": [
+          "Ran in the conservative lane of the Republican primary, emphasizing immigration enforcement and business regulation."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "ID",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Republican Jim Risch is seeking a fourth term. The Democratic nominee, David Roth, withdrew on July 28, 2026. An independent is the main remaining challenger.",
+    "candidates": [
+      {
+        "name": "Jim Risch",
+        "party": "Republican",
+        "role": "U.S. senator since 2009",
+        "accomplishments": [
+          "Former Idaho governor and state legislator. Reelected in 2020 with 62.6 percent and renominated on May 19, 2026."
+        ],
+        "policy": [
+          "Republican on the foreign-relations committee who supports agricultural exports and a lighter federal hand on Western land.",
+          "Votes with Senate Republicans on taxes, immigration, and abortion."
+        ]
+      },
+      {
+        "name": "Todd Achilles",
+        "party": "Independent",
+        "role": "Former state representative",
+        "accomplishments": [
+          "Left the legislature to run for the Senate as an independent. He is the leading non-Republican on the ballot after the Democratic nominee withdrew."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Natalie Fleming", "party": "Independent" },
+      { "name": "Matt Loesby", "party": "Libertarian" }
+    ]
+  },
+  {
+    "state": "IL",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Open seat. Dick Durbin, first elected in 1996 and the Senate Democratic whip, is retiring.",
+    "candidates": [
+      {
+        "name": "Juliana Stratton",
+        "party": "Democratic",
+        "role": "Lieutenant governor",
+        "accomplishments": [
+          "Illinois lieutenant governor since 2019. Won the March 17, 2026 primary over U.S. Representatives Raja Krishnamoorthi and Robin Kelly."
+        ],
+        "policy": [
+          "Campaigns with the record of the Pritzker administration: abortion protections, criminal-justice changes, and a higher minimum wage."
+        ]
+      },
+      {
+        "name": "Don Tracy",
+        "party": "Republican",
+        "role": "Former state party chair",
+        "accomplishments": [
+          "Former chairman of the Illinois Republican Party. Won the March 17 primary."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Whitfield Harrington Jr.", "party": "Independent" }]
+  },
+  {
+    "state": "IA",
+    "office": "U.S. Senate",
+    "rating": "Tossup",
+    "summary": "Open seat. Republican Joni Ernst is retiring after two terms.",
+    "candidates": [
+      {
+        "name": "Ashley Hinson",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Television journalist, state legislator, then member of Congress from northeast Iowa. Republican nominee for the open seat."
+        ],
+        "policy": [
+          "Votes as a House Republican on taxes, immigration, and abortion, and campaigns on farm-state costs and border enforcement."
+        ]
+      },
+      {
+        "name": "Josh Turek",
+        "party": "Democratic",
+        "role": "State representative",
+        "accomplishments": [
+          "Paralympic wheelchair-basketball gold medalist and member of the Iowa House. Democratic nominee for the open seat."
+        ],
+        "policy": [
+          "His public campaign has centered on health care, including Medicaid, and on the cost of living for working families."
+        ]
+      }
+    ],
+    "others": [{ "name": "Thomas Laehn", "party": "Libertarian" }]
+  },
+  {
+    "state": "KS",
+    "office": "U.S. Senate",
+    "rating": "Lean Republican",
+    "summary": "Republican Roger Marshall is seeking a second term. Democrats have not won a Senate race in Kansas since 1932.",
+    "candidates": [
+      {
+        "name": "Roger Marshall",
+        "party": "Republican",
+        "role": "U.S. senator and physician",
+        "accomplishments": [
+          "Obstetrician who served in the U.S. House before winning this seat in 2020 with 53.2 percent.",
+          "Renominated in 2026."
+        ],
+        "policy": [
+          "Opposes abortion, emphasizes farm policy and rural health, and votes with Senate Republicans on taxes and immigration."
+        ]
+      },
+      {
+        "name": "Adam Hamilton",
+        "party": "Democratic",
+        "role": "Pastor",
+        "accomplishments": [
+          "Kansas City-area pastor and the Democratic nominee against Marshall."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "David Graham", "party": "Libertarian" }]
+  },
+  {
+    "state": "KY",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Open seat. Mitch McConnell, first elected in 1984 and long the Republican leader, is retiring.",
+    "candidates": [
+      {
+        "name": "Andy Barr",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Has represented central Kentucky in the House since 2013, with a focus on the Financial Services Committee. Won the Republican nomination to succeed McConnell."
+        ],
+        "policy": [
+          "Conservative on taxes, banking regulation, abortion, and immigration."
+        ]
+      },
+      {
+        "name": "Charles Booker",
+        "party": "Democratic",
+        "role": "Former state representative",
+        "accomplishments": [
+          "Louisville Democrat who ran for this seat in 2022 after a close 2020 primary. He is again the Democratic nominee."
+        ],
+        "policy": [
+          "Campaigns on economic security, health care, and criminal justice, to the left of Kentucky's recent statewide Democrats."
+        ]
+      }
+    ],
+    "others": [{ "name": "Christopher Campbell", "party": "Independent" }]
+  },
+  {
+    "state": "LA",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Republican Bill Cassidy lost renomination. Julia Letlow is the Republican nominee.",
+    "candidates": [
+      {
+        "name": "Julia Letlow",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Won a 2021 special election to the House after her husband, Luke Letlow, died of COVID-19 before taking the seat.",
+          "Defeated Cassidy and State Treasurer John Fleming for the 2026 Republican nomination."
+        ],
+        "policy": [
+          "Conservative House Republican with a public emphasis on education and agriculture."
+        ]
+      },
+      {
+        "name": "Jamie Davis",
+        "party": "Democratic",
+        "role": "Democratic nominee",
+        "accomplishments": [
+          "Democratic nominee for the seat Cassidy lost in the primary."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "ME",
+    "office": "U.S. Senate",
+    "rating": "Tossup",
+    "summary": "Republican Susan Collins is seeking a sixth term in a state Kamala Harris carried in 2024. Democrat Graham Platner left the race; the party replaced him with Troy Jackson.",
+    "candidates": [
+      {
+        "name": "Susan Collins",
+        "party": "Republican",
+        "role": "U.S. senator since 1997",
+        "accomplishments": [
+          "Former regional SBA director. Has held this seat through Democratic wave years in 2008 and 2020.",
+          "Senior Republican on appropriations and a frequent vote in bipartisan budget deals."
+        ],
+        "policy": [
+          "Supports abortion rights relative to her party, while voting for Republican Supreme Court nominees and many Republican budgets.",
+          "Prioritizes shipbuilding and other Maine federal spending, and breaks with her party on some nominations and spending bills."
+        ]
+      },
+      {
+        "name": "Troy Jackson",
+        "party": "Democratic",
+        "role": "Former Maine Senate president",
+        "accomplishments": [
+          "Logger and legislator from Aroostook County who led the state Senate. Replaced Graham Platner as the Democratic nominee in July 2026."
+        ],
+        "policy": [
+          "Associated with labor and rural economic issues in the Maine Legislature."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "MA",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Ed Markey is seeking another term.",
+    "candidates": [
+      {
+        "name": "Ed Markey",
+        "party": "Democratic",
+        "role": "U.S. senator since 2013",
+        "accomplishments": [
+          "Served in the U.S. House from 1976 until he won a 2013 special election. Reelected in 2020 with 66.2 percent after defeating Joe Kennedy III in the primary."
+        ],
+        "policy": [
+          "Lead sponsor, with Alexandria Ocasio-Cortez, of the Green New Deal resolution. Focuses on climate, consumer protection, and telecom policy.",
+          "Supports Medicare expansion, abortion rights, and limits on presidential war powers."
+        ]
+      },
+      {
+        "name": "John Deaton",
+        "party": "Republican",
+        "role": "Attorney",
+        "accomplishments": [
+          "Marine Corps veteran and trial lawyer. He was the Republican nominee against Elizabeth Warren in 2024 and is the nominee again in 2026."
+        ],
+        "policy": [
+          "Ran in 2024 on cryptocurrency regulation, the cost of living, and opposition to Warren. Those themes are the public core of his second campaign."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Shiva Ayyadurai", "party": "Independent" },
+      { "name": "Joe Tache", "party": "Socialism and Liberation" }
+    ]
+  },
+  {
+    "state": "MI",
+    "office": "U.S. Senate",
+    "rating": "Tossup",
+    "summary": "Open seat in an even-partisan state. Democrat Gary Peters is retiring.",
+    "candidates": [
+      {
+        "name": "Abdul El-Sayed",
+        "party": "Democratic",
+        "role": "Physician and former county health director",
+        "accomplishments": [
+          "Rhodes Scholar and physician who led Detroit's health department and Wayne County's health and human services department.",
+          "Ran for governor in 2018 and won the August 4, 2026 Democratic primary."
+        ],
+        "policy": [
+          "Campaigns on universal health care, pollution and environmental health, and wages.",
+          "Sits to the left of Michigan's recent statewide Democratic officeholders."
+        ]
+      },
+      {
+        "name": "Mike Rogers",
+        "party": "Republican",
+        "role": "Former U.S. representative",
+        "accomplishments": [
+          "FBI agent who chaired the House Intelligence Committee. He was the 2024 Republican Senate nominee, losing a close race to Elissa Slotkin, and is the nominee again."
+        ],
+        "policy": [
+          "Emphasizes national security, manufacturing, and immigration enforcement.",
+          "Votes and campaigns as a conservative Republican."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Lydia Christensen", "party": "Libertarian" },
+      { "name": "Douglas P. Marsh", "party": "Green" },
+      { "name": "Tim Long", "party": "U.S. Taxpayers" },
+      { "name": "Walter P. Kristy", "party": "Natural Law" }
+    ]
+  },
+  {
+    "state": "MN",
+    "office": "U.S. Senate",
+    "rating": "Likely Democratic",
+    "summary": "Open seat. DFL senator Tina Smith is retiring. Minnesota Democrats use the Democratic-Farmer-Labor name.",
+    "candidates": [
+      {
+        "name": "Peggy Flanagan",
+        "party": "Democratic",
+        "role": "Lieutenant governor",
+        "accomplishments": [
+          "White Earth Nation citizen and the first Native American woman to serve as lieutenant governor of a state. She has held the office since 2019.",
+          "DFL nominee for the open seat."
+        ],
+        "policy": [
+          "Her statewide record emphasizes child care, paid leave, and tribal consultation.",
+          "Campaigns as a mainstream DFL Democrat on health care, abortion rights, and education."
+        ]
+      },
+      {
+        "name": "Michele Tafoya",
+        "party": "Republican",
+        "role": "Former sports broadcaster",
+        "accomplishments": [
+          "Longtime NBC sideline reporter, including on Sunday Night Football. She is the Republican nominee."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Marisa Simonetti", "party": "Independent" },
+      { "name": "Rebecca Whiting", "party": "Libertarian" }
+    ]
+  },
+  {
+    "state": "MS",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Republican Cindy Hyde-Smith is seeking another term.",
+    "candidates": [
+      {
+        "name": "Cindy Hyde-Smith",
+        "party": "Republican",
+        "role": "U.S. senator since 2018",
+        "accomplishments": [
+          "Former Mississippi agriculture commissioner and state senator. Appointed in 2018, then elected that year and reelected in 2020."
+        ],
+        "policy": [
+          "Centers her work on agriculture, rural development, and conservative votes on abortion, guns, and immigration."
+        ]
+      },
+      {
+        "name": "Scott Colom",
+        "party": "Democratic",
+        "role": "Democratic nominee",
+        "accomplishments": [
+          "Democratic nominee against Hyde-Smith."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Ty Pinkins", "party": "Independent" }]
+  },
+  {
+    "state": "MT",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Open seat. Republican Steve Daines is retiring. Democrats are not the only alternative: an independent is also on the ballot, a pattern in several Republican-held races this year.",
+    "candidates": [
+      {
+        "name": "Kurt Alme",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee for the seat Daines is leaving."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Alani Bankhead",
+        "party": "Democratic",
+        "role": "Democratic nominee",
+        "accomplishments": [
+          "Democratic nominee for the open seat."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Seth Bodnar",
+        "party": "Independent",
+        "role": "Independent candidate",
+        "accomplishments": [
+          "Independent candidate in a race where several Republican-held seats drew independent, rather than only Democratic, opposition."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Kyle Austin", "party": "Libertarian" }]
+  },
+  {
+    "state": "NE",
+    "office": "U.S. Senate",
+    "rating": "Likely Republican",
+    "summary": "Republican Pete Ricketts is seeking a full term. The Democratic candidate left the race. Independent Dan Osborn is the main challenger and has the state Democratic Party's endorsement.",
+    "candidates": [
+      {
+        "name": "Pete Ricketts",
+        "party": "Republican",
+        "role": "U.S. senator and former governor",
+        "accomplishments": [
+          "Governor from 2015 to 2023. Appointed to the Senate in 2023 and elected in a 2024 special election with 62.6 percent.",
+          "His family founded TD Ameritrade."
+        ],
+        "policy": [
+          "As governor he cut income and property taxes, signed abortion restrictions, and opposed Medicaid expansion until voters approved it.",
+          "Campaigns on those tax and social-conservative positions."
+        ]
+      },
+      {
+        "name": "Dan Osborn",
+        "party": "Independent",
+        "role": "Mechanic and Navy veteran",
+        "accomplishments": [
+          "Industrial mechanic and Navy veteran. In 2024 he ran as an independent against Deb Fischer and lost by about 6.7 points, the closest Republican Senate race in the state that year.",
+          "The Nebraska Democratic Party endorsed him in August 2026 after its own candidate exited."
+        ],
+        "policy": [
+          "Runs as a pro-labor independent, not as a Democrat, emphasizing rail work, wages, and the cost of living.",
+          "Rejects the party label while accepting Democratic organizational support."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Chuck Conboy", "party": "America First" },
+      { "name": "Mike Marvin", "party": "Legal Marijuana Now" },
+      { "name": "Robin Richards", "party": "Working People" }
+    ]
+  },
+  {
+    "state": "NH",
+    "office": "U.S. Senate",
+    "rating": "Tossup",
+    "summary": "Open seat. Democrat Jeanne Shaheen is retiring. She first won this seat by defeating John E. Sununu in 2008. He is the Republican nominee again.",
+    "candidates": [
+      {
+        "name": "Chris Pappas",
+        "party": "Democratic",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Restaurant owner who served on the Executive Council before winning the 1st congressional district in 2018.",
+          "First openly gay person elected to Congress from New Hampshire. Democratic nominee for the open Senate seat."
+        ],
+        "policy": [
+          "A moderate House Democrat focused on small business, tourism, and LGBTQ civil rights.",
+          "Supports abortion rights and the party's health-care votes."
+        ]
+      },
+      {
+        "name": "John E. Sununu",
+        "party": "Republican",
+        "role": "Former U.S. senator",
+        "accomplishments": [
+          "Represented New Hampshire in the House, then the Senate from 2003 until Shaheen defeated him in 2008.",
+          "Son of former governor John H. Sununu and brother of former governor Chris Sununu."
+        ],
+        "policy": [
+          "Fiscal conservative associated with business tax policy and the pre-Trump New Hampshire Republican establishment.",
+          "Some 2026 polls have shown the race even, including surveys with Sununu ahead."
+        ]
+      }
+    ],
+    "others": [{ "name": "Edmond LaPlante", "party": "Constitution" }]
+  },
+  {
+    "state": "NJ",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Cory Booker is seeking another term.",
+    "candidates": [
+      {
+        "name": "Cory Booker",
+        "party": "Democratic",
+        "role": "U.S. senator since 2013",
+        "accomplishments": [
+          "Former Newark mayor. Won a 2013 special election, then full terms in 2014 and 2020. Ran for president in 2020."
+        ],
+        "policy": [
+          "Known for criminal-justice bills, including the First Step Act partnership, and for 'baby bonds' and opportunity-zone style economic ideas.",
+          "Supports abortion rights, voting rights, and a mainstream Democratic foreign policy."
+        ]
+      },
+      {
+        "name": "Justin Murphy",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee against Booker."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Veronica Fernandez", "party": "Independent" },
+      { "name": "Joanne Kuniansky", "party": "Socialist Workers" }
+    ]
+  },
+  {
+    "state": "NM",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Ben Ray Luján is seeking a second term.",
+    "candidates": [
+      {
+        "name": "Ben Ray Luján",
+        "party": "Democratic",
+        "role": "U.S. senator since 2021",
+        "accomplishments": [
+          "Former U.S. representative and assistant House Democratic leader. Elected to the Senate in 2020 with 51.7 percent. Suffered a stroke in 2022 and returned to the chamber."
+        ],
+        "policy": [
+          "Focuses on rural broadband, health care access, and energy projects that include both renewables and existing New Mexico production.",
+          "Votes with Senate Democrats on abortion rights and judicial nominations."
+        ]
+      },
+      {
+        "name": "Larry Marker",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Qualified as the Republican nominee after a write-in path onto the ballot."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "NC",
+    "office": "U.S. Senate",
+    "rating": "Lean Democratic",
+    "summary": "Open seat. Republican Thom Tillis is retiring. Forecasters rate the seat as leaning toward a Democratic pickup.",
+    "candidates": [
+      {
+        "name": "Roy Cooper",
+        "party": "Democratic",
+        "role": "Former governor",
+        "accomplishments": [
+          "North Carolina attorney general for 16 years and governor from 2017 to 2025. Won the Democratic nomination for this open seat."
+        ],
+        "policy": [
+          "As governor he expanded Medicaid, vetoed new abortion restrictions, and emphasized public schools and disaster recovery.",
+          "Campaigns as a moderate Democrat in a state Trump carried."
+        ]
+      },
+      {
+        "name": "Michael Whatley",
+        "party": "Republican",
+        "role": "Former Republican National Committee chair",
+        "accomplishments": [
+          "Led the North Carolina Republican Party and then the RNC. Donald Trump endorsed him for this seat. He is the Republican nominee."
+        ],
+        "policy": [
+          "Publicly tied to Trump and to Republican priorities on election administration, immigration, and turnout."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Shannon Bray", "party": "Libertarian" },
+      { "name": "Michael Dublin", "party": "Green" }
+    ]
+  },
+  {
+    "state": "OK",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Markwayne Mullin resigned in March 2026 to become secretary of homeland security. Governor Kevin Stitt appointed energy executive Alan Armstrong, who by state law cannot run for the seat.",
+    "candidates": [
+      {
+        "name": "Kevin Hern",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "McDonald's franchisee who has represented the Tulsa area since 2019. Won the June 16 primary with 70 percent."
+        ],
+        "policy": [
+          "A House Republican focused on taxes, small business, and spending cuts. He has chaired the Republican Study Committee."
+        ]
+      },
+      {
+        "name": "N'Kiyla Jasmine Thomas",
+        "party": "Democratic",
+        "role": "Nurse",
+        "accomplishments": [
+          "Won the August 25 Democratic runoff with 61 percent. She is a member of the Democratic Socialists of America."
+        ],
+        "policy": [
+          "Runs as a democratic socialist. A plank-by-plank platform is not reprinted here."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Ron Meinhardt", "party": "Independent" },
+      { "name": "Curtis Stinnett", "party": "Independent" },
+      { "name": "Sevier White", "party": "Libertarian" }
+    ]
+  },
+  {
+    "state": "OR",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Jeff Merkley is seeking a fourth term.",
+    "candidates": [
+      {
+        "name": "Jeff Merkley",
+        "party": "Democratic",
+        "role": "U.S. senator since 2009",
+        "accomplishments": [
+          "Former speaker of the Oregon House. Elected to the Senate in 2008 and reelected in 2014 and 2020."
+        ],
+        "policy": [
+          "Progressive Democrat known for opposing the filibuster, pressing on climate, and oversight of executive power.",
+          "Supports labor bills, campaign-finance limits, and abortion rights."
+        ]
+      },
+      {
+        "name": "David Brock Smith",
+        "party": "Republican",
+        "role": "State senator",
+        "accomplishments": [
+          "Won the May 19 Republican primary against a crowded field."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Gary Lyndon Dye", "party": "Libertarian" },
+      { "name": "Brett Smith", "party": "Pacific Green" }
+    ]
+  },
+  {
+    "state": "RI",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Jack Reed is seeking a sixth term.",
+    "candidates": [
+      {
+        "name": "Jack Reed",
+        "party": "Democratic",
+        "role": "U.S. senator since 1997",
+        "accomplishments": [
+          "Army veteran and former state senator. Reelected in 2020 with 66.5 percent. Won the September 9, 2026 primary."
+        ],
+        "policy": [
+          "Senior Democrat on armed services. Prioritizes defense policy, submarine work in Rhode Island, and Democratic votes on health care and abortion rights."
+        ]
+      },
+      {
+        "name": "Raymond McKay",
+        "party": "Republican",
+        "role": "Former state party official",
+        "accomplishments": [
+          "Former Rhode Island Republican Party official and the 2026 nominee."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Michael Bahry", "party": "Independent" }]
+  },
+  {
+    "state": "SC",
+    "office": "U.S. Senate",
+    "rating": "Likely Republican",
+    "summary": "Lindsey Graham won the June 9 Republican primary and died in office on July 11, 2026. Governor Henry McMaster appointed Graham's sister, Darline, who then won a special primary runoff for the nomination.",
+    "candidates": [
+      {
+        "name": "Darline Graham",
+        "party": "Republican",
+        "role": "Appointed U.S. senator",
+        "accomplishments": [
+          "Appointed after her brother's death to finish the term.",
+          "Won the August 25 Republican runoff against Representative Ralph Norman, 52 percent to 48 percent."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Annie Andrews",
+        "party": "Democratic",
+        "role": "Pediatrician",
+        "accomplishments": [
+          "Physician who won the Democratic primary with 61 percent. She previously ran for the U.S. House."
+        ],
+        "policy": [
+          "Public campaign themes have followed her medical work: children's health and gun violence as a health issue."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Mark Hackett", "party": "Constitution" },
+      { "name": "Kasie Whitener", "party": "Libertarian" }
+    ]
+  },
+  {
+    "state": "SD",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Republican Mike Rounds is seeking a third term. The Democratic nominee withdrew. Independent Brian Bengs is the challenger on the ballot.",
+    "candidates": [
+      {
+        "name": "Mike Rounds",
+        "party": "Republican",
+        "role": "U.S. senator and former governor",
+        "accomplishments": [
+          "Governor from 2003 to 2011. Elected to the Senate in 2014 and reelected in 2020 with 65.7 percent.",
+          "Won the June 2, 2026 Republican primary."
+        ],
+        "policy": [
+          "Focuses on agriculture, Ellsworth Air Force Base, and banking. Votes as a conservative Republican."
+        ]
+      },
+      {
+        "name": "Brian Bengs",
+        "party": "Independent",
+        "role": "Veteran and former professor",
+        "accomplishments": [
+          "Navy and Air Force veteran and former political science professor at Northern State University.",
+          "He was the Democratic nominee in 2022 and is running as an independent after the 2026 Democratic nominee withdrew."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "TN",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Republican Bill Hagerty is seeking a second term. Several independents are also on the ballot.",
+    "candidates": [
+      {
+        "name": "Bill Hagerty",
+        "party": "Republican",
+        "role": "U.S. senator since 2021",
+        "accomplishments": [
+          "Businessman and former U.S. ambassador to Japan under Donald Trump. Elected in 2020 with 62.2 percent. Unopposed for the Republican nomination."
+        ],
+        "policy": [
+          "Emphasizes trade, a hard line on China, immigration enforcement, and conservative judicial picks."
+        ]
+      },
+      {
+        "name": "Marquita Bradshaw",
+        "party": "Democratic",
+        "role": "Consultant",
+        "accomplishments": [
+          "Won an upset Democratic primary in 2020 and is the nominee again after the August 6, 2026 primary.",
+          "Memphis organizer associated with environmental justice work."
+        ],
+        "policy": [
+          "Public record centers on environmental justice, including pollution in South Memphis."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Tharon Chandler", "party": "Independent" },
+      { "name": "Andrew Gerena", "party": "Independent" },
+      { "name": "Jeremy Hearn", "party": "Independent" },
+      { "name": "Robert Jones", "party": "Independent" },
+      { "name": "James Macon III", "party": "Independent" },
+      { "name": "Yoshi Matthews", "party": "Independent" },
+      { "name": "David Sutman Jr.", "party": "Independent" },
+      { "name": "Catherine Whitson", "party": "Independent" }
+    ]
+  },
+  {
+    "state": "TX",
+    "office": "U.S. Senate",
+    "rating": "Tossup",
+    "summary": "John Cornyn lost the Republican runoff. Attorney General Ken Paxton is the nominee against state Representative James Talarico.",
+    "candidates": [
+      {
+        "name": "Ken Paxton",
+        "party": "Republican",
+        "role": "Texas attorney general",
+        "accomplishments": [
+          "Attorney general since 2015. The Texas House impeached him in 2023; the state Senate acquitted him.",
+          "Defeated Cornyn in the May 26, 2026 runoff after Donald Trump and Wesley Hunt endorsed him."
+        ],
+        "policy": [
+          "Built his office around lawsuits on immigration, abortion, and election rules, and around challenges to Democratic administrations.",
+          "A Trump-aligned conservative and the most prominent Republican on this ballot."
+        ]
+      },
+      {
+        "name": "James Talarico",
+        "party": "Democratic",
+        "role": "State representative and former teacher",
+        "accomplishments": [
+          "Austin-area state representative and former middle-school teacher. Defeated Representative Jasmine Crockett in the Democratic primary.",
+          "Seminary student known for widely shared committee speeches."
+        ],
+        "policy": [
+          "Focuses on public-school funding and opposition to private-school vouchers.",
+          "Argues for a sharper line between church and state, and for Medicaid expansion."
+        ]
+      }
+    ],
+    "others": [{ "name": "Ted Brown", "party": "Libertarian" }]
+  },
+  {
+    "state": "VA",
+    "office": "U.S. Senate",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Mark Warner is seeking a fourth term.",
+    "candidates": [
+      {
+        "name": "Mark Warner",
+        "party": "Democratic",
+        "role": "U.S. senator and former governor",
+        "accomplishments": [
+          "Venture investor, governor from 2002 to 2006, and senator since 2009. Reelected in 2020 with 56 percent. Sole Democrat to qualify for the primary ballot."
+        ],
+        "policy": [
+          "Moderate Democrat on the intelligence committee. Emphasizes technology, the deficit, and bipartisan deals more than the left of his caucus.",
+          "Supports abortion rights and Democratic foreign-policy votes."
+        ]
+      },
+      {
+        "name": "Bert Mizusawa",
+        "party": "Republican",
+        "role": "Retired Army major general",
+        "accomplishments": [
+          "Retired major general who ran for Senate in 2018 and for the House in 2010. Won the 2026 Republican nomination."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "WV",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Republican Shelley Moore Capito is seeking a third term.",
+    "candidates": [
+      {
+        "name": "Shelley Moore Capito",
+        "party": "Republican",
+        "role": "U.S. senator since 2015",
+        "accomplishments": [
+          "Daughter of former governor Arch Moore. Served in the U.S. House before winning the Senate in 2014. Reelected in 2020 with 70.3 percent."
+        ],
+        "policy": [
+          "Focuses on highways and other infrastructure as a leader on the environment and public works committee, and on coal and natural gas.",
+          "Votes as a conservative Republican on abortion, guns, and immigration."
+        ]
+      },
+      {
+        "name": "Rachel Fetty Anderson",
+        "party": "Democratic",
+        "role": "Former Morgantown council member",
+        "accomplishments": [
+          "Former Morgantown city councilwoman. Won the May 12 Democratic primary."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "S. Marshall Wilson", "party": "Constitution" }]
+  },
+  {
+    "state": "WY",
+    "office": "U.S. Senate",
+    "rating": "Solid Republican",
+    "summary": "Open seat. Republican Cynthia Lummis is retiring.",
+    "candidates": [
+      {
+        "name": "Harriet Hageman",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Water and land-use attorney who defeated Liz Cheney in the 2022 House primary with Donald Trump's endorsement.",
+          "Won the August 18, 2026 Senate primary."
+        ],
+        "policy": [
+          "Argues for less federal control of Western land and water.",
+          "A Trump-aligned conservative on immigration, spending, and the party's fights with the Cheney wing."
+        ]
+      },
+      {
+        "name": "James W. Byrd",
+        "party": "Democratic",
+        "role": "Former state representative",
+        "accomplishments": [
+          "Former Wyoming state representative. Defeated Billy Benavidez in the August 18 Democratic primary."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "OH",
+    "office": "U.S. Senate",
+    "rating": "Tossup",
+    "summary": "Special election for the two years left on JD Vance's term. Vance resigned in 2025 to become vice president. Governor Mike DeWine appointed Lieutenant Governor Jon Husted.",
+    "candidates": [
+      {
+        "name": "Jon Husted",
+        "party": "Republican",
+        "role": "U.S. senator, former lieutenant governor",
+        "accomplishments": [
+          "Former Ohio secretary of state and lieutenant governor. Appointed to the Senate in 2025 and nominated for the remainder of the term."
+        ],
+        "policy": [
+          "As secretary of state he focused on election administration and voter-ID rules. As lieutenant governor he worked on workforce and economic-development programs.",
+          "Campaigns as a DeWine-aligned conservative Republican."
+        ]
+      },
+      {
+        "name": "Sherrod Brown",
+        "party": "Democratic",
+        "role": "Former U.S. senator",
+        "accomplishments": [
+          "Ohio secretary of state, then a House member, then a senator from 2007 until he lost to Bernie Moreno in 2024.",
+          "Democratic nominee in this special election."
+        ],
+        "policy": [
+          "Labor Democrat known for trade skepticism, manufacturing bills, and opposition to free-trade deals his party otherwise accepted.",
+          "Supports abortion rights, unions, and a populist economic message aimed at industrial Ohio."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Greg Levy", "party": "Independent" },
+      { "name": "William Redpath", "party": "Libertarian" }
+    ]
+  }
+]

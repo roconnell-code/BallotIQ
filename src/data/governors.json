@@ -1,0 +1,1216 @@
+[
+  {
+    "state": "AL",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Kay Ivey is term-limited. Senator Tommy Tuberville left his Senate reelection bid to run here.",
+    "candidates": [
+      {
+        "name": "Tommy Tuberville",
+        "party": "Republican",
+        "role": "U.S. senator and former football coach",
+        "accomplishments": [
+          "Auburn head coach, then elected to the Senate in 2020. Announced for governor on May 27, 2025.",
+          "In the Senate he held up military promotions for months in a dispute over Pentagon abortion-travel policy."
+        ],
+        "policy": [
+          "Campaigns as a conservative on immigration, education, and the military issues that defined his Senate term.",
+          "Opposes abortion and aligns with Donald Trump."
+        ]
+      },
+      {
+        "name": "Doug Jones",
+        "party": "Democratic",
+        "role": "Former U.S. senator",
+        "accomplishments": [
+          "U.S. attorney who prosecuted two Ku Klux Klan members for the 1963 Birmingham church bombing.",
+          "Won a 2017 special election for the Senate against Roy Moore and lost the seat in 2020."
+        ],
+        "policy": [
+          "A moderate Democrat who emphasizes health care, civil rights, and working with a Republican legislature."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "AK",
+    "office": "Governor",
+    "rating": "Tossup",
+    "summary": "Mike Dunleavy is term-limited. Alaska's top-four primary advances four candidates to a ranked-choice general. Three Republicans and one Democrat advanced.",
+    "candidates": [
+      {
+        "name": "Dave Bronson",
+        "party": "Republican",
+        "role": "Former Anchorage mayor",
+        "accomplishments": [
+          "Pilot and former mayor of Anchorage. Advanced to the ranked-choice general."
+        ],
+        "policy": [
+          "Governed Anchorage as a conservative, clashing with the assembly on COVID rules, spending, and homelessness."
+        ]
+      },
+      {
+        "name": "Treg Taylor",
+        "party": "Republican",
+        "role": "Republican candidate",
+        "accomplishments": [
+          "Advanced to the ranked-choice general for the open governorship."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Bernadette Wilson",
+        "party": "Republican",
+        "role": "Republican candidate",
+        "accomplishments": [
+          "Advanced to the ranked-choice general for the open governorship."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Jonathan Kreiss-Tomkins",
+        "party": "Democratic",
+        "role": "Former state representative",
+        "accomplishments": [
+          "Represented Sitka in the Alaska House. He is the Democrat on the four-candidate general ballot."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "AZ",
+    "office": "Governor",
+    "rating": "Lean Democratic",
+    "summary": "Democrat Katie Hobbs is seeking a second term. Arizona is one of five Trump-won states where Democrats are defending a governorship.",
+    "candidates": [
+      {
+        "name": "Katie Hobbs",
+        "party": "Democratic",
+        "role": "Governor and former secretary of state",
+        "accomplishments": [
+          "Minority leader in the state Senate, secretary of state during the 2020 election fights, and governor since 2023 after a narrow win over Kari Lake."
+        ],
+        "policy": [
+          "Supports abortion rights, water deals on the Colorado River, and vetoes of Republican election and social bills.",
+          "A Democrat governing with a Republican legislature."
+        ]
+      },
+      {
+        "name": "Andy Biggs",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Former Arizona Senate president and a House Freedom Caucus member. He is retiring from Congress to run for governor."
+        ],
+        "policy": [
+          "Conservative on immigration, federal spending, and abortion. He opposed Kevin McCarthy's speakership and the party leadership's spending deals."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Teri Hourihan", "party": "No Labels" },
+      { "name": "Risa Lombardo", "party": "Green" }
+    ]
+  },
+  {
+    "state": "AR",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Republican Sarah Huckabee Sanders is seeking a second term.",
+    "candidates": [
+      {
+        "name": "Sarah Huckabee Sanders",
+        "party": "Republican",
+        "role": "Governor",
+        "accomplishments": [
+          "White House press secretary under Donald Trump, then elected governor in 2022 with 63 percent. Daughter of former governor Mike Huckabee."
+        ],
+        "policy": [
+          "Her term's signature law is the LEARNS Act, which raised teacher pay and expanded school choice.",
+          "Cut income taxes and signed conservative bills on abortion and education."
+        ]
+      },
+      {
+        "name": "Fredrick Love",
+        "party": "Democratic",
+        "role": "Democratic nominee",
+        "accomplishments": [
+          "Democratic nominee against Sanders."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Colt Shelby", "party": "Libertarian" }]
+  },
+  {
+    "state": "CA",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Gavin Newsom is term-limited after two terms. California's general election is the top two finishers from the all-party primary.",
+    "candidates": [
+      {
+        "name": "Xavier Becerra",
+        "party": "Democratic",
+        "role": "Former health secretary and attorney general",
+        "accomplishments": [
+          "Twelve-term congressman, California attorney general, and U.S. secretary of health and human services under Joe Biden."
+        ],
+        "policy": [
+          "As attorney general he filed suits to defend the Affordable Care Act, immigration programs, and environmental rules.",
+          "As health secretary he carried the Biden administration's COVID, abortion-rights, and drug-price agenda."
+        ]
+      },
+      {
+        "name": "Steve Hilton",
+        "party": "Republican",
+        "role": "Former television host and political adviser",
+        "accomplishments": [
+          "Advised British prime minister David Cameron, then hosted a Fox opinion show. He is the Republican on the top-two ballot."
+        ],
+        "policy": [
+          "Campaigns as a Republican critic of California's cost of living, homelessness, and one-party government."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "CO",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Jared Polis is term-limited.",
+    "candidates": [
+      {
+        "name": "Phil Weiser",
+        "party": "Democratic",
+        "role": "Attorney general",
+        "accomplishments": [
+          "Supreme Court clerk, law dean, and Colorado attorney general since 2019. Democratic nominee for the open seat."
+        ],
+        "policy": [
+          "As attorney general he emphasized consumer protection, the opioid cases, and lawsuits over election rules and technology.",
+          "A Democrat on abortion rights, gun laws, and environmental enforcement."
+        ]
+      },
+      {
+        "name": "Victor Marx",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Won a spot on the Republican primary ballot at the state assembly and is the nominee."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Stephen Hamilton", "party": "American Constitution" },
+      { "name": "Greg Lopez", "party": "Independent" },
+      { "name": "Eric Mulder", "party": "Libertarian" },
+      { "name": "Jeff Peckman", "party": "Unity" },
+      { "name": "Erik Underwood", "party": "Approval Voting" }
+    ]
+  },
+  {
+    "state": "CT",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Ned Lamont is seeking a third term.",
+    "candidates": [
+      {
+        "name": "Ned Lamont",
+        "party": "Democratic",
+        "role": "Governor",
+        "accomplishments": [
+          "Cable-television entrepreneur who lost a 2006 Senate primary to Joe Lieberman, then was elected governor in 2018 and reelected in 2022."
+        ],
+        "policy": [
+          "A fiscal moderate who built surpluses, cut some taxes, and signed paid family leave and gun laws.",
+          "Supports abortion rights and transit investment, including fights over highway tolls he later dropped."
+        ]
+      },
+      {
+        "name": "Ryan Fazio",
+        "party": "Republican",
+        "role": "State senator",
+        "accomplishments": [
+          "Republican state senator from Greenwich and the nominee against Lamont."
+        ],
+        "policy": [
+          "Campaigns on taxes, energy costs, and crime, from the business wing of the state party."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "FL",
+    "office": "Governor",
+    "rating": "Lean Republican",
+    "summary": "Ron DeSantis is term-limited. Several independents filed along with the two major-party nominees.",
+    "candidates": [
+      {
+        "name": "Byron Donalds",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Represents southwest Florida in the House. A former state legislator and a prominent Trump ally in Congress."
+        ],
+        "policy": [
+          "Supports school choice, tax cuts, immigration enforcement, and the continuation of DeSantis-era conservative social policy."
+        ]
+      },
+      {
+        "name": "David Jolly",
+        "party": "Democratic",
+        "role": "Former U.S. representative",
+        "accomplishments": [
+          "Won a 2014 special election as a Republican in a Tampa Bay House seat, left the party during the Trump years, and is now the Democratic nominee."
+        ],
+        "policy": [
+          "Argues for gun legislation, climate policy, and a break with the state's current Republican government.",
+          "Presents the race as a referendum on one-party rule in Tallahassee."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Dean Abrams", "party": "Independent" },
+      { "name": "Charles Burkett", "party": "Independent" },
+      { "name": "Jeffrey Datto", "party": "Independent" },
+      { "name": "Moe Dimanche", "party": "Independent" },
+      { "name": "Scott Jewett", "party": "Libertarian" },
+      { "name": "Frank Russo", "party": "Independent" }
+    ]
+  },
+  {
+    "state": "GA",
+    "office": "Governor",
+    "rating": "Tossup",
+    "summary": "Brian Kemp is term-limited.",
+    "candidates": [
+      {
+        "name": "Rick Jackson",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee for the open governorship."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Keisha Lance Bottoms",
+        "party": "Democratic",
+        "role": "Former mayor of Atlanta",
+        "accomplishments": [
+          "Atlanta city council member, then mayor from 2018 to 2022. Later a White House aide under Joe Biden.",
+          "Democratic nominee for governor."
+        ],
+        "policy": [
+          "As mayor she dealt with a spike in violence, COVID, and clashes with Brian Kemp over masking and the 2020 election.",
+          "Campaigns as a Democrat on housing, abortion rights, and public safety."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "HI",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Josh Green is seeking a second term.",
+    "candidates": [
+      {
+        "name": "Josh Green",
+        "party": "Democratic",
+        "role": "Governor and physician",
+        "accomplishments": [
+          "Emergency physician, lieutenant governor, then governor since 2022. Led the state response after the 2023 Lahaina fire."
+        ],
+        "policy": [
+          "Emphasizes housing supply after the fire, health care access, and Hawaii's Democratic majority on climate and cost of living."
+        ]
+      },
+      {
+        "name": "Gary Cordery",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee against Green."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "ID",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Republican Brad Little is seeking another term.",
+    "candidates": [
+      {
+        "name": "Brad Little",
+        "party": "Republican",
+        "role": "Governor",
+        "accomplishments": [
+          "Rancher and longtime lieutenant governor. Elected governor in 2018 and reelected in 2022 after beating a Trump-endorsed primary challenger."
+        ],
+        "policy": [
+          "Cut taxes and signed abortion restrictions, while fighting the legislature's further-right faction on education budgets and executive power."
+        ]
+      },
+      {
+        "name": "Terri Pickens",
+        "party": "Democratic",
+        "role": "Democratic nominee",
+        "accomplishments": [
+          "Democratic nominee against Little."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "John Stegner", "party": "Independent" },
+      { "name": "Paul Sand", "party": "Libertarian" },
+      { "name": "Pro-Life", "party": "Constitution" }
+    ]
+  },
+  {
+    "state": "IL",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Democrat JB Pritzker is seeking a third term. Darren Bailey is the Republican nominee for a second time.",
+    "candidates": [
+      {
+        "name": "JB Pritzker",
+        "party": "Democratic",
+        "role": "Governor",
+        "accomplishments": [
+          "Hyatt heir and investor. Elected in 2018, defeating Bruce Rauner, and reelected in 2022. National Democratic donor and surrogate."
+        ],
+        "policy": [
+          "Raised the minimum wage, ended cash bail, and signed strong abortion protections.",
+          "Balances those laws with a record of balanced budgets and business recruitment."
+        ]
+      },
+      {
+        "name": "Darren Bailey",
+        "party": "Republican",
+        "role": "Farmer and former state senator",
+        "accomplishments": [
+          "Downstate farmer and legislator. He was the Republican nominee in 2022, losing to Pritzker by about 12 points, and is the nominee again."
+        ],
+        "policy": [
+          "Conservative on abortion, taxes, guns, and COVID-era restrictions. Campaigns against Chicago's influence in state government."
+        ]
+      }
+    ],
+    "others": [{ "name": "Collin Corbett", "party": "Independent" }]
+  },
+  {
+    "state": "IA",
+    "office": "Governor",
+    "rating": "Lean Democratic",
+    "summary": "Kim Reynolds is retiring. Forecasters rate the open seat as leaning toward a Democratic pickup. Iowa is a Trump-won state.",
+    "candidates": [
+      {
+        "name": "Zach Lahn",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee to succeed Reynolds."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Rob Sand",
+        "party": "Democratic",
+        "role": "State auditor",
+        "accomplishments": [
+          "Former prosecutor elected state auditor in 2018 and reelected in 2022, the only Democrat currently holding statewide executive office in Iowa."
+        ],
+        "policy": [
+          "Built his profile on audit findings and government accountability rather than on the national party's cultural fights.",
+          "Supports abortion rights and Medicaid in a state where Republicans have restricted both."
+        ]
+      }
+    ],
+    "others": [{ "name": "Sondra Wilson", "party": "Independent" }]
+  },
+  {
+    "state": "KS",
+    "office": "Governor",
+    "rating": "Lean Republican",
+    "summary": "Laura Kelly is term-limited. This is a Trump-won state where Democrats hold the governor's office. The rating is a Republican pickup lean.",
+    "candidates": [
+      {
+        "name": "Cindy Holscher",
+        "party": "Democratic",
+        "role": "State senator",
+        "accomplishments": [
+          "Democratic state senator and the nominee for the open seat."
+        ],
+        "policy": [
+          "Aligned with Laura Kelly's wing of the party: public schools, Medicaid, and vetoes of conservative social bills."
+        ]
+      },
+      {
+        "name": "Ty Masterson",
+        "party": "Republican",
+        "role": "State senate president",
+        "accomplishments": [
+          "President of the Kansas Senate and the Republican nominee."
+        ],
+        "policy": [
+          "Led Republican priorities on taxes, school choice, and abortion restrictions that Kelly often vetoed."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "ME",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Janet Mills is term-limited. An independent is on the ballot with the two major-party nominees. Maine uses ranked-choice voting for governor.",
+    "candidates": [
+      {
+        "name": "Hannah Pingree",
+        "party": "Democratic",
+        "role": "Former speaker of the Maine House",
+        "accomplishments": [
+          "Speaker of the Maine House and daughter of U.S. Representative Chellie Pingree. Democratic nominee for the open seat."
+        ],
+        "policy": [
+          "A Democrat associated with housing, climate, and the Mills-era legislative majority."
+        ]
+      },
+      {
+        "name": "Robert B. Charles",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee for the open governorship."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Rick Bennett",
+        "party": "Independent",
+        "role": "Independent candidate",
+        "accomplishments": [
+          "Independent on the ranked-choice ballot for governor."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "MD",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Wes Moore is seeking a second term.",
+    "candidates": [
+      {
+        "name": "Wes Moore",
+        "party": "Democratic",
+        "role": "Governor",
+        "accomplishments": [
+          "Army officer, author of The Other Wes Moore, and nonprofit executive. Elected governor in 2022, the first Black governor of Maryland."
+        ],
+        "policy": [
+          "Launched a service-year option for high school graduates, emphasized public safety and education, and governs with Democratic supermajorities.",
+          "Supports abortion rights and a faster buildout of housing and transit around Baltimore and the D.C. suburbs."
+        ]
+      },
+      {
+        "name": "Dan Cox",
+        "party": "Republican",
+        "role": "Former state delegate",
+        "accomplishments": [
+          "Republican nominee in 2022, when he lost to Moore after defeating a Hogan-backed candidate in the primary. He is the nominee again."
+        ],
+        "policy": [
+          "A Trump-aligned conservative focused on education, public safety, and opposition to Moore's agenda."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Andy Ellis", "party": "Green" },
+      { "name": "Cathy White", "party": "Working Class" }
+    ]
+  },
+  {
+    "state": "MA",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Maura Healey is seeking a second term.",
+    "candidates": [
+      {
+        "name": "Maura Healey",
+        "party": "Democratic",
+        "role": "Governor and former attorney general",
+        "accomplishments": [
+          "First openly gay state attorney general in the country, then elected governor in 2022."
+        ],
+        "policy": [
+          "Prioritizes housing production, including rules pushing towns served by the MBTA to allow more homes.",
+          "Supports abortion rights, climate targets, and tighter gun laws."
+        ]
+      },
+      {
+        "name": "Mike Minogue",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee against Healey."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Andrea James", "party": "Independent" }]
+  },
+  {
+    "state": "MI",
+    "office": "Governor",
+    "rating": "Lean Democratic",
+    "summary": "Gretchen Whitmer is term-limited. Michigan is a Trump-won state where Democrats hold the governorship.",
+    "candidates": [
+      {
+        "name": "Jocelyn Benson",
+        "party": "Democratic",
+        "role": "Secretary of state",
+        "accomplishments": [
+          "Election-law scholar and Michigan secretary of state since 2019, through the 2020 challenges and the 2022 and 2024 cycles."
+        ],
+        "policy": [
+          "Her office's record is voting access: automatic and mail registration fights, drop boxes, and defense of the 2020 results.",
+          "Campaigns as a Democrat on those election rules plus the Whitmer agenda on abortion and the auto industry."
+        ]
+      },
+      {
+        "name": "John James",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "West Point graduate and Army veteran who runs an automotive logistics company. Senate nominee in 2018 and 2020, then elected to the House in 2022."
+        ],
+        "policy": [
+          "Conservative on taxes, manufacturing, and immigration, with a public emphasis on the auto industry and military service."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Anthony Hudson", "party": "Libertarian" },
+      { "name": "Douglas Campbell", "party": "Green" },
+      { "name": "Donna Brandenburg", "party": "U.S. Taxpayers" }
+    ]
+  },
+  {
+    "state": "MN",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Tim Walz is retiring. Senator Amy Klobuchar is the DFL nominee. Minnesota Democrats use the Democratic-Farmer-Labor name.",
+    "candidates": [
+      {
+        "name": "Amy Klobuchar",
+        "party": "Democratic",
+        "role": "U.S. senator",
+        "accomplishments": [
+          "Hennepin County attorney, then senator since 2007. Ran for president in 2020. DFL nominee for governor after Walz stepped aside."
+        ],
+        "policy": [
+          "Known for antitrust and drug-price bills, farm policy, and a pragmatic Democratic voting record.",
+          "Supports abortion rights and would bring a Senate-style dealmaker profile to St. Paul."
+        ]
+      },
+      {
+        "name": "Lisa Demuth",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee for the open governorship."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Steven Young", "party": "Green" }]
+  },
+  {
+    "state": "NE",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Republican Jim Pillen is seeking a second term.",
+    "candidates": [
+      {
+        "name": "Jim Pillen",
+        "party": "Republican",
+        "role": "Governor and veterinarian",
+        "accomplishments": [
+          "Hog producer, University of Nebraska regent, and governor since 2023, succeeding Pete Ricketts."
+        ],
+        "policy": [
+          "Cut taxes and signed abortion restrictions and conservative education bills.",
+          "Campaigns on agriculture and continuing that Republican program."
+        ]
+      },
+      {
+        "name": "Lynne Walz",
+        "party": "Democratic",
+        "role": "Former state senator",
+        "accomplishments": [
+          "Former Nebraska state senator and the Democratic nominee."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Brett Lindstrom", "party": "America First" },
+      { "name": "Rick Beard", "party": "Legal Marijuana Now" }
+    ]
+  },
+  {
+    "state": "NV",
+    "office": "Governor",
+    "rating": "Tossup",
+    "summary": "Republican Joe Lombardo is seeking a second term against Attorney General Aaron Ford.",
+    "candidates": [
+      {
+        "name": "Joe Lombardo",
+        "party": "Republican",
+        "role": "Governor and former sheriff",
+        "accomplishments": [
+          "Clark County sheriff for three terms, then elected governor in 2022 by defeating Steve Sisolak."
+        ],
+        "policy": [
+          "Emphasizes policing and education. He has signed some Republican priorities and vetoed others passed by the Democratic legislature.",
+          "A Republican in a state that has voted Democratic for president."
+        ]
+      },
+      {
+        "name": "Aaron Ford",
+        "party": "Democratic",
+        "role": "Attorney general",
+        "accomplishments": [
+          "Former state senate majority leader and Nevada attorney general since 2019."
+        ],
+        "policy": [
+          "As attorney general he worked on consumer protection, opioids, and Democratic positions on abortion and voting.",
+          "Campaigns against Lombardo on housing costs and abortion rights."
+        ]
+      }
+    ],
+    "others": [{ "name": "Danielle Ford", "party": "Independent" }]
+  },
+  {
+    "state": "NH",
+    "office": "Governor",
+    "rating": "Likely Republican",
+    "summary": "Republican Kelly Ayotte is seeking a second two-year term. New Hampshire and Vermont elect governors every two years. Harris won New Hampshire in 2024.",
+    "candidates": [
+      {
+        "name": "Kelly Ayotte",
+        "party": "Republican",
+        "role": "Governor and former U.S. senator",
+        "accomplishments": [
+          "State attorney general, then a U.S. senator from 2011 until Maggie Hassan defeated her in 2016. Elected governor in 2024."
+        ],
+        "policy": [
+          "As attorney general she focused on opioids and homicide cases. In the Senate she was a national-security Republican.",
+          "Governs as a conservative on taxes and public safety in a state with no broad-based income or sales tax."
+        ]
+      },
+      {
+        "name": "Cinde Warmington",
+        "party": "Democratic",
+        "role": "Former executive councilor",
+        "accomplishments": [
+          "Served on the Executive Council and ran in the 2024 Democratic primary for governor. She is the 2026 nominee."
+        ],
+        "policy": [
+          "A Democrat focused on abortion rights, housing, and energy costs."
+        ]
+      }
+    ],
+    "others": [{ "name": "Jon Kiper", "party": "Community First" }]
+  },
+  {
+    "state": "NM",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Michelle Lujan Grisham is term-limited.",
+    "candidates": [
+      {
+        "name": "Deb Haaland",
+        "party": "Democratic",
+        "role": "Former interior secretary",
+        "accomplishments": [
+          "Laguna Pueblo member, one of the first Native American women in Congress, and the first Native American cabinet secretary. Led the Interior Department under Joe Biden."
+        ],
+        "policy": [
+          "At Interior she expanded tribal consultation, paused some oil and gas leasing, and advanced public-lands conservation.",
+          "Supports abortion rights and a transition that still reckons with New Mexico's dependence on extraction."
+        ]
+      },
+      {
+        "name": "Gregg Hull",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee for the open governorship."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "NY",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Kathy Hochul is seeking another term.",
+    "candidates": [
+      {
+        "name": "Kathy Hochul",
+        "party": "Democratic",
+        "role": "Governor",
+        "accomplishments": [
+          "Erie County clerk, a term in Congress, lieutenant governor, then governor after Andrew Cuomo resigned in 2021. Won a full term in 2022."
+        ],
+        "policy": [
+          "Signed abortion and gun laws, pushed housing growth, and repeatedly revised the state's congestion-pricing plan for Manhattan.",
+          "A moderate Democrat who emphasizes public safety after 2022's closer-than-expected race."
+        ]
+      },
+      {
+        "name": "Bruce Blakeman",
+        "party": "Republican",
+        "role": "Nassau County executive",
+        "accomplishments": [
+          "Long Island Republican and Nassau County executive since 2022. The party's nominee for governor."
+        ],
+        "policy": [
+          "Campaigns on crime, taxes, and suburban opposition to city-driven housing and toll policy."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "OH",
+    "office": "Governor",
+    "rating": "Tossup",
+    "summary": "Mike DeWine is term-limited.",
+    "candidates": [
+      {
+        "name": "Vivek Ramaswamy",
+        "party": "Republican",
+        "role": "Entrepreneur",
+        "accomplishments": [
+          "Founded a biotech company, wrote Woke, Inc., and ran for the 2024 Republican presidential nomination before endorsing Donald Trump."
+        ],
+        "policy": [
+          "Calls for large cuts to government staff and for ending DEI programs in public institutions.",
+          "A nationalist economic and cultural message: restrict immigration, confront China, and reject what he calls identity politics."
+        ]
+      },
+      {
+        "name": "Amy Acton",
+        "party": "Democratic",
+        "role": "Former state health director",
+        "accomplishments": [
+          "Pediatrician who led the Ohio Department of Health at the start of COVID-19 and resigned in June 2020 after clashes with Republican lawmakers."
+        ],
+        "policy": [
+          "Campaigns on public health, including pandemic preparedness, and on abortion rights after Ohio voters passed a 2023 constitutional amendment."
+        ]
+      }
+    ],
+    "others": [{ "name": "Donald Kissick", "party": "Libertarian" }]
+  },
+  {
+    "state": "OK",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Kevin Stitt is term-limited.",
+    "candidates": [
+      {
+        "name": "Mike Mazzei",
+        "party": "Republican",
+        "role": "Former state senator",
+        "accomplishments": [
+          "Former state senator and the Republican nominee to succeed Kevin Stitt."
+        ],
+        "policy": [
+          "A Republican in a state that has elected Republican governors for more than a decade. A detailed issue list is not reprinted here."
+        ]
+      },
+      {
+        "name": "Cyndi Munson",
+        "party": "Democratic",
+        "role": "House Democratic leader",
+        "accomplishments": [
+          "Democratic leader in the Oklahoma House and the party's nominee for governor."
+        ],
+        "policy": [
+          "Argues for public-school funding and health care in a Republican-dominated state."
+        ]
+      }
+    ],
+    "others": [
+      { "name": "Robert Brooks Sr.", "party": "Independent" },
+      { "name": "Orlando Bush", "party": "Independent" },
+      { "name": "Jerry Griffin", "party": "Independent" }
+    ]
+  },
+  {
+    "state": "OR",
+    "office": "Governor",
+    "rating": "Lean Democratic",
+    "summary": "Democrat Tina Kotek is seeking a second term against Christine Drazan, her 2022 opponent.",
+    "candidates": [
+      {
+        "name": "Tina Kotek",
+        "party": "Democratic",
+        "role": "Governor",
+        "accomplishments": [
+          "Longest-serving speaker of the Oregon House, then elected governor in 2022 in a three-way race."
+        ],
+        "policy": [
+          "Made housing production the center of her governorship, with goals on permits, homelessness, and zoning.",
+          "Supports abortion rights, climate rules, and the Democratic legislative agenda."
+        ]
+      },
+      {
+        "name": "Christine Drazan",
+        "party": "Republican",
+        "role": "Former House minority leader",
+        "accomplishments": [
+          "Led House Republicans and came within about 3.5 points of Kotek in 2022, with an independent taking a share of the vote. She is the nominee again."
+        ],
+        "policy": [
+          "Campaigns on homelessness, crime, and taxes, arguing the Portland-centered Democratic majority has failed on street conditions."
+        ]
+      }
+    ],
+    "others": [{ "name": "Brett Smith", "party": "Pacific Green" }]
+  },
+  {
+    "state": "PA",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Democrat Josh Shapiro is seeking a second term. Pennsylvania is a Trump-won state where Democrats hold the governorship.",
+    "candidates": [
+      {
+        "name": "Josh Shapiro",
+        "party": "Democratic",
+        "role": "Governor and former attorney general",
+        "accomplishments": [
+          "State representative, county commissioner, attorney general, then governor since 2023 after defeating Doug Mastriano.",
+          "His administration reopened a collapsed stretch of I-95 in Philadelphia in less than two weeks in 2023."
+        ],
+        "policy": [
+          "Defended abortion rights in court as attorney general and as governor.",
+          "Has fought his own party over private-school vouchers, which he has been willing to consider, while emphasizing economic development."
+        ]
+      },
+      {
+        "name": "Stacy Garrity",
+        "party": "Republican",
+        "role": "State treasurer",
+        "accomplishments": [
+          "Army Reserve colonel, twice deployed, and Pennsylvania treasurer since 2021. Republican nominee for governor."
+        ],
+        "policy": [
+          "Emphasizes fiscal management, unclaimed property, and a conservative alternative to Shapiro on energy and taxes."
+        ]
+      }
+    ],
+    "others": [{ "name": "Ken Krawchuk", "party": "Libertarian" }]
+  },
+  {
+    "state": "RI",
+    "office": "Governor",
+    "rating": "Solid Democratic",
+    "summary": "Dan McKee lost the Democratic primary to Helena Foulkes. He is the first elected incumbent governor to lose renomination since Neil Abercrombie of Hawaii in 2014.",
+    "candidates": [
+      {
+        "name": "Helena Foulkes",
+        "party": "Democratic",
+        "role": "Former retail executive",
+        "accomplishments": [
+          "Former CVS Health executive who narrowly lost the 2022 Democratic primary to McKee and defeated him in 2026."
+        ],
+        "policy": [
+          "Campaigns as a business Democrat on the cost of living, schools, and a sharper break from the McKee administration."
+        ]
+      },
+      {
+        "name": "Aaron Guckian",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee for governor."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Ken Block", "party": "Independent" },
+      { "name": "Jasjit Gotra", "party": "Independent" },
+      { "name": "CD Reynolds", "party": "Independent" }
+    ]
+  },
+  {
+    "state": "SC",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Henry McMaster is term-limited.",
+    "candidates": [
+      {
+        "name": "Alan Wilson",
+        "party": "Republican",
+        "role": "Attorney general",
+        "accomplishments": [
+          "South Carolina attorney general since 2011. Son of U.S. Representative Joe Wilson. Republican nominee for governor."
+        ],
+        "policy": [
+          "A conservative legal agenda: opioids, public corruption cases, abortion litigation, and immigration-related suits."
+        ]
+      },
+      {
+        "name": "Jermaine Johnson",
+        "party": "Democratic",
+        "role": "State representative",
+        "accomplishments": [
+          "Democratic state representative and the nominee for governor."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Michael Addison", "party": "United Citizens" },
+      { "name": "Walid Hakim", "party": "Green" }
+    ]
+  },
+  {
+    "state": "SD",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Larry Rhoden became governor when Kristi Noem left to join the cabinet. He is nominated for a full term.",
+    "candidates": [
+      {
+        "name": "Larry Rhoden",
+        "party": "Republican",
+        "role": "Governor",
+        "accomplishments": [
+          "Rancher, legislator, and lieutenant governor who succeeded Kristi Noem when she became secretary of homeland security."
+        ],
+        "policy": [
+          "Continues the state's Republican line on agriculture, taxes, and abortion."
+        ]
+      },
+      {
+        "name": "Dan Ahlers",
+        "party": "Democratic",
+        "role": "Former legislator",
+        "accomplishments": [
+          "Former state legislator and the Democratic nominee."
+        ],
+        "policy": []
+      }
+    ]
+  },
+  {
+    "state": "TN",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Bill Lee is term-limited. Senator Marsha Blackburn is the Republican nominee. Many independents also filed.",
+    "candidates": [
+      {
+        "name": "Marsha Blackburn",
+        "party": "Republican",
+        "role": "U.S. senator",
+        "accomplishments": [
+          "State senator, then a U.S. representative, then elected to the Senate in 2018. Republican nominee for governor."
+        ],
+        "policy": [
+          "Conservative on abortion, immigration, and technology regulation, including bills aimed at social-media companies and youth access.",
+          "A Trump ally leaving the Senate race to run for governor."
+        ]
+      },
+      {
+        "name": "Jerri Green",
+        "party": "Democratic",
+        "role": "Democratic nominee",
+        "accomplishments": [
+          "Democratic nominee for the open governorship."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "Misam Abidi", "party": "Independent" },
+      { "name": "Santiago Asconape", "party": "Independent" },
+      { "name": "Dean Brewer", "party": "Independent" },
+      { "name": "Ray Brown", "party": "Independent" },
+      { "name": "Taylor Hafley", "party": "Independent" },
+      { "name": "David Hatley", "party": "Independent" },
+      { "name": "Wendell Jackson", "party": "Independent" },
+      { "name": "Charles Van Morgan", "party": "Independent" },
+      { "name": "Eddie Lee Murphy", "party": "Independent" },
+      { "name": "Lauren Pinkston", "party": "Independent" },
+      { "name": "Karl Smithson", "party": "Independent" },
+      { "name": "L. Webb Taylor", "party": "Independent" },
+      { "name": "Robert Vick", "party": "Independent" }
+    ]
+  },
+  {
+    "state": "TX",
+    "office": "Governor",
+    "rating": "Lean Republican",
+    "summary": "Republican Greg Abbott is seeking a fourth term.",
+    "candidates": [
+      {
+        "name": "Greg Abbott",
+        "party": "Republican",
+        "role": "Governor",
+        "accomplishments": [
+          "Texas attorney general, then governor since 2015. Won a third term in 2022."
+        ],
+        "policy": [
+          "Operation Lone Star is his border-enforcement program. He signed a near-total abortion ban and pushed private-school vouchers through a resistant House.",
+          "After the 2021 grid failure he required weatherization of power plants while opposing broad renewable mandates."
+        ]
+      },
+      {
+        "name": "Gina Hinojosa",
+        "party": "Democratic",
+        "role": "State representative",
+        "accomplishments": [
+          "Austin Democrat in the Texas House and the nominee against Abbott."
+        ],
+        "policy": [
+          "Her legislative record centers on public-school funding and opposition to vouchers."
+        ]
+      }
+    ],
+    "others": [{ "name": "Pat Dixon", "party": "Libertarian" }]
+  },
+  {
+    "state": "VT",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Republican Phil Scott is seeking another two-year term. Vermont and New Hampshire elect governors every two years. Harris won Vermont.",
+    "candidates": [
+      {
+        "name": "Phil Scott",
+        "party": "Republican",
+        "role": "Governor",
+        "accomplishments": [
+          "Construction-company owner, lieutenant governor, then governor since 2017. Routinely wins by large margins in a Democratic state."
+        ],
+        "policy": [
+          "A moderate Republican who signed gun legislation, supported climate bills, and vetoes many Democratic spending and tax bills.",
+          "Opposes Donald Trump and governs on fiscal restraint rather than national culture fights."
+        ]
+      },
+      {
+        "name": "Amanda Janoo",
+        "party": "Democratic",
+        "role": "Democratic nominee",
+        "accomplishments": [
+          "Democratic nominee against Scott."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [
+      { "name": "June Goodband", "party": "Green Mountain" },
+      { "name": "Brian Judd", "party": "Independent" },
+      { "name": "Dean Roy", "party": "Freedom and Unity" }
+    ]
+  },
+  {
+    "state": "WI",
+    "office": "Governor",
+    "rating": "Tossup",
+    "summary": "Tony Evers is retiring. Wisconsin is a Trump-won state where Democrats hold the governorship.",
+    "candidates": [
+      {
+        "name": "David Crowley",
+        "party": "Democratic",
+        "role": "Milwaukee County executive",
+        "accomplishments": [
+          "Former state representative and Milwaukee County executive since 2020. Democratic nominee for the open seat."
+        ],
+        "policy": [
+          "County record emphasizes violence prevention, housing, and racial disparities in Wisconsin's largest urban county.",
+          "Supports abortion rights and the Evers line against a Republican legislature."
+        ]
+      },
+      {
+        "name": "Tom Tiffany",
+        "party": "Republican",
+        "role": "U.S. representative",
+        "accomplishments": [
+          "Former state senator who won a 2020 special election to the House from northern Wisconsin."
+        ],
+        "policy": [
+          "Conservative on guns, immigration, and federal land. He has opposed new protections for public land in his district.",
+          "Campaigns as a Trump-aligned Republican against the Evers record."
+        ]
+      }
+    ]
+  },
+  {
+    "state": "WY",
+    "office": "Governor",
+    "rating": "Solid Republican",
+    "summary": "Mark Gordon is term-limited.",
+    "candidates": [
+      {
+        "name": "Eric Barlow",
+        "party": "Republican",
+        "role": "Republican nominee",
+        "accomplishments": [
+          "Republican nominee for the open governorship."
+        ],
+        "policy": []
+      },
+      {
+        "name": "Kenneth Casner",
+        "party": "Democratic",
+        "role": "Democratic nominee",
+        "accomplishments": [
+          "Democratic nominee for the open governorship."
+        ],
+        "policy": []
+      }
+    ],
+    "others": [{ "name": "Joseph Kibler", "party": "Constitution" }]
+  },
+  {
+    "state": "DC",
+    "office": "Mayor",
+    "rating": "Solid Democratic",
+    "summary": "Muriel Bowser is retiring. The District elects a mayor, not a governor. It has no voting member of Congress.",
+    "candidates": [
+      {
+        "name": "Janeese Lewis George",
+        "party": "Democratic",
+        "role": "Councilmember",
+        "accomplishments": [
+          "Represents Ward 4 on the D.C. Council. Democratic nominee to succeed Bowser."
+        ],
+        "policy": [
+          "A labor-aligned progressive on the council, with a public focus on tenants, wages, and policing reform."
+        ]
+      },
+      {
+        "name": "Robert L. Gross",
+        "party": "DC Statehood Green",
+        "role": "Statehood Green nominee",
+        "accomplishments": [
+          "Nominee of the D.C. Statehood Green Party."
+        ],
+        "policy": [
+          "The party's defining position is statehood for the District, alongside a Green platform on climate and economic inequality."
+        ]
+      }
+    ]
+  }
+]
