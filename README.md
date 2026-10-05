@@ -6,7 +6,7 @@ Federal covers every U.S. House district and the 35 Senate elections on this yea
 
 Candidate lists were compiled from public reporting as of October 1, 2026. This is a reading guide, not an official ballot.
 
-What's my ballot asks for a state and House district, then lists the 2026 U.S. Senate, U.S. House, and governor (or D.C. mayor) matchups for that place. States with no race on that office this year say so. A button at the bottom of the page loads today's American headlines from NPR, PBS NewsHour, and The New York Times while the dev server is running.
+Each candidate card uses the same profile: experience, voting record, key issues, campaign promises, major donors, endorsements, legislative record, and attendance or voting participation. Those sections are filled only from the public summaries already in the guide. A section reads “Not compiled in this guide” when there is no sourced line. What's my ballot asks for a state and House district, then lists the 2026 U.S. Senate, U.S. House, and governor (or D.C. mayor) matchups for that place. States with no race on that office this year say so. A button at the bottom of the page loads today's American headlines from NPR, PBS NewsHour, and The New York Times while the dev server is running.
 
 ## Run it
 

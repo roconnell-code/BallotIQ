@@ -22,8 +22,18 @@ const senateBy = Object.fromEntries(senateRaces.map((race) => [race.state, race]
 const governorBy = Object.fromEntries(governorRaces.map((race) => [race.state, race]));
 
 const HOUSE_COUNT = Object.values(houseByState).reduce((sum, list) => sum + list.length, 0);
-const NO_PLATFORM =
-  "No detailed platform is printed here. This guide only includes positions that were in the public summaries used to build it.";
+const PROFILE_GAP = "Not compiled in this guide.";
+
+const PROFILE_SECTIONS = [
+  ["experience", "Experience"],
+  ["votingRecord", "Voting record"],
+  ["keyIssues", "Key issues"],
+  ["campaignPromises", "Campaign promises"],
+  ["majorDonors", "Major donors"],
+  ["endorsements", "Endorsements"],
+  ["legislativeRecord", "Legislative record"],
+  ["attendance", "Attendance / voting participation"],
+];
 
 const SHORTLIST = {
   federal: [
@@ -126,31 +136,66 @@ function houseProfile(candidate, district) {
   return {
     role: isIncumbent ? "Incumbent representative" : "On the November 3 ballot",
     accomplishments,
-    policy: [
-      `Cook PVI for this district: ${district.pvi}. That number describes how the district usually votes. It is not this candidate's platform.`,
-      "Issue platforms are not written out for all 435 House seats. What is listed here is the general-election field.",
-    ],
+    policy: [],
   };
+}
+
+function addLine(list, item) {
+  if (item && !list.includes(item)) list.push(item);
+}
+
+function profileBuckets(text) {
+  const t = text.toLowerCase();
+  const buckets = [];
+  if (/\b(donors include|major donors|funded by|contributions? from|super pac)\b/.test(t)) buckets.push("majorDonors");
+  if (/\bendorsed (him|her|them)\b|\bendorsement\b/.test(t)) buckets.push("endorsements");
+  if (/\b(attendance|missed votes?|voting participation)\b/.test(t)) buckets.push("attendance");
+  if (/\b(sponsor|sponsored|legislation|bills?|resolution|enacted|amendment)\b/.test(t)) buckets.push("legislativeRecord");
+  if (/\b(voting record|voted|votes)\b/.test(t) && !/state that has voted|usually votes/.test(t)) buckets.push("votingRecord");
+  return buckets;
+}
+
+function buildProfile(person) {
+  const profile = {
+    experience: [],
+    votingRecord: [],
+    keyIssues: [],
+    campaignPromises: [],
+    majorDonors: [],
+    endorsements: [],
+    legislativeRecord: [],
+    attendance: [],
+  };
+  for (const item of person.accomplishments || []) {
+    addLine(profile.experience, item);
+    for (const bucket of profileBuckets(item)) addLine(profile[bucket], item);
+  }
+  for (const item of person.policy || []) {
+    addLine(profile.keyIssues, item);
+    if (/\b(campaign|campaigns|promise|promises|pledges?|pledged|plans to|calls for|running on)\b/.test(item.toLowerCase())) {
+      addLine(profile.campaignPromises, item);
+    }
+    for (const bucket of profileBuckets(item)) addLine(profile[bucket], item);
+  }
+  return profile;
 }
 
 function personCard(person) {
   const kind = partyKind(person.party);
-  const policy = person.policy?.length ? person.policy : [NO_PLATFORM];
+  const profile = buildProfile(person);
+  const sections = PROFILE_SECTIONS.map(([key, label]) => {
+    const items = profile[key];
+    const body = items.length
+      ? `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>`
+      : `<p class="profile-gap">${PROFILE_GAP}</p>`;
+    return `<section><h5>${label}</h5>${body}</section>`;
+  }).join("");
   return `
     <article class="person ${kind}">
       <p class="party-kicker">${esc(person.party)}</p>
       <h4>${esc(person.name)}</h4>
       <p class="role">${esc(person.role)}</p>
-      <div class="columns">
-        <section>
-          <h5>Accomplishments</h5>
-          <ul>${person.accomplishments.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
-        </section>
-        <section>
-          <h5>Policy</h5>
-          <ul>${policy.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
-        </section>
-      </div>
+      <div class="profile">${sections}</div>
     </article>
   `;
 }
@@ -411,7 +456,7 @@ function mount() {
         <section class="panel detail-col" id="detail" tabindex="-1"></section>
       </div>
       <footer class="foot">
-        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
+        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each profile uses the same sections. A section says “Not compiled in this guide” when those summaries did not include a sourced line for voting record, donors, endorsements, legislation, or attendance. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
       </footer>
       <section class="news" aria-labelledby="news-button">
         <button type="button" id="news-button" aria-expanded="false" aria-controls="news-panel">
