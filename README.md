@@ -6,6 +6,8 @@ Federal covers every U.S. House district and the 35 Senate elections on this yea
 
 Candidate lists were compiled from public reporting as of October 1, 2026. This is a reading guide, not an official ballot.
 
+A button at the bottom of the page loads today's American headlines from NPR, PBS NewsHour, and The New York Times while the dev server is running.
+
 ## Run it
 
 ```bash

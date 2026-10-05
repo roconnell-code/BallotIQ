@@ -389,6 +389,12 @@ function mount() {
       <footer class="foot">
         <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
       </footer>
+      <section class="news" aria-labelledby="news-button">
+        <button type="button" id="news-button" aria-expanded="false" aria-controls="news-panel">
+          Today's American news
+        </button>
+        <div id="news-panel" hidden></div>
+      </section>
     </main>
   `;
 
@@ -432,8 +438,67 @@ function mount() {
     choose(shape.dataset.abbr);
   });
 
+  document.querySelector("#news-button").addEventListener("click", toggleNews);
+
   render();
   loadMap();
+}
+
+let newsLoaded = false;
+let newsOpen = false;
+
+function formatWhen(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  }).format(date);
+}
+
+function newsCard(story) {
+  const when = formatWhen(story.published);
+  return `
+    <article class="news-card">
+      <p class="news-source">${esc(story.source)}${when ? ` · ${esc(when)} ET` : ""}</p>
+      <h3><a href="${esc(story.url)}" target="_blank" rel="noopener noreferrer">${esc(story.title)}</a></h3>
+      ${story.summary ? `<p>${esc(story.summary)}</p>` : ""}
+    </article>
+  `;
+}
+
+async function toggleNews() {
+  const button = document.querySelector("#news-button");
+  const panel = document.querySelector("#news-panel");
+  newsOpen = !newsOpen;
+  button.setAttribute("aria-expanded", newsOpen ? "true" : "false");
+  button.textContent = newsOpen ? "Hide today's American news" : "Today's American news";
+  panel.hidden = !newsOpen;
+  if (!newsOpen || newsLoaded) return;
+  panel.innerHTML = `<p class="news-status">Getting today's headlines from NPR, PBS NewsHour, and The New York Times…</p>`;
+  try {
+    const response = await fetch("/api/news");
+    if (!response.ok) throw new Error("news");
+    const data = await response.json();
+    if (!data.stories?.length) throw new Error("empty");
+    newsLoaded = true;
+    panel.innerHTML = `
+      <p class="news-note">Headlines from NPR, PBS NewsHour, and The New York Times. Each link opens the original story.</p>
+      <div class="news-list">
+        ${data.stories.map(newsCard).join("")}
+      </div>
+    `;
+  } catch {
+    panel.innerHTML = `<p class="news-status">The news feeds did not load. <button type="button" id="news-retry">Try again</button></p>`;
+    document.querySelector("#news-retry").addEventListener("click", () => {
+      newsLoaded = false;
+      newsOpen = false;
+      toggleNews();
+    });
+  }
 }
 
 async function loadMap() {
