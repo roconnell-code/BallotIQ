@@ -21,6 +21,8 @@
 
 * { box-sizing: border-box; }
 
+[hidden] { display: none !important; }
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -446,6 +448,155 @@ details summary { cursor: pointer; color: var(--navy); font-weight: 700; }
   color: var(--rep);
 }
 
+.ballot {
+  margin: 0 0 1rem;
+}
+
+#ballot-button {
+  width: 100%;
+  border: 2px solid var(--navy);
+  background: white;
+  color: var(--navy);
+  border-radius: 2px;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#ballot-button:hover,
+#ballot-button[aria-expanded="true"] {
+  background: var(--red);
+  border-color: var(--red);
+  color: white;
+}
+
+#ballot-panel {
+  margin-top: 0.7rem;
+  border: 1px solid var(--line);
+  background: white;
+  padding: 0.95rem 1rem 1rem;
+}
+
+.ballot-form {
+  display: grid;
+  gap: 0.7rem;
+  align-items: end;
+}
+
+#ballot-submit {
+  border: 2px solid var(--navy);
+  background: var(--navy);
+  color: white;
+  border-radius: 2px;
+  padding: 0.55rem 0.9rem;
+  cursor: pointer;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#ballot-submit:hover { background: var(--red); border-color: var(--red); }
+
+.ballot-note, .ballot-error {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.ballot-error { color: var(--red); font-weight: 700; }
+
+#ballot-result h2 {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 0.95;
+  margin: 1rem 0 0.2rem;
+  color: var(--navy);
+}
+
+.ballot-place {
+  margin: 0;
+  color: var(--red);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.ballot-race {
+  border-top: 2px solid var(--navy);
+  padding-top: 0.7rem;
+  margin-top: 0.85rem;
+}
+
+.ballot-race h3 {
+  margin: 0;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+
+.matchup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.65rem;
+  margin: 0.35rem 0 0;
+}
+
+.matchup.is-empty {
+  color: var(--muted);
+  margin-top: 0.3rem;
+}
+
+.nominee strong {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.nominee em {
+  font-style: normal;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.nominee.dem strong { color: var(--dem); }
+.nominee.rep strong { color: var(--rep); }
+.nominee.ind strong { color: var(--ind); }
+.nominee.other strong { color: var(--other); }
+
+.vs {
+  color: var(--red);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ballot-also {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .news {
   margin-top: 1.25rem;
 }
@@ -525,6 +676,13 @@ details summary { cursor: pointer; color: var(--navy); font-weight: 700; }
 .news-card h3 a:hover { text-decoration: underline; }
 
 .news-card p:last-child { margin: 0; color: var(--ink); }
+
+@media (min-width: 700px) {
+  .ballot-form { grid-template-columns: 1fr 1fr auto; }
+  #ballot-district-note,
+  #ballot-error,
+  #ballot-result { grid-column: 1 / -1; }
+}
 
 @media (min-width: 860px) {
   .layout { grid-template-columns: 1.05fr 0.95fr; align-items: start; }

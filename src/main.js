@@ -363,6 +363,30 @@ function mount() {
       <div class="flag-rule" aria-hidden="true"></div>
     </header>
     <main class="wrap">
+      <section class="ballot" aria-labelledby="ballot-button">
+        <button type="button" id="ballot-button" aria-expanded="false" aria-controls="ballot-panel">
+          What's my ballot
+        </button>
+        <div id="ballot-panel" hidden>
+          <form id="ballot-form" class="ballot-form">
+            <label class="field">State
+              <select id="ballot-state" name="state">
+                <option value="">Select a state</option>
+                ${STATES.map((state) => `<option value="${state.abbr}">${esc(state.name)}</option>`).join("")}
+              </select>
+            </label>
+            <label class="field" id="ballot-district-field">House district
+              <select id="ballot-district" name="district" disabled>
+                <option value="">Select a state first</option>
+              </select>
+            </label>
+            <button type="submit" id="ballot-submit">Show my ballot</button>
+            <p id="ballot-district-note" class="ballot-note" hidden></p>
+            <p id="ballot-error" class="ballot-error" role="alert" hidden></p>
+          </form>
+          <div id="ballot-result"></div>
+        </div>
+      </section>
       <div class="level" role="group" aria-label="Federal or state">
         <button type="button" data-level="federal" aria-pressed="true">
           <strong>Federal</strong>
@@ -438,6 +462,13 @@ function mount() {
     choose(shape.dataset.abbr);
   });
 
+  document.querySelector("#ballot-button").addEventListener("click", toggleBallot);
+  document.querySelector("#ballot-state").addEventListener("change", (event) => {
+    fillBallotDistricts(event.target.value);
+    document.querySelector("#ballot-error").hidden = true;
+    document.querySelector("#ballot-result").innerHTML = "";
+  });
+  document.querySelector("#ballot-form").addEventListener("submit", showBallot);
   document.querySelector("#news-button").addEventListener("click", toggleNews);
 
   render();
@@ -446,6 +477,163 @@ function mount() {
 
 let newsLoaded = false;
 let newsOpen = false;
+let ballotOpen = false;
+
+function ballotMatchup(candidates) {
+  const people = sortPeople(candidates || []);
+  if (!people.length) {
+    return `<p class="matchup is-empty">No candidates are listed for this race.</p>`;
+  }
+  const bits = people.map((person) => `
+    <span class="nominee ${partyKind(person.party)}">
+      <strong>${esc(person.name)}</strong>
+      <em>${esc(person.party)}</em>
+    </span>
+  `);
+  return `<p class="matchup">${bits.join('<span class="vs">vs.</span>')}</p>`;
+}
+
+function ballotAlso(others) {
+  if (!others?.length) return "";
+  const text = others.map((person) => `${esc(person.name)} (${esc(person.party)})`).join(", ");
+  return `<p class="ballot-also">Also on the ballot: ${text}</p>`;
+}
+
+function ballotRace(title, body, also = "") {
+  return `
+    <section class="ballot-race">
+      <h3>${esc(title)}</h3>
+      ${body}
+      ${also}
+    </section>
+  `;
+}
+
+function fillBallotDistricts(abbr) {
+  const select = document.querySelector("#ballot-district");
+  const field = document.querySelector("#ballot-district-field");
+  const note = document.querySelector("#ballot-district-note");
+  const districts = houseByState[abbr] || [];
+  const atLarge = districts.length === 1 && districts[0].district === "at-large";
+
+  if (!abbr) {
+    field.hidden = false;
+    select.disabled = true;
+    select.innerHTML = `<option value="">Select a state first</option>`;
+    note.hidden = true;
+    note.textContent = "";
+    return;
+  }
+
+  if (!districts.length) {
+    field.hidden = false;
+    select.disabled = true;
+    select.innerHTML = `<option value="">No House district</option>`;
+    note.hidden = false;
+    note.textContent = "The District of Columbia has no voting House district. The mayor's race is listed instead of a governor.";
+    return;
+  }
+
+  if (atLarge) {
+    field.hidden = false;
+    select.disabled = true;
+    select.innerHTML = `<option value="at-large" selected>At-large</option>`;
+    note.hidden = false;
+    note.textContent = "This state elects one House member at large, so there is no district number.";
+    return;
+  }
+
+  field.hidden = false;
+  select.disabled = false;
+  note.hidden = true;
+  note.textContent = "";
+  const previous = select.value;
+  select.innerHTML = `<option value="">Select a district</option>${districts.map((district) => (
+    `<option value="${esc(district.district)}">District ${esc(district.district)}</option>`
+  )).join("")}`;
+  if (districts.some((district) => district.district === previous)) select.value = previous;
+}
+
+function renderBallot(abbr, districtKey) {
+  const state = STATES.find((item) => item.abbr === abbr);
+  const senate = senateBy[abbr];
+  const governor = governorBy[abbr];
+  const districts = houseByState[abbr] || [];
+  const district = districts.find((item) => item.district === districtKey) || null;
+
+  const senateBody = senate
+    ? ballotMatchup(senate.candidates)
+    : `<p class="matchup is-empty">No U.S. Senate election in ${esc(state.name)} this year.</p>`;
+
+  let houseTitle = "U.S. House";
+  let houseBody = "";
+  if (!districts.length) {
+    houseBody = `<p class="matchup is-empty">The District of Columbia has no voting member of the House.</p>`;
+  } else if (!district) {
+    houseBody = `<p class="matchup is-empty">Choose a House district.</p>`;
+  } else {
+    houseTitle = district.district === "at-large"
+      ? "U.S. House — At-large"
+      : `U.S. House — District ${district.district}`;
+    houseBody = ballotMatchup(district.candidates);
+  }
+
+  const govTitle = governor ? governor.office : "Governor";
+  const govBody = governor
+    ? ballotMatchup(governor.candidates)
+    : `<p class="matchup is-empty">No governor's race in ${esc(state.name)} in 2026.</p>`;
+
+  const place = !districts.length
+    ? state.name
+    : district?.district === "at-large"
+      ? state.name
+      : district
+        ? `${state.name} · District ${district.district}`
+        : state.name;
+
+  const result = document.querySelector("#ballot-result");
+  result.innerHTML = `
+    <h2>Your 2026 Candidates</h2>
+    <p class="ballot-place">${esc(place)}</p>
+    ${ballotRace("U.S. Senate", senateBody, senate ? ballotAlso(senate.others) : "")}
+    ${ballotRace(houseTitle, houseBody, "")}
+    ${ballotRace(govTitle, govBody, governor ? ballotAlso(governor.others) : "")}
+    <p class="ballot-note">General-election field compiled as of October 1, 2026. This is a reading guide, not an official ballot.</p>
+  `;
+  result.scrollIntoView({ block: "nearest" });
+}
+
+function showBallot(event) {
+  event.preventDefault();
+  const abbr = document.querySelector("#ballot-state").value;
+  const districtKey = document.querySelector("#ballot-district").value;
+  const error = document.querySelector("#ballot-error");
+  const state = STATES.find((item) => item.abbr === abbr);
+  if (!state) {
+    error.hidden = false;
+    error.textContent = "Choose a state.";
+    return;
+  }
+  const districts = houseByState[abbr] || [];
+  const needsDistrict = districts.some((item) => item.district !== "at-large");
+  if (needsDistrict && !districts.some((item) => item.district === districtKey)) {
+    error.hidden = false;
+    error.textContent = "Choose a House district.";
+    return;
+  }
+  error.hidden = true;
+  renderBallot(abbr, needsDistrict ? districtKey : districts[0]?.district || "");
+}
+
+function toggleBallot() {
+  const button = document.querySelector("#ballot-button");
+  const panel = document.querySelector("#ballot-panel");
+  ballotOpen = !ballotOpen;
+  button.setAttribute("aria-expanded", ballotOpen ? "true" : "false");
+  button.textContent = ballotOpen ? "Hide my ballot" : "What's my ballot";
+  panel.hidden = !ballotOpen;
+  if (ballotOpen) document.querySelector("#ballot-state").focus();
+}
 
 function formatWhen(value) {
   const date = new Date(value);
