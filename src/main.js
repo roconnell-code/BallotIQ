@@ -1,6 +1,7 @@
 import senateRaces from "./data/senate.json";
 import governorRaces from "./data/governors.json";
 import houseByState from "./data/house.json";
+import moneyByCandidate from "./data/money.json";
 
 const STATES = [
   ["AL", "Alabama"], ["AK", "Alaska"], ["AZ", "Arizona"], ["AR", "Arkansas"],
@@ -196,7 +197,65 @@ function personCard(person) {
       <h4>${esc(person.name)}</h4>
       <p class="role">${esc(person.role)}</p>
       <div class="profile">${sections}</div>
+      ${moneyBlock(person)}
     </article>
+  `;
+}
+
+function formatDollars(amount) {
+  const n = Math.abs(Number(amount) || 0);
+  if (n >= 1_000_000) {
+    const millions = n / 1_000_000;
+    return `$${millions.toFixed(millions >= 10 ? 0 : 1)} million`;
+  }
+  if (n >= 1000) return `$${Math.round(n / 1000)} thousand`;
+  return `$${Math.round(n)}`;
+}
+
+function formatCoverage(iso) {
+  const [year, month, day] = String(iso || "").split("-").map(Number);
+  if (!year || !month || !day) return "";
+  return new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  }).format(new Date(year, month - 1, day));
+}
+
+function moneyBlock(person) {
+  const row = person.moneyKey ? moneyByCandidate[person.moneyKey] : null;
+  if (!row) {
+    const note = person.moneyScope === "state"
+      ? "State and local campaign-finance filings are not compiled in this guide."
+      : "No contribution breakdown is on file for this candidate in the FEC 2026 all-candidates file.";
+    return `
+      <section class="money">
+        <h5>Where does the candidate's money come from?</h5>
+        <p class="profile-gap">${note}</p>
+      </section>
+    `;
+  }
+  const slices = [
+    ["individual", "Individual donors", row.individual, row.individualDollars],
+    ["pacs", "PACs", row.pacs, row.pacDollars],
+    ["other", "Other", row.other, row.otherDollars],
+  ];
+  const bar = slices.map(([key, , pct]) => {
+    const width = Math.max(0, Math.min(100, Number(pct) || 0));
+    return width ? `<span class="money-${key}" style="width:${width}%"></span>` : "";
+  }).join("");
+  const legend = slices.map(([key, label, pct, dollars]) => `
+    <li><i class="money-swatch money-${key}"></i>${esc(label)} — ${esc(pct)}% <span>(${esc(formatDollars(dollars))})</span></li>
+  `).join("");
+  const through = formatCoverage(row.through);
+  const label = slices.map(([, name, pct]) => `${name} ${pct}%`).join(", ");
+  return `
+    <section class="money">
+      <h5>Where does the candidate's money come from?</h5>
+      <div class="money-bar" role="img" aria-label="${esc(label)}">${bar}</div>
+      <ul class="money-legend">${legend}</ul>
+      <p class="money-note">Share of individual contributions, PAC contributions, and other receipts (party committees, self-funding, and loans). Transfers between a candidate's own committees are excluded. FEC all-candidates file${through ? `, coverage through ${esc(through)}` : ""}.</p>
+    </section>
   `;
 }
 
@@ -213,7 +272,11 @@ function othersList(others) {
 }
 
 function contestBlock(race) {
-  const people = sortPeople(race.candidates);
+  const people = sortPeople(race.candidates).map((person) => (
+    race.office === "U.S. Senate"
+      ? { ...person, moneyKey: `senate|${race.state}|${person.name}`, moneyScope: "federal" }
+      : { ...person, moneyScope: "state" }
+  ));
   return `
     <section class="race">
       <div class="race-head">
@@ -251,7 +314,12 @@ function houseBlock(abbr) {
     ? `
       <p class="summary">${esc(current.status)}. ${current.incumbent ? `Incumbent on the current map: ${current.incumbent}.` : "No incumbent is seeking this seat."}</p>
       <div class="people">
-        ${sortPeople(current.candidates).map((candidate) => personCard({ ...candidate, ...houseProfile(candidate, current) })).join("")}
+        ${sortPeople(current.candidates).map((candidate) => personCard({
+          ...candidate,
+          ...houseProfile(candidate, current),
+          moneyKey: `house|${abbr}|${current.district}|${candidate.name}`,
+          moneyScope: "federal",
+        })).join("")}
       </div>
     `
     : `<p class="summary">Choose a district. All ${districts.length} ${districts.length === 1 ? "seat is" : "seats are"} on the November 3 ballot.</p>`;
@@ -456,7 +524,7 @@ function mount() {
         <section class="panel detail-col" id="detail" tabindex="-1"></section>
       </div>
       <footer class="foot">
-        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each profile uses the same sections. A section says “Not compiled in this guide” when those summaries did not include a sourced line for voting record, donors, endorsements, legislation, or attendance. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
+        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each profile uses the same sections. A section says “Not compiled in this guide” when those summaries did not include a sourced line for voting record, donors, endorsements, legislation, or attendance. The money bar uses the FEC all-candidates file for federal candidates and is left blank when no filing is matched. State races are not filled from federal reports. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
       </footer>
       <section class="news" aria-labelledby="news-button">
         <button type="button" id="news-button" aria-expanded="false" aria-controls="news-panel">

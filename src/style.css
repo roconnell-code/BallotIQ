@@ -396,6 +396,62 @@ input[type="search"]:focus, select:focus {
   font-size: 0.92rem;
 }
 
+.money {
+  margin-top: 0.85rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.money h5 {
+  margin: 0 0 0.45rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+
+.money-bar {
+  display: flex;
+  width: 100%;
+  height: 0.9rem;
+  background: #e7eef6;
+  overflow: hidden;
+}
+
+.money-bar span { display: block; height: 100%; }
+.money-individual { background: var(--navy); }
+.money-pacs { background: var(--red); }
+.money-other { background: #c4a35a; }
+
+.money-legend {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+.money-legend span {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.money-swatch {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.35rem;
+  vertical-align: -1px;
+}
+
+.money-note {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
 .profile h5, .columns h5 {
   margin: 0 0 0.25rem;
   font-size: 0.72rem;

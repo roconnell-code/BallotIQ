@@ -1,0 +1,8237 @@
+{
+  "senate|AK|Dan J. Sullivan": {
+    "individual": 45,
+    "pacs": 0,
+    "other": 55,
+    "individualDollars": 8435,
+    "pacDollars": 0,
+    "otherDollars": 10400,
+    "through": "2026-07-29"
+  },
+  "senate|NH|John E. Sununu": {
+    "individual": 83,
+    "pacs": 15,
+    "other": 2,
+    "individualDollars": 2396775,
+    "pacDollars": 417000,
+    "otherDollars": 67112,
+    "through": "2026-08-19"
+  },
+  "senate|NM|Ben Ray Luj\u00e1n": {
+    "individual": 61,
+    "pacs": 37,
+    "other": 2,
+    "individualDollars": 2820977,
+    "pacDollars": 1738346,
+    "otherDollars": 109086,
+    "through": "2026-06-30"
+  },
+  "senate|OK|N'Kiyla Jasmine Thomas": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 56409,
+    "pacDollars": 0,
+    "otherDollars": 750,
+    "through": "2026-08-05"
+  },
+  "senate|OR|David Brock Smith": {
+    "individual": 91,
+    "pacs": 9,
+    "other": 0,
+    "individualDollars": 109689,
+    "pacDollars": 11000,
+    "otherDollars": 71,
+    "through": "2026-06-30"
+  },
+  "senate|WV|Shelley Moore Capito": {
+    "individual": 59,
+    "pacs": 40,
+    "other": 1,
+    "individualDollars": 2458065,
+    "pacDollars": 1680755,
+    "otherDollars": 62076,
+    "through": "2026-06-30"
+  },
+  "senate|WY|James W. Byrd": {
+    "individual": 96,
+    "pacs": 0,
+    "other": 4,
+    "individualDollars": 21559,
+    "pacDollars": 0,
+    "otherDollars": 1000,
+    "through": "2026-07-29"
+  },
+  "house|CA|19|Peter Coe Verbica": {
+    "individual": 95,
+    "pacs": 4,
+    "other": 1,
+    "individualDollars": 72319,
+    "pacDollars": 3500,
+    "otherDollars": 505,
+    "through": "2026-06-30"
+  },
+  "house|CA|23|Tessa Lynn Hodge": {
+    "individual": 88,
+    "pacs": 0,
+    "other": 12,
+    "individualDollars": 70273,
+    "pacDollars": 0,
+    "otherDollars": 9226,
+    "through": "2026-06-30"
+  },
+  "house|CO|6|Samir Ezzeldin Witta": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 100,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|FL|27|Mar\u00eda Elvira Salazar": {
+    "individual": 48,
+    "pacs": 47,
+    "other": 5,
+    "individualDollars": 550315,
+    "pacDollars": 533179,
+    "otherDollars": 53025,
+    "through": "2026-07-29"
+  },
+  "house|IL|7|La Shawn Ford": {
+    "individual": 65,
+    "pacs": 8,
+    "other": 27,
+    "individualDollars": 468197,
+    "pacDollars": 57250,
+    "otherDollars": 196562,
+    "through": "2026-06-30"
+  },
+  "house|MD|6|April McClain Delaney": {
+    "individual": 7,
+    "pacs": 3,
+    "other": 90,
+    "individualDollars": 865348,
+    "pacDollars": 377250,
+    "otherDollars": 11012072,
+    "through": "2026-06-30"
+  },
+  "house|NH|2|Lily Tang Williams": {
+    "individual": 88,
+    "pacs": 0,
+    "other": 12,
+    "individualDollars": 1055892,
+    "pacDollars": 1500,
+    "otherDollars": 142358,
+    "through": "2026-08-19"
+  },
+  "house|PA|5|Mary Gay Scanlon": {
+    "individual": 54,
+    "pacs": 45,
+    "other": 1,
+    "individualDollars": 538752,
+    "pacDollars": 447700,
+    "otherDollars": 4134,
+    "through": "2026-06-30"
+  },
+  "house|SC|1|Jenny Costa Honeycutt": {
+    "individual": 82,
+    "pacs": 14,
+    "other": 4,
+    "individualDollars": 447270,
+    "pacDollars": 74500,
+    "otherDollars": 19798,
+    "through": "2026-06-30"
+  },
+  "house|TX|8|Jessica Hart Steinmann": {
+    "individual": 46,
+    "pacs": 17,
+    "other": 37,
+    "individualDollars": 795137,
+    "pacDollars": 297050,
+    "otherDollars": 650000,
+    "through": "2026-06-30"
+  },
+  "house|TX|20|Edgardo Rafael Baez": {
+    "individual": 33,
+    "pacs": 1,
+    "other": 66,
+    "individualDollars": 16051,
+    "pacDollars": 500,
+    "otherDollars": 31985,
+    "through": "2026-06-30"
+  },
+  "house|TX|23|Katy Padilla Stout": {
+    "individual": 92,
+    "pacs": 5,
+    "other": 3,
+    "individualDollars": 440372,
+    "pacDollars": 23000,
+    "otherDollars": 14143,
+    "through": "2026-06-30"
+  },
+  "house|FL|26|Deborah Ann Meidinger Hosey": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 8924,
+    "through": "2026-06-30"
+  },
+  "senate|AL|Barry Moore": {
+    "individual": 73,
+    "pacs": 25,
+    "other": 2,
+    "individualDollars": 2582610,
+    "pacDollars": 881598,
+    "otherDollars": 88661,
+    "through": "2026-06-30"
+  },
+  "senate|AL|Everett Wess": {
+    "individual": 12,
+    "pacs": 0,
+    "other": 88,
+    "individualDollars": 9911,
+    "pacDollars": 0,
+    "otherDollars": 70643,
+    "through": "2026-06-30"
+  },
+  "senate|AK|Dan S. Sullivan": {
+    "individual": 64,
+    "pacs": 31,
+    "other": 5,
+    "individualDollars": 4080507,
+    "pacDollars": 1936758,
+    "otherDollars": 310836,
+    "through": "2026-07-29"
+  },
+  "senate|AK|Mary Peltola": {
+    "individual": 96,
+    "pacs": 3,
+    "other": 1,
+    "individualDollars": 16192697,
+    "pacDollars": 602146,
+    "otherDollars": 102014,
+    "through": "2026-07-29"
+  },
+  "senate|AR|Tom Cotton": {
+    "individual": 64,
+    "pacs": 23,
+    "other": 13,
+    "individualDollars": 3108082,
+    "pacDollars": 1129500,
+    "otherDollars": 622235,
+    "through": "2026-06-30"
+  },
+  "senate|AR|Hallie Shoffner": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 2246785,
+    "pacDollars": 11010,
+    "otherDollars": 11319,
+    "through": "2026-06-30"
+  },
+  "senate|CO|John Hickenlooper": {
+    "individual": 83,
+    "pacs": 13,
+    "other": 4,
+    "individualDollars": 5751501,
+    "pacDollars": 896273,
+    "otherDollars": 283148,
+    "through": "2026-06-30"
+  },
+  "senate|CO|Mark Baisley": {
+    "individual": 95,
+    "pacs": 0,
+    "other": 5,
+    "individualDollars": 131372,
+    "pacDollars": 0,
+    "otherDollars": 6775,
+    "through": "2026-06-30"
+  },
+  "senate|DE|Chris Coons": {
+    "individual": 56,
+    "pacs": 40,
+    "other": 4,
+    "individualDollars": 1968652,
+    "pacDollars": 1408377,
+    "otherDollars": 125509,
+    "through": "2026-08-26"
+  },
+  "senate|DE|Michael Katz": {
+    "individual": 19,
+    "pacs": 0,
+    "other": 81,
+    "individualDollars": 29805,
+    "pacDollars": 300,
+    "otherDollars": 129262,
+    "through": "2026-08-26"
+  },
+  "senate|FL|Ashley Moody": {
+    "individual": 69,
+    "pacs": 29,
+    "other": 2,
+    "individualDollars": 4862350,
+    "pacDollars": 2021000,
+    "otherDollars": 181674,
+    "through": "2026-07-29"
+  },
+  "senate|FL|Angie Nixon": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 974845,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-07-29"
+  },
+  "senate|GA|Jon Ossoff": {
+    "individual": 97,
+    "pacs": 1,
+    "other": 2,
+    "individualDollars": 67418777,
+    "pacDollars": 920316,
+    "otherDollars": 1064054,
+    "through": "2026-06-30"
+  },
+  "senate|GA|Mike Collins": {
+    "individual": 88,
+    "pacs": 10,
+    "other": 2,
+    "individualDollars": 4368146,
+    "pacDollars": 495632,
+    "otherDollars": 108095,
+    "through": "2026-06-30"
+  },
+  "senate|ID|Jim Risch": {
+    "individual": 65,
+    "pacs": 29,
+    "other": 6,
+    "individualDollars": 2036366,
+    "pacDollars": 897329,
+    "otherDollars": 195215,
+    "through": "2026-06-30"
+  },
+  "senate|ID|Todd Achilles": {
+    "individual": 85,
+    "pacs": 1,
+    "other": 14,
+    "individualDollars": 585245,
+    "pacDollars": 10000,
+    "otherDollars": 97000,
+    "through": "2026-06-30"
+  },
+  "senate|IL|Juliana Stratton": {
+    "individual": 90,
+    "pacs": 8,
+    "other": 2,
+    "individualDollars": 4824746,
+    "pacDollars": 426634,
+    "otherDollars": 114219,
+    "through": "2026-06-30"
+  },
+  "senate|IL|Don Tracy": {
+    "individual": 16,
+    "pacs": 1,
+    "other": 83,
+    "individualDollars": 399763,
+    "pacDollars": 11075,
+    "otherDollars": 2044847,
+    "through": "2026-06-30"
+  },
+  "senate|IA|Josh Turek": {
+    "individual": 92,
+    "pacs": 6,
+    "other": 2,
+    "individualDollars": 5795654,
+    "pacDollars": 378127,
+    "otherDollars": 102746,
+    "through": "2026-06-30"
+  },
+  "senate|KS|Roger Marshall": {
+    "individual": 50,
+    "pacs": 44,
+    "other": 6,
+    "individualDollars": 1666925,
+    "pacDollars": 1493250,
+    "otherDollars": 210146,
+    "through": "2026-07-15"
+  },
+  "senate|KS|Adam Hamilton": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 4083683,
+    "pacDollars": 17500,
+    "otherDollars": 67895,
+    "through": "2026-07-15"
+  },
+  "senate|KY|Andy Barr": {
+    "individual": 71,
+    "pacs": 25,
+    "other": 4,
+    "individualDollars": 5570283,
+    "pacDollars": 1933311,
+    "otherDollars": 321728,
+    "through": "2026-06-30"
+  },
+  "senate|KY|Charles Booker": {
+    "individual": 97,
+    "pacs": 2,
+    "other": 1,
+    "individualDollars": 1070622,
+    "pacDollars": 24750,
+    "otherDollars": 4137,
+    "through": "2026-06-30"
+  },
+  "senate|LA|Julia Letlow": {
+    "individual": 61,
+    "pacs": 35,
+    "other": 4,
+    "individualDollars": 1347695,
+    "pacDollars": 762000,
+    "otherDollars": 93313,
+    "through": "2026-06-30"
+  },
+  "senate|LA|Jamie Davis": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 1957258,
+    "pacDollars": 0,
+    "otherDollars": 26290,
+    "through": "2026-06-30"
+  },
+  "senate|ME|Susan Collins": {
+    "individual": 85,
+    "pacs": 10,
+    "other": 5,
+    "individualDollars": 10149122,
+    "pacDollars": 1201550,
+    "otherDollars": 537167,
+    "through": "2026-06-30"
+  },
+  "senate|MA|Ed Markey": {
+    "individual": 74,
+    "pacs": 19,
+    "other": 7,
+    "individualDollars": 2275327,
+    "pacDollars": 589250,
+    "otherDollars": 203333,
+    "through": "2026-08-12"
+  },
+  "senate|MA|John Deaton": {
+    "individual": 30,
+    "pacs": 0,
+    "other": 70,
+    "individualDollars": 472175,
+    "pacDollars": 5775,
+    "otherDollars": 1083410,
+    "through": "2026-08-12"
+  },
+  "senate|MI|Mike Rogers": {
+    "individual": 88,
+    "pacs": 10,
+    "other": 2,
+    "individualDollars": 6805019,
+    "pacDollars": 787227,
+    "otherDollars": 139236,
+    "through": "2026-07-15"
+  },
+  "senate|MN|Peggy Flanagan": {
+    "individual": 96,
+    "pacs": 3,
+    "other": 1,
+    "individualDollars": 6205138,
+    "pacDollars": 177992,
+    "otherDollars": 93724,
+    "through": "2026-07-22"
+  },
+  "senate|MN|Michele Tafoya": {
+    "individual": 94,
+    "pacs": 3,
+    "other": 3,
+    "individualDollars": 4640071,
+    "pacDollars": 167000,
+    "otherDollars": 156094,
+    "through": "2026-07-22"
+  },
+  "senate|MS|Scott Colom": {
+    "individual": 84,
+    "pacs": 14,
+    "other": 2,
+    "individualDollars": 1920991,
+    "pacDollars": 312330,
+    "otherDollars": 48600,
+    "through": "2026-06-30"
+  },
+  "senate|MT|Kurt Alme": {
+    "individual": 61,
+    "pacs": 35,
+    "other": 4,
+    "individualDollars": 1021120,
+    "pacDollars": 577500,
+    "otherDollars": 62000,
+    "through": "2026-06-30"
+  },
+  "senate|MT|Alani Bankhead": {
+    "individual": 78,
+    "pacs": 11,
+    "other": 11,
+    "individualDollars": 45680,
+    "pacDollars": 6627,
+    "otherDollars": 6522,
+    "through": "2026-06-30"
+  },
+  "senate|MT|Seth Bodnar": {
+    "individual": 95,
+    "pacs": 3,
+    "other": 2,
+    "individualDollars": 3092563,
+    "pacDollars": 93050,
+    "otherDollars": 52538,
+    "through": "2026-06-30"
+  },
+  "senate|NE|Pete Ricketts": {
+    "individual": 24,
+    "pacs": 17,
+    "other": 59,
+    "individualDollars": 2202575,
+    "pacDollars": 1639815,
+    "otherDollars": 5459372,
+    "through": "2026-06-30"
+  },
+  "senate|NE|Dan Osborn": {
+    "individual": 96,
+    "pacs": 2,
+    "other": 2,
+    "individualDollars": 5495267,
+    "pacDollars": 139868,
+    "otherDollars": 96840,
+    "through": "2026-09-30"
+  },
+  "senate|NH|Chris Pappas": {
+    "individual": 92,
+    "pacs": 7,
+    "other": 1,
+    "individualDollars": 13430088,
+    "pacDollars": 1104873,
+    "otherDollars": 100619,
+    "through": "2026-08-19"
+  },
+  "senate|NJ|Cory Booker": {
+    "individual": 92,
+    "pacs": 3,
+    "other": 5,
+    "individualDollars": 13688186,
+    "pacDollars": 500530,
+    "otherDollars": 761626,
+    "through": "2026-06-30"
+  },
+  "senate|NJ|Justin Murphy": {
+    "individual": 75,
+    "pacs": 2,
+    "other": 23,
+    "individualDollars": 20484,
+    "pacDollars": 500,
+    "otherDollars": 6332,
+    "through": "2026-06-30"
+  },
+  "senate|NM|Larry Marker": {
+    "individual": 85,
+    "pacs": 0,
+    "other": 15,
+    "individualDollars": 28525,
+    "pacDollars": 0,
+    "otherDollars": 5000,
+    "through": "2026-06-30"
+  },
+  "senate|NC|Roy Cooper": {
+    "individual": 86,
+    "pacs": 5,
+    "other": 9,
+    "individualDollars": 12970879,
+    "pacDollars": 750034,
+    "otherDollars": 1430756,
+    "through": "2026-06-30"
+  },
+  "senate|NC|Michael Whatley": {
+    "individual": 82,
+    "pacs": 13,
+    "other": 5,
+    "individualDollars": 5455020,
+    "pacDollars": 874330,
+    "otherDollars": 321702,
+    "through": "2026-06-30"
+  },
+  "senate|OK|Kevin Hern": {
+    "individual": 15,
+    "pacs": 10,
+    "other": 75,
+    "individualDollars": 1055923,
+    "pacDollars": 699500,
+    "otherDollars": 5223421,
+    "through": "2026-06-30"
+  },
+  "senate|OR|Jeff Merkley": {
+    "individual": 80,
+    "pacs": 11,
+    "other": 9,
+    "individualDollars": 3499735,
+    "pacDollars": 477520,
+    "otherDollars": 412055,
+    "through": "2026-06-30"
+  },
+  "senate|RI|Jack Reed": {
+    "individual": 63,
+    "pacs": 34,
+    "other": 3,
+    "individualDollars": 2113385,
+    "pacDollars": 1140100,
+    "otherDollars": 100429,
+    "through": "2026-08-20"
+  },
+  "senate|RI|Raymond McKay": {
+    "individual": 95,
+    "pacs": 1,
+    "other": 4,
+    "individualDollars": 171950,
+    "pacDollars": 1600,
+    "otherDollars": 6918,
+    "through": "2026-08-20"
+  },
+  "senate|SC|Darline Graham": {
+    "individual": 86,
+    "pacs": 14,
+    "other": 0,
+    "individualDollars": 299783,
+    "pacDollars": 47000,
+    "otherDollars": 0,
+    "through": "2026-08-05"
+  },
+  "senate|SC|Annie Andrews": {
+    "individual": 99,
+    "pacs": 1,
+    "other": 0,
+    "individualDollars": 10635948,
+    "pacDollars": 104955,
+    "otherDollars": 44224,
+    "through": "2026-06-30"
+  },
+  "senate|SD|Mike Rounds": {
+    "individual": 46,
+    "pacs": 48,
+    "other": 6,
+    "individualDollars": 1313091,
+    "pacDollars": 1381800,
+    "otherDollars": 169129,
+    "through": "2026-06-30"
+  },
+  "senate|SD|Brian Bengs": {
+    "individual": 97,
+    "pacs": 1,
+    "other": 2,
+    "individualDollars": 756709,
+    "pacDollars": 5000,
+    "otherDollars": 20341,
+    "through": "2026-06-30"
+  },
+  "senate|TN|Bill Hagerty": {
+    "individual": 68,
+    "pacs": 27,
+    "other": 5,
+    "individualDollars": 3717926,
+    "pacDollars": 1483200,
+    "otherDollars": 252478,
+    "through": "2026-07-17"
+  },
+  "senate|TN|Marquita Bradshaw": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 2257,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-07-17"
+  },
+  "senate|TX|Ken Paxton": {
+    "individual": 97,
+    "pacs": 2,
+    "other": 1,
+    "individualDollars": 8941949,
+    "pacDollars": 157500,
+    "otherDollars": 142617,
+    "through": "2026-06-30"
+  },
+  "senate|TX|James Talarico": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 64719099,
+    "pacDollars": 348408,
+    "otherDollars": 899203,
+    "through": "2026-06-30"
+  },
+  "senate|VA|Mark Warner": {
+    "individual": 74,
+    "pacs": 18,
+    "other": 8,
+    "individualDollars": 8962331,
+    "pacDollars": 2117795,
+    "otherDollars": 1016453,
+    "through": "2026-07-15"
+  },
+  "senate|VA|Bert Mizusawa": {
+    "individual": 55,
+    "pacs": 1,
+    "other": 44,
+    "individualDollars": 220582,
+    "pacDollars": 5000,
+    "otherDollars": 172991,
+    "through": "2026-07-15"
+  },
+  "senate|WY|Harriet Hageman": {
+    "individual": 67,
+    "pacs": 27,
+    "other": 6,
+    "individualDollars": 1270665,
+    "pacDollars": 519700,
+    "otherDollars": 110264,
+    "through": "2026-07-29"
+  },
+  "senate|OH|Jon Husted": {
+    "individual": 70,
+    "pacs": 27,
+    "other": 3,
+    "individualDollars": 6068962,
+    "pacDollars": 2320510,
+    "otherDollars": 294665,
+    "through": "2026-06-30"
+  },
+  "senate|OH|Sherrod Brown": {
+    "individual": 96,
+    "pacs": 3,
+    "other": 1,
+    "individualDollars": 30904487,
+    "pacDollars": 861023,
+    "otherDollars": 500662,
+    "through": "2026-06-30"
+  },
+  "house|AL|1|Jerry Carl": {
+    "individual": 67,
+    "pacs": 31,
+    "other": 2,
+    "individualDollars": 659570,
+    "pacDollars": 303059,
+    "otherDollars": 16500,
+    "through": "2026-07-22"
+  },
+  "house|AL|1|Clyde Jones Jr.": {
+    "individual": 94,
+    "pacs": 2,
+    "other": 4,
+    "individualDollars": 80393,
+    "pacDollars": 2000,
+    "otherDollars": 3575,
+    "through": "2026-07-22"
+  },
+  "house|AL|2|Shomari Figures": {
+    "individual": 37,
+    "pacs": 62,
+    "other": 1,
+    "individualDollars": 490207,
+    "pacDollars": 830338,
+    "otherDollars": 11562,
+    "through": "2026-07-22"
+  },
+  "house|AL|2|Rhett Marques": {
+    "individual": 86,
+    "pacs": 14,
+    "other": 0,
+    "individualDollars": 1130105,
+    "pacDollars": 188469,
+    "otherDollars": 0,
+    "through": "2026-07-22"
+  },
+  "house|AL|3|Lee McInnis": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 60787,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-09-30"
+  },
+  "house|AL|3|Mike Rogers": {
+    "individual": 64,
+    "pacs": 34,
+    "other": 2,
+    "individualDollars": 1355517,
+    "pacDollars": 721704,
+    "otherDollars": 53442,
+    "through": "2026-06-30"
+  },
+  "house|AL|4|Robert Aderholt": {
+    "individual": 51,
+    "pacs": 42,
+    "other": 7,
+    "individualDollars": 509195,
+    "pacDollars": 422278,
+    "otherDollars": 68023,
+    "through": "2026-06-30"
+  },
+  "house|AL|4|Amanda Pusczek": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 15437,
+    "pacDollars": 0,
+    "otherDollars": 154,
+    "through": "2026-06-30"
+  },
+  "house|AL|5|Andrew Sneed": {
+    "individual": 94,
+    "pacs": 0,
+    "other": 6,
+    "individualDollars": 608118,
+    "pacDollars": 2350,
+    "otherDollars": 36044,
+    "through": "2026-06-30"
+  },
+  "house|AL|5|Dale Strong": {
+    "individual": 50,
+    "pacs": 47,
+    "other": 3,
+    "individualDollars": 673229,
+    "pacDollars": 631300,
+    "otherDollars": 39355,
+    "through": "2026-06-30"
+  },
+  "house|AL|6|Maurice Mercer": {
+    "individual": 64,
+    "pacs": 0,
+    "other": 36,
+    "individualDollars": 4180,
+    "pacDollars": 0,
+    "otherDollars": 2359,
+    "through": "2026-06-30"
+  },
+  "house|AL|6|Gary Palmer": {
+    "individual": 51,
+    "pacs": 45,
+    "other": 4,
+    "individualDollars": 521431,
+    "pacDollars": 464000,
+    "otherDollars": 35984,
+    "through": "2026-07-22"
+  },
+  "house|AL|7|Ammie Akin": {
+    "individual": 33,
+    "pacs": 0,
+    "other": 67,
+    "individualDollars": 50230,
+    "pacDollars": 0,
+    "otherDollars": 100500,
+    "through": "2026-07-22"
+  },
+  "house|AL|7|Terri Sewell": {
+    "individual": 19,
+    "pacs": 81,
+    "other": 0,
+    "individualDollars": 369272,
+    "pacDollars": 1589750,
+    "otherDollars": 2969,
+    "through": "2026-07-22"
+  },
+  "house|AK|at-large|Nick Begich III": {
+    "individual": 70,
+    "pacs": 27,
+    "other": 3,
+    "individualDollars": 2718138,
+    "pacDollars": 1028577,
+    "otherDollars": 122115,
+    "through": "2026-07-29"
+  },
+  "house|AK|at-large|Bill Hill": {
+    "individual": 94,
+    "pacs": 5,
+    "other": 1,
+    "individualDollars": 1251384,
+    "pacDollars": 62050,
+    "otherDollars": 15457,
+    "through": "2026-07-29"
+  },
+  "house|AZ|1|Monica Alponte": {
+    "individual": 81,
+    "pacs": 0,
+    "other": 19,
+    "individualDollars": 7285,
+    "pacDollars": 0,
+    "otherDollars": 1656,
+    "through": "2026-07-01"
+  },
+  "house|AZ|1|Amish Shah": {
+    "individual": 67,
+    "pacs": 8,
+    "other": 25,
+    "individualDollars": 1192459,
+    "pacDollars": 146250,
+    "otherDollars": 435184,
+    "through": "2026-07-01"
+  },
+  "house|AZ|2|Eli Crane": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 8538179,
+    "pacDollars": 85500,
+    "otherDollars": 44772,
+    "through": "2026-07-01"
+  },
+  "house|AZ|2|Jonathan Nez": {
+    "individual": 92,
+    "pacs": 6,
+    "other": 2,
+    "individualDollars": 3176425,
+    "pacDollars": 213050,
+    "otherDollars": 55912,
+    "through": "2026-07-01"
+  },
+  "house|AZ|3|Yassamin Ansari": {
+    "individual": 78,
+    "pacs": 16,
+    "other": 6,
+    "individualDollars": 1106722,
+    "pacDollars": 226033,
+    "otherDollars": 88312,
+    "through": "2026-07-01"
+  },
+  "house|AZ|3|Alan Aversa": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 523,
+    "through": "2026-06-30"
+  },
+  "house|AZ|4|Zuhdi Jasser": {
+    "individual": 96,
+    "pacs": 1,
+    "other": 3,
+    "individualDollars": 543538,
+    "pacDollars": 5000,
+    "otherDollars": 16103,
+    "through": "2026-07-01"
+  },
+  "house|AZ|4|Greg Stanton": {
+    "individual": 70,
+    "pacs": 30,
+    "other": 0,
+    "individualDollars": 1469688,
+    "pacDollars": 638725,
+    "otherDollars": 8702,
+    "through": "2026-07-01"
+  },
+  "house|AZ|5|Mark Lamb": {
+    "individual": 91,
+    "pacs": 6,
+    "other": 3,
+    "individualDollars": 1111291,
+    "pacDollars": 70400,
+    "otherDollars": 40526,
+    "through": "2026-07-01"
+  },
+  "house|AZ|5|Elizabeth Lee": {
+    "individual": 97,
+    "pacs": 0,
+    "other": 3,
+    "individualDollars": 147611,
+    "pacDollars": 0,
+    "otherDollars": 5000,
+    "through": "2026-07-01"
+  },
+  "house|AZ|6|Juan Ciscomani": {
+    "individual": 56,
+    "pacs": 42,
+    "other": 2,
+    "individualDollars": 2231619,
+    "pacDollars": 1650410,
+    "otherDollars": 84435,
+    "through": "2026-07-01"
+  },
+  "house|AZ|6|JoAnna Mendoza": {
+    "individual": 91,
+    "pacs": 8,
+    "other": 1,
+    "individualDollars": 5887965,
+    "pacDollars": 516581,
+    "otherDollars": 36592,
+    "through": "2026-07-01"
+  },
+  "house|AZ|6|Jereme Peters": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 10500,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-03-31"
+  },
+  "house|AZ|7|Daniel Butierez": {
+    "individual": 18,
+    "pacs": 1,
+    "other": 81,
+    "individualDollars": 39892,
+    "pacDollars": 2000,
+    "otherDollars": 182475,
+    "through": "2026-07-01"
+  },
+  "house|AZ|7|Adelita Grijalva": {
+    "individual": 80,
+    "pacs": 19,
+    "other": 1,
+    "individualDollars": 1817813,
+    "pacDollars": 435939,
+    "otherDollars": 31887,
+    "through": "2026-07-01"
+  },
+  "house|AZ|8|Abraham Hamadeh": {
+    "individual": 67,
+    "pacs": 33,
+    "other": 0,
+    "individualDollars": 558100,
+    "pacDollars": 269960,
+    "otherDollars": 773,
+    "through": "2026-07-01"
+  },
+  "house|AZ|9|Paul Gosar": {
+    "individual": 84,
+    "pacs": 15,
+    "other": 1,
+    "individualDollars": 489425,
+    "pacDollars": 85000,
+    "otherDollars": 5618,
+    "through": "2026-07-01"
+  },
+  "house|AR|1|Rick Crawford": {
+    "individual": 36,
+    "pacs": 59,
+    "other": 5,
+    "individualDollars": 340156,
+    "pacDollars": 557750,
+    "otherDollars": 46396,
+    "through": "2026-06-30"
+  },
+  "house|AR|1|Terri Green": {
+    "individual": 65,
+    "pacs": 2,
+    "other": 33,
+    "individualDollars": 42412,
+    "pacDollars": 1250,
+    "otherDollars": 21488,
+    "through": "2026-06-30"
+  },
+  "house|AR|2|French Hill": {
+    "individual": 55,
+    "pacs": 45,
+    "other": 0,
+    "individualDollars": 1781160,
+    "pacDollars": 1457367,
+    "otherDollars": 15608,
+    "through": "2026-06-30"
+  },
+  "house|AR|2|Chris Jones": {
+    "individual": 97,
+    "pacs": 2,
+    "other": 1,
+    "individualDollars": 1138308,
+    "pacDollars": 26250,
+    "otherDollars": 9857,
+    "through": "2026-06-30"
+  },
+  "house|AR|3|Robb Ryerse": {
+    "individual": 95,
+    "pacs": 2,
+    "other": 3,
+    "individualDollars": 114226,
+    "pacDollars": 2186,
+    "otherDollars": 4115,
+    "through": "2026-06-30"
+  },
+  "house|AR|3|Steve Womack": {
+    "individual": 47,
+    "pacs": 47,
+    "other": 6,
+    "individualDollars": 873168,
+    "pacDollars": 877500,
+    "otherDollars": 113381,
+    "through": "2026-06-30"
+  },
+  "house|AR|4|James Russell": {
+    "individual": 74,
+    "pacs": 26,
+    "other": 0,
+    "individualDollars": 4353,
+    "pacDollars": 1500,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|AR|4|Bruce Westerman": {
+    "individual": 41,
+    "pacs": 52,
+    "other": 7,
+    "individualDollars": 841224,
+    "pacDollars": 1053550,
+    "otherDollars": 137084,
+    "through": "2026-06-30"
+  },
+  "house|CA|1|James Gallagher": {
+    "individual": 77,
+    "pacs": 22,
+    "other": 1,
+    "individualDollars": 958725,
+    "pacDollars": 275863,
+    "otherDollars": 9563,
+    "through": "2026-06-30"
+  },
+  "house|CA|1|Mike McGuire": {
+    "individual": 82,
+    "pacs": 16,
+    "other": 2,
+    "individualDollars": 1492350,
+    "pacDollars": 300070,
+    "otherDollars": 35292,
+    "through": "2026-06-30"
+  },
+  "house|CA|2|Jared Huffman": {
+    "individual": 62,
+    "pacs": 32,
+    "other": 6,
+    "individualDollars": 600127,
+    "pacDollars": 316245,
+    "otherDollars": 61905,
+    "through": "2026-06-30"
+  },
+  "house|CA|3|Robb Tucker": {
+    "individual": 20,
+    "pacs": 0,
+    "other": 80,
+    "individualDollars": 50899,
+    "pacDollars": 0,
+    "otherDollars": 207240,
+    "through": "2026-06-30"
+  },
+  "house|CA|4|Eric Jones": {
+    "individual": 33,
+    "pacs": 0,
+    "other": 67,
+    "individualDollars": 2750228,
+    "pacDollars": 0,
+    "otherDollars": 5628701,
+    "through": "2026-06-30"
+  },
+  "house|CA|4|Mike Thompson": {
+    "individual": 54,
+    "pacs": 44,
+    "other": 2,
+    "individualDollars": 2247740,
+    "pacDollars": 1847811,
+    "otherDollars": 77363,
+    "through": "2026-06-30"
+  },
+  "house|CA|5|Michael Masuda": {
+    "individual": 94,
+    "pacs": 5,
+    "other": 1,
+    "individualDollars": 339589,
+    "pacDollars": 18750,
+    "otherDollars": 3396,
+    "through": "2026-06-30"
+  },
+  "house|CA|5|Tom McClintock": {
+    "individual": 83,
+    "pacs": 17,
+    "other": 0,
+    "individualDollars": 769680,
+    "pacDollars": 156551,
+    "otherDollars": 2556,
+    "through": "2026-06-30"
+  },
+  "house|CA|6|Kevin Kiley": {
+    "individual": 82,
+    "pacs": 16,
+    "other": 2,
+    "individualDollars": 1852148,
+    "pacDollars": 356391,
+    "otherDollars": 35691,
+    "through": "2026-06-30"
+  },
+  "house|CA|6|Richard Pan": {
+    "individual": 71,
+    "pacs": 29,
+    "other": 0,
+    "individualDollars": 768846,
+    "pacDollars": 307996,
+    "otherDollars": 2441,
+    "through": "2026-06-30"
+  },
+  "house|CA|7|Doris Matsui": {
+    "individual": 26,
+    "pacs": 29,
+    "other": 45,
+    "individualDollars": 829641,
+    "pacDollars": 936964,
+    "otherDollars": 1425483,
+    "through": "2026-06-30"
+  },
+  "house|CA|7|Mai Vang": {
+    "individual": 94,
+    "pacs": 5,
+    "other": 1,
+    "individualDollars": 1019592,
+    "pacDollars": 53827,
+    "otherDollars": 6751,
+    "through": "2026-06-30"
+  },
+  "house|CA|8|John Garamendi": {
+    "individual": 32,
+    "pacs": 68,
+    "other": 0,
+    "individualDollars": 154589,
+    "pacDollars": 334500,
+    "otherDollars": 45,
+    "through": "2026-06-30"
+  },
+  "house|CA|8|Rudy Recile": {
+    "individual": 54,
+    "pacs": 0,
+    "other": 46,
+    "individualDollars": 10798,
+    "pacDollars": 0,
+    "otherDollars": 9275,
+    "through": "2026-09-30"
+  },
+  "house|CA|9|Josh Harder": {
+    "individual": 72,
+    "pacs": 13,
+    "other": 15,
+    "individualDollars": 2855246,
+    "pacDollars": 506622,
+    "otherDollars": 580116,
+    "through": "2026-06-30"
+  },
+  "house|CA|9|John McBride": {
+    "individual": 34,
+    "pacs": 66,
+    "other": 0,
+    "individualDollars": 10309,
+    "pacDollars": 19882,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|CA|10|Mark DeSaulnier": {
+    "individual": 46,
+    "pacs": 54,
+    "other": 0,
+    "individualDollars": 259865,
+    "pacDollars": 304983,
+    "otherDollars": 2410,
+    "through": "2026-06-30"
+  },
+  "house|CA|11|Connie Chan": {
+    "individual": 85,
+    "pacs": 14,
+    "other": 1,
+    "individualDollars": 935030,
+    "pacDollars": 152500,
+    "otherDollars": 6791,
+    "through": "2026-06-30"
+  },
+  "house|CA|11|Scott Wiener": {
+    "individual": 95,
+    "pacs": 2,
+    "other": 3,
+    "individualDollars": 4316411,
+    "pacDollars": 93676,
+    "otherDollars": 151033,
+    "through": "2026-06-30"
+  },
+  "house|CA|12|Jamie Joyce": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 30800,
+    "pacDollars": 0,
+    "otherDollars": 447,
+    "through": "2026-06-30"
+  },
+  "house|CA|12|Lateefah Simon": {
+    "individual": 80,
+    "pacs": 19,
+    "other": 1,
+    "individualDollars": 1127286,
+    "pacDollars": 261421,
+    "otherDollars": 15555,
+    "through": "2026-06-30"
+  },
+  "house|CA|13|Adam Gray": {
+    "individual": 65,
+    "pacs": 34,
+    "other": 1,
+    "individualDollars": 2393915,
+    "pacDollars": 1265075,
+    "otherDollars": 51388,
+    "through": "2026-06-30"
+  },
+  "house|CA|13|Kevin Lincoln": {
+    "individual": 81,
+    "pacs": 18,
+    "other": 1,
+    "individualDollars": 1178154,
+    "pacDollars": 251621,
+    "otherDollars": 19343,
+    "through": "2026-06-30"
+  },
+  "house|CA|14|Melissa Hernandez": {
+    "individual": 93,
+    "pacs": 6,
+    "other": 1,
+    "individualDollars": 1861903,
+    "pacDollars": 110500,
+    "otherDollars": 18325,
+    "through": "2026-09-07"
+  },
+  "house|CA|14|Aisha Wahab": {
+    "individual": 73,
+    "pacs": 21,
+    "other": 6,
+    "individualDollars": 642433,
+    "pacDollars": 183983,
+    "otherDollars": 47982,
+    "through": "2026-09-07"
+  },
+  "house|CA|15|Kevin Mullin": {
+    "individual": 42,
+    "pacs": 57,
+    "other": 1,
+    "individualDollars": 341125,
+    "pacDollars": 470712,
+    "otherDollars": 7825,
+    "through": "2026-06-30"
+  },
+  "house|CA|16|Sam Liccardo": {
+    "individual": 68,
+    "pacs": 30,
+    "other": 2,
+    "individualDollars": 1491270,
+    "pacDollars": 662750,
+    "otherDollars": 40424,
+    "through": "2026-06-30"
+  },
+  "house|CA|16|Peter Soul\u00e9": {
+    "individual": 75,
+    "pacs": 0,
+    "other": 25,
+    "individualDollars": 300,
+    "pacDollars": 0,
+    "otherDollars": 100,
+    "through": "2026-06-30"
+  },
+  "house|CA|17|Ritesh Tandon": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 37428,
+    "pacDollars": 0,
+    "otherDollars": 225,
+    "through": "2026-06-30"
+  },
+  "house|CA|18|Shane Lewis": {
+    "individual": 37,
+    "pacs": 0,
+    "other": 63,
+    "individualDollars": 39516,
+    "pacDollars": 0,
+    "otherDollars": 67533,
+    "through": "2026-09-30"
+  },
+  "house|CA|18|Zoe Lofgren": {
+    "individual": 71,
+    "pacs": 28,
+    "other": 1,
+    "individualDollars": 1097860,
+    "pacDollars": 438200,
+    "otherDollars": 12300,
+    "through": "2026-06-30"
+  },
+  "house|CA|19|Jimmy Panetta": {
+    "individual": 45,
+    "pacs": 54,
+    "other": 1,
+    "individualDollars": 1296016,
+    "pacDollars": 1559107,
+    "otherDollars": 32486,
+    "through": "2026-06-30"
+  },
+  "house|CA|20|Vince Fong": {
+    "individual": 45,
+    "pacs": 51,
+    "other": 4,
+    "individualDollars": 775599,
+    "pacDollars": 894497,
+    "otherDollars": 64951,
+    "through": "2026-06-30"
+  },
+  "house|CA|20|Sandra Van Scotter": {
+    "individual": 42,
+    "pacs": 0,
+    "other": 58,
+    "individualDollars": 7179,
+    "pacDollars": 0,
+    "otherDollars": 9907,
+    "through": "2026-06-30"
+  },
+  "house|CA|21|Jim Costa": {
+    "individual": 39,
+    "pacs": 60,
+    "other": 1,
+    "individualDollars": 519575,
+    "pacDollars": 796717,
+    "otherDollars": 9398,
+    "through": "2026-06-30"
+  },
+  "house|CA|21|Kyle Kirkland": {
+    "individual": 60,
+    "pacs": 0,
+    "other": 40,
+    "individualDollars": 204270,
+    "pacDollars": 0,
+    "otherDollars": 134701,
+    "through": "2026-06-30"
+  },
+  "house|CA|22|David Valadao": {
+    "individual": 41,
+    "pacs": 57,
+    "other": 2,
+    "individualDollars": 1379513,
+    "pacDollars": 1911533,
+    "otherDollars": 67686,
+    "through": "2026-06-30"
+  },
+  "house|CA|22|Randy Villegas": {
+    "individual": 92,
+    "pacs": 7,
+    "other": 1,
+    "individualDollars": 2382144,
+    "pacDollars": 190098,
+    "otherDollars": 15401,
+    "through": "2026-06-30"
+  },
+  "house|CA|23|Jay Obernolte": {
+    "individual": 35,
+    "pacs": 62,
+    "other": 3,
+    "individualDollars": 491460,
+    "pacDollars": 863371,
+    "otherDollars": 40320,
+    "through": "2026-06-30"
+  },
+  "house|CA|24|Salud Carbajal": {
+    "individual": 63,
+    "pacs": 35,
+    "other": 2,
+    "individualDollars": 1046870,
+    "pacDollars": 571016,
+    "otherDollars": 32469,
+    "through": "2026-06-30"
+  },
+  "house|CA|24|Bob Smith": {
+    "individual": 84,
+    "pacs": 0,
+    "other": 16,
+    "individualDollars": 169882,
+    "pacDollars": 0,
+    "otherDollars": 33382,
+    "through": "2026-06-30"
+  },
+  "house|CA|25|Joe Males": {
+    "individual": 94,
+    "pacs": 0,
+    "other": 6,
+    "individualDollars": 878662,
+    "pacDollars": 450,
+    "otherDollars": 57384,
+    "through": "2026-06-30"
+  },
+  "house|CA|25|Raul Ruiz": {
+    "individual": 53,
+    "pacs": 47,
+    "other": 0,
+    "individualDollars": 1104316,
+    "pacDollars": 969251,
+    "otherDollars": 6340,
+    "through": "2026-06-30"
+  },
+  "house|CA|26|Sam Gallucci": {
+    "individual": 38,
+    "pacs": 0,
+    "other": 62,
+    "individualDollars": 144557,
+    "pacDollars": 0,
+    "otherDollars": 232520,
+    "through": "2026-06-30"
+  },
+  "house|CA|26|Jacqui Irwin": {
+    "individual": 79,
+    "pacs": 20,
+    "other": 1,
+    "individualDollars": 649632,
+    "pacDollars": 164050,
+    "otherDollars": 8700,
+    "through": "2026-06-30"
+  },
+  "house|CA|27|Jason Gibbs": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 365212,
+    "pacDollars": 10000,
+    "otherDollars": 1500,
+    "through": "2026-06-30"
+  },
+  "house|CA|27|George Whitesides": {
+    "individual": 78,
+    "pacs": 18,
+    "other": 4,
+    "individualDollars": 2752511,
+    "pacDollars": 629088,
+    "otherDollars": 144798,
+    "through": "2026-06-30"
+  },
+  "house|CA|28|Judy Chu": {
+    "individual": 59,
+    "pacs": 41,
+    "other": 0,
+    "individualDollars": 545398,
+    "pacDollars": 379775,
+    "otherDollars": 4950,
+    "through": "2026-06-30"
+  },
+  "house|CA|28|April Verlato": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 250,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|CA|29|Angelica Due\u00f1as": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 37153,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|CA|29|Luz Rivas": {
+    "individual": 46,
+    "pacs": 53,
+    "other": 1,
+    "individualDollars": 307487,
+    "pacDollars": 356790,
+    "otherDollars": 6401,
+    "through": "2026-06-30"
+  },
+  "house|CA|30|Laura Friedman": {
+    "individual": 65,
+    "pacs": 34,
+    "other": 1,
+    "individualDollars": 535736,
+    "pacDollars": 286550,
+    "otherDollars": 5609,
+    "through": "2026-06-30"
+  },
+  "house|CA|30|Scott Meyers": {
+    "individual": 31,
+    "pacs": 0,
+    "other": 69,
+    "individualDollars": 18294,
+    "pacDollars": 0,
+    "otherDollars": 40000,
+    "through": "2026-06-30"
+  },
+  "house|CA|31|Eric Ching": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 81321,
+    "pacDollars": 0,
+    "otherDollars": 250,
+    "through": "2026-06-30"
+  },
+  "house|CA|32|Brad Sherman": {
+    "individual": 58,
+    "pacs": 29,
+    "other": 13,
+    "individualDollars": 1435448,
+    "pacDollars": 703424,
+    "otherDollars": 327175,
+    "through": "2026-06-30"
+  },
+  "house|CA|32|Larry Thompson": {
+    "individual": 20,
+    "pacs": 0,
+    "other": 80,
+    "individualDollars": 6864,
+    "pacDollars": 0,
+    "otherDollars": 27452,
+    "through": "2026-06-30"
+  },
+  "house|CA|33|Pete Aguilar": {
+    "individual": 45,
+    "pacs": 50,
+    "other": 5,
+    "individualDollars": 1890690,
+    "pacDollars": 2091001,
+    "otherDollars": 232483,
+    "through": "2026-06-30"
+  },
+  "house|CA|34|Jimmy Gomez": {
+    "individual": 56,
+    "pacs": 44,
+    "other": 0,
+    "individualDollars": 650317,
+    "pacDollars": 521112,
+    "otherDollars": 2606,
+    "through": "2026-06-30"
+  },
+  "house|CA|35|Mike Cargile": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 4759,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|CA|35|Norma Torres": {
+    "individual": 35,
+    "pacs": 65,
+    "other": 0,
+    "individualDollars": 268028,
+    "pacDollars": 498820,
+    "otherDollars": 2213,
+    "through": "2026-06-30"
+  },
+  "house|CA|36|Houston Brignano": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 5139,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|CA|36|Ted Lieu": {
+    "individual": 61,
+    "pacs": 37,
+    "other": 2,
+    "individualDollars": 955449,
+    "pacDollars": 570479,
+    "otherDollars": 27734,
+    "through": "2026-06-30"
+  },
+  "house|CA|37|Samantha Mota": {
+    "individual": 46,
+    "pacs": 0,
+    "other": 54,
+    "individualDollars": 5301,
+    "pacDollars": 0,
+    "otherDollars": 6108,
+    "through": "2026-09-30"
+  },
+  "house|CA|38|Hilda Solis": {
+    "individual": 81,
+    "pacs": 12,
+    "other": 7,
+    "individualDollars": 852535,
+    "pacDollars": 124249,
+    "otherDollars": 72750,
+    "through": "2026-06-30"
+  },
+  "house|CA|39|Mark Takano": {
+    "individual": 52,
+    "pacs": 46,
+    "other": 2,
+    "individualDollars": 458740,
+    "pacDollars": 404800,
+    "otherDollars": 21408,
+    "through": "2026-06-30"
+  },
+  "house|CA|40|Ken Calvert": {
+    "individual": 61,
+    "pacs": 34,
+    "other": 5,
+    "individualDollars": 2495903,
+    "pacDollars": 1379327,
+    "otherDollars": 225233,
+    "through": "2026-06-30"
+  },
+  "house|CA|40|Young Kim": {
+    "individual": 74,
+    "pacs": 22,
+    "other": 4,
+    "individualDollars": 5387272,
+    "pacDollars": 1608260,
+    "otherDollars": 261894,
+    "through": "2026-06-30"
+  },
+  "house|CA|41|Linda S\u00e1nchez": {
+    "individual": 22,
+    "pacs": 78,
+    "other": 0,
+    "individualDollars": 341745,
+    "pacDollars": 1243176,
+    "otherDollars": 6342,
+    "through": "2026-06-30"
+  },
+  "house|CA|42|Brian Burley": {
+    "individual": 19,
+    "pacs": 0,
+    "other": 81,
+    "individualDollars": 44771,
+    "pacDollars": 0,
+    "otherDollars": 186600,
+    "through": "2026-06-30"
+  },
+  "house|CA|42|Robert Garcia": {
+    "individual": 75,
+    "pacs": 24,
+    "other": 1,
+    "individualDollars": 1956781,
+    "pacDollars": 625683,
+    "otherDollars": 32657,
+    "through": "2026-06-30"
+  },
+  "house|CA|43|Maxine Waters": {
+    "individual": 39,
+    "pacs": 46,
+    "other": 15,
+    "individualDollars": 334764,
+    "pacDollars": 400500,
+    "otherDollars": 128419,
+    "through": "2026-06-30"
+  },
+  "house|CA|44|Genevieve Angel": {
+    "individual": 78,
+    "pacs": 0,
+    "other": 22,
+    "individualDollars": 10898,
+    "pacDollars": 0,
+    "otherDollars": 3000,
+    "through": "2026-06-30"
+  },
+  "house|CA|44|Nanette Barrag\u00e1n": {
+    "individual": 22,
+    "pacs": 77,
+    "other": 1,
+    "individualDollars": 170669,
+    "pacDollars": 606750,
+    "otherDollars": 8347,
+    "through": "2026-06-30"
+  },
+  "house|CA|45|Derek Tran": {
+    "individual": 76,
+    "pacs": 24,
+    "other": 0,
+    "individualDollars": 3557510,
+    "pacDollars": 1103260,
+    "otherDollars": 4179,
+    "through": "2026-06-30"
+  },
+  "house|CA|45|Chuong Vo": {
+    "individual": 95,
+    "pacs": 3,
+    "other": 2,
+    "individualDollars": 468287,
+    "pacDollars": 17000,
+    "otherDollars": 10476,
+    "through": "2026-06-30"
+  },
+  "house|CA|46|Lou Correa": {
+    "individual": 34,
+    "pacs": 55,
+    "other": 11,
+    "individualDollars": 415284,
+    "pacDollars": 666283,
+    "otherDollars": 125721,
+    "through": "2026-06-30"
+  },
+  "house|CA|46|David Pan": {
+    "individual": 87,
+    "pacs": 0,
+    "other": 13,
+    "individualDollars": 70417,
+    "pacDollars": 250,
+    "otherDollars": 10059,
+    "through": "2026-06-30"
+  },
+  "house|CA|47|Jenny Le Roux": {
+    "individual": 56,
+    "pacs": 0,
+    "other": 44,
+    "individualDollars": 209556,
+    "pacDollars": 0,
+    "otherDollars": 166327,
+    "through": "2026-06-30"
+  },
+  "house|CA|47|Dave Min": {
+    "individual": 80,
+    "pacs": 18,
+    "other": 2,
+    "individualDollars": 2557677,
+    "pacDollars": 591029,
+    "otherDollars": 48967,
+    "through": "2026-06-30"
+  },
+  "house|CA|48|Jim Desmond": {
+    "individual": 92,
+    "pacs": 7,
+    "other": 1,
+    "individualDollars": 1989877,
+    "pacDollars": 145099,
+    "otherDollars": 34601,
+    "through": "2026-06-30"
+  },
+  "house|CA|48|Marni von Wilpert": {
+    "individual": 79,
+    "pacs": 21,
+    "other": 0,
+    "individualDollars": 1680007,
+    "pacDollars": 441300,
+    "otherDollars": 10527,
+    "through": "2026-06-30"
+  },
+  "house|CA|49|Armen Kurdian": {
+    "individual": 71,
+    "pacs": 2,
+    "other": 27,
+    "individualDollars": 42017,
+    "pacDollars": 1000,
+    "otherDollars": 15767,
+    "through": "2026-06-30"
+  },
+  "house|CA|49|Mike Levin": {
+    "individual": 85,
+    "pacs": 13,
+    "other": 2,
+    "individualDollars": 2530229,
+    "pacDollars": 391098,
+    "otherDollars": 60567,
+    "through": "2026-06-30"
+  },
+  "house|CA|50|Scott Peters": {
+    "individual": 22,
+    "pacs": 72,
+    "other": 6,
+    "individualDollars": 331825,
+    "pacDollars": 1066750,
+    "otherDollars": 91726,
+    "through": "2026-06-30"
+  },
+  "house|CA|51|Sara Jacobs": {
+    "individual": 27,
+    "pacs": 13,
+    "other": 60,
+    "individualDollars": 410030,
+    "pacDollars": 207250,
+    "otherDollars": 939113,
+    "through": "2026-06-30"
+  },
+  "house|CA|52|Juan Vargas": {
+    "individual": 24,
+    "pacs": 76,
+    "other": 0,
+    "individualDollars": 135003,
+    "pacDollars": 431200,
+    "otherDollars": 2317,
+    "through": "2026-06-30"
+  },
+  "house|CO|1|Melat Kiros": {
+    "individual": 95,
+    "pacs": 3,
+    "other": 2,
+    "individualDollars": 1040903,
+    "pacDollars": 26890,
+    "otherDollars": 23404,
+    "through": "2026-06-30"
+  },
+  "house|CO|1|Christy Peterson": {
+    "individual": 93,
+    "pacs": 0,
+    "other": 7,
+    "individualDollars": 1907,
+    "pacDollars": 0,
+    "otherDollars": 150,
+    "through": "2026-06-30"
+  },
+  "house|CO|2|Joe Neguse": {
+    "individual": 60,
+    "pacs": 38,
+    "other": 2,
+    "individualDollars": 1545762,
+    "pacDollars": 982360,
+    "otherDollars": 36784,
+    "through": "2026-06-30"
+  },
+  "house|CO|3|Jeff Hurd": {
+    "individual": 76,
+    "pacs": 23,
+    "other": 1,
+    "individualDollars": 1894706,
+    "pacDollars": 568601,
+    "otherDollars": 38104,
+    "through": "2026-06-30"
+  },
+  "house|CO|3|Dwayne Romero": {
+    "individual": 49,
+    "pacs": 2,
+    "other": 49,
+    "individualDollars": 354447,
+    "pacDollars": 12000,
+    "otherDollars": 350129,
+    "through": "2026-06-30"
+  },
+  "house|CO|4|Lauren Boebert": {
+    "individual": 85,
+    "pacs": 14,
+    "other": 1,
+    "individualDollars": 797124,
+    "pacDollars": 130500,
+    "otherDollars": 6391,
+    "through": "2026-06-30"
+  },
+  "house|CO|4|Eileen Laubacher": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 10263019,
+    "pacDollars": 17510,
+    "otherDollars": 69411,
+    "through": "2026-06-30"
+  },
+  "house|CO|5|Jeff Crank": {
+    "individual": 51,
+    "pacs": 48,
+    "other": 1,
+    "individualDollars": 891184,
+    "pacDollars": 837000,
+    "otherDollars": 23553,
+    "through": "2026-06-30"
+  },
+  "house|CO|5|Jessica Killin": {
+    "individual": 70,
+    "pacs": 9,
+    "other": 21,
+    "individualDollars": 2202164,
+    "pacDollars": 264356,
+    "otherDollars": 659224,
+    "through": "2026-06-30"
+  },
+  "house|CO|6|Jason Crow": {
+    "individual": 91,
+    "pacs": 7,
+    "other": 2,
+    "individualDollars": 2835849,
+    "pacDollars": 207750,
+    "otherDollars": 65849,
+    "through": "2026-06-30"
+  },
+  "house|CO|7|Tim Bennett": {
+    "individual": 40,
+    "pacs": 1,
+    "other": 59,
+    "individualDollars": 25085,
+    "pacDollars": 999,
+    "otherDollars": 37222,
+    "through": "2026-06-30"
+  },
+  "house|CO|7|Joe Krzeczkowski": {
+    "individual": 62,
+    "pacs": 0,
+    "other": 38,
+    "individualDollars": 2199,
+    "pacDollars": 0,
+    "otherDollars": 1332,
+    "through": "2026-06-30"
+  },
+  "house|CO|7|Brittany Pettersen": {
+    "individual": 45,
+    "pacs": 53,
+    "other": 2,
+    "individualDollars": 835097,
+    "pacDollars": 997205,
+    "otherDollars": 34462,
+    "through": "2026-06-30"
+  },
+  "house|CO|8|Manny Rutinel": {
+    "individual": 96,
+    "pacs": 2,
+    "other": 2,
+    "individualDollars": 4156520,
+    "pacDollars": 92650,
+    "otherDollars": 69467,
+    "through": "2026-06-30"
+  },
+  "house|CT|1|Luke Bronin": {
+    "individual": 99,
+    "pacs": 1,
+    "other": 0,
+    "individualDollars": 3039004,
+    "pacDollars": 22500,
+    "otherDollars": 8646,
+    "through": "2026-07-22"
+  },
+  "house|CT|1|Amy Chai": {
+    "individual": 20,
+    "pacs": 0,
+    "other": 80,
+    "individualDollars": 4069,
+    "pacDollars": 0,
+    "otherDollars": 16758,
+    "through": "2026-06-30"
+  },
+  "house|CT|2|George Austin": {
+    "individual": 19,
+    "pacs": 1,
+    "other": 80,
+    "individualDollars": 57952,
+    "pacDollars": 3500,
+    "otherDollars": 252500,
+    "through": "2026-09-30"
+  },
+  "house|CT|2|Joe Courtney": {
+    "individual": 42,
+    "pacs": 57,
+    "other": 1,
+    "individualDollars": 322239,
+    "pacDollars": 433000,
+    "otherDollars": 5186,
+    "through": "2026-06-30"
+  },
+  "house|CT|3|Rosa DeLauro": {
+    "individual": 48,
+    "pacs": 49,
+    "other": 3,
+    "individualDollars": 507754,
+    "pacDollars": 520762,
+    "otherDollars": 37091,
+    "through": "2026-06-30"
+  },
+  "house|CT|3|Chris Lancia": {
+    "individual": 93,
+    "pacs": 0,
+    "other": 7,
+    "individualDollars": 13649,
+    "pacDollars": 0,
+    "otherDollars": 1000,
+    "through": "2026-06-30"
+  },
+  "house|CT|4|Michael Goldstein": {
+    "individual": 47,
+    "pacs": 0,
+    "other": 53,
+    "individualDollars": 21809,
+    "pacDollars": 0,
+    "otherDollars": 25000,
+    "through": "2026-07-22"
+  },
+  "house|CT|4|Jim Himes": {
+    "individual": 30,
+    "pacs": 60,
+    "other": 10,
+    "individualDollars": 412812,
+    "pacDollars": 830500,
+    "otherDollars": 136249,
+    "through": "2026-06-30"
+  },
+  "house|CT|5|Jahana Hayes": {
+    "individual": 51,
+    "pacs": 48,
+    "other": 1,
+    "individualDollars": 606414,
+    "pacDollars": 574370,
+    "otherDollars": 14009,
+    "through": "2026-06-30"
+  },
+  "house|CT|5|Chris Shea": {
+    "individual": 95,
+    "pacs": 5,
+    "other": 0,
+    "individualDollars": 265109,
+    "pacDollars": 13947,
+    "otherDollars": 1030,
+    "through": "2026-07-22"
+  },
+  "house|DE|at-large|Joseph Arminio": {
+    "individual": 27,
+    "pacs": 0,
+    "other": 73,
+    "individualDollars": 1764,
+    "pacDollars": 0,
+    "otherDollars": 4870,
+    "through": "2026-08-26"
+  },
+  "house|DE|at-large|Sarah McBride": {
+    "individual": 89,
+    "pacs": 10,
+    "other": 1,
+    "individualDollars": 4337745,
+    "pacDollars": 467900,
+    "otherDollars": 43049,
+    "through": "2026-08-26"
+  },
+  "house|FL|1|Jimmy Patronis": {
+    "individual": 83,
+    "pacs": 16,
+    "other": 1,
+    "individualDollars": 3079602,
+    "pacDollars": 583300,
+    "otherDollars": 27391,
+    "through": "2026-07-29"
+  },
+  "house|FL|1|Gay Valimont": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 172184,
+    "pacDollars": 285,
+    "otherDollars": 1840,
+    "through": "2026-07-29"
+  },
+  "house|FL|2|Amanda Green": {
+    "individual": 98,
+    "pacs": 2,
+    "other": 0,
+    "individualDollars": 340063,
+    "pacDollars": 6000,
+    "otherDollars": 2057,
+    "through": "2026-07-29"
+  },
+  "house|FL|2|Austin Rogers": {
+    "individual": 62,
+    "pacs": 1,
+    "other": 37,
+    "individualDollars": 627642,
+    "pacDollars": 6500,
+    "otherDollars": 376135,
+    "through": "2026-07-29"
+  },
+  "house|FL|3|Kat Cammack": {
+    "individual": 55,
+    "pacs": 45,
+    "other": 0,
+    "individualDollars": 887387,
+    "pacDollars": 727500,
+    "otherDollars": 5402,
+    "through": "2026-07-29"
+  },
+  "house|FL|3|Seth Harp": {
+    "individual": 96,
+    "pacs": 0,
+    "other": 4,
+    "individualDollars": 36362,
+    "pacDollars": 0,
+    "otherDollars": 1432,
+    "through": "2026-07-29"
+  },
+  "house|FL|3|Mike Klein": {
+    "individual": 25,
+    "pacs": 0,
+    "other": 75,
+    "individualDollars": 14729,
+    "pacDollars": 0,
+    "otherDollars": 44208,
+    "through": "2026-06-30"
+  },
+  "house|FL|4|Aaron Bean": {
+    "individual": 43,
+    "pacs": 55,
+    "other": 2,
+    "individualDollars": 906519,
+    "pacDollars": 1149650,
+    "otherDollars": 31478,
+    "through": "2026-07-29"
+  },
+  "house|FL|4|LaShonda Holloway": {
+    "individual": 98,
+    "pacs": 2,
+    "other": 0,
+    "individualDollars": 26860,
+    "pacDollars": 488,
+    "otherDollars": 0,
+    "through": "2026-07-29"
+  },
+  "house|FL|4|Mike Sell": {
+    "individual": 58,
+    "pacs": 0,
+    "other": 42,
+    "individualDollars": 14093,
+    "pacDollars": 0,
+    "otherDollars": 10093,
+    "through": "2026-07-29"
+  },
+  "house|FL|5|Rachel Grage": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 270920,
+    "pacDollars": 0,
+    "otherDollars": 1504,
+    "through": "2026-07-29"
+  },
+  "house|FL|5|John Rutherford": {
+    "individual": 38,
+    "pacs": 62,
+    "other": 0,
+    "individualDollars": 273968,
+    "pacDollars": 452500,
+    "otherDollars": 258,
+    "through": "2026-07-29"
+  },
+  "house|FL|6|Randy Fine": {
+    "individual": 63,
+    "pacs": 12,
+    "other": 25,
+    "individualDollars": 2478591,
+    "pacDollars": 468360,
+    "otherDollars": 964657,
+    "through": "2026-07-29"
+  },
+  "house|FL|6|Michael Gist": {
+    "individual": 9,
+    "pacs": 0,
+    "other": 91,
+    "individualDollars": 747,
+    "pacDollars": 0,
+    "otherDollars": 7202,
+    "through": "2026-09-17"
+  },
+  "house|FL|6|Eric Yonce": {
+    "individual": 97,
+    "pacs": 0,
+    "other": 3,
+    "individualDollars": 314749,
+    "pacDollars": 250,
+    "otherDollars": 10711,
+    "through": "2026-07-29"
+  },
+  "house|FL|7|Bale Dalton": {
+    "individual": 87,
+    "pacs": 13,
+    "other": 0,
+    "individualDollars": 1196483,
+    "pacDollars": 181100,
+    "otherDollars": 527,
+    "through": "2026-07-29"
+  },
+  "house|FL|7|Christopher Dennison": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 10500,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|FL|7|Ryan Elijah": {
+    "individual": 62,
+    "pacs": 0,
+    "other": 38,
+    "individualDollars": 221855,
+    "pacDollars": 0,
+    "otherDollars": 134100,
+    "through": "2026-07-29"
+  },
+  "house|FL|8|Mike Haridopolos": {
+    "individual": 54,
+    "pacs": 44,
+    "other": 2,
+    "individualDollars": 860287,
+    "pacDollars": 700750,
+    "otherDollars": 28804,
+    "through": "2026-07-29"
+  },
+  "house|FL|8|Jennifer Jenkins": {
+    "individual": 97,
+    "pacs": 1,
+    "other": 2,
+    "individualDollars": 701160,
+    "pacDollars": 8000,
+    "otherDollars": 16570,
+    "through": "2026-07-29"
+  },
+  "house|FL|9|Dan Green": {
+    "individual": 11,
+    "pacs": 1,
+    "other": 88,
+    "individualDollars": 140016,
+    "pacDollars": 18500,
+    "otherDollars": 1140000,
+    "through": "2026-07-29"
+  },
+  "house|FL|9|Darren Soto": {
+    "individual": 36,
+    "pacs": 64,
+    "other": 0,
+    "individualDollars": 766364,
+    "pacDollars": 1385550,
+    "otherDollars": 5755,
+    "through": "2026-07-29"
+  },
+  "house|FL|10|Maxwell Frost": {
+    "individual": 90,
+    "pacs": 8,
+    "other": 2,
+    "individualDollars": 3099776,
+    "pacDollars": 289100,
+    "otherDollars": 52991,
+    "through": "2026-07-29"
+  },
+  "house|FL|11|James Pericola": {
+    "individual": 46,
+    "pacs": 0,
+    "other": 54,
+    "individualDollars": 54789,
+    "pacDollars": 0,
+    "otherDollars": 64965,
+    "through": "2026-07-29"
+  },
+  "house|FL|11|Joe Strada": {
+    "individual": 5,
+    "pacs": 0,
+    "other": 95,
+    "individualDollars": 248640,
+    "pacDollars": 0,
+    "otherDollars": 5000000,
+    "through": "2026-07-29"
+  },
+  "house|FL|12|Gus Bilirakis": {
+    "individual": 43,
+    "pacs": 55,
+    "other": 2,
+    "individualDollars": 658881,
+    "pacDollars": 828700,
+    "otherDollars": 34390,
+    "through": "2026-07-29"
+  },
+  "house|FL|12|Kimberly Overman": {
+    "individual": 92,
+    "pacs": 0,
+    "other": 8,
+    "individualDollars": 171839,
+    "pacDollars": 852,
+    "otherDollars": 14121,
+    "through": "2026-07-29"
+  },
+  "house|FL|12|Branden Scrivener": {
+    "individual": 13,
+    "pacs": 0,
+    "other": 87,
+    "individualDollars": 1075,
+    "pacDollars": 0,
+    "otherDollars": 6900,
+    "through": "2026-06-30"
+  },
+  "house|FL|13|Leela Gray": {
+    "individual": 93,
+    "pacs": 6,
+    "other": 1,
+    "individualDollars": 1143313,
+    "pacDollars": 70500,
+    "otherDollars": 7893,
+    "through": "2026-07-29"
+  },
+  "house|FL|14|Mike Beltran": {
+    "individual": 5,
+    "pacs": 0,
+    "other": 95,
+    "individualDollars": 102725,
+    "pacDollars": 0,
+    "otherDollars": 2014023,
+    "through": "2026-07-29"
+  },
+  "house|FL|14|Kathy Castor": {
+    "individual": 62,
+    "pacs": 37,
+    "other": 1,
+    "individualDollars": 1443211,
+    "pacDollars": 876824,
+    "otherDollars": 17964,
+    "through": "2026-07-29"
+  },
+  "house|FL|14|Brian Lambert": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 10500,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|FL|15|Laurel Lee": {
+    "individual": 35,
+    "pacs": 65,
+    "other": 0,
+    "individualDollars": 452153,
+    "pacDollars": 852500,
+    "otherDollars": 1400,
+    "through": "2026-07-29"
+  },
+  "house|FL|15|Robert People": {
+    "individual": 31,
+    "pacs": 0,
+    "other": 69,
+    "individualDollars": 12255,
+    "pacDollars": 200,
+    "otherDollars": 27653,
+    "through": "2026-07-29"
+  },
+  "house|FL|16|Mark Davis": {
+    "individual": 88,
+    "pacs": 0,
+    "other": 12,
+    "individualDollars": 45259,
+    "pacDollars": 0,
+    "otherDollars": 6052,
+    "through": "2026-07-29"
+  },
+  "house|FL|16|Sydney Gruters": {
+    "individual": 88,
+    "pacs": 11,
+    "other": 1,
+    "individualDollars": 939601,
+    "pacDollars": 120500,
+    "otherDollars": 9025,
+    "through": "2026-07-29"
+  },
+  "house|FL|16|Kelly Kirschner": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 296005,
+    "pacDollars": 0,
+    "otherDollars": 502,
+    "through": "2026-07-29"
+  },
+  "house|FL|17|Matthew Montavon": {
+    "individual": 60,
+    "pacs": 0,
+    "other": 40,
+    "individualDollars": 57910,
+    "pacDollars": 0,
+    "otherDollars": 38579,
+    "through": "2026-07-29"
+  },
+  "house|FL|17|Michael Quirk": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 11552,
+    "through": "2026-06-30"
+  },
+  "house|FL|17|Greg Steube": {
+    "individual": 45,
+    "pacs": 54,
+    "other": 1,
+    "individualDollars": 479558,
+    "pacDollars": 580500,
+    "otherDollars": 5923,
+    "through": "2026-07-29"
+  },
+  "house|FL|18|Scott Franklin": {
+    "individual": 47,
+    "pacs": 49,
+    "other": 4,
+    "individualDollars": 362745,
+    "pacDollars": 377500,
+    "otherDollars": 27422,
+    "through": "2026-07-29"
+  },
+  "house|FL|18|Curtis Gibson": {
+    "individual": 20,
+    "pacs": 0,
+    "other": 80,
+    "individualDollars": 2460,
+    "pacDollars": 0,
+    "otherDollars": 9748,
+    "through": "2026-06-30"
+  },
+  "house|FL|18|Deva Simmons": {
+    "individual": 77,
+    "pacs": 23,
+    "other": 0,
+    "individualDollars": 16912,
+    "pacDollars": 5000,
+    "otherDollars": 20,
+    "through": "2026-06-30"
+  },
+  "house|FL|19|Victor Arias": {
+    "individual": 46,
+    "pacs": 0,
+    "other": 54,
+    "individualDollars": 26541,
+    "pacDollars": 0,
+    "otherDollars": 31275,
+    "through": "2026-09-30"
+  },
+  "house|FL|19|Seth Haskin": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 8000,
+    "through": "2026-06-30"
+  },
+  "house|FL|19|Jim Schwartzel": {
+    "individual": 48,
+    "pacs": 1,
+    "other": 51,
+    "individualDollars": 997258,
+    "pacDollars": 9500,
+    "otherDollars": 1058728,
+    "through": "2026-07-29"
+  },
+  "house|FL|20|Brent Andersen": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 63849,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-07-29"
+  },
+  "house|FL|20|Kedner Maxime": {
+    "individual": 54,
+    "pacs": 0,
+    "other": 46,
+    "individualDollars": 9790,
+    "pacDollars": 0,
+    "otherDollars": 8259,
+    "through": "2026-06-30"
+  },
+  "house|FL|21|Alexander Cooke": {
+    "individual": 33,
+    "pacs": 0,
+    "other": 67,
+    "individualDollars": 6543,
+    "pacDollars": 0,
+    "otherDollars": 13000,
+    "through": "2026-06-30"
+  },
+  "house|FL|21|James Martin": {
+    "individual": 74,
+    "pacs": 0,
+    "other": 26,
+    "individualDollars": 425901,
+    "pacDollars": 0,
+    "otherDollars": 153418,
+    "through": "2026-07-29"
+  },
+  "house|FL|21|Brian Mast": {
+    "individual": 87,
+    "pacs": 11,
+    "other": 2,
+    "individualDollars": 3170233,
+    "pacDollars": 389200,
+    "otherDollars": 68398,
+    "through": "2026-07-29"
+  },
+  "house|FL|22|Casey Askar": {
+    "individual": 2,
+    "pacs": 0,
+    "other": 98,
+    "individualDollars": 57760,
+    "pacDollars": 0,
+    "otherDollars": 2500000,
+    "through": "2026-07-29"
+  },
+  "house|FL|22|Pia Dandiya": {
+    "individual": 86,
+    "pacs": 3,
+    "other": 11,
+    "individualDollars": 1960460,
+    "pacDollars": 72001,
+    "otherDollars": 251591,
+    "through": "2026-07-29"
+  },
+  "house|FL|23|Deborah Adeimy": {
+    "individual": 46,
+    "pacs": 0,
+    "other": 54,
+    "individualDollars": 74339,
+    "pacDollars": 0,
+    "otherDollars": 88176,
+    "through": "2026-07-29"
+  },
+  "house|FL|23|Lois Frankel": {
+    "individual": 72,
+    "pacs": 23,
+    "other": 5,
+    "individualDollars": 1627353,
+    "pacDollars": 525250,
+    "otherDollars": 123650,
+    "through": "2026-07-29"
+  },
+  "house|FL|24|Te Mayonna Brown": {
+    "individual": 2,
+    "pacs": 0,
+    "other": 98,
+    "individualDollars": 7250,
+    "pacDollars": 0,
+    "otherDollars": 306068,
+    "through": "2026-07-29"
+  },
+  "house|FL|24|Oliver Gilbert": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 787143,
+    "pacDollars": 25000,
+    "otherDollars": 0,
+    "through": "2026-07-29"
+  },
+  "house|FL|25|Peter Jassenoff": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 10500,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|FL|25|Jared Moskowitz": {
+    "individual": 79,
+    "pacs": 20,
+    "other": 1,
+    "individualDollars": 2245476,
+    "pacDollars": 561392,
+    "otherDollars": 20560,
+    "through": "2026-07-29"
+  },
+  "house|FL|25|Scott Singer": {
+    "individual": 65,
+    "pacs": 2,
+    "other": 33,
+    "individualDollars": 1472485,
+    "pacDollars": 38000,
+    "otherDollars": 735475,
+    "through": "2026-07-29"
+  },
+  "house|FL|26|Nicole Locklin": {
+    "individual": 28,
+    "pacs": 0,
+    "other": 72,
+    "individualDollars": 96733,
+    "pacDollars": 0,
+    "otherDollars": 250948,
+    "through": "2026-07-29"
+  },
+  "house|FL|27|Eliott Rodriguez": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 654053,
+    "pacDollars": 0,
+    "otherDollars": 7120,
+    "through": "2026-07-29"
+  },
+  "house|FL|28|Phil Ehr": {
+    "individual": 22,
+    "pacs": 0,
+    "other": 78,
+    "individualDollars": 94814,
+    "pacDollars": 0,
+    "otherDollars": 343472,
+    "through": "2026-06-30"
+  },
+  "house|FL|28|Carlos Gim\u00e9nez": {
+    "individual": 42,
+    "pacs": 57,
+    "other": 1,
+    "individualDollars": 199816,
+    "pacDollars": 276750,
+    "otherDollars": 5777,
+    "through": "2026-07-29"
+  },
+  "house|GA|1|Amanda Hollowell": {
+    "individual": 79,
+    "pacs": 1,
+    "other": 20,
+    "individualDollars": 128987,
+    "pacDollars": 1000,
+    "otherDollars": 32512,
+    "through": "2026-06-30"
+  },
+  "house|GA|1|Jim Kingston": {
+    "individual": 80,
+    "pacs": 11,
+    "other": 9,
+    "individualDollars": 1562553,
+    "pacDollars": 202450,
+    "otherDollars": 179525,
+    "through": "2026-06-30"
+  },
+  "house|GA|2|Sanford Bishop": {
+    "individual": 33,
+    "pacs": 66,
+    "other": 1,
+    "individualDollars": 377168,
+    "pacDollars": 738750,
+    "otherDollars": 7112,
+    "through": "2026-06-30"
+  },
+  "house|GA|2|Matt Day": {
+    "individual": 6,
+    "pacs": 0,
+    "other": 94,
+    "individualDollars": 10762,
+    "pacDollars": 0,
+    "otherDollars": 182388,
+    "through": "2026-06-30"
+  },
+  "house|GA|3|Brian Jack": {
+    "individual": 50,
+    "pacs": 49,
+    "other": 1,
+    "individualDollars": 861618,
+    "pacDollars": 836640,
+    "otherDollars": 25359,
+    "through": "2026-06-30"
+  },
+  "house|GA|3|Maura Keller": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 141371,
+    "pacDollars": 4000,
+    "otherDollars": 143,
+    "through": "2026-06-30"
+  },
+  "house|GA|4|Hank Johnson": {
+    "individual": 18,
+    "pacs": 79,
+    "other": 3,
+    "individualDollars": 72581,
+    "pacDollars": 316750,
+    "otherDollars": 12984,
+    "through": "2026-06-30"
+  },
+  "house|GA|5|Nikema Williams": {
+    "individual": 30,
+    "pacs": 67,
+    "other": 3,
+    "individualDollars": 180118,
+    "pacDollars": 402755,
+    "otherDollars": 16842,
+    "through": "2026-06-30"
+  },
+  "house|GA|6|Kevin Martin": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 10320,
+    "through": "2026-03-31"
+  },
+  "house|GA|7|Tony Kozycki": {
+    "individual": 17,
+    "pacs": 1,
+    "other": 82,
+    "individualDollars": 66129,
+    "pacDollars": 5000,
+    "otherDollars": 321702,
+    "through": "2026-06-30"
+  },
+  "house|GA|7|Rich McCormick": {
+    "individual": 38,
+    "pacs": 48,
+    "other": 14,
+    "individualDollars": 337366,
+    "pacDollars": 435500,
+    "otherDollars": 122527,
+    "through": "2026-06-30"
+  },
+  "house|GA|8|Kelly Esti": {
+    "individual": 95,
+    "pacs": 0,
+    "other": 5,
+    "individualDollars": 18343,
+    "pacDollars": 0,
+    "otherDollars": 1000,
+    "through": "2026-06-30"
+  },
+  "house|GA|8|Austin Scott": {
+    "individual": 34,
+    "pacs": 63,
+    "other": 3,
+    "individualDollars": 384401,
+    "pacDollars": 703250,
+    "otherDollars": 37301,
+    "through": "2026-06-30"
+  },
+  "house|GA|9|Andrew Clyde": {
+    "individual": 80,
+    "pacs": 18,
+    "other": 2,
+    "individualDollars": 539324,
+    "pacDollars": 118711,
+    "otherDollars": 13037,
+    "through": "2026-06-30"
+  },
+  "house|GA|9|Caitlyn Gegen": {
+    "individual": 81,
+    "pacs": 5,
+    "other": 14,
+    "individualDollars": 35206,
+    "pacDollars": 2000,
+    "otherDollars": 6181,
+    "through": "2026-06-30"
+  },
+  "house|GA|10|Houston Gaines": {
+    "individual": 84,
+    "pacs": 9,
+    "other": 7,
+    "individualDollars": 1909353,
+    "pacDollars": 214510,
+    "otherDollars": 164546,
+    "through": "2026-06-30"
+  },
+  "house|GA|11|John Cowan": {
+    "individual": 20,
+    "pacs": 5,
+    "other": 75,
+    "individualDollars": 463418,
+    "pacDollars": 120000,
+    "otherDollars": 1751545,
+    "through": "2026-06-30"
+  },
+  "house|GA|11|Chris Harden": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 72577,
+    "pacDollars": 2000,
+    "otherDollars": 87,
+    "through": "2026-06-30"
+  },
+  "house|GA|12|Rick Allen": {
+    "individual": 49,
+    "pacs": 51,
+    "other": 0,
+    "individualDollars": 481283,
+    "pacDollars": 510750,
+    "otherDollars": 1187,
+    "through": "2026-06-30"
+  },
+  "house|GA|12|Ceretta Smith": {
+    "individual": 93,
+    "pacs": 0,
+    "other": 7,
+    "individualDollars": 24943,
+    "pacDollars": 0,
+    "otherDollars": 1753,
+    "through": "2026-06-30"
+  },
+  "house|GA|13|Jasmine Clark": {
+    "individual": 96,
+    "pacs": 3,
+    "other": 1,
+    "individualDollars": 1550979,
+    "pacDollars": 55173,
+    "otherDollars": 12927,
+    "through": "2026-06-30"
+  },
+  "house|GA|14|Clay Fuller": {
+    "individual": 57,
+    "pacs": 17,
+    "other": 26,
+    "individualDollars": 1057252,
+    "pacDollars": 305481,
+    "otherDollars": 473540,
+    "through": "2026-06-30"
+  },
+  "house|GA|14|Shawn Harris": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 8084826,
+    "pacDollars": 13688,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|HI|1|Ed Case": {
+    "individual": 52,
+    "pacs": 48,
+    "other": 0,
+    "individualDollars": 570198,
+    "pacDollars": 522597,
+    "otherDollars": 1000,
+    "through": "2026-07-19"
+  },
+  "house|HI|2|Brenton Awa": {
+    "individual": 84,
+    "pacs": 1,
+    "other": 15,
+    "individualDollars": 103289,
+    "pacDollars": 1000,
+    "otherDollars": 18326,
+    "through": "2026-07-19"
+  },
+  "house|HI|2|Jill Tokuda": {
+    "individual": 77,
+    "pacs": 22,
+    "other": 1,
+    "individualDollars": 628187,
+    "pacDollars": 183349,
+    "otherDollars": 8458,
+    "through": "2026-07-19"
+  },
+  "house|ID|1|Kaylee Peterson": {
+    "individual": 92,
+    "pacs": 6,
+    "other": 2,
+    "individualDollars": 165974,
+    "pacDollars": 11000,
+    "otherDollars": 4050,
+    "through": "2026-06-30"
+  },
+  "house|ID|1|Sarah Zabel": {
+    "individual": 21,
+    "pacs": 1,
+    "other": 78,
+    "individualDollars": 17577,
+    "pacDollars": 500,
+    "otherDollars": 63420,
+    "through": "2026-06-30"
+  },
+  "house|ID|2|Tripp Hutchinson": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 7565,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|ID|2|Mike Simpson": {
+    "individual": 45,
+    "pacs": 55,
+    "other": 0,
+    "individualDollars": 506293,
+    "pacDollars": 611500,
+    "otherDollars": 300,
+    "through": "2026-06-30"
+  },
+  "house|IL|1|Jonathan Jackson": {
+    "individual": 63,
+    "pacs": 34,
+    "other": 3,
+    "individualDollars": 262329,
+    "pacDollars": 142500,
+    "otherDollars": 13520,
+    "through": "2026-06-30"
+  },
+  "house|IL|1|Christian Maxwell": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 63316,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|IL|2|Donna Miller": {
+    "individual": 94,
+    "pacs": 5,
+    "other": 1,
+    "individualDollars": 2303633,
+    "pacDollars": 125750,
+    "otherDollars": 11745,
+    "through": "2026-06-30"
+  },
+  "house|IL|3|Angel Oakley": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 8080,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|IL|3|Delia Ramirez": {
+    "individual": 73,
+    "pacs": 26,
+    "other": 1,
+    "individualDollars": 1027646,
+    "pacDollars": 371347,
+    "otherDollars": 16437,
+    "through": "2026-06-30"
+  },
+  "house|IL|4|Patty Garcia": {
+    "individual": 50,
+    "pacs": 48,
+    "other": 2,
+    "individualDollars": 177410,
+    "pacDollars": 172800,
+    "otherDollars": 8458,
+    "through": "2026-06-30"
+  },
+  "house|IL|4|Chris Getty": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 188170,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|IL|5|Mike Quigley": {
+    "individual": 34,
+    "pacs": 66,
+    "other": 0,
+    "individualDollars": 242577,
+    "pacDollars": 480608,
+    "otherDollars": 2510,
+    "through": "2026-06-30"
+  },
+  "house|IL|6|Sean Casten": {
+    "individual": 63,
+    "pacs": 34,
+    "other": 3,
+    "individualDollars": 1334190,
+    "pacDollars": 724150,
+    "otherDollars": 50580,
+    "through": "2026-06-30"
+  },
+  "house|IL|6|Niki Conforti": {
+    "individual": 98,
+    "pacs": 2,
+    "other": 0,
+    "individualDollars": 308088,
+    "pacDollars": 4950,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|IL|7|Chad Koppie": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 55451,
+    "through": "2026-06-30"
+  },
+  "house|IL|8|Melissa Bean": {
+    "individual": 70,
+    "pacs": 14,
+    "other": 16,
+    "individualDollars": 1446674,
+    "pacDollars": 275750,
+    "otherDollars": 336885,
+    "through": "2026-06-30"
+  },
+  "house|IL|8|Jennifer Davis": {
+    "individual": 31,
+    "pacs": 1,
+    "other": 68,
+    "individualDollars": 462009,
+    "pacDollars": 14000,
+    "otherDollars": 1000000,
+    "through": "2026-06-30"
+  },
+  "house|IL|9|Daniel Biss": {
+    "individual": 92,
+    "pacs": 7,
+    "other": 1,
+    "individualDollars": 2721285,
+    "pacDollars": 205684,
+    "otherDollars": 19706,
+    "through": "2026-06-30"
+  },
+  "house|IL|11|Bill Foster": {
+    "individual": 55,
+    "pacs": 38,
+    "other": 7,
+    "individualDollars": 1189937,
+    "pacDollars": 833000,
+    "otherDollars": 152400,
+    "through": "2026-06-30"
+  },
+  "house|IL|11|Jeff Walter": {
+    "individual": 44,
+    "pacs": 1,
+    "other": 55,
+    "individualDollars": 136490,
+    "pacDollars": 2354,
+    "otherDollars": 172594,
+    "through": "2026-06-30"
+  },
+  "house|IL|12|Mike Bost": {
+    "individual": 38,
+    "pacs": 61,
+    "other": 1,
+    "individualDollars": 507499,
+    "pacDollars": 810987,
+    "otherDollars": 8739,
+    "through": "2026-06-30"
+  },
+  "house|IL|12|Julie Fortier": {
+    "individual": 91,
+    "pacs": 7,
+    "other": 2,
+    "individualDollars": 79742,
+    "pacDollars": 6443,
+    "otherDollars": 1875,
+    "through": "2026-06-30"
+  },
+  "house|IL|13|Nikki Budzinski": {
+    "individual": 57,
+    "pacs": 41,
+    "other": 2,
+    "individualDollars": 1639538,
+    "pacDollars": 1172784,
+    "otherDollars": 47760,
+    "through": "2026-06-30"
+  },
+  "house|IL|13|Jeff Wilson": {
+    "individual": 17,
+    "pacs": 2,
+    "other": 81,
+    "individualDollars": 59448,
+    "pacDollars": 5150,
+    "otherDollars": 283639,
+    "through": "2026-06-30"
+  },
+  "house|IL|14|James Marter": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 139991,
+    "pacDollars": 100,
+    "otherDollars": 757,
+    "through": "2026-06-30"
+  },
+  "house|IL|14|Lauren Underwood": {
+    "individual": 81,
+    "pacs": 17,
+    "other": 2,
+    "individualDollars": 1790182,
+    "pacDollars": 365000,
+    "otherDollars": 50400,
+    "through": "2026-06-30"
+  },
+  "house|IL|15|Mary Miller": {
+    "individual": 89,
+    "pacs": 11,
+    "other": 0,
+    "individualDollars": 1159176,
+    "pacDollars": 144500,
+    "otherDollars": 1909,
+    "through": "2026-06-30"
+  },
+  "house|IL|15|Jennifer Todd": {
+    "individual": 92,
+    "pacs": 6,
+    "other": 2,
+    "individualDollars": 104276,
+    "pacDollars": 6545,
+    "otherDollars": 2520,
+    "through": "2026-06-30"
+  },
+  "house|IL|16|Darin LaHood": {
+    "individual": 30,
+    "pacs": 64,
+    "other": 6,
+    "individualDollars": 837904,
+    "pacDollars": 1749122,
+    "otherDollars": 160946,
+    "through": "2026-06-30"
+  },
+  "house|IL|16|Paul Nolley": {
+    "individual": 84,
+    "pacs": 15,
+    "other": 1,
+    "individualDollars": 350553,
+    "pacDollars": 61476,
+    "otherDollars": 3720,
+    "through": "2026-06-30"
+  },
+  "house|IL|17|Eric Sorensen": {
+    "individual": 59,
+    "pacs": 39,
+    "other": 2,
+    "individualDollars": 1273000,
+    "pacDollars": 848250,
+    "otherDollars": 45426,
+    "through": "2026-06-30"
+  },
+  "house|IL|17|Dillan Vancil": {
+    "individual": 87,
+    "pacs": 3,
+    "other": 10,
+    "individualDollars": 268281,
+    "pacDollars": 10700,
+    "otherDollars": 29850,
+    "through": "2026-06-30"
+  },
+  "house|IN|1|Frank Mrvan": {
+    "individual": 55,
+    "pacs": 45,
+    "other": 0,
+    "individualDollars": 1244466,
+    "pacDollars": 1016900,
+    "otherDollars": 9848,
+    "through": "2026-06-30"
+  },
+  "house|IN|1|Barb Regnitz": {
+    "individual": 7,
+    "pacs": 2,
+    "other": 91,
+    "individualDollars": 176412,
+    "pacDollars": 39610,
+    "otherDollars": 2160234,
+    "through": "2026-06-30"
+  },
+  "house|IN|2|Jamee Decio": {
+    "individual": 15,
+    "pacs": 0,
+    "other": 85,
+    "individualDollars": 52886,
+    "pacDollars": 0,
+    "otherDollars": 302704,
+    "through": "2026-06-30"
+  },
+  "house|IN|2|Rudy Yakym": {
+    "individual": 64,
+    "pacs": 31,
+    "other": 5,
+    "individualDollars": 2658555,
+    "pacDollars": 1286014,
+    "otherDollars": 205003,
+    "through": "2026-06-30"
+  },
+  "house|IN|3|Marlin Stutzman": {
+    "individual": 48,
+    "pacs": 50,
+    "other": 2,
+    "individualDollars": 356638,
+    "pacDollars": 367700,
+    "otherDollars": 16399,
+    "through": "2026-06-30"
+  },
+  "house|IN|3|Kelly Thompson": {
+    "individual": 87,
+    "pacs": 0,
+    "other": 13,
+    "individualDollars": 118292,
+    "pacDollars": 0,
+    "otherDollars": 18048,
+    "through": "2026-06-30"
+  },
+  "house|IN|4|Jim Baird": {
+    "individual": 44,
+    "pacs": 55,
+    "other": 1,
+    "individualDollars": 158800,
+    "pacDollars": 197200,
+    "otherDollars": 2293,
+    "through": "2026-06-30"
+  },
+  "house|IN|4|Drew Cox": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 19877,
+    "pacDollars": 0,
+    "otherDollars": 500,
+    "through": "2026-06-30"
+  },
+  "house|IN|5|Victoria Spartz": {
+    "individual": 86,
+    "pacs": 9,
+    "other": 5,
+    "individualDollars": 1088195,
+    "pacDollars": 118750,
+    "otherDollars": 57039,
+    "through": "2026-06-30"
+  },
+  "house|IN|6|Jefferson Shreve": {
+    "individual": 5,
+    "pacs": 12,
+    "other": 83,
+    "individualDollars": 126063,
+    "pacDollars": 291000,
+    "otherDollars": 2001061,
+    "through": "2026-06-30"
+  },
+  "house|IN|6|Cinde Wirth": {
+    "individual": 87,
+    "pacs": 0,
+    "other": 13,
+    "individualDollars": 32127,
+    "pacDollars": 0,
+    "otherDollars": 4919,
+    "through": "2026-06-30"
+  },
+  "house|IN|7|Andr\u00e9 Carson": {
+    "individual": 43,
+    "pacs": 55,
+    "other": 2,
+    "individualDollars": 393529,
+    "pacDollars": 502550,
+    "otherDollars": 19698,
+    "through": "2026-06-30"
+  },
+  "house|IN|8|Mary Allen": {
+    "individual": 91,
+    "pacs": 2,
+    "other": 7,
+    "individualDollars": 268203,
+    "pacDollars": 6250,
+    "otherDollars": 20049,
+    "through": "2026-06-30"
+  },
+  "house|IN|8|Mark Messmer": {
+    "individual": 36,
+    "pacs": 62,
+    "other": 2,
+    "individualDollars": 248543,
+    "pacDollars": 421375,
+    "otherDollars": 12514,
+    "through": "2026-06-30"
+  },
+  "house|IN|9|Erin Houchin": {
+    "individual": 24,
+    "pacs": 75,
+    "other": 1,
+    "individualDollars": 340356,
+    "pacDollars": 1041093,
+    "otherDollars": 13946,
+    "through": "2026-06-30"
+  },
+  "house|IN|9|Tonya Hudson": {
+    "individual": 85,
+    "pacs": 0,
+    "other": 15,
+    "individualDollars": 1550,
+    "pacDollars": 0,
+    "otherDollars": 272,
+    "through": "2026-09-30"
+  },
+  "house|IA|1|Christina Bohannan": {
+    "individual": 91,
+    "pacs": 8,
+    "other": 1,
+    "individualDollars": 5613422,
+    "pacDollars": 491928,
+    "otherDollars": 89517,
+    "through": "2026-06-30"
+  },
+  "house|IA|1|Michael Bridgford": {
+    "individual": 32,
+    "pacs": 3,
+    "other": 65,
+    "individualDollars": 61852,
+    "pacDollars": 5000,
+    "otherDollars": 122671,
+    "through": "2026-06-30"
+  },
+  "house|IA|2|Dave Bushaw": {
+    "individual": 69,
+    "pacs": 19,
+    "other": 12,
+    "individualDollars": 18021,
+    "pacDollars": 5000,
+    "otherDollars": 3096,
+    "through": "2026-06-30"
+  },
+  "house|IA|2|Lindsay James": {
+    "individual": 87,
+    "pacs": 12,
+    "other": 1,
+    "individualDollars": 1408368,
+    "pacDollars": 199905,
+    "otherDollars": 12528,
+    "through": "2026-06-30"
+  },
+  "house|IA|2|Joe Mitchell": {
+    "individual": 71,
+    "pacs": 21,
+    "other": 8,
+    "individualDollars": 1355035,
+    "pacDollars": 407850,
+    "otherDollars": 154292,
+    "through": "2026-06-30"
+  },
+  "house|IA|3|Zach Nunn": {
+    "individual": 36,
+    "pacs": 62,
+    "other": 2,
+    "individualDollars": 1009918,
+    "pacDollars": 1721477,
+    "otherDollars": 42728,
+    "through": "2026-06-30"
+  },
+  "house|IA|4|David Dawson": {
+    "individual": 92,
+    "pacs": 4,
+    "other": 4,
+    "individualDollars": 124917,
+    "pacDollars": 5800,
+    "otherDollars": 5005,
+    "through": "2026-06-30"
+  },
+  "house|IA|4|Chris McGowan": {
+    "individual": 82,
+    "pacs": 17,
+    "other": 1,
+    "individualDollars": 559524,
+    "pacDollars": 116500,
+    "otherDollars": 3820,
+    "through": "2026-06-30"
+  },
+  "house|KS|1|Tracey Mann": {
+    "individual": 33,
+    "pacs": 58,
+    "other": 9,
+    "individualDollars": 339759,
+    "pacDollars": 598040,
+    "otherDollars": 99202,
+    "through": "2026-07-15"
+  },
+  "house|KS|1|Lauren Reinhold": {
+    "individual": 90,
+    "pacs": 0,
+    "other": 10,
+    "individualDollars": 43552,
+    "pacDollars": 0,
+    "otherDollars": 4709,
+    "through": "2026-07-15"
+  },
+  "house|KS|2|Don Coover": {
+    "individual": 94,
+    "pacs": 4,
+    "other": 2,
+    "individualDollars": 711131,
+    "pacDollars": 33500,
+    "otherDollars": 14192,
+    "through": "2026-07-15"
+  },
+  "house|KS|2|Derek Schmidt": {
+    "individual": 63,
+    "pacs": 36,
+    "other": 1,
+    "individualDollars": 889787,
+    "pacDollars": 505500,
+    "otherDollars": 19089,
+    "through": "2026-07-15"
+  },
+  "house|KS|3|Sharice Davids": {
+    "individual": 77,
+    "pacs": 22,
+    "other": 1,
+    "individualDollars": 2835396,
+    "pacDollars": 807190,
+    "otherDollars": 41923,
+    "through": "2026-07-15"
+  },
+  "house|KS|3|Eric Jenkins": {
+    "individual": 38,
+    "pacs": 53,
+    "other": 9,
+    "individualDollars": 7126,
+    "pacDollars": 10000,
+    "otherDollars": 1790,
+    "through": "2026-07-15"
+  },
+  "house|KS|4|Ron Estes": {
+    "individual": 21,
+    "pacs": 74,
+    "other": 5,
+    "individualDollars": 311006,
+    "pacDollars": 1090100,
+    "otherDollars": 71161,
+    "through": "2026-07-15"
+  },
+  "house|KS|4|Katy Tyndell": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 233629,
+    "pacDollars": 0,
+    "otherDollars": 826,
+    "through": "2026-07-15"
+  },
+  "house|KY|1|James Comer": {
+    "individual": 77,
+    "pacs": 23,
+    "other": 0,
+    "individualDollars": 1450578,
+    "pacDollars": 426900,
+    "otherDollars": 477,
+    "through": "2026-06-30"
+  },
+  "house|KY|1|Drew Williams": {
+    "individual": 94,
+    "pacs": 4,
+    "other": 2,
+    "individualDollars": 111179,
+    "pacDollars": 5000,
+    "otherDollars": 2576,
+    "through": "2026-06-30"
+  },
+  "house|KY|2|Brett Guthrie": {
+    "individual": 35,
+    "pacs": 64,
+    "other": 1,
+    "individualDollars": 1630396,
+    "pacDollars": 3025480,
+    "otherDollars": 51717,
+    "through": "2026-06-30"
+  },
+  "house|KY|2|Megan Wingfield": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 7539,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|KY|3|Morgan McGarvey": {
+    "individual": 61,
+    "pacs": 36,
+    "other": 3,
+    "individualDollars": 931018,
+    "pacDollars": 538001,
+    "otherDollars": 45738,
+    "through": "2026-06-30"
+  },
+  "house|KY|4|Ed Gallrein": {
+    "individual": 98,
+    "pacs": 2,
+    "other": 0,
+    "individualDollars": 3502942,
+    "pacDollars": 56130,
+    "otherDollars": 8252,
+    "through": "2026-06-30"
+  },
+  "house|KY|4|Melissa Strange": {
+    "individual": 79,
+    "pacs": 0,
+    "other": 21,
+    "individualDollars": 74464,
+    "pacDollars": 0,
+    "otherDollars": 20000,
+    "through": "2026-06-30"
+  },
+  "house|KY|4|Jeremy Todd": {
+    "individual": 96,
+    "pacs": 0,
+    "other": 4,
+    "individualDollars": 21391,
+    "pacDollars": 0,
+    "otherDollars": 1002,
+    "through": "2026-06-30"
+  },
+  "house|KY|5|Ned Pillersdorf": {
+    "individual": 65,
+    "pacs": 0,
+    "other": 35,
+    "individualDollars": 118531,
+    "pacDollars": 250,
+    "otherDollars": 63500,
+    "through": "2026-06-30"
+  },
+  "house|KY|5|Mikel Wein": {
+    "individual": 9,
+    "pacs": 0,
+    "other": 91,
+    "individualDollars": 200,
+    "pacDollars": 0,
+    "otherDollars": 2000,
+    "through": "2026-06-30"
+  },
+  "house|KY|6|Ralph Alvarado": {
+    "individual": 79,
+    "pacs": 17,
+    "other": 4,
+    "individualDollars": 1199243,
+    "pacDollars": 258541,
+    "otherDollars": 64029,
+    "through": "2026-06-30"
+  },
+  "house|KY|6|Zach Dembo": {
+    "individual": 95,
+    "pacs": 4,
+    "other": 1,
+    "individualDollars": 1391946,
+    "pacDollars": 58150,
+    "otherDollars": 13758,
+    "through": "2026-06-30"
+  },
+  "house|LA|1|Lauren Jewett": {
+    "individual": 97,
+    "pacs": 1,
+    "other": 2,
+    "individualDollars": 137975,
+    "pacDollars": 1250,
+    "otherDollars": 3452,
+    "through": "2026-07-18"
+  },
+  "house|LA|1|Steve Scalise": {
+    "individual": 88,
+    "pacs": 11,
+    "other": 1,
+    "individualDollars": 1390637,
+    "pacDollars": 171500,
+    "otherDollars": 24432,
+    "through": "2026-07-18"
+  },
+  "house|LA|2|Troy Carter": {
+    "individual": 31,
+    "pacs": 69,
+    "other": 0,
+    "individualDollars": 421438,
+    "pacDollars": 950717,
+    "otherDollars": 230,
+    "through": "2026-07-18"
+  },
+  "house|LA|3|John Day": {
+    "individual": 75,
+    "pacs": 0,
+    "other": 25,
+    "individualDollars": 17272,
+    "pacDollars": 0,
+    "otherDollars": 5825,
+    "through": "2026-07-18"
+  },
+  "house|LA|3|Clay Higgins": {
+    "individual": 60,
+    "pacs": 39,
+    "other": 1,
+    "individualDollars": 200763,
+    "pacDollars": 132500,
+    "otherDollars": 3578,
+    "through": "2026-07-18"
+  },
+  "house|LA|3|Tia LeBrun": {
+    "individual": 66,
+    "pacs": 0,
+    "other": 34,
+    "individualDollars": 4618,
+    "pacDollars": 0,
+    "otherDollars": 2350,
+    "through": "2026-07-18"
+  },
+  "house|LA|4|Conrad Cable": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 233111,
+    "pacDollars": 0,
+    "otherDollars": 5775,
+    "through": "2026-07-18"
+  },
+  "house|LA|4|Matt Gromlich": {
+    "individual": 22,
+    "pacs": 0,
+    "other": 78,
+    "individualDollars": 59955,
+    "pacDollars": 0,
+    "otherDollars": 208816,
+    "through": "2026-07-18"
+  },
+  "house|LA|4|Mike Johnson": {
+    "individual": 87,
+    "pacs": 13,
+    "other": 0,
+    "individualDollars": 12239037,
+    "pacDollars": 1813700,
+    "otherDollars": 36088,
+    "through": "2026-07-18"
+  },
+  "house|LA|4|Mike Nichols": {
+    "individual": 15,
+    "pacs": 0,
+    "other": 85,
+    "individualDollars": 7300,
+    "pacDollars": 0,
+    "otherDollars": 42455,
+    "through": "2026-07-19"
+  },
+  "house|LA|5|Stewart Cathey Jr.": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 13500,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-07-18"
+  },
+  "house|LA|5|Misti Cordell": {
+    "individual": 61,
+    "pacs": 2,
+    "other": 37,
+    "individualDollars": 336661,
+    "pacDollars": 12525,
+    "otherDollars": 206500,
+    "through": "2026-07-18"
+  },
+  "house|LA|5|Michael Echols": {
+    "individual": 17,
+    "pacs": 0,
+    "other": 83,
+    "individualDollars": 506962,
+    "pacDollars": 13500,
+    "otherDollars": 2459432,
+    "through": "2026-07-18"
+  },
+  "house|LA|5|Austin Magee": {
+    "individual": 94,
+    "pacs": 0,
+    "other": 6,
+    "individualDollars": 8428,
+    "pacDollars": 0,
+    "otherDollars": 510,
+    "through": "2026-06-30"
+  },
+  "house|LA|5|Dan McKay": {
+    "individual": 54,
+    "pacs": 0,
+    "other": 46,
+    "individualDollars": 48410,
+    "pacDollars": 0,
+    "otherDollars": 41589,
+    "through": "2026-07-18"
+  },
+  "house|LA|6|Monique Appeaning": {
+    "individual": 43,
+    "pacs": 0,
+    "other": 57,
+    "individualDollars": 44400,
+    "pacDollars": 0,
+    "otherDollars": 59923,
+    "through": "2026-07-18"
+  },
+  "house|LA|6|Larry Davis": {
+    "individual": 80,
+    "pacs": 9,
+    "other": 11,
+    "individualDollars": 17521,
+    "pacDollars": 2000,
+    "otherDollars": 2435,
+    "through": "2026-07-18"
+  },
+  "house|LA|6|Rick Edmonds": {
+    "individual": 67,
+    "pacs": 3,
+    "other": 30,
+    "individualDollars": 340917,
+    "pacDollars": 16100,
+    "otherDollars": 155075,
+    "through": "2026-07-18"
+  },
+  "house|LA|6|Lindsay Garcia": {
+    "individual": 92,
+    "pacs": 0,
+    "other": 8,
+    "individualDollars": 60259,
+    "pacDollars": 0,
+    "otherDollars": 5214,
+    "through": "2026-07-18"
+  },
+  "house|LA|6|Michael Mebruer": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 70714,
+    "through": "2026-09-30"
+  },
+  "house|LA|6|Blake Miguez": {
+    "individual": 52,
+    "pacs": 1,
+    "other": 47,
+    "individualDollars": 3428576,
+    "pacDollars": 68410,
+    "otherDollars": 3098867,
+    "through": "2026-07-18"
+  },
+  "house|ME|1|Chellie Pingree": {
+    "individual": 43,
+    "pacs": 56,
+    "other": 1,
+    "individualDollars": 178727,
+    "pacDollars": 237050,
+    "otherDollars": 3115,
+    "through": "2026-06-30"
+  },
+  "house|ME|1|Ronald Russell": {
+    "individual": 89,
+    "pacs": 9,
+    "other": 2,
+    "individualDollars": 67479,
+    "pacDollars": 6819,
+    "otherDollars": 1382,
+    "through": "2026-06-30"
+  },
+  "house|ME|2|Matthew Dunlap": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 1175745,
+    "pacDollars": 13500,
+    "otherDollars": 16187,
+    "through": "2026-06-30"
+  },
+  "house|ME|2|Paul LePage": {
+    "individual": 77,
+    "pacs": 22,
+    "other": 1,
+    "individualDollars": 1413808,
+    "pacDollars": 406301,
+    "otherDollars": 11647,
+    "through": "2026-06-30"
+  },
+  "house|MD|1|Andy Harris": {
+    "individual": 79,
+    "pacs": 19,
+    "other": 2,
+    "individualDollars": 1827410,
+    "pacDollars": 443459,
+    "otherDollars": 41981,
+    "through": "2026-06-30"
+  },
+  "house|MD|1|Dan Schwartz": {
+    "individual": 95,
+    "pacs": 2,
+    "other": 3,
+    "individualDollars": 663874,
+    "pacDollars": 11600,
+    "otherDollars": 19696,
+    "through": "2026-06-30"
+  },
+  "house|MD|2|Dave Wallace": {
+    "individual": 94,
+    "pacs": 0,
+    "other": 6,
+    "individualDollars": 18994,
+    "pacDollars": 0,
+    "otherDollars": 1200,
+    "through": "2026-06-30"
+  },
+  "house|MD|3|Sarah Elfreth": {
+    "individual": 59,
+    "pacs": 39,
+    "other": 2,
+    "individualDollars": 678339,
+    "pacDollars": 441881,
+    "otherDollars": 21295,
+    "through": "2026-06-30"
+  },
+  "house|MD|4|Glenn Ivey": {
+    "individual": 50,
+    "pacs": 50,
+    "other": 0,
+    "individualDollars": 335875,
+    "pacDollars": 338250,
+    "otherDollars": 282,
+    "through": "2026-06-30"
+  },
+  "house|MD|5|Adrian Boafo": {
+    "individual": 92,
+    "pacs": 7,
+    "other": 1,
+    "individualDollars": 1551071,
+    "pacDollars": 116745,
+    "otherDollars": 9100,
+    "through": "2026-06-30"
+  },
+  "house|MD|6|Robin Ficker": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 1072,
+    "pacDollars": 0,
+    "otherDollars": 402862,
+    "through": "2026-06-30"
+  },
+  "house|MD|7|Kweisi Mfume": {
+    "individual": 44,
+    "pacs": 56,
+    "other": 0,
+    "individualDollars": 181051,
+    "pacDollars": 233750,
+    "otherDollars": 373,
+    "through": "2026-06-30"
+  },
+  "house|MD|8|Jamie Raskin": {
+    "individual": 91,
+    "pacs": 5,
+    "other": 4,
+    "individualDollars": 6475842,
+    "pacDollars": 394586,
+    "otherDollars": 271611,
+    "through": "2026-06-30"
+  },
+  "house|MD|8|Cheryl Riley": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 16590,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|MA|1|Nadia Milleron": {
+    "individual": 9,
+    "pacs": 0,
+    "other": 91,
+    "individualDollars": 49589,
+    "pacDollars": 0,
+    "otherDollars": 500000,
+    "through": "2026-09-30"
+  },
+  "house|MA|1|Richard Neal": {
+    "individual": 25,
+    "pacs": 65,
+    "other": 10,
+    "individualDollars": 591911,
+    "pacDollars": 1557500,
+    "otherDollars": 251552,
+    "through": "2026-08-12"
+  },
+  "house|MA|2|Jim McGovern": {
+    "individual": 73,
+    "pacs": 27,
+    "other": 0,
+    "individualDollars": 627173,
+    "pacDollars": 233100,
+    "otherDollars": 4403,
+    "through": "2026-08-12"
+  },
+  "house|MA|3|Gary Grossi": {
+    "individual": 35,
+    "pacs": 9,
+    "other": 56,
+    "individualDollars": 2521,
+    "pacDollars": 600,
+    "otherDollars": 4000,
+    "through": "2026-08-12"
+  },
+  "house|MA|3|Lori Trahan": {
+    "individual": 49,
+    "pacs": 50,
+    "other": 1,
+    "individualDollars": 790858,
+    "pacDollars": 813250,
+    "otherDollars": 12620,
+    "through": "2026-08-12"
+  },
+  "house|MA|4|Jake Auchincloss": {
+    "individual": 69,
+    "pacs": 22,
+    "other": 9,
+    "individualDollars": 2265910,
+    "pacDollars": 725250,
+    "otherDollars": 276919,
+    "through": "2026-08-12"
+  },
+  "house|MA|4|Thomas Stalcup": {
+    "individual": 34,
+    "pacs": 0,
+    "other": 66,
+    "individualDollars": 8966,
+    "pacDollars": 0,
+    "otherDollars": 17276,
+    "through": "2026-08-12"
+  },
+  "house|MA|5|Katherine Clark": {
+    "individual": 37,
+    "pacs": 60,
+    "other": 3,
+    "individualDollars": 1132465,
+    "pacDollars": 1838507,
+    "otherDollars": 75559,
+    "through": "2026-08-12"
+  },
+  "house|MA|6|Micah Jones": {
+    "individual": 98,
+    "pacs": 2,
+    "other": 0,
+    "individualDollars": 438968,
+    "pacDollars": 9800,
+    "otherDollars": 100,
+    "through": "2026-08-12"
+  },
+  "house|MA|6|Dan Koh": {
+    "individual": 95,
+    "pacs": 2,
+    "other": 3,
+    "individualDollars": 4469721,
+    "pacDollars": 105550,
+    "otherDollars": 141271,
+    "through": "2026-08-12"
+  },
+  "house|MA|7|Ayanna Pressley": {
+    "individual": 89,
+    "pacs": 7,
+    "other": 4,
+    "individualDollars": 968354,
+    "pacDollars": 79755,
+    "otherDollars": 44161,
+    "through": "2026-08-12"
+  },
+  "house|MA|8|Robert Burke": {
+    "individual": 2,
+    "pacs": 0,
+    "other": 98,
+    "individualDollars": 25,
+    "pacDollars": 0,
+    "otherDollars": 1500,
+    "through": "2026-09-30"
+  },
+  "house|MA|8|Stephen Lynch": {
+    "individual": 61,
+    "pacs": 37,
+    "other": 2,
+    "individualDollars": 555042,
+    "pacDollars": 339200,
+    "otherDollars": 15918,
+    "through": "2026-08-12"
+  },
+  "house|MA|9|Bill Keating": {
+    "individual": 60,
+    "pacs": 40,
+    "other": 0,
+    "individualDollars": 252362,
+    "pacDollars": 170100,
+    "otherDollars": 0,
+    "through": "2026-08-12"
+  },
+  "house|MA|9|Tyler MacAllister": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 171125,
+    "pacDollars": 1250,
+    "otherDollars": 2746,
+    "through": "2026-08-12"
+  },
+  "house|MI|1|Callie Barr": {
+    "individual": 90,
+    "pacs": 8,
+    "other": 2,
+    "individualDollars": 738407,
+    "pacDollars": 64250,
+    "otherDollars": 14284,
+    "through": "2026-07-15"
+  },
+  "house|MI|1|Jack Bergman": {
+    "individual": 39,
+    "pacs": 61,
+    "other": 0,
+    "individualDollars": 490307,
+    "pacDollars": 756925,
+    "otherDollars": 3326,
+    "through": "2026-07-15"
+  },
+  "house|MI|2|Ben Ambrose": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 84844,
+    "pacDollars": 250,
+    "otherDollars": 0,
+    "through": "2026-07-15"
+  },
+  "house|MI|2|John Moolenaar": {
+    "individual": 63,
+    "pacs": 33,
+    "other": 4,
+    "individualDollars": 1033190,
+    "pacDollars": 548883,
+    "otherDollars": 70162,
+    "through": "2026-07-15"
+  },
+  "house|MI|3|Terri DeBoer": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 448789,
+    "pacDollars": 12000,
+    "otherDollars": 20,
+    "through": "2026-07-15"
+  },
+  "house|MI|3|Hillary Scholten": {
+    "individual": 67,
+    "pacs": 31,
+    "other": 2,
+    "individualDollars": 1533965,
+    "pacDollars": 695250,
+    "otherDollars": 42849,
+    "through": "2026-07-15"
+  },
+  "house|MI|4|Bill Huizenga": {
+    "individual": 51,
+    "pacs": 49,
+    "other": 0,
+    "individualDollars": 1667791,
+    "pacDollars": 1580550,
+    "otherDollars": 1512,
+    "through": "2026-07-15"
+  },
+  "house|MI|4|Sean McCann": {
+    "individual": 87,
+    "pacs": 12,
+    "other": 1,
+    "individualDollars": 2265952,
+    "pacDollars": 316050,
+    "otherDollars": 11054,
+    "through": "2026-07-15"
+  },
+  "house|MI|5|Christian Vukasovich": {
+    "individual": 94,
+    "pacs": 0,
+    "other": 6,
+    "individualDollars": 52656,
+    "pacDollars": 0,
+    "otherDollars": 3100,
+    "through": "2026-07-15"
+  },
+  "house|MI|5|Tim Walberg": {
+    "individual": 51,
+    "pacs": 48,
+    "other": 1,
+    "individualDollars": 846111,
+    "pacDollars": 786598,
+    "otherDollars": 21717,
+    "through": "2026-07-15"
+  },
+  "house|MI|6|Debbie Dingell": {
+    "individual": 36,
+    "pacs": 64,
+    "other": 0,
+    "individualDollars": 389400,
+    "pacDollars": 691593,
+    "otherDollars": 5937,
+    "through": "2026-07-15"
+  },
+  "house|MI|7|Tom Barrett": {
+    "individual": 68,
+    "pacs": 30,
+    "other": 2,
+    "individualDollars": 3298084,
+    "pacDollars": 1465275,
+    "otherDollars": 70033,
+    "through": "2026-07-15"
+  },
+  "house|MI|7|William Lawrence": {
+    "individual": 95,
+    "pacs": 4,
+    "other": 1,
+    "individualDollars": 1064262,
+    "pacDollars": 39844,
+    "otherDollars": 15092,
+    "through": "2026-07-15"
+  },
+  "house|MI|8|Thomas Smith": {
+    "individual": 26,
+    "pacs": 0,
+    "other": 74,
+    "individualDollars": 2685,
+    "pacDollars": 0,
+    "otherDollars": 7605,
+    "through": "2026-08-24"
+  },
+  "house|MI|9|Lisa McClain": {
+    "individual": 65,
+    "pacs": 35,
+    "other": 0,
+    "individualDollars": 2688219,
+    "pacDollars": 1454798,
+    "otherDollars": 10760,
+    "through": "2026-07-15"
+  },
+  "house|MI|10|Mike Bouchard": {
+    "individual": 90,
+    "pacs": 9,
+    "other": 1,
+    "individualDollars": 1277292,
+    "pacDollars": 124500,
+    "otherDollars": 12932,
+    "through": "2026-08-19"
+  },
+  "house|MI|10|Christina Hines": {
+    "individual": 94,
+    "pacs": 6,
+    "other": 0,
+    "individualDollars": 1134015,
+    "pacDollars": 75763,
+    "otherDollars": 1711,
+    "through": "2026-07-15"
+  },
+  "house|MI|11|Ethan Baker": {
+    "individual": 99,
+    "pacs": 1,
+    "other": 0,
+    "individualDollars": 140476,
+    "pacDollars": 1000,
+    "otherDollars": 400,
+    "through": "2026-07-15"
+  },
+  "house|MI|11|Anil Kumar": {
+    "individual": 11,
+    "pacs": 1,
+    "other": 88,
+    "individualDollars": 80798,
+    "pacDollars": 5000,
+    "otherDollars": 627125,
+    "through": "2026-06-30"
+  },
+  "house|MI|11|Jeremy Moss": {
+    "individual": 89,
+    "pacs": 10,
+    "other": 1,
+    "individualDollars": 1274168,
+    "pacDollars": 141950,
+    "otherDollars": 13085,
+    "through": "2026-07-15"
+  },
+  "house|MI|12|James Hooper": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 775,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-07-15"
+  },
+  "house|MI|12|Rashida Tlaib": {
+    "individual": 95,
+    "pacs": 2,
+    "other": 3,
+    "individualDollars": 2290289,
+    "pacDollars": 37150,
+    "otherDollars": 81060,
+    "through": "2026-07-15"
+  },
+  "house|MI|13|Donavan McKinney": {
+    "individual": 92,
+    "pacs": 7,
+    "other": 1,
+    "individualDollars": 1195076,
+    "pacDollars": 91383,
+    "otherDollars": 9562,
+    "through": "2026-07-15"
+  },
+  "house|MN|1|Brad Finstad": {
+    "individual": 46,
+    "pacs": 54,
+    "other": 0,
+    "individualDollars": 822828,
+    "pacDollars": 966407,
+    "otherDollars": 6545,
+    "through": "2026-07-22"
+  },
+  "house|MN|2|Matt Little": {
+    "individual": 77,
+    "pacs": 4,
+    "other": 19,
+    "individualDollars": 706470,
+    "pacDollars": 37000,
+    "otherDollars": 179808,
+    "through": "2026-07-22"
+  },
+  "house|MN|2|Eric Pratt": {
+    "individual": 68,
+    "pacs": 9,
+    "other": 23,
+    "individualDollars": 349113,
+    "pacDollars": 43000,
+    "otherDollars": 119100,
+    "through": "2026-07-22"
+  },
+  "house|MN|3|Kelly Morrison": {
+    "individual": 82,
+    "pacs": 15,
+    "other": 3,
+    "individualDollars": 1116072,
+    "pacDollars": 208750,
+    "otherDollars": 37111,
+    "through": "2026-07-22"
+  },
+  "house|MN|4|Betty McCollum": {
+    "individual": 62,
+    "pacs": 37,
+    "other": 1,
+    "individualDollars": 779210,
+    "pacDollars": 457800,
+    "otherDollars": 14574,
+    "through": "2026-07-22"
+  },
+  "house|MN|4|Paul Wikstrom": {
+    "individual": 82,
+    "pacs": 0,
+    "other": 18,
+    "individualDollars": 23004,
+    "pacDollars": 0,
+    "otherDollars": 5027,
+    "through": "2026-07-22"
+  },
+  "house|MN|5|John Nagel": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 746230,
+    "pacDollars": 263,
+    "otherDollars": 552,
+    "through": "2026-07-22"
+  },
+  "house|MN|5|Ilhan Omar": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 5536091,
+    "pacDollars": 73828,
+    "otherDollars": 50773,
+    "through": "2026-07-22"
+  },
+  "house|MN|6|Doug Chapin": {
+    "individual": 81,
+    "pacs": 2,
+    "other": 17,
+    "individualDollars": 356937,
+    "pacDollars": 8234,
+    "otherDollars": 73529,
+    "through": "2026-07-22"
+  },
+  "house|MN|6|Tom Emmer": {
+    "individual": 54,
+    "pacs": 46,
+    "other": 0,
+    "individualDollars": 2652174,
+    "pacDollars": 2244251,
+    "otherDollars": 24245,
+    "through": "2026-07-22"
+  },
+  "house|MN|7|Michelle Fischbach": {
+    "individual": 39,
+    "pacs": 60,
+    "other": 1,
+    "individualDollars": 468427,
+    "pacDollars": 729549,
+    "otherDollars": 12842,
+    "through": "2026-07-22"
+  },
+  "house|MN|7|Erik Osberg": {
+    "individual": 92,
+    "pacs": 0,
+    "other": 8,
+    "individualDollars": 309183,
+    "pacDollars": 1000,
+    "otherDollars": 24762,
+    "through": "2026-07-22"
+  },
+  "house|MN|8|Trina Swanson": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 305937,
+    "pacDollars": 10200,
+    "otherDollars": 570,
+    "through": "2026-07-22"
+  },
+  "house|MS|1|Cliff Johnson": {
+    "individual": 94,
+    "pacs": 1,
+    "other": 5,
+    "individualDollars": 520175,
+    "pacDollars": 2500,
+    "otherDollars": 28569,
+    "through": "2026-06-30"
+  },
+  "house|MS|1|Trent Kelly": {
+    "individual": 50,
+    "pacs": 50,
+    "other": 0,
+    "individualDollars": 502555,
+    "pacDollars": 500635,
+    "otherDollars": 1015,
+    "through": "2026-06-30"
+  },
+  "house|MS|2|Ron Eller": {
+    "individual": 93,
+    "pacs": 0,
+    "other": 7,
+    "individualDollars": 42318,
+    "pacDollars": 150,
+    "otherDollars": 2921,
+    "through": "2026-06-30"
+  },
+  "house|MS|2|Bennie Thompson": {
+    "individual": 26,
+    "pacs": 73,
+    "other": 1,
+    "individualDollars": 201967,
+    "pacDollars": 562244,
+    "otherDollars": 6759,
+    "through": "2026-06-30"
+  },
+  "house|MS|3|Michael Chiaradio": {
+    "individual": 87,
+    "pacs": 0,
+    "other": 13,
+    "individualDollars": 134778,
+    "pacDollars": 0,
+    "otherDollars": 20621,
+    "through": "2026-06-30"
+  },
+  "house|MS|3|Michael Guest": {
+    "individual": 55,
+    "pacs": 45,
+    "other": 0,
+    "individualDollars": 450811,
+    "pacDollars": 370000,
+    "otherDollars": 1950,
+    "through": "2026-06-30"
+  },
+  "house|MS|4|Mike Ezell": {
+    "individual": 49,
+    "pacs": 50,
+    "other": 1,
+    "individualDollars": 458829,
+    "pacDollars": 477000,
+    "otherDollars": 6652,
+    "through": "2026-06-30"
+  },
+  "house|MS|4|Jeffrey Hulum III": {
+    "individual": 86,
+    "pacs": 0,
+    "other": 14,
+    "individualDollars": 24945,
+    "pacDollars": 0,
+    "otherDollars": 4100,
+    "through": "2026-06-30"
+  },
+  "house|MO|1|Wesley Bell": {
+    "individual": 82,
+    "pacs": 17,
+    "other": 1,
+    "individualDollars": 2857574,
+    "pacDollars": 590796,
+    "otherDollars": 24492,
+    "through": "2026-07-15"
+  },
+  "house|MO|2|Ann Wagner": {
+    "individual": 59,
+    "pacs": 34,
+    "other": 7,
+    "individualDollars": 1949639,
+    "pacDollars": 1143239,
+    "otherDollars": 217933,
+    "through": "2026-07-15"
+  },
+  "house|MO|3|Bethany Mann": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 43144,
+    "pacDollars": 125,
+    "otherDollars": 70,
+    "through": "2026-07-15"
+  },
+  "house|MO|3|Bob Onder": {
+    "individual": 55,
+    "pacs": 42,
+    "other": 3,
+    "individualDollars": 489223,
+    "pacDollars": 373480,
+    "otherDollars": 25330,
+    "through": "2026-07-15"
+  },
+  "house|MO|4|Mark Alford": {
+    "individual": 58,
+    "pacs": 42,
+    "other": 0,
+    "individualDollars": 770767,
+    "pacDollars": 567061,
+    "otherDollars": 0,
+    "through": "2026-07-15"
+  },
+  "house|MO|4|Jordan Herrera": {
+    "individual": 79,
+    "pacs": 0,
+    "other": 21,
+    "individualDollars": 32830,
+    "pacDollars": 0,
+    "otherDollars": 8558,
+    "through": "2026-07-15"
+  },
+  "house|MO|5|Rick Brattin": {
+    "individual": 88,
+    "pacs": 12,
+    "other": 0,
+    "individualDollars": 292678,
+    "pacDollars": 39087,
+    "otherDollars": 0,
+    "through": "2026-07-15"
+  },
+  "house|MO|5|Emanuel Cleaver": {
+    "individual": 36,
+    "pacs": 64,
+    "other": 0,
+    "individualDollars": 486832,
+    "pacDollars": 849891,
+    "otherDollars": 15,
+    "through": "2026-07-15"
+  },
+  "house|MO|6|Josh Smead": {
+    "individual": 88,
+    "pacs": 0,
+    "other": 12,
+    "individualDollars": 63596,
+    "pacDollars": 0,
+    "otherDollars": 8353,
+    "through": "2026-07-15"
+  },
+  "house|MO|6|Chris Stigall": {
+    "individual": 87,
+    "pacs": 13,
+    "other": 0,
+    "individualDollars": 523336,
+    "pacDollars": 76000,
+    "otherDollars": 0,
+    "through": "2026-07-15"
+  },
+  "house|MO|7|Eric Burlison": {
+    "individual": 81,
+    "pacs": 17,
+    "other": 2,
+    "individualDollars": 1169327,
+    "pacDollars": 246255,
+    "otherDollars": 28446,
+    "through": "2026-07-15"
+  },
+  "house|MO|7|Missi Hesketh": {
+    "individual": 83,
+    "pacs": 7,
+    "other": 10,
+    "individualDollars": 42040,
+    "pacDollars": 3250,
+    "otherDollars": 5250,
+    "through": "2026-07-15"
+  },
+  "house|MO|8|Chris Reichard": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 5565,
+    "pacDollars": 0,
+    "otherDollars": 109,
+    "through": "2026-07-15"
+  },
+  "house|MO|8|Jason Smith": {
+    "individual": 36,
+    "pacs": 63,
+    "other": 1,
+    "individualDollars": 1550570,
+    "pacDollars": 2734275,
+    "otherDollars": 41457,
+    "through": "2026-07-15"
+  },
+  "house|MT|1|Aaron Flint": {
+    "individual": 71,
+    "pacs": 29,
+    "other": 0,
+    "individualDollars": 823879,
+    "pacDollars": 330600,
+    "otherDollars": 346,
+    "through": "2026-06-30"
+  },
+  "house|MT|1|Sam Forstag": {
+    "individual": 89,
+    "pacs": 10,
+    "other": 1,
+    "individualDollars": 1214387,
+    "pacDollars": 140550,
+    "otherDollars": 5951,
+    "through": "2026-06-30"
+  },
+  "house|MT|2|Troy Downing": {
+    "individual": 64,
+    "pacs": 35,
+    "other": 1,
+    "individualDollars": 1222610,
+    "pacDollars": 681678,
+    "otherDollars": 15505,
+    "through": "2026-06-30"
+  },
+  "house|MT|2|Michael Eisenhauer": {
+    "individual": 15,
+    "pacs": 1,
+    "other": 84,
+    "individualDollars": 43699,
+    "pacDollars": 2500,
+    "otherDollars": 250054,
+    "through": "2026-06-30"
+  },
+  "house|MT|2|Brian Miller": {
+    "individual": 70,
+    "pacs": 5,
+    "other": 25,
+    "individualDollars": 13339,
+    "pacDollars": 1000,
+    "otherDollars": 4835,
+    "through": "2026-06-30"
+  },
+  "house|NE|1|Chris Backemeyer": {
+    "individual": 78,
+    "pacs": 4,
+    "other": 18,
+    "individualDollars": 462314,
+    "pacDollars": 25000,
+    "otherDollars": 104919,
+    "through": "2026-06-30"
+  },
+  "house|NE|1|Mike Flood": {
+    "individual": 48,
+    "pacs": 51,
+    "other": 1,
+    "individualDollars": 1072617,
+    "pacDollars": 1127179,
+    "otherDollars": 12842,
+    "through": "2026-06-30"
+  },
+  "house|NE|2|Brinker Harding": {
+    "individual": 83,
+    "pacs": 16,
+    "other": 1,
+    "individualDollars": 1354207,
+    "pacDollars": 255800,
+    "otherDollars": 17500,
+    "through": "2026-06-30"
+  },
+  "house|NE|2|Denise Powell": {
+    "individual": 85,
+    "pacs": 12,
+    "other": 3,
+    "individualDollars": 2278585,
+    "pacDollars": 309300,
+    "otherDollars": 75402,
+    "through": "2026-06-30"
+  },
+  "house|NE|3|Mark Cohen": {
+    "individual": 94,
+    "pacs": 0,
+    "other": 6,
+    "individualDollars": 31162,
+    "pacDollars": 0,
+    "otherDollars": 1902,
+    "through": "2026-06-30"
+  },
+  "house|NE|3|Adrian Smith": {
+    "individual": 22,
+    "pacs": 75,
+    "other": 3,
+    "individualDollars": 384413,
+    "pacDollars": 1299250,
+    "otherDollars": 49833,
+    "through": "2026-06-30"
+  },
+  "house|NE|3|Becky Stille": {
+    "individual": 33,
+    "pacs": 0,
+    "other": 67,
+    "individualDollars": 18321,
+    "pacDollars": 0,
+    "otherDollars": 36781,
+    "through": "2026-06-30"
+  },
+  "house|NV|1|Carrie Buck": {
+    "individual": 90,
+    "pacs": 9,
+    "other": 1,
+    "individualDollars": 1318719,
+    "pacDollars": 138100,
+    "otherDollars": 14791,
+    "through": "2026-06-30"
+  },
+  "house|NV|1|Dina Titus": {
+    "individual": 47,
+    "pacs": 53,
+    "other": 0,
+    "individualDollars": 669488,
+    "pacDollars": 762050,
+    "otherDollars": 5072,
+    "through": "2026-06-30"
+  },
+  "house|NV|2|David Flippo": {
+    "individual": 18,
+    "pacs": 3,
+    "other": 79,
+    "individualDollars": 418829,
+    "pacDollars": 66500,
+    "otherDollars": 1790063,
+    "through": "2026-06-30"
+  },
+  "house|NV|3|Susie Lee": {
+    "individual": 68,
+    "pacs": 31,
+    "other": 1,
+    "individualDollars": 2841842,
+    "pacDollars": 1301425,
+    "otherDollars": 48709,
+    "through": "2026-06-30"
+  },
+  "house|NV|4|Steven Horsford": {
+    "individual": 42,
+    "pacs": 57,
+    "other": 1,
+    "individualDollars": 1328082,
+    "pacDollars": 1782759,
+    "otherDollars": 25926,
+    "through": "2026-06-30"
+  },
+  "house|NV|4|Cody Whipple": {
+    "individual": 62,
+    "pacs": 1,
+    "other": 37,
+    "individualDollars": 547667,
+    "pacDollars": 7000,
+    "otherDollars": 330021,
+    "through": "2026-06-30"
+  },
+  "house|NH|1|Anthony DiLorenzo": {
+    "individual": 28,
+    "pacs": 1,
+    "other": 71,
+    "individualDollars": 712770,
+    "pacDollars": 20500,
+    "otherDollars": 1767508,
+    "through": "2026-08-19"
+  },
+  "house|NH|1|Stefany Shaheen": {
+    "individual": 95,
+    "pacs": 4,
+    "other": 1,
+    "individualDollars": 2309190,
+    "pacDollars": 99355,
+    "otherDollars": 23827,
+    "through": "2026-08-19"
+  },
+  "house|NH|2|Maggie Goodlander": {
+    "individual": 89,
+    "pacs": 10,
+    "other": 1,
+    "individualDollars": 2935258,
+    "pacDollars": 325250,
+    "otherDollars": 41728,
+    "through": "2026-08-19"
+  },
+  "house|NJ|1|Damon Galdo": {
+    "individual": 95,
+    "pacs": 0,
+    "other": 5,
+    "individualDollars": 10525,
+    "pacDollars": 0,
+    "otherDollars": 600,
+    "through": "2026-06-30"
+  },
+  "house|NJ|1|Donald Norcross": {
+    "individual": 45,
+    "pacs": 49,
+    "other": 6,
+    "individualDollars": 723835,
+    "pacDollars": 791232,
+    "otherDollars": 86786,
+    "through": "2026-06-30"
+  },
+  "house|NJ|2|Zack Mullock": {
+    "individual": 75,
+    "pacs": 1,
+    "other": 24,
+    "individualDollars": 346763,
+    "pacDollars": 5000,
+    "otherDollars": 111100,
+    "through": "2026-06-30"
+  },
+  "house|NJ|2|Jeff Van Drew": {
+    "individual": 82,
+    "pacs": 17,
+    "other": 1,
+    "individualDollars": 1557897,
+    "pacDollars": 327471,
+    "otherDollars": 7943,
+    "through": "2026-06-30"
+  },
+  "house|NJ|3|Herb Conaway": {
+    "individual": 46,
+    "pacs": 54,
+    "other": 0,
+    "individualDollars": 430355,
+    "pacDollars": 500874,
+    "otherDollars": 3430,
+    "through": "2026-06-30"
+  },
+  "house|NJ|3|Michael McGuire": {
+    "individual": 73,
+    "pacs": 0,
+    "other": 27,
+    "individualDollars": 58190,
+    "pacDollars": 0,
+    "otherDollars": 21000,
+    "through": "2026-06-30"
+  },
+  "house|NJ|4|Rachel Peace": {
+    "individual": 80,
+    "pacs": 0,
+    "other": 20,
+    "individualDollars": 27640,
+    "pacDollars": 0,
+    "otherDollars": 6712,
+    "through": "2026-06-30"
+  },
+  "house|NJ|4|Chris Smith": {
+    "individual": 62,
+    "pacs": 37,
+    "other": 1,
+    "individualDollars": 354952,
+    "pacDollars": 214058,
+    "otherDollars": 3569,
+    "through": "2026-06-30"
+  },
+  "house|NJ|5|Josh Gottheimer": {
+    "individual": 68,
+    "pacs": 19,
+    "other": 13,
+    "individualDollars": 3222819,
+    "pacDollars": 882050,
+    "otherDollars": 615076,
+    "through": "2026-06-30"
+  },
+  "house|NJ|5|Sean Kirrane": {
+    "individual": 55,
+    "pacs": 0,
+    "other": 45,
+    "individualDollars": 30603,
+    "pacDollars": 0,
+    "otherDollars": 25054,
+    "through": "2026-06-30"
+  },
+  "house|NJ|6|Hillary Herzig": {
+    "individual": 64,
+    "pacs": 0,
+    "other": 36,
+    "individualDollars": 4859,
+    "pacDollars": 0,
+    "otherDollars": 2786,
+    "through": "2026-06-30"
+  },
+  "house|NJ|6|Frank Pallone": {
+    "individual": 33,
+    "pacs": 66,
+    "other": 1,
+    "individualDollars": 730687,
+    "pacDollars": 1455707,
+    "otherDollars": 28444,
+    "through": "2026-06-30"
+  },
+  "house|NJ|7|Rebecca Bennett": {
+    "individual": 92,
+    "pacs": 7,
+    "other": 1,
+    "individualDollars": 3874028,
+    "pacDollars": 272525,
+    "otherDollars": 52267,
+    "through": "2026-06-30"
+  },
+  "house|NJ|7|Thomas Kean Jr.": {
+    "individual": 60,
+    "pacs": 37,
+    "other": 3,
+    "individualDollars": 1917865,
+    "pacDollars": 1189427,
+    "otherDollars": 93115,
+    "through": "2026-06-30"
+  },
+  "house|NJ|7|Lana Legu\u00eda": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 9630,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|NJ|8|Rob Menendez": {
+    "individual": 60,
+    "pacs": 39,
+    "other": 1,
+    "individualDollars": 1125921,
+    "pacDollars": 734489,
+    "otherDollars": 14456,
+    "through": "2026-06-30"
+  },
+  "house|NJ|10|Carmen Bucco": {
+    "individual": 60,
+    "pacs": 0,
+    "other": 40,
+    "individualDollars": 1360,
+    "pacDollars": 0,
+    "otherDollars": 910,
+    "through": "2026-06-30"
+  },
+  "house|NJ|10|LaMonica McIver": {
+    "individual": 74,
+    "pacs": 26,
+    "other": 0,
+    "individualDollars": 1579134,
+    "pacDollars": 553350,
+    "otherDollars": 4454,
+    "through": "2026-06-30"
+  },
+  "house|NJ|11|Joe Hathaway": {
+    "individual": 93,
+    "pacs": 6,
+    "other": 1,
+    "individualDollars": 611578,
+    "pacDollars": 40500,
+    "otherDollars": 5633,
+    "through": "2026-06-30"
+  },
+  "house|NJ|11|Analilia Mejia": {
+    "individual": 81,
+    "pacs": 18,
+    "other": 1,
+    "individualDollars": 1449764,
+    "pacDollars": 330906,
+    "otherDollars": 23766,
+    "through": "2026-06-30"
+  },
+  "house|NJ|12|Adam Hamawy": {
+    "individual": 96,
+    "pacs": 4,
+    "other": 0,
+    "individualDollars": 1471105,
+    "pacDollars": 61806,
+    "otherDollars": 940,
+    "through": "2026-06-30"
+  },
+  "house|NJ|12|Gregg Mele": {
+    "individual": 32,
+    "pacs": 0,
+    "other": 68,
+    "individualDollars": 25501,
+    "pacDollars": 0,
+    "otherDollars": 53924,
+    "through": "2026-06-30"
+  },
+  "house|NM|1|Melanie Stansbury": {
+    "individual": 84,
+    "pacs": 15,
+    "other": 1,
+    "individualDollars": 1123109,
+    "pacDollars": 202335,
+    "otherDollars": 5462,
+    "through": "2026-06-30"
+  },
+  "house|NM|2|Greg Cunningham": {
+    "individual": 85,
+    "pacs": 15,
+    "other": 0,
+    "individualDollars": 858224,
+    "pacDollars": 156100,
+    "otherDollars": 2221,
+    "through": "2026-06-30"
+  },
+  "house|NM|3|Martin Zamora": {
+    "individual": 96,
+    "pacs": 3,
+    "other": 1,
+    "individualDollars": 421923,
+    "pacDollars": 13500,
+    "otherDollars": 5200,
+    "through": "2026-06-30"
+  },
+  "house|NY|1|Chris Gallant": {
+    "individual": 97,
+    "pacs": 2,
+    "other": 1,
+    "individualDollars": 627348,
+    "pacDollars": 11100,
+    "otherDollars": 9150,
+    "through": "2026-06-30"
+  },
+  "house|NY|2|Andrew Garbarino": {
+    "individual": 29,
+    "pacs": 69,
+    "other": 2,
+    "individualDollars": 756542,
+    "pacDollars": 1805000,
+    "otherDollars": 60660,
+    "through": "2026-06-30"
+  },
+  "house|NY|2|Patrick Halpin": {
+    "individual": 96,
+    "pacs": 2,
+    "other": 2,
+    "individualDollars": 441652,
+    "pacDollars": 9950,
+    "otherDollars": 10246,
+    "through": "2026-06-30"
+  },
+  "house|NY|3|Mike LiPetri": {
+    "individual": 67,
+    "pacs": 30,
+    "other": 3,
+    "individualDollars": 450103,
+    "pacDollars": 201300,
+    "otherDollars": 20991,
+    "through": "2026-09-30"
+  },
+  "house|NY|3|Tom Suozzi": {
+    "individual": 69,
+    "pacs": 30,
+    "other": 1,
+    "individualDollars": 3617325,
+    "pacDollars": 1579044,
+    "otherDollars": 63391,
+    "through": "2026-06-30"
+  },
+  "house|NY|4|Jeanine Driscoll": {
+    "individual": 52,
+    "pacs": 48,
+    "other": 0,
+    "individualDollars": 71913,
+    "pacDollars": 66250,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|NY|4|Laura Gillen": {
+    "individual": 73,
+    "pacs": 25,
+    "other": 2,
+    "individualDollars": 2980944,
+    "pacDollars": 1027037,
+    "otherDollars": 73795,
+    "through": "2026-06-30"
+  },
+  "house|NY|4|Blay Tarnoff": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 24500,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|NY|5|Gregory Meeks": {
+    "individual": 38,
+    "pacs": 61,
+    "other": 1,
+    "individualDollars": 570891,
+    "pacDollars": 928255,
+    "otherDollars": 9481,
+    "through": "2026-06-30"
+  },
+  "house|NY|6|Joseph Chou": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 2578,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|NY|6|Grace Meng": {
+    "individual": 70,
+    "pacs": 30,
+    "other": 0,
+    "individualDollars": 1334702,
+    "pacDollars": 575800,
+    "otherDollars": 9367,
+    "through": "2026-06-30"
+  },
+  "house|NY|7|Priscilla Ghaznavi": {
+    "individual": 24,
+    "pacs": 0,
+    "other": 76,
+    "individualDollars": 9450,
+    "pacDollars": 0,
+    "otherDollars": 30000,
+    "through": "2026-09-30"
+  },
+  "house|NY|7|Claire Valdez": {
+    "individual": 96,
+    "pacs": 3,
+    "other": 1,
+    "individualDollars": 1555860,
+    "pacDollars": 44750,
+    "otherDollars": 10385,
+    "through": "2026-06-30"
+  },
+  "house|NY|8|Hakeem Jeffries": {
+    "individual": 82,
+    "pacs": 16,
+    "other": 2,
+    "individualDollars": 10714436,
+    "pacDollars": 2079150,
+    "otherDollars": 208687,
+    "through": "2026-06-30"
+  },
+  "house|NY|9|Yvette Clarke": {
+    "individual": 42,
+    "pacs": 57,
+    "other": 1,
+    "individualDollars": 424912,
+    "pacDollars": 581951,
+    "otherDollars": 7091,
+    "through": "2026-06-30"
+  },
+  "house|NY|10|Brad Lander": {
+    "individual": 98,
+    "pacs": 2,
+    "other": 0,
+    "individualDollars": 2396004,
+    "pacDollars": 49000,
+    "otherDollars": 10126,
+    "through": "2026-06-30"
+  },
+  "house|NY|11|Michael DeCillis": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 67516,
+    "pacDollars": 0,
+    "otherDollars": 100,
+    "through": "2026-06-30"
+  },
+  "house|NY|11|Nicole Malliotakis": {
+    "individual": 48,
+    "pacs": 47,
+    "other": 5,
+    "individualDollars": 1082759,
+    "pacDollars": 1072300,
+    "otherDollars": 116717,
+    "through": "2026-06-30"
+  },
+  "house|NY|12|Micah Lasher": {
+    "individual": 83,
+    "pacs": 1,
+    "other": 16,
+    "individualDollars": 2768475,
+    "pacDollars": 22000,
+    "otherDollars": 525500,
+    "through": "2026-06-30"
+  },
+  "house|NY|12|Wilneida Negron": {
+    "individual": 9,
+    "pacs": 0,
+    "other": 91,
+    "individualDollars": 3440,
+    "pacDollars": 0,
+    "otherDollars": 34245,
+    "through": "2026-06-30"
+  },
+  "house|NY|12|Karen Ortiz": {
+    "individual": 45,
+    "pacs": 0,
+    "other": 55,
+    "individualDollars": 20906,
+    "pacDollars": 0,
+    "otherDollars": 25362,
+    "through": "2026-06-30"
+  },
+  "house|NY|12|Caroline Shinkle": {
+    "individual": 82,
+    "pacs": 1,
+    "other": 17,
+    "individualDollars": 126721,
+    "pacDollars": 1995,
+    "otherDollars": 26428,
+    "through": "2026-06-30"
+  },
+  "house|NY|14|Diamant Hysenaj": {
+    "individual": 97,
+    "pacs": 0,
+    "other": 3,
+    "individualDollars": 333157,
+    "pacDollars": 850,
+    "otherDollars": 8889,
+    "through": "2026-06-30"
+  },
+  "house|NY|15|Andre Easton": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 73041,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|NY|15|Ritchie Torres": {
+    "individual": 59,
+    "pacs": 18,
+    "other": 23,
+    "individualDollars": 2300120,
+    "pacDollars": 700550,
+    "otherDollars": 917815,
+    "through": "2026-06-30"
+  },
+  "house|NY|15|Jose Vega": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 283990,
+    "pacDollars": 1500,
+    "otherDollars": 5346,
+    "through": "2026-06-30"
+  },
+  "house|NY|16|George Latimer": {
+    "individual": 61,
+    "pacs": 37,
+    "other": 2,
+    "individualDollars": 313389,
+    "pacDollars": 189650,
+    "otherDollars": 10928,
+    "through": "2026-06-30"
+  },
+  "house|NY|17|Cait Conley": {
+    "individual": 89,
+    "pacs": 10,
+    "other": 1,
+    "individualDollars": 3677705,
+    "pacDollars": 422990,
+    "otherDollars": 38244,
+    "through": "2026-06-30"
+  },
+  "house|NY|17|Mike Lawler": {
+    "individual": 59,
+    "pacs": 37,
+    "other": 4,
+    "individualDollars": 3055733,
+    "pacDollars": 1920805,
+    "otherDollars": 237312,
+    "through": "2026-06-30"
+  },
+  "house|NY|18|Pat Ryan": {
+    "individual": 84,
+    "pacs": 12,
+    "other": 4,
+    "individualDollars": 3553500,
+    "pacDollars": 526547,
+    "otherDollars": 180545,
+    "through": "2026-06-30"
+  },
+  "house|NY|19|Peter Oberacker": {
+    "individual": 54,
+    "pacs": 29,
+    "other": 17,
+    "individualDollars": 455097,
+    "pacDollars": 249000,
+    "otherDollars": 147894,
+    "through": "2026-06-30"
+  },
+  "house|NY|19|Josh Riley": {
+    "individual": 80,
+    "pacs": 17,
+    "other": 3,
+    "individualDollars": 3395045,
+    "pacDollars": 738521,
+    "otherDollars": 131520,
+    "through": "2026-06-30"
+  },
+  "house|NY|20|Ralph Ambrosio": {
+    "individual": 95,
+    "pacs": 5,
+    "other": 0,
+    "individualDollars": 27691,
+    "pacDollars": 1335,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|NY|20|Paul Tonko": {
+    "individual": 35,
+    "pacs": 65,
+    "other": 0,
+    "individualDollars": 338288,
+    "pacDollars": 616955,
+    "otherDollars": 2343,
+    "through": "2026-06-30"
+  },
+  "house|NY|21|Anthony Constantino": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 7000,
+    "otherDollars": 9453254,
+    "through": "2026-06-30"
+  },
+  "house|NY|21|Blake Gendebien": {
+    "individual": 97,
+    "pacs": 1,
+    "other": 2,
+    "individualDollars": 5286221,
+    "pacDollars": 60400,
+    "otherDollars": 96908,
+    "through": "2026-06-30"
+  },
+  "house|NY|22|Kailee Buller": {
+    "individual": 82,
+    "pacs": 10,
+    "other": 8,
+    "individualDollars": 217989,
+    "pacDollars": 27350,
+    "otherDollars": 22000,
+    "through": "2026-06-30"
+  },
+  "house|NY|22|John Mannion": {
+    "individual": 65,
+    "pacs": 32,
+    "other": 3,
+    "individualDollars": 1693934,
+    "pacDollars": 826311,
+    "otherDollars": 68374,
+    "through": "2026-06-30"
+  },
+  "house|NY|23|Aaron Gies": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 221174,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|NY|23|Nick Langworthy": {
+    "individual": 44,
+    "pacs": 51,
+    "other": 5,
+    "individualDollars": 867398,
+    "pacDollars": 1025680,
+    "otherDollars": 100336,
+    "through": "2026-06-30"
+  },
+  "house|NY|24|Alissa Ellman": {
+    "individual": 82,
+    "pacs": 4,
+    "other": 14,
+    "individualDollars": 157761,
+    "pacDollars": 7500,
+    "otherDollars": 27826,
+    "through": "2026-06-30"
+  },
+  "house|NY|24|Claudia Tenney": {
+    "individual": 46,
+    "pacs": 54,
+    "other": 0,
+    "individualDollars": 1057233,
+    "pacDollars": 1220160,
+    "otherDollars": 6840,
+    "through": "2026-06-30"
+  },
+  "house|NY|25|Virginia McIntyre": {
+    "individual": 94,
+    "pacs": 0,
+    "other": 6,
+    "individualDollars": 30416,
+    "pacDollars": 0,
+    "otherDollars": 2000,
+    "through": "2026-06-30"
+  },
+  "house|NY|25|Joseph Morelle": {
+    "individual": 46,
+    "pacs": 53,
+    "other": 1,
+    "individualDollars": 732248,
+    "pacDollars": 853475,
+    "otherDollars": 13181,
+    "through": "2026-06-30"
+  },
+  "house|NY|26|Tim Kennedy": {
+    "individual": 72,
+    "pacs": 25,
+    "other": 3,
+    "individualDollars": 1664030,
+    "pacDollars": 575739,
+    "otherDollars": 62019,
+    "through": "2026-06-30"
+  },
+  "house|NC|1|Laurie Buckhout": {
+    "individual": 17,
+    "pacs": 10,
+    "other": 73,
+    "individualDollars": 552678,
+    "pacDollars": 346704,
+    "otherDollars": 2412208,
+    "through": "2026-06-30"
+  },
+  "house|NC|1|Don Davis": {
+    "individual": 58,
+    "pacs": 41,
+    "other": 1,
+    "individualDollars": 2193679,
+    "pacDollars": 1524569,
+    "otherDollars": 32045,
+    "through": "2026-06-30"
+  },
+  "house|NC|2|Deborah Ross": {
+    "individual": 57,
+    "pacs": 41,
+    "other": 2,
+    "individualDollars": 952842,
+    "pacDollars": 685800,
+    "otherDollars": 37335,
+    "through": "2026-06-30"
+  },
+  "house|NC|3|Greg Murphy": {
+    "individual": 47,
+    "pacs": 49,
+    "other": 4,
+    "individualDollars": 999534,
+    "pacDollars": 1037799,
+    "otherDollars": 72793,
+    "through": "2026-06-30"
+  },
+  "house|NC|3|Raymond Smith Jr.": {
+    "individual": 87,
+    "pacs": 12,
+    "other": 1,
+    "individualDollars": 186153,
+    "pacDollars": 26250,
+    "otherDollars": 1208,
+    "through": "2026-06-30"
+  },
+  "house|NC|4|Valerie Foushee": {
+    "individual": 45,
+    "pacs": 54,
+    "other": 1,
+    "individualDollars": 407672,
+    "pacDollars": 489618,
+    "otherDollars": 14721,
+    "through": "2026-06-30"
+  },
+  "house|NC|5|Virginia Foxx": {
+    "individual": 66,
+    "pacs": 25,
+    "other": 9,
+    "individualDollars": 1095824,
+    "pacDollars": 419516,
+    "otherDollars": 147264,
+    "through": "2026-06-30"
+  },
+  "house|NC|5|Chuck Hubbard": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 388426,
+    "pacDollars": 350,
+    "otherDollars": 5919,
+    "through": "2026-06-30"
+  },
+  "house|NC|6|Cyril Jefferson": {
+    "individual": 90,
+    "pacs": 3,
+    "other": 7,
+    "individualDollars": 181071,
+    "pacDollars": 5400,
+    "otherDollars": 13410,
+    "through": "2026-06-30"
+  },
+  "house|NC|6|Addison McDowell": {
+    "individual": 51,
+    "pacs": 45,
+    "other": 4,
+    "individualDollars": 584150,
+    "pacDollars": 515505,
+    "otherDollars": 44789,
+    "through": "2026-06-30"
+  },
+  "house|NC|7|Kimberly Hardy": {
+    "individual": 96,
+    "pacs": 0,
+    "other": 4,
+    "individualDollars": 282966,
+    "pacDollars": 911,
+    "otherDollars": 9941,
+    "through": "2026-06-30"
+  },
+  "house|NC|7|David Rouzer": {
+    "individual": 39,
+    "pacs": 61,
+    "other": 0,
+    "individualDollars": 778104,
+    "pacDollars": 1209449,
+    "otherDollars": 2869,
+    "through": "2026-06-30"
+  },
+  "house|NC|8|Mark Harris": {
+    "individual": 79,
+    "pacs": 20,
+    "other": 1,
+    "individualDollars": 785222,
+    "pacDollars": 199750,
+    "otherDollars": 5311,
+    "through": "2026-06-30"
+  },
+  "house|NC|8|Colby Watson": {
+    "individual": 26,
+    "pacs": 2,
+    "other": 72,
+    "individualDollars": 10409,
+    "pacDollars": 700,
+    "otherDollars": 28460,
+    "through": "2026-06-30"
+  },
+  "house|NC|9|Richard Hudson": {
+    "individual": 36,
+    "pacs": 63,
+    "other": 1,
+    "individualDollars": 908855,
+    "pacDollars": 1605397,
+    "otherDollars": 23670,
+    "through": "2026-06-30"
+  },
+  "house|NC|9|Richard Ojeda": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 2192940,
+    "pacDollars": 18842,
+    "otherDollars": 25727,
+    "through": "2026-06-30"
+  },
+  "house|NC|10|Ashley Bell": {
+    "individual": 76,
+    "pacs": 1,
+    "other": 23,
+    "individualDollars": 63998,
+    "pacDollars": 1050,
+    "otherDollars": 18976,
+    "through": "2026-06-30"
+  },
+  "house|NC|10|Steve Feldman": {
+    "individual": 1,
+    "pacs": 0,
+    "other": 99,
+    "individualDollars": 550,
+    "pacDollars": 0,
+    "otherDollars": 36307,
+    "through": "2026-06-30"
+  },
+  "house|NC|10|Pat Harrigan": {
+    "individual": 61,
+    "pacs": 37,
+    "other": 2,
+    "individualDollars": 595535,
+    "pacDollars": 359925,
+    "otherDollars": 24221,
+    "through": "2026-06-30"
+  },
+  "house|NC|11|Jamie Ager": {
+    "individual": 91,
+    "pacs": 7,
+    "other": 2,
+    "individualDollars": 2767111,
+    "pacDollars": 223349,
+    "otherDollars": 44324,
+    "through": "2026-06-30"
+  },
+  "house|NC|12|Alma Adams": {
+    "individual": 26,
+    "pacs": 73,
+    "other": 1,
+    "individualDollars": 94482,
+    "pacDollars": 271275,
+    "otherDollars": 4750,
+    "through": "2026-06-30"
+  },
+  "house|NC|12|Jack Codiga": {
+    "individual": 89,
+    "pacs": 0,
+    "other": 11,
+    "individualDollars": 25590,
+    "pacDollars": 0,
+    "otherDollars": 3113,
+    "through": "2026-06-30"
+  },
+  "house|NC|13|Paul Barringer": {
+    "individual": 54,
+    "pacs": 0,
+    "other": 46,
+    "individualDollars": 552284,
+    "pacDollars": 2000,
+    "otherDollars": 468326,
+    "through": "2026-06-30"
+  },
+  "house|NC|13|Brad Knott": {
+    "individual": 42,
+    "pacs": 57,
+    "other": 1,
+    "individualDollars": 485057,
+    "pacDollars": 655918,
+    "otherDollars": 6766,
+    "through": "2026-06-30"
+  },
+  "house|NC|14|Tim Moore": {
+    "individual": 70,
+    "pacs": 28,
+    "other": 2,
+    "individualDollars": 1081207,
+    "pacDollars": 435700,
+    "otherDollars": 22045,
+    "through": "2026-06-30"
+  },
+  "house|NC|14|Lakesha Womack": {
+    "individual": 91,
+    "pacs": 4,
+    "other": 5,
+    "individualDollars": 22688,
+    "pacDollars": 1000,
+    "otherDollars": 1200,
+    "through": "2026-06-30"
+  },
+  "house|ND|at-large|Julie Fedorchak": {
+    "individual": 28,
+    "pacs": 71,
+    "other": 1,
+    "individualDollars": 383136,
+    "pacDollars": 960975,
+    "otherDollars": 15146,
+    "through": "2026-06-30"
+  },
+  "house|ND|at-large|Trygve Hammer": {
+    "individual": 98,
+    "pacs": 2,
+    "other": 0,
+    "individualDollars": 186248,
+    "pacDollars": 2900,
+    "otherDollars": 915,
+    "through": "2026-06-30"
+  },
+  "house|OH|1|Eric Conroy": {
+    "individual": 45,
+    "pacs": 24,
+    "other": 31,
+    "individualDollars": 530658,
+    "pacDollars": 282647,
+    "otherDollars": 367946,
+    "through": "2026-06-30"
+  },
+  "house|OH|1|Greg Landsman": {
+    "individual": 74,
+    "pacs": 25,
+    "other": 1,
+    "individualDollars": 2800799,
+    "pacDollars": 970742,
+    "otherDollars": 29551,
+    "through": "2026-06-30"
+  },
+  "house|OH|2|David Taylor": {
+    "individual": 57,
+    "pacs": 41,
+    "other": 2,
+    "individualDollars": 605906,
+    "pacDollars": 429000,
+    "otherDollars": 20997,
+    "through": "2026-06-30"
+  },
+  "house|OH|3|Joyce Beatty": {
+    "individual": 25,
+    "pacs": 74,
+    "other": 1,
+    "individualDollars": 306098,
+    "pacDollars": 886717,
+    "otherDollars": 8637,
+    "through": "2026-06-30"
+  },
+  "house|OH|4|Jim Jordan": {
+    "individual": 71,
+    "pacs": 12,
+    "other": 17,
+    "individualDollars": 3257289,
+    "pacDollars": 529815,
+    "otherDollars": 784909,
+    "through": "2026-06-30"
+  },
+  "house|OH|4|Joshua Kolasinski": {
+    "individual": 60,
+    "pacs": 0,
+    "other": 40,
+    "individualDollars": 7668,
+    "pacDollars": 0,
+    "otherDollars": 5200,
+    "through": "2026-06-30"
+  },
+  "house|OH|5|Bob Latta": {
+    "individual": 43,
+    "pacs": 56,
+    "other": 1,
+    "individualDollars": 610476,
+    "pacDollars": 810650,
+    "otherDollars": 10822,
+    "through": "2026-06-30"
+  },
+  "house|OH|5|Brian Shaver": {
+    "individual": 33,
+    "pacs": 0,
+    "other": 67,
+    "individualDollars": 3866,
+    "pacDollars": 0,
+    "otherDollars": 7798,
+    "through": "2026-06-30"
+  },
+  "house|OH|6|Elizabeth Kirtley": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 1132,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|OH|6|Michael Rulli": {
+    "individual": 25,
+    "pacs": 72,
+    "other": 3,
+    "individualDollars": 243633,
+    "pacDollars": 705286,
+    "otherDollars": 27259,
+    "through": "2026-06-30"
+  },
+  "house|OH|7|Max Miller": {
+    "individual": 58,
+    "pacs": 41,
+    "other": 1,
+    "individualDollars": 914760,
+    "pacDollars": 656841,
+    "otherDollars": 11549,
+    "through": "2026-06-30"
+  },
+  "house|OH|7|Brian Poindexter": {
+    "individual": 73,
+    "pacs": 27,
+    "other": 0,
+    "individualDollars": 439563,
+    "pacDollars": 162073,
+    "otherDollars": 1520,
+    "through": "2026-06-30"
+  },
+  "house|OH|8|Warren Davidson": {
+    "individual": 36,
+    "pacs": 60,
+    "other": 4,
+    "individualDollars": 162862,
+    "pacDollars": 273950,
+    "otherDollars": 19943,
+    "through": "2026-06-30"
+  },
+  "house|OH|8|Vanessa Enoch": {
+    "individual": 64,
+    "pacs": 8,
+    "other": 28,
+    "individualDollars": 25396,
+    "pacDollars": 2987,
+    "otherDollars": 11204,
+    "through": "2026-06-30"
+  },
+  "house|OH|9|Marcy Kaptur": {
+    "individual": 66,
+    "pacs": 33,
+    "other": 1,
+    "individualDollars": 2273931,
+    "pacDollars": 1126725,
+    "otherDollars": 36882,
+    "through": "2026-06-30"
+  },
+  "house|OH|9|Derek Merrin": {
+    "individual": 51,
+    "pacs": 13,
+    "other": 36,
+    "individualDollars": 448071,
+    "pacDollars": 116900,
+    "otherDollars": 316214,
+    "through": "2026-06-30"
+  },
+  "house|OH|10|Kristina Knickerbocker": {
+    "individual": 91,
+    "pacs": 7,
+    "other": 2,
+    "individualDollars": 321496,
+    "pacDollars": 26500,
+    "otherDollars": 7269,
+    "through": "2026-06-30"
+  },
+  "house|OH|10|Mike Turner": {
+    "individual": 48,
+    "pacs": 51,
+    "other": 1,
+    "individualDollars": 370948,
+    "pacDollars": 399000,
+    "otherDollars": 5908,
+    "through": "2026-06-30"
+  },
+  "house|OH|11|Shontel Brown": {
+    "individual": 38,
+    "pacs": 61,
+    "other": 1,
+    "individualDollars": 448250,
+    "pacDollars": 723196,
+    "otherDollars": 12198,
+    "through": "2026-06-30"
+  },
+  "house|OH|12|Troy Balderson": {
+    "individual": 37,
+    "pacs": 62,
+    "other": 1,
+    "individualDollars": 620014,
+    "pacDollars": 1040300,
+    "otherDollars": 19745,
+    "through": "2026-06-30"
+  },
+  "house|OH|12|Jerrad Christian": {
+    "individual": 97,
+    "pacs": 0,
+    "other": 3,
+    "individualDollars": 81685,
+    "pacDollars": 250,
+    "otherDollars": 2442,
+    "through": "2026-06-30"
+  },
+  "house|OH|13|Carey Coleman": {
+    "individual": 52,
+    "pacs": 6,
+    "other": 42,
+    "individualDollars": 64620,
+    "pacDollars": 8000,
+    "otherDollars": 52490,
+    "through": "2026-06-30"
+  },
+  "house|OH|13|Sandeep Dixit": {
+    "individual": 59,
+    "pacs": 0,
+    "other": 41,
+    "individualDollars": 34496,
+    "pacDollars": 0,
+    "otherDollars": 24000,
+    "through": "2026-06-30"
+  },
+  "house|OH|13|Emilia Sykes": {
+    "individual": 65,
+    "pacs": 34,
+    "other": 1,
+    "individualDollars": 1918862,
+    "pacDollars": 1000913,
+    "otherDollars": 34562,
+    "through": "2026-06-30"
+  },
+  "house|OH|14|David Joyce": {
+    "individual": 27,
+    "pacs": 69,
+    "other": 4,
+    "individualDollars": 381805,
+    "pacDollars": 967101,
+    "otherDollars": 61737,
+    "through": "2026-06-30"
+  },
+  "house|OH|14|Maria Jukic": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 61306,
+    "pacDollars": 0,
+    "otherDollars": 80,
+    "through": "2026-06-30"
+  },
+  "house|OH|15|Mike Carey": {
+    "individual": 33,
+    "pacs": 66,
+    "other": 1,
+    "individualDollars": 883294,
+    "pacDollars": 1742150,
+    "otherDollars": 19566,
+    "through": "2026-06-30"
+  },
+  "house|OH|15|Don Leonard": {
+    "individual": 96,
+    "pacs": 2,
+    "other": 2,
+    "individualDollars": 583488,
+    "pacDollars": 11250,
+    "otherDollars": 11920,
+    "through": "2026-06-30"
+  },
+  "house|OK|1|John Croisant": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 140822,
+    "pacDollars": 0,
+    "otherDollars": 1150,
+    "through": "2026-06-30"
+  },
+  "house|OK|1|Mark Tedford": {
+    "individual": 23,
+    "pacs": 3,
+    "other": 74,
+    "individualDollars": 402461,
+    "pacDollars": 61000,
+    "otherDollars": 1300369,
+    "through": "2026-06-30"
+  },
+  "house|OK|2|Josh Brecheen": {
+    "individual": 50,
+    "pacs": 50,
+    "other": 0,
+    "individualDollars": 108886,
+    "pacDollars": 110008,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|OK|2|Brandon Wade": {
+    "individual": 75,
+    "pacs": 0,
+    "other": 25,
+    "individualDollars": 3230,
+    "pacDollars": 0,
+    "otherDollars": 1060,
+    "through": "2026-06-30"
+  },
+  "house|OK|3|Frank Lucas": {
+    "individual": 24,
+    "pacs": 74,
+    "other": 2,
+    "individualDollars": 219790,
+    "pacDollars": 674481,
+    "otherDollars": 13007,
+    "through": "2026-06-30"
+  },
+  "house|OK|4|Tom Cole": {
+    "individual": 56,
+    "pacs": 43,
+    "other": 1,
+    "individualDollars": 2061647,
+    "pacDollars": 1568079,
+    "otherDollars": 49001,
+    "through": "2026-06-30"
+  },
+  "house|OK|4|Mitchell Jacob": {
+    "individual": 64,
+    "pacs": 0,
+    "other": 36,
+    "individualDollars": 42046,
+    "pacDollars": 0,
+    "otherDollars": 23242,
+    "through": "2026-06-30"
+  },
+  "house|OK|5|Stephanie Bice": {
+    "individual": 31,
+    "pacs": 67,
+    "other": 2,
+    "individualDollars": 445013,
+    "pacDollars": 973750,
+    "otherDollars": 26432,
+    "through": "2026-06-30"
+  },
+  "house|OK|5|Robert Henri": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 6361,
+    "through": "2026-06-30"
+  },
+  "house|OK|5|Jena Nelson": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 439762,
+    "pacDollars": 3500,
+    "otherDollars": 6160,
+    "through": "2026-06-30"
+  },
+  "house|OR|1|Suzanne Bonamici": {
+    "individual": 47,
+    "pacs": 52,
+    "other": 1,
+    "individualDollars": 386566,
+    "pacDollars": 423600,
+    "otherDollars": 6604,
+    "through": "2026-06-30"
+  },
+  "house|OR|1|Barbara Kahl": {
+    "individual": 89,
+    "pacs": 11,
+    "other": 0,
+    "individualDollars": 3966,
+    "pacDollars": 500,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|OR|2|Chris Beck": {
+    "individual": 90,
+    "pacs": 3,
+    "other": 7,
+    "individualDollars": 85400,
+    "pacDollars": 2500,
+    "otherDollars": 6874,
+    "through": "2026-06-30"
+  },
+  "house|OR|2|Cliff Bentz": {
+    "individual": 43,
+    "pacs": 56,
+    "other": 1,
+    "individualDollars": 439776,
+    "pacDollars": 561542,
+    "otherDollars": 10095,
+    "through": "2026-06-30"
+  },
+  "house|OR|3|Maxine Dexter": {
+    "individual": 64,
+    "pacs": 34,
+    "other": 2,
+    "individualDollars": 662754,
+    "pacDollars": 350972,
+    "otherDollars": 24788,
+    "through": "2026-06-30"
+  },
+  "house|OR|4|Monique DeSpain": {
+    "individual": 85,
+    "pacs": 6,
+    "other": 9,
+    "individualDollars": 316205,
+    "pacDollars": 22500,
+    "otherDollars": 34042,
+    "through": "2026-06-30"
+  },
+  "house|OR|5|Patti Adair": {
+    "individual": 95,
+    "pacs": 1,
+    "other": 4,
+    "individualDollars": 403569,
+    "pacDollars": 3750,
+    "otherDollars": 16603,
+    "through": "2026-06-30"
+  },
+  "house|OR|5|Janelle Bynum": {
+    "individual": 65,
+    "pacs": 34,
+    "other": 1,
+    "individualDollars": 2157614,
+    "pacDollars": 1145915,
+    "otherDollars": 19834,
+    "through": "2026-06-30"
+  },
+  "house|OR|6|David Russ": {
+    "individual": 6,
+    "pacs": 0,
+    "other": 94,
+    "individualDollars": 791,
+    "pacDollars": 0,
+    "otherDollars": 12000,
+    "through": "2026-06-30"
+  },
+  "house|OR|6|Andrea Salinas": {
+    "individual": 56,
+    "pacs": 42,
+    "other": 2,
+    "individualDollars": 903861,
+    "pacDollars": 669100,
+    "otherDollars": 34503,
+    "through": "2026-06-30"
+  },
+  "house|PA|1|Brian Fitzpatrick": {
+    "individual": 38,
+    "pacs": 53,
+    "other": 9,
+    "individualDollars": 1584387,
+    "pacDollars": 2233727,
+    "otherDollars": 358411,
+    "through": "2026-06-30"
+  },
+  "house|PA|1|Bob Harvie": {
+    "individual": 89,
+    "pacs": 10,
+    "other": 1,
+    "individualDollars": 1733934,
+    "pacDollars": 189013,
+    "otherDollars": 22553,
+    "through": "2026-06-30"
+  },
+  "house|PA|2|Brendan Boyle": {
+    "individual": 22,
+    "pacs": 42,
+    "other": 36,
+    "individualDollars": 491445,
+    "pacDollars": 970785,
+    "otherDollars": 822663,
+    "through": "2026-06-30"
+  },
+  "house|PA|3|Dennis Mahoney": {
+    "individual": 91,
+    "pacs": 0,
+    "other": 9,
+    "individualDollars": 9800,
+    "pacDollars": 0,
+    "otherDollars": 1000,
+    "through": "2026-06-30"
+  },
+  "house|PA|3|Chris Rabb": {
+    "individual": 90,
+    "pacs": 7,
+    "other": 3,
+    "individualDollars": 1199135,
+    "pacDollars": 89113,
+    "otherDollars": 41006,
+    "through": "2026-06-30"
+  },
+  "house|PA|4|Madeleine Dean": {
+    "individual": 44,
+    "pacs": 53,
+    "other": 3,
+    "individualDollars": 603192,
+    "pacDollars": 725200,
+    "otherDollars": 43144,
+    "through": "2026-06-30"
+  },
+  "house|PA|5|Nicholas Manganaro": {
+    "individual": 42,
+    "pacs": 0,
+    "other": 58,
+    "individualDollars": 3871,
+    "pacDollars": 0,
+    "otherDollars": 5425,
+    "through": "2026-06-30"
+  },
+  "house|PA|6|Chrissy Houlahan": {
+    "individual": 61,
+    "pacs": 30,
+    "other": 9,
+    "individualDollars": 1085760,
+    "pacDollars": 523250,
+    "otherDollars": 153494,
+    "through": "2026-06-30"
+  },
+  "house|PA|7|Bob Brooks": {
+    "individual": 82,
+    "pacs": 17,
+    "other": 1,
+    "individualDollars": 1932398,
+    "pacDollars": 403000,
+    "otherDollars": 30732,
+    "through": "2026-06-30"
+  },
+  "house|PA|7|Ryan Mackenzie": {
+    "individual": 56,
+    "pacs": 41,
+    "other": 3,
+    "individualDollars": 1450780,
+    "pacDollars": 1042913,
+    "otherDollars": 84513,
+    "through": "2026-06-30"
+  },
+  "house|PA|8|Rob Bresnahan": {
+    "individual": 56,
+    "pacs": 41,
+    "other": 3,
+    "individualDollars": 1879430,
+    "pacDollars": 1378927,
+    "otherDollars": 79488,
+    "through": "2026-06-30"
+  },
+  "house|PA|8|Paige Cognetti": {
+    "individual": 88,
+    "pacs": 10,
+    "other": 2,
+    "individualDollars": 3835337,
+    "pacDollars": 429599,
+    "otherDollars": 74552,
+    "through": "2026-06-30"
+  },
+  "house|PA|9|Dan Meuser": {
+    "individual": 52,
+    "pacs": 46,
+    "other": 2,
+    "individualDollars": 885570,
+    "pacDollars": 792000,
+    "otherDollars": 36181,
+    "through": "2026-06-30"
+  },
+  "house|PA|9|Rachel Wallace": {
+    "individual": 94,
+    "pacs": 6,
+    "other": 0,
+    "individualDollars": 654615,
+    "pacDollars": 39800,
+    "otherDollars": 3450,
+    "through": "2026-06-30"
+  },
+  "house|PA|10|Scott Perry": {
+    "individual": 82,
+    "pacs": 17,
+    "other": 1,
+    "individualDollars": 3077425,
+    "pacDollars": 650127,
+    "otherDollars": 39176,
+    "through": "2026-06-30"
+  },
+  "house|PA|10|Janelle Stelson": {
+    "individual": 90,
+    "pacs": 9,
+    "other": 1,
+    "individualDollars": 4868312,
+    "pacDollars": 488706,
+    "otherDollars": 69922,
+    "through": "2026-06-30"
+  },
+  "house|PA|11|Nancy Mannion": {
+    "individual": 73,
+    "pacs": 3,
+    "other": 24,
+    "individualDollars": 156023,
+    "pacDollars": 6250,
+    "otherDollars": 51957,
+    "through": "2026-06-30"
+  },
+  "house|PA|11|Lloyd Smucker": {
+    "individual": 21,
+    "pacs": 75,
+    "other": 4,
+    "individualDollars": 224112,
+    "pacDollars": 803667,
+    "otherDollars": 40426,
+    "through": "2026-06-30"
+  },
+  "house|PA|12|James Hayes": {
+    "individual": 87,
+    "pacs": 12,
+    "other": 1,
+    "individualDollars": 34913,
+    "pacDollars": 4950,
+    "otherDollars": 276,
+    "through": "2026-06-30"
+  },
+  "house|PA|12|Summer Lee": {
+    "individual": 81,
+    "pacs": 15,
+    "other": 4,
+    "individualDollars": 1132184,
+    "pacDollars": 207105,
+    "otherDollars": 63498,
+    "through": "2026-06-30"
+  },
+  "house|PA|13|Beth Farnham": {
+    "individual": 94,
+    "pacs": 4,
+    "other": 2,
+    "individualDollars": 52358,
+    "pacDollars": 2067,
+    "otherDollars": 922,
+    "through": "2026-06-30"
+  },
+  "house|PA|13|John Joyce": {
+    "individual": 22,
+    "pacs": 71,
+    "other": 7,
+    "individualDollars": 436884,
+    "pacDollars": 1402618,
+    "otherDollars": 139675,
+    "through": "2026-06-30"
+  },
+  "house|PA|14|Alan Bradstock": {
+    "individual": 90,
+    "pacs": 9,
+    "other": 1,
+    "individualDollars": 181512,
+    "pacDollars": 17908,
+    "otherDollars": 2000,
+    "through": "2026-06-30"
+  },
+  "house|PA|14|Guy Reschenthaler": {
+    "individual": 67,
+    "pacs": 32,
+    "other": 1,
+    "individualDollars": 2458566,
+    "pacDollars": 1167150,
+    "otherDollars": 19620,
+    "through": "2026-06-30"
+  },
+  "house|PA|15|Glenn Thompson": {
+    "individual": 41,
+    "pacs": 58,
+    "other": 1,
+    "individualDollars": 727382,
+    "pacDollars": 1037568,
+    "otherDollars": 13006,
+    "through": "2026-06-30"
+  },
+  "house|PA|16|Justin Wagner": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 65921,
+    "pacDollars": 0,
+    "otherDollars": 670,
+    "through": "2026-06-30"
+  },
+  "house|PA|17|Chris Deluzio": {
+    "individual": 80,
+    "pacs": 19,
+    "other": 1,
+    "individualDollars": 2207147,
+    "pacDollars": 512350,
+    "otherDollars": 32030,
+    "through": "2026-06-30"
+  },
+  "house|PA|17|Tony Guy": {
+    "individual": 96,
+    "pacs": 4,
+    "other": 0,
+    "individualDollars": 112264,
+    "pacDollars": 5100,
+    "otherDollars": 166,
+    "through": "2026-06-30"
+  },
+  "house|RI|1|Kellie Keenan": {
+    "individual": 37,
+    "pacs": 0,
+    "other": 63,
+    "individualDollars": 4671,
+    "pacDollars": 0,
+    "otherDollars": 8100,
+    "through": "2026-08-20"
+  },
+  "house|RI|2|Seth Magaziner": {
+    "individual": 57,
+    "pacs": 38,
+    "other": 5,
+    "individualDollars": 769292,
+    "pacDollars": 520000,
+    "otherDollars": 73384,
+    "through": "2026-08-20"
+  },
+  "house|SC|1|Nancy Lacore": {
+    "individual": 96,
+    "pacs": 3,
+    "other": 1,
+    "individualDollars": 2187425,
+    "pacDollars": 75250,
+    "otherDollars": 11662,
+    "through": "2026-06-30"
+  },
+  "house|SC|1|Bill Reeside": {
+    "individual": 7,
+    "pacs": 0,
+    "other": 93,
+    "individualDollars": 8321,
+    "pacDollars": 0,
+    "otherDollars": 105501,
+    "through": "2026-06-30"
+  },
+  "house|SC|2|Zyon Khalifa": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 19296,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|SC|2|Joe Wilson": {
+    "individual": 44,
+    "pacs": 31,
+    "other": 25,
+    "individualDollars": 369200,
+    "pacDollars": 261000,
+    "otherDollars": 206776,
+    "through": "2026-06-30"
+  },
+  "house|SC|3|Sheri Biggs": {
+    "individual": 22,
+    "pacs": 74,
+    "other": 4,
+    "individualDollars": 88731,
+    "pacDollars": 291476,
+    "otherDollars": 14276,
+    "through": "2026-06-30"
+  },
+  "house|SC|3|Eunice Lehmacher": {
+    "individual": 99,
+    "pacs": 1,
+    "other": 0,
+    "individualDollars": 40375,
+    "pacDollars": 333,
+    "otherDollars": 105,
+    "through": "2026-06-30"
+  },
+  "house|SC|4|Jessica Ethridge": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 409,
+    "through": "2026-06-30"
+  },
+  "house|SC|4|Courtney McClain": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 32993,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-09-30"
+  },
+  "house|SC|4|William Timmons": {
+    "individual": 18,
+    "pacs": 40,
+    "other": 42,
+    "individualDollars": 287758,
+    "pacDollars": 637500,
+    "otherDollars": 657475,
+    "through": "2026-06-30"
+  },
+  "house|SC|5|Wes Climer": {
+    "individual": 72,
+    "pacs": 27,
+    "other": 1,
+    "individualDollars": 641654,
+    "pacDollars": 236000,
+    "otherDollars": 6630,
+    "through": "2026-06-30"
+  },
+  "house|SC|5|Mallory Dittmer": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 136059,
+    "pacDollars": 100,
+    "otherDollars": 1559,
+    "through": "2026-06-30"
+  },
+  "house|SC|6|Jim Clyburn": {
+    "individual": 38,
+    "pacs": 60,
+    "other": 2,
+    "individualDollars": 455764,
+    "pacDollars": 720491,
+    "otherDollars": 27901,
+    "through": "2026-06-30"
+  },
+  "house|SC|7|Russell Fry": {
+    "individual": 51,
+    "pacs": 47,
+    "other": 2,
+    "individualDollars": 754074,
+    "pacDollars": 697664,
+    "otherDollars": 30396,
+    "through": "2026-06-30"
+  },
+  "house|SC|7|John Vincent": {
+    "individual": 95,
+    "pacs": 1,
+    "other": 4,
+    "individualDollars": 281850,
+    "pacDollars": 3500,
+    "otherDollars": 11914,
+    "through": "2026-06-30"
+  },
+  "house|SD|at-large|Marty Jackley": {
+    "individual": 87,
+    "pacs": 13,
+    "other": 0,
+    "individualDollars": 1244029,
+    "pacDollars": 181250,
+    "otherDollars": 3138,
+    "through": "2026-06-30"
+  },
+  "house|TN|1|Kristi Burke": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 101615,
+    "pacDollars": 250,
+    "otherDollars": 118,
+    "through": "2026-07-17"
+  },
+  "house|TN|1|Diana Harshbarger": {
+    "individual": 38,
+    "pacs": 55,
+    "other": 7,
+    "individualDollars": 466509,
+    "pacDollars": 683250,
+    "otherDollars": 89026,
+    "through": "2026-07-17"
+  },
+  "house|TN|2|Michaela Barnett": {
+    "individual": 97,
+    "pacs": 0,
+    "other": 3,
+    "individualDollars": 385395,
+    "pacDollars": 250,
+    "otherDollars": 11938,
+    "through": "2026-07-17"
+  },
+  "house|TN|2|Tim Burchett": {
+    "individual": 93,
+    "pacs": 6,
+    "other": 1,
+    "individualDollars": 2249399,
+    "pacDollars": 141525,
+    "otherDollars": 18368,
+    "through": "2026-07-17"
+  },
+  "house|TN|3|Chuck Fleischmann": {
+    "individual": 63,
+    "pacs": 0,
+    "other": 37,
+    "individualDollars": 1471010,
+    "pacDollars": 9500,
+    "otherDollars": 850294,
+    "through": "2026-07-17"
+  },
+  "house|TN|3|Anna Golladay": {
+    "individual": 95,
+    "pacs": 0,
+    "other": 5,
+    "individualDollars": 52696,
+    "pacDollars": 0,
+    "otherDollars": 2859,
+    "through": "2026-07-17"
+  },
+  "house|TN|4|Jacob Anders": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 26730,
+    "pacDollars": 0,
+    "otherDollars": 420,
+    "through": "2026-06-30"
+  },
+  "house|TN|4|Victoria Broderick": {
+    "individual": 89,
+    "pacs": 0,
+    "other": 11,
+    "individualDollars": 74734,
+    "pacDollars": 250,
+    "otherDollars": 8946,
+    "through": "2026-09-30"
+  },
+  "house|TN|4|Scott DesJarlais": {
+    "individual": 43,
+    "pacs": 57,
+    "other": 0,
+    "individualDollars": 228787,
+    "pacDollars": 307000,
+    "otherDollars": 1056,
+    "through": "2026-07-17"
+  },
+  "house|TN|5|Charlie Hatcher": {
+    "individual": 79,
+    "pacs": 0,
+    "other": 21,
+    "individualDollars": 567539,
+    "pacDollars": 3500,
+    "otherDollars": 148463,
+    "through": "2026-07-17"
+  },
+  "house|TN|5|Chaz Molder": {
+    "individual": 91,
+    "pacs": 8,
+    "other": 1,
+    "individualDollars": 2339538,
+    "pacDollars": 215700,
+    "otherDollars": 22667,
+    "through": "2026-07-17"
+  },
+  "house|TN|6|Mike Croley": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 35290,
+    "pacDollars": 0,
+    "otherDollars": 90,
+    "through": "2026-07-17"
+  },
+  "house|TN|6|Johnny Garrett": {
+    "individual": 45,
+    "pacs": 4,
+    "other": 51,
+    "individualDollars": 1069835,
+    "pacDollars": 103200,
+    "otherDollars": 1207292,
+    "through": "2026-07-17"
+  },
+  "house|TN|7|Darden Copeland": {
+    "individual": 73,
+    "pacs": 0,
+    "other": 27,
+    "individualDollars": 636479,
+    "pacDollars": 3000,
+    "otherDollars": 229136,
+    "through": "2026-07-17"
+  },
+  "house|TN|7|Andrew Koontz": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 5100,
+    "through": "2026-06-30"
+  },
+  "house|TN|7|Matt Van Epps": {
+    "individual": 74,
+    "pacs": 26,
+    "other": 0,
+    "individualDollars": 1664150,
+    "pacDollars": 582300,
+    "otherDollars": 12805,
+    "through": "2026-07-17"
+  },
+  "house|TN|8|Heidi Kuhn": {
+    "individual": 96,
+    "pacs": 4,
+    "other": 0,
+    "individualDollars": 38305,
+    "pacDollars": 1500,
+    "otherDollars": 0,
+    "through": "2026-07-17"
+  },
+  "house|TN|8|David Kustoff": {
+    "individual": 49,
+    "pacs": 48,
+    "other": 3,
+    "individualDollars": 1045962,
+    "pacDollars": 1028850,
+    "otherDollars": 61063,
+    "through": "2026-07-17"
+  },
+  "house|TN|8|Horace Taylor": {
+    "individual": 54,
+    "pacs": 0,
+    "other": 46,
+    "individualDollars": 1164,
+    "pacDollars": 0,
+    "otherDollars": 1000,
+    "through": "2026-06-30"
+  },
+  "house|TN|9|Justin Pearson": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 2292489,
+    "pacDollars": 32694,
+    "otherDollars": 19764,
+    "through": "2026-07-17"
+  },
+  "house|TN|9|Brent Taylor": {
+    "individual": 30,
+    "pacs": 5,
+    "other": 65,
+    "individualDollars": 465995,
+    "pacDollars": 82300,
+    "otherDollars": 1001186,
+    "through": "2026-07-17"
+  },
+  "house|TX|1|Nathaniel Moran": {
+    "individual": 48,
+    "pacs": 51,
+    "other": 1,
+    "individualDollars": 745455,
+    "pacDollars": 779600,
+    "otherDollars": 9761,
+    "through": "2026-06-30"
+  },
+  "house|TX|1|Yolanda Prince": {
+    "individual": 24,
+    "pacs": 0,
+    "other": 76,
+    "individualDollars": 2206,
+    "pacDollars": 0,
+    "otherDollars": 7038,
+    "through": "2026-06-30"
+  },
+  "house|TX|2|Shaun Finnie": {
+    "individual": 28,
+    "pacs": 0,
+    "other": 72,
+    "individualDollars": 759448,
+    "pacDollars": 1000,
+    "otherDollars": 1969229,
+    "through": "2026-06-30"
+  },
+  "house|TX|2|Steve Toth": {
+    "individual": 86,
+    "pacs": 9,
+    "other": 5,
+    "individualDollars": 684707,
+    "pacDollars": 67800,
+    "otherDollars": 42667,
+    "through": "2026-06-30"
+  },
+  "house|TX|3|Evan Hunt": {
+    "individual": 82,
+    "pacs": 1,
+    "other": 17,
+    "individualDollars": 365900,
+    "pacDollars": 5500,
+    "otherDollars": 75106,
+    "through": "2026-06-30"
+  },
+  "house|TX|3|Keith Self": {
+    "individual": 68,
+    "pacs": 28,
+    "other": 4,
+    "individualDollars": 438649,
+    "pacDollars": 178673,
+    "otherDollars": 28180,
+    "through": "2026-06-30"
+  },
+  "house|TX|4|Pat Fallon": {
+    "individual": 43,
+    "pacs": 54,
+    "other": 3,
+    "individualDollars": 240245,
+    "pacDollars": 300080,
+    "otherDollars": 18551,
+    "through": "2026-06-30"
+  },
+  "house|TX|4|Jason Pearce": {
+    "individual": 46,
+    "pacs": 0,
+    "other": 54,
+    "individualDollars": 7474,
+    "pacDollars": 0,
+    "otherDollars": 8797,
+    "through": "2026-06-30"
+  },
+  "house|TX|5|Lance Gooden": {
+    "individual": 42,
+    "pacs": 55,
+    "other": 3,
+    "individualDollars": 396593,
+    "pacDollars": 523533,
+    "otherDollars": 32217,
+    "through": "2026-06-30"
+  },
+  "house|TX|5|Chelsey Hockett": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 12666,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|TX|6|Danny Minton": {
+    "individual": 82,
+    "pacs": 0,
+    "other": 18,
+    "individualDollars": 36158,
+    "pacDollars": 0,
+    "otherDollars": 8125,
+    "through": "2026-06-30"
+  },
+  "house|TX|7|Alexander Hale": {
+    "individual": 92,
+    "pacs": 3,
+    "other": 5,
+    "individualDollars": 70457,
+    "pacDollars": 2500,
+    "otherDollars": 3620,
+    "through": "2026-06-30"
+  },
+  "house|TX|7|Espoir Ngabo": {
+    "individual": 68,
+    "pacs": 0,
+    "other": 32,
+    "individualDollars": 2133,
+    "pacDollars": 0,
+    "otherDollars": 1000,
+    "through": "2026-06-30"
+  },
+  "house|TX|8|Laura Jones": {
+    "individual": 88,
+    "pacs": 12,
+    "other": 0,
+    "individualDollars": 19355,
+    "pacDollars": 2625,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|TX|9|Leticia Gutierrez": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 54608,
+    "pacDollars": 0,
+    "otherDollars": 750,
+    "through": "2026-06-30"
+  },
+  "house|TX|10|Chris Gober": {
+    "individual": 28,
+    "pacs": 5,
+    "other": 67,
+    "individualDollars": 691244,
+    "pacDollars": 129146,
+    "otherDollars": 1662295,
+    "through": "2026-06-30"
+  },
+  "house|TX|10|Caitlin Rourk": {
+    "individual": 90,
+    "pacs": 2,
+    "other": 8,
+    "individualDollars": 328013,
+    "pacDollars": 7650,
+    "otherDollars": 28296,
+    "through": "2026-06-30"
+  },
+  "house|TX|11|August Pfluger": {
+    "individual": 71,
+    "pacs": 18,
+    "other": 11,
+    "individualDollars": 714952,
+    "pacDollars": 182500,
+    "otherDollars": 109655,
+    "through": "2026-06-30"
+  },
+  "house|TX|11|Claire Reynolds": {
+    "individual": 94,
+    "pacs": 6,
+    "other": 0,
+    "individualDollars": 84198,
+    "pacDollars": 5000,
+    "otherDollars": 83,
+    "through": "2026-06-30"
+  },
+  "house|TX|12|Craig Goldman": {
+    "individual": 36,
+    "pacs": 62,
+    "other": 2,
+    "individualDollars": 358104,
+    "pacDollars": 607300,
+    "otherDollars": 15011,
+    "through": "2026-06-30"
+  },
+  "house|TX|13|Ronny Jackson": {
+    "individual": 83,
+    "pacs": 8,
+    "other": 9,
+    "individualDollars": 2470833,
+    "pacDollars": 240600,
+    "otherDollars": 275473,
+    "through": "2026-06-30"
+  },
+  "house|TX|13|Mark Nair": {
+    "individual": 85,
+    "pacs": 0,
+    "other": 15,
+    "individualDollars": 87102,
+    "pacDollars": 0,
+    "otherDollars": 14793,
+    "through": "2026-06-30"
+  },
+  "house|TX|14|Thurman Bartie": {
+    "individual": 96,
+    "pacs": 0,
+    "other": 4,
+    "individualDollars": 25723,
+    "pacDollars": 0,
+    "otherDollars": 1100,
+    "through": "2026-06-30"
+  },
+  "house|TX|14|Randy Weber": {
+    "individual": 33,
+    "pacs": 58,
+    "other": 9,
+    "individualDollars": 248909,
+    "pacDollars": 435611,
+    "otherDollars": 70130,
+    "through": "2026-06-30"
+  },
+  "house|TX|15|Monica De La Cruz": {
+    "individual": 81,
+    "pacs": 18,
+    "other": 1,
+    "individualDollars": 3283945,
+    "pacDollars": 705285,
+    "otherDollars": 39989,
+    "through": "2026-06-30"
+  },
+  "house|TX|15|Bobby Pulido": {
+    "individual": 84,
+    "pacs": 9,
+    "other": 7,
+    "individualDollars": 2400931,
+    "pacDollars": 243550,
+    "otherDollars": 202243,
+    "through": "2026-06-30"
+  },
+  "house|TX|16|Veronica Escobar": {
+    "individual": 56,
+    "pacs": 43,
+    "other": 1,
+    "individualDollars": 484615,
+    "pacDollars": 366368,
+    "otherDollars": 7783,
+    "through": "2026-06-30"
+  },
+  "house|TX|17|Pete Sessions": {
+    "individual": 48,
+    "pacs": 49,
+    "other": 3,
+    "individualDollars": 498753,
+    "pacDollars": 516176,
+    "otherDollars": 35308,
+    "through": "2026-06-30"
+  },
+  "house|TX|17|Casey Shepard": {
+    "individual": 40,
+    "pacs": 0,
+    "other": 60,
+    "individualDollars": 3499,
+    "pacDollars": 0,
+    "otherDollars": 5302,
+    "through": "2026-06-30"
+  },
+  "house|TX|18|Christian Menefee": {
+    "individual": 93,
+    "pacs": 7,
+    "other": 0,
+    "individualDollars": 3390883,
+    "pacDollars": 234868,
+    "otherDollars": 11828,
+    "through": "2026-06-30"
+  },
+  "house|TX|19|Kyle Rable": {
+    "individual": 96,
+    "pacs": 3,
+    "other": 1,
+    "individualDollars": 30076,
+    "pacDollars": 1000,
+    "otherDollars": 200,
+    "through": "2026-06-30"
+  },
+  "house|TX|19|Tom Sell": {
+    "individual": 75,
+    "pacs": 24,
+    "other": 1,
+    "individualDollars": 1602485,
+    "pacDollars": 524039,
+    "otherDollars": 16501,
+    "through": "2026-06-30"
+  },
+  "house|TX|20|Joaquin Castro": {
+    "individual": 72,
+    "pacs": 27,
+    "other": 1,
+    "individualDollars": 371041,
+    "pacDollars": 141000,
+    "otherDollars": 2735,
+    "through": "2026-06-30"
+  },
+  "house|TX|21|Kristin Hook": {
+    "individual": 97,
+    "pacs": 2,
+    "other": 1,
+    "individualDollars": 236895,
+    "pacDollars": 4170,
+    "otherDollars": 2774,
+    "through": "2026-06-30"
+  },
+  "house|TX|21|Mark Teixeira": {
+    "individual": 20,
+    "pacs": 8,
+    "other": 72,
+    "individualDollars": 746886,
+    "pacDollars": 299830,
+    "otherDollars": 2753500,
+    "through": "2026-06-30"
+  },
+  "house|TX|22|Trever Nehls": {
+    "individual": 58,
+    "pacs": 42,
+    "other": 0,
+    "individualDollars": 119142,
+    "pacDollars": 86250,
+    "otherDollars": 1071,
+    "through": "2026-06-30"
+  },
+  "house|TX|23|Brandon Herrera": {
+    "individual": 15,
+    "pacs": 11,
+    "other": 74,
+    "individualDollars": 85421,
+    "pacDollars": 62500,
+    "otherDollars": 420456,
+    "through": "2026-06-30"
+  },
+  "house|TX|24|Kevin Burge": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 206360,
+    "pacDollars": 0,
+    "otherDollars": 3500,
+    "through": "2026-06-30"
+  },
+  "house|TX|24|Beth Van Duyne": {
+    "individual": 31,
+    "pacs": 61,
+    "other": 8,
+    "individualDollars": 570714,
+    "pacDollars": 1102311,
+    "otherDollars": 138166,
+    "through": "2026-06-30"
+  },
+  "house|TX|25|Roger Williams": {
+    "individual": 13,
+    "pacs": 84,
+    "other": 3,
+    "individualDollars": 69715,
+    "pacDollars": 454978,
+    "otherDollars": 18330,
+    "through": "2026-06-30"
+  },
+  "house|TX|26|Brandon Gill": {
+    "individual": 88,
+    "pacs": 10,
+    "other": 2,
+    "individualDollars": 3375259,
+    "pacDollars": 376086,
+    "otherDollars": 67279,
+    "through": "2026-06-30"
+  },
+  "house|TX|26|Steven Shook": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 17227,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|TX|27|Michael Cloud": {
+    "individual": 77,
+    "pacs": 20,
+    "other": 3,
+    "individualDollars": 801452,
+    "pacDollars": 208250,
+    "otherDollars": 30329,
+    "through": "2026-06-30"
+  },
+  "house|TX|27|Tanya Lloyd": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 139191,
+    "pacDollars": 0,
+    "otherDollars": 597,
+    "through": "2026-06-30"
+  },
+  "house|TX|28|Henry Cuellar": {
+    "individual": 53,
+    "pacs": 31,
+    "other": 16,
+    "individualDollars": 1120576,
+    "pacDollars": 670600,
+    "otherDollars": 334083,
+    "through": "2026-06-30"
+  },
+  "house|TX|28|Tano Tijerina": {
+    "individual": 71,
+    "pacs": 28,
+    "other": 1,
+    "individualDollars": 603666,
+    "pacDollars": 238000,
+    "otherDollars": 5000,
+    "through": "2026-06-30"
+  },
+  "house|TX|29|Sylvia Garcia": {
+    "individual": 34,
+    "pacs": 66,
+    "other": 0,
+    "individualDollars": 333898,
+    "pacDollars": 650850,
+    "otherDollars": 2655,
+    "through": "2026-06-30"
+  },
+  "house|TX|30|Frederick Haynes III": {
+    "individual": 89,
+    "pacs": 11,
+    "other": 0,
+    "individualDollars": 372475,
+    "pacDollars": 47515,
+    "otherDollars": 163,
+    "through": "2026-06-30"
+  },
+  "house|TX|30|Everett Jackson": {
+    "individual": 97,
+    "pacs": 0,
+    "other": 3,
+    "individualDollars": 16673,
+    "pacDollars": 0,
+    "otherDollars": 542,
+    "through": "2026-06-30"
+  },
+  "house|TX|31|John Carter": {
+    "individual": 45,
+    "pacs": 54,
+    "other": 1,
+    "individualDollars": 401590,
+    "pacDollars": 482311,
+    "otherDollars": 5344,
+    "through": "2026-06-30"
+  },
+  "house|TX|31|Justin Early": {
+    "individual": 59,
+    "pacs": 6,
+    "other": 35,
+    "individualDollars": 73324,
+    "pacDollars": 7000,
+    "otherDollars": 43198,
+    "through": "2026-06-30"
+  },
+  "house|TX|31|Greg Stoker": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 77970,
+    "pacDollars": 0,
+    "otherDollars": 709,
+    "through": "2026-06-30"
+  },
+  "house|TX|32|Dan Barrios": {
+    "individual": 90,
+    "pacs": 0,
+    "other": 10,
+    "individualDollars": 86475,
+    "pacDollars": 0,
+    "otherDollars": 10062,
+    "through": "2026-06-30"
+  },
+  "house|TX|32|Jace Yarbrough": {
+    "individual": 54,
+    "pacs": 21,
+    "other": 25,
+    "individualDollars": 468194,
+    "pacDollars": 184000,
+    "otherDollars": 211500,
+    "through": "2026-06-30"
+  },
+  "house|TX|33|Colin Allred": {
+    "individual": 96,
+    "pacs": 2,
+    "other": 2,
+    "individualDollars": 3064518,
+    "pacDollars": 62550,
+    "otherDollars": 67266,
+    "through": "2026-06-30"
+  },
+  "house|TX|34|Eric Flores": {
+    "individual": 58,
+    "pacs": 14,
+    "other": 28,
+    "individualDollars": 1313064,
+    "pacDollars": 312302,
+    "otherDollars": 638142,
+    "through": "2026-06-30"
+  },
+  "house|TX|34|Vicente Gonzalez": {
+    "individual": 59,
+    "pacs": 41,
+    "other": 0,
+    "individualDollars": 1891655,
+    "pacDollars": 1307061,
+    "otherDollars": 17770,
+    "through": "2026-06-30"
+  },
+  "house|TX|35|Carlos De La Cruz": {
+    "individual": 76,
+    "pacs": 19,
+    "other": 5,
+    "individualDollars": 765628,
+    "pacDollars": 195000,
+    "otherDollars": 53190,
+    "through": "2026-06-30"
+  },
+  "house|TX|35|Johnny Garcia": {
+    "individual": 76,
+    "pacs": 23,
+    "other": 1,
+    "individualDollars": 706821,
+    "pacDollars": 209500,
+    "otherDollars": 7879,
+    "through": "2026-06-30"
+  },
+  "house|TX|36|Brian Babin": {
+    "individual": 33,
+    "pacs": 62,
+    "other": 5,
+    "individualDollars": 233754,
+    "pacDollars": 432302,
+    "otherDollars": 37127,
+    "through": "2026-06-30"
+  },
+  "house|TX|37|Greg Casar": {
+    "individual": 77,
+    "pacs": 22,
+    "other": 1,
+    "individualDollars": 887439,
+    "pacDollars": 251220,
+    "otherDollars": 11672,
+    "through": "2026-06-30"
+  },
+  "house|TX|37|Lauren Pe\u00f1a": {
+    "individual": 96,
+    "pacs": 0,
+    "other": 4,
+    "individualDollars": 125033,
+    "pacDollars": 0,
+    "otherDollars": 5000,
+    "through": "2026-09-30"
+  },
+  "house|TX|38|Jon Bonck": {
+    "individual": 62,
+    "pacs": 10,
+    "other": 28,
+    "individualDollars": 1014280,
+    "pacDollars": 173125,
+    "otherDollars": 455363,
+    "through": "2026-06-30"
+  },
+  "house|TX|38|Melissa McDonough": {
+    "individual": 56,
+    "pacs": 1,
+    "other": 43,
+    "individualDollars": 37386,
+    "pacDollars": 500,
+    "otherDollars": 29042,
+    "through": "2026-06-30"
+  },
+  "house|TX|38|Alex McMenemy": {
+    "individual": 58,
+    "pacs": 0,
+    "other": 42,
+    "individualDollars": 5781,
+    "pacDollars": 0,
+    "otherDollars": 4107,
+    "through": "2026-06-30"
+  },
+  "house|UT|1|Ben McAdams": {
+    "individual": 91,
+    "pacs": 9,
+    "other": 0,
+    "individualDollars": 1973994,
+    "pacDollars": 193291,
+    "otherDollars": 5394,
+    "through": "2026-06-30"
+  },
+  "house|UT|1|Riley Owen": {
+    "individual": 69,
+    "pacs": 3,
+    "other": 28,
+    "individualDollars": 91533,
+    "pacDollars": 4000,
+    "otherDollars": 37000,
+    "through": "2026-06-30"
+  },
+  "house|UT|2|Peter Crosby": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 60049,
+    "pacDollars": 0,
+    "otherDollars": 175,
+    "through": "2026-06-30"
+  },
+  "house|UT|2|Robert Moesinger": {
+    "individual": 97,
+    "pacs": 0,
+    "other": 3,
+    "individualDollars": 8500,
+    "pacDollars": 0,
+    "otherDollars": 306,
+    "through": "2026-06-30"
+  },
+  "house|UT|2|Blake Moore": {
+    "individual": 40,
+    "pacs": 59,
+    "other": 1,
+    "individualDollars": 969531,
+    "pacDollars": 1421500,
+    "otherDollars": 32015,
+    "through": "2026-06-30"
+  },
+  "house|UT|3|Adonis Hooslyn": {
+    "individual": 26,
+    "pacs": 0,
+    "other": 74,
+    "individualDollars": 175,
+    "pacDollars": 0,
+    "otherDollars": 488,
+    "through": "2026-06-30"
+  },
+  "house|UT|3|Celeste Maloy": {
+    "individual": 51,
+    "pacs": 48,
+    "other": 1,
+    "individualDollars": 709143,
+    "pacDollars": 672923,
+    "otherDollars": 18502,
+    "through": "2026-06-30"
+  },
+  "house|UT|3|Kent Udell": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 47383,
+    "pacDollars": 131,
+    "otherDollars": 20,
+    "through": "2026-06-30"
+  },
+  "house|UT|4|Steven Burt": {
+    "individual": 83,
+    "pacs": 0,
+    "other": 17,
+    "individualDollars": 28435,
+    "pacDollars": 0,
+    "otherDollars": 5639,
+    "through": "2026-06-30"
+  },
+  "house|UT|4|Mike Kennedy": {
+    "individual": 46,
+    "pacs": 53,
+    "other": 1,
+    "individualDollars": 425399,
+    "pacDollars": 494000,
+    "otherDollars": 5494,
+    "through": "2026-06-30"
+  },
+  "house|UT|4|Jonny Larsen": {
+    "individual": 32,
+    "pacs": 0,
+    "other": 68,
+    "individualDollars": 16973,
+    "pacDollars": 250,
+    "otherDollars": 36355,
+    "through": "2026-06-30"
+  },
+  "house|VT|at-large|Becca Balint": {
+    "individual": 70,
+    "pacs": 29,
+    "other": 1,
+    "individualDollars": 668612,
+    "pacDollars": 279250,
+    "otherDollars": 8477,
+    "through": "2026-07-22"
+  },
+  "house|VT|at-large|Gerald Malloy": {
+    "individual": 63,
+    "pacs": 0,
+    "other": 37,
+    "individualDollars": 36468,
+    "pacDollars": 0,
+    "otherDollars": 21811,
+    "through": "2026-07-23"
+  },
+  "house|VA|1|Shannon Taylor": {
+    "individual": 82,
+    "pacs": 17,
+    "other": 1,
+    "individualDollars": 1665764,
+    "pacDollars": 341795,
+    "otherDollars": 29921,
+    "through": "2026-07-15"
+  },
+  "house|VA|1|Rob Wittman": {
+    "individual": 53,
+    "pacs": 43,
+    "other": 4,
+    "individualDollars": 1421884,
+    "pacDollars": 1169350,
+    "otherDollars": 114388,
+    "through": "2026-07-15"
+  },
+  "house|VA|2|Jen Kiggans": {
+    "individual": 70,
+    "pacs": 29,
+    "other": 1,
+    "individualDollars": 2953333,
+    "pacDollars": 1250101,
+    "otherDollars": 52239,
+    "through": "2026-07-15"
+  },
+  "house|VA|2|Elaine Luria": {
+    "individual": 88,
+    "pacs": 11,
+    "other": 1,
+    "individualDollars": 3361925,
+    "pacDollars": 405442,
+    "otherDollars": 25241,
+    "through": "2026-07-15"
+  },
+  "house|VA|3|Edwin Rivera": {
+    "individual": 30,
+    "pacs": 8,
+    "other": 62,
+    "individualDollars": 1955,
+    "pacDollars": 500,
+    "otherDollars": 4100,
+    "through": "2026-07-15"
+  },
+  "house|VA|3|Bobby Scott": {
+    "individual": 56,
+    "pacs": 44,
+    "other": 0,
+    "individualDollars": 382819,
+    "pacDollars": 305381,
+    "otherDollars": 0,
+    "through": "2026-07-15"
+  },
+  "house|VA|3|Stephen Woll": {
+    "individual": 42,
+    "pacs": 0,
+    "other": 58,
+    "individualDollars": 14320,
+    "pacDollars": 0,
+    "otherDollars": 20010,
+    "through": "2026-07-15"
+  },
+  "house|VA|4|Jennifer McClellan": {
+    "individual": 46,
+    "pacs": 54,
+    "other": 0,
+    "individualDollars": 521820,
+    "pacDollars": 607800,
+    "otherDollars": 5606,
+    "through": "2026-07-15"
+  },
+  "house|VA|5|John McGuire": {
+    "individual": 70,
+    "pacs": 27,
+    "other": 3,
+    "individualDollars": 1076735,
+    "pacDollars": 415801,
+    "otherDollars": 42863,
+    "through": "2026-07-15"
+  },
+  "house|VA|5|Tom Perriello": {
+    "individual": 94,
+    "pacs": 5,
+    "other": 1,
+    "individualDollars": 1970000,
+    "pacDollars": 106850,
+    "otherDollars": 29052,
+    "through": "2026-07-15"
+  },
+  "house|VA|6|Ben Cline": {
+    "individual": 55,
+    "pacs": 45,
+    "other": 0,
+    "individualDollars": 722922,
+    "pacDollars": 597760,
+    "otherDollars": 3154,
+    "through": "2026-07-15"
+  },
+  "house|VA|6|Beth Macy": {
+    "individual": 97,
+    "pacs": 2,
+    "other": 1,
+    "individualDollars": 1637360,
+    "pacDollars": 38550,
+    "otherDollars": 10412,
+    "through": "2026-07-15"
+  },
+  "house|VA|7|Alaha Ahrar": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 115,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-06-30"
+  },
+  "house|VA|7|Doug Ollivant": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 243884,
+    "pacDollars": 7250,
+    "otherDollars": 0,
+    "through": "2026-07-15"
+  },
+  "house|VA|7|Eugene Vindman": {
+    "individual": 91,
+    "pacs": 7,
+    "other": 2,
+    "individualDollars": 11131566,
+    "pacDollars": 818285,
+    "otherDollars": 200871,
+    "through": "2026-07-15"
+  },
+  "house|VA|8|Don Beyer": {
+    "individual": 72,
+    "pacs": 27,
+    "other": 1,
+    "individualDollars": 1536593,
+    "pacDollars": 573250,
+    "otherDollars": 15918,
+    "through": "2026-07-15"
+  },
+  "house|VA|8|Tony Sabio": {
+    "individual": 56,
+    "pacs": 4,
+    "other": 40,
+    "individualDollars": 12205,
+    "pacDollars": 1000,
+    "otherDollars": 8712,
+    "through": "2026-07-15"
+  },
+  "house|VA|8|Tim Sharman": {
+    "individual": 0,
+    "pacs": 0,
+    "other": 100,
+    "individualDollars": 0,
+    "pacDollars": 0,
+    "otherDollars": 25000,
+    "through": "2026-06-30"
+  },
+  "house|VA|9|Morgan Griffith": {
+    "individual": 30,
+    "pacs": 68,
+    "other": 2,
+    "individualDollars": 539438,
+    "pacDollars": 1224589,
+    "otherDollars": 35362,
+    "through": "2026-07-15"
+  },
+  "house|VA|9|Joy Powers": {
+    "individual": 97,
+    "pacs": 0,
+    "other": 3,
+    "individualDollars": 82745,
+    "pacDollars": 3,
+    "otherDollars": 2587,
+    "through": "2026-07-15"
+  },
+  "house|VA|10|Dave Beckwith": {
+    "individual": 51,
+    "pacs": 2,
+    "other": 47,
+    "individualDollars": 55334,
+    "pacDollars": 2000,
+    "otherDollars": 50000,
+    "through": "2026-07-15"
+  },
+  "house|VA|10|Suhas Subramanyam": {
+    "individual": 69,
+    "pacs": 29,
+    "other": 2,
+    "individualDollars": 779733,
+    "pacDollars": 320985,
+    "otherDollars": 19314,
+    "through": "2026-07-15"
+  },
+  "house|VA|11|Arthur Purves": {
+    "individual": 54,
+    "pacs": 0,
+    "other": 46,
+    "individualDollars": 5816,
+    "pacDollars": 0,
+    "otherDollars": 4964,
+    "through": "2026-08-27"
+  },
+  "house|VA|11|James Walkinshaw": {
+    "individual": 65,
+    "pacs": 34,
+    "other": 1,
+    "individualDollars": 1786051,
+    "pacDollars": 922069,
+    "otherDollars": 40840,
+    "through": "2026-07-15"
+  },
+  "house|WA|1|Suzan DelBene": {
+    "individual": 54,
+    "pacs": 45,
+    "other": 1,
+    "individualDollars": 1742900,
+    "pacDollars": 1479956,
+    "otherDollars": 43979,
+    "through": "2026-07-15"
+  },
+  "house|WA|1|Mary Silva": {
+    "individual": 30,
+    "pacs": 0,
+    "other": 70,
+    "individualDollars": 942,
+    "pacDollars": 0,
+    "otherDollars": 2244,
+    "through": "2026-07-15"
+  },
+  "house|WA|2|Rick Larsen": {
+    "individual": 41,
+    "pacs": 57,
+    "other": 2,
+    "individualDollars": 838232,
+    "pacDollars": 1157275,
+    "otherDollars": 43279,
+    "through": "2026-07-15"
+  },
+  "house|WA|3|John Braun": {
+    "individual": 84,
+    "pacs": 15,
+    "other": 1,
+    "individualDollars": 1526020,
+    "pacDollars": 279845,
+    "otherDollars": 16809,
+    "through": "2026-08-18"
+  },
+  "house|WA|4|John Duresky": {
+    "individual": 95,
+    "pacs": 3,
+    "other": 2,
+    "individualDollars": 170687,
+    "pacDollars": 5500,
+    "otherDollars": 2833,
+    "through": "2026-07-15"
+  },
+  "house|WA|4|Amanda McKinney": {
+    "individual": 80,
+    "pacs": 12,
+    "other": 8,
+    "individualDollars": 751449,
+    "pacDollars": 110500,
+    "otherDollars": 74395,
+    "through": "2026-07-15"
+  },
+  "house|WA|5|Michael Baumgartner": {
+    "individual": 78,
+    "pacs": 22,
+    "other": 0,
+    "individualDollars": 1321601,
+    "pacDollars": 366950,
+    "otherDollars": 8549,
+    "through": "2026-07-15"
+  },
+  "house|WA|5|Carmela Conroy": {
+    "individual": 92,
+    "pacs": 3,
+    "other": 5,
+    "individualDollars": 362853,
+    "pacDollars": 13100,
+    "otherDollars": 20263,
+    "through": "2026-07-15"
+  },
+  "house|WA|6|Teresa Fox": {
+    "individual": 69,
+    "pacs": 0,
+    "other": 31,
+    "individualDollars": 19080,
+    "pacDollars": 0,
+    "otherDollars": 8535,
+    "through": "2026-07-15"
+  },
+  "house|WA|6|Emily Randall": {
+    "individual": 73,
+    "pacs": 26,
+    "other": 1,
+    "individualDollars": 872421,
+    "pacDollars": 311706,
+    "otherDollars": 9525,
+    "through": "2026-07-15"
+  },
+  "house|WA|7|Pramila Jayapal": {
+    "individual": 86,
+    "pacs": 12,
+    "other": 2,
+    "individualDollars": 2108724,
+    "pacDollars": 280500,
+    "otherDollars": 52142,
+    "through": "2026-07-15"
+  },
+  "house|WA|7|Nirav Sheth": {
+    "individual": 50,
+    "pacs": 0,
+    "other": 50,
+    "individualDollars": 5911,
+    "pacDollars": 0,
+    "otherDollars": 5900,
+    "through": "2026-07-22"
+  },
+  "house|WA|8|Spencer Meline": {
+    "individual": 33,
+    "pacs": 0,
+    "other": 67,
+    "individualDollars": 41517,
+    "pacDollars": 0,
+    "otherDollars": 85000,
+    "through": "2026-07-15"
+  },
+  "house|WA|8|Kim Schrier": {
+    "individual": 68,
+    "pacs": 30,
+    "other": 2,
+    "individualDollars": 2029240,
+    "pacDollars": 900550,
+    "otherDollars": 74696,
+    "through": "2026-07-15"
+  },
+  "house|WA|9|Doug Basler": {
+    "individual": 94,
+    "pacs": 0,
+    "other": 6,
+    "individualDollars": 11482,
+    "pacDollars": 0,
+    "otherDollars": 760,
+    "through": "2026-07-15"
+  },
+  "house|WA|9|Adam Smith": {
+    "individual": 69,
+    "pacs": 30,
+    "other": 1,
+    "individualDollars": 1294900,
+    "pacDollars": 563000,
+    "otherDollars": 24101,
+    "through": "2026-07-15"
+  },
+  "house|WA|10|Marilyn Strickland": {
+    "individual": 55,
+    "pacs": 44,
+    "other": 1,
+    "individualDollars": 836282,
+    "pacDollars": 667380,
+    "otherDollars": 7642,
+    "through": "2026-07-15"
+  },
+  "house|WV|1|Carol Miller": {
+    "individual": 29,
+    "pacs": 71,
+    "other": 0,
+    "individualDollars": 500424,
+    "pacDollars": 1232139,
+    "otherDollars": 2350,
+    "through": "2026-06-30"
+  },
+  "house|WV|2|Riley Moore": {
+    "individual": 47,
+    "pacs": 53,
+    "other": 0,
+    "individualDollars": 462067,
+    "pacDollars": 522450,
+    "otherDollars": 1384,
+    "through": "2026-06-30"
+  },
+  "house|WI|1|Mitchell Berman": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 690243,
+    "pacDollars": 19500,
+    "otherDollars": 3241,
+    "through": "2026-07-22"
+  },
+  "house|WI|1|Bryan Steil": {
+    "individual": 45,
+    "pacs": 50,
+    "other": 5,
+    "individualDollars": 1470032,
+    "pacDollars": 1633675,
+    "otherDollars": 173182,
+    "through": "2026-07-22"
+  },
+  "house|WI|2|Mark Pocan": {
+    "individual": 45,
+    "pacs": 49,
+    "other": 6,
+    "individualDollars": 368681,
+    "pacDollars": 401660,
+    "otherDollars": 44533,
+    "through": "2026-07-22"
+  },
+  "house|WI|3|Rebecca Cooke": {
+    "individual": 93,
+    "pacs": 7,
+    "other": 0,
+    "individualDollars": 7208824,
+    "pacDollars": 523475,
+    "otherDollars": 44037,
+    "through": "2026-07-22"
+  },
+  "house|WI|3|Derrick Van Orden": {
+    "individual": 78,
+    "pacs": 18,
+    "other": 4,
+    "individualDollars": 4257596,
+    "pacDollars": 994742,
+    "otherDollars": 195243,
+    "through": "2026-07-22"
+  },
+  "house|WI|4|Gwen Moore": {
+    "individual": 35,
+    "pacs": 64,
+    "other": 1,
+    "individualDollars": 380903,
+    "pacDollars": 682958,
+    "otherDollars": 6798,
+    "through": "2026-07-22"
+  },
+  "house|WI|5|Andrew Beck": {
+    "individual": 89,
+    "pacs": 0,
+    "other": 11,
+    "individualDollars": 12987,
+    "pacDollars": 0,
+    "otherDollars": 1625,
+    "through": "2026-06-30"
+  },
+  "house|WI|5|Scott Fitzgerald": {
+    "individual": 36,
+    "pacs": 63,
+    "other": 1,
+    "individualDollars": 485974,
+    "pacDollars": 857850,
+    "otherDollars": 11500,
+    "through": "2026-07-22"
+  },
+  "house|WI|6|Glenn Grothman": {
+    "individual": 69,
+    "pacs": 30,
+    "other": 1,
+    "individualDollars": 641026,
+    "pacDollars": 277500,
+    "otherDollars": 10494,
+    "through": "2026-07-22"
+  },
+  "house|WI|6|Michael Thurow": {
+    "individual": 95,
+    "pacs": 5,
+    "other": 0,
+    "individualDollars": 161112,
+    "pacDollars": 8750,
+    "otherDollars": 0,
+    "through": "2026-07-22"
+  },
+  "house|WI|7|Michael Alfonso": {
+    "individual": 82,
+    "pacs": 16,
+    "other": 2,
+    "individualDollars": 1109155,
+    "pacDollars": 211000,
+    "otherDollars": 31391,
+    "through": "2026-07-22"
+  },
+  "house|WI|8|Rick Crosson": {
+    "individual": 86,
+    "pacs": 11,
+    "other": 3,
+    "individualDollars": 57382,
+    "pacDollars": 7538,
+    "otherDollars": 1984,
+    "through": "2026-07-22"
+  },
+  "house|WI|8|Tony Wied": {
+    "individual": 44,
+    "pacs": 56,
+    "other": 0,
+    "individualDollars": 476249,
+    "pacDollars": 596900,
+    "otherDollars": 1019,
+    "through": "2026-07-22"
+  },
+  "house|WY|at-large|Chuck Gray": {
+    "individual": 15,
+    "pacs": 0,
+    "other": 85,
+    "individualDollars": 240791,
+    "pacDollars": 0,
+    "otherDollars": 1380406,
+    "through": "2026-07-29"
+  },
+  "house|WY|at-large|Lisa Kinney": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 17946,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-07-29"
+  },
+  "senate|MI|Abdul El-Sayed": {
+    "individual": 99,
+    "pacs": 0,
+    "other": 1,
+    "individualDollars": 14339666,
+    "pacDollars": 71845,
+    "otherDollars": 102825,
+    "through": "2026-07-15"
+  },
+  "senate|MS|Cindy Hyde-Smith": {
+    "individual": 61,
+    "pacs": 37,
+    "other": 2,
+    "individualDollars": 1862347,
+    "pacDollars": 1120050,
+    "otherDollars": 67303,
+    "through": "2026-06-30"
+  },
+  "house|AZ|8|Bernadette Greene-Placentia": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 209258,
+    "pacDollars": 0,
+    "otherDollars": 100,
+    "through": "2026-03-31"
+  },
+  "house|CA|34|Angela Gonzales-Torres": {
+    "individual": 97,
+    "pacs": 3,
+    "other": 0,
+    "individualDollars": 220527,
+    "pacDollars": 7725,
+    "otherDollars": 472,
+    "through": "2026-06-30"
+  },
+  "house|CA|37|Sydney Kamlager-Dove": {
+    "individual": 67,
+    "pacs": 33,
+    "other": 0,
+    "individualDollars": 764113,
+    "pacDollars": 383842,
+    "otherDollars": 2512,
+    "through": "2026-06-30"
+  },
+  "house|FL|13|Anna Paulina Luna": {
+    "individual": 94,
+    "pacs": 5,
+    "other": 1,
+    "individualDollars": 1894946,
+    "pacDollars": 103000,
+    "otherDollars": 21609,
+    "through": "2026-07-29"
+  },
+  "house|FL|20|Debbie Wasserman Schultz": {
+    "individual": 76,
+    "pacs": 22,
+    "other": 2,
+    "individualDollars": 2506025,
+    "pacDollars": 728500,
+    "otherDollars": 65582,
+    "through": "2026-07-29"
+  },
+  "house|FL|26|Mario D\u00edaz-Balart": {
+    "individual": 59,
+    "pacs": 41,
+    "other": 0,
+    "individualDollars": 1206333,
+    "pacDollars": 845150,
+    "otherDollars": 3356,
+    "through": "2026-07-29"
+  },
+  "house|IA|3|Sarah Trone Garriott": {
+    "individual": 91,
+    "pacs": 8,
+    "other": 1,
+    "individualDollars": 4740614,
+    "pacDollars": 439351,
+    "otherDollars": 27187,
+    "through": "2026-06-30"
+  },
+  "house|MI|8|Kristen McDonald Rivet": {
+    "individual": 69,
+    "pacs": 29,
+    "other": 2,
+    "individualDollars": 3588070,
+    "pacDollars": 1529019,
+    "otherDollars": 106645,
+    "through": "2026-07-15"
+  },
+  "house|NV|2|Teresa Benitez-Thompson": {
+    "individual": 83,
+    "pacs": 9,
+    "other": 8,
+    "individualDollars": 213812,
+    "pacDollars": 23100,
+    "otherDollars": 20175,
+    "through": "2026-06-30"
+  },
+  "house|NM|3|Teresa Leger Fern\u00e1ndez": {
+    "individual": 82,
+    "pacs": 17,
+    "other": 1,
+    "individualDollars": 1017073,
+    "pacDollars": 212450,
+    "otherDollars": 6175,
+    "through": "2026-06-30"
+  },
+  "house|NY|13|Darializa Avila Chevalier": {
+    "individual": 96,
+    "pacs": 2,
+    "other": 2,
+    "individualDollars": 1235415,
+    "pacDollars": 26603,
+    "otherDollars": 19482,
+    "through": "2026-06-30"
+  },
+  "house|NY|14|Alexandria Ocasio-Cortez": {
+    "individual": 98,
+    "pacs": 0,
+    "other": 2,
+    "individualDollars": 31803748,
+    "pacDollars": 28050,
+    "otherDollars": 684956,
+    "through": "2026-06-30"
+  },
+  "house|NC|7|Maad Abu-Ghazalah": {
+    "individual": 40,
+    "pacs": 0,
+    "other": 60,
+    "individualDollars": 2950,
+    "pacDollars": 0,
+    "otherDollars": 4391,
+    "through": "2026-06-30"
+  },
+  "house|TX|22|Marquette Greene-Scott": {
+    "individual": 88,
+    "pacs": 3,
+    "other": 9,
+    "individualDollars": 47127,
+    "pacDollars": 1634,
+    "otherDollars": 5000,
+    "through": "2026-06-30"
+  },
+  "house|WA|3|Marie Gluesenkamp Perez": {
+    "individual": 72,
+    "pacs": 25,
+    "other": 3,
+    "individualDollars": 2521822,
+    "pacDollars": 861811,
+    "otherDollars": 120735,
+    "through": "2026-07-15"
+  },
+  "senate|IA|Ashley Hinson": {
+    "individual": 70,
+    "pacs": 29,
+    "other": 1,
+    "individualDollars": 5248123,
+    "pacDollars": 2170367,
+    "otherDollars": 84979,
+    "through": "2026-06-30"
+  },
+  "senate|WV|Rachel Fetty Anderson": {
+    "individual": 84,
+    "pacs": 0,
+    "other": 16,
+    "individualDollars": 41923,
+    "pacDollars": 100,
+    "otherDollars": 7890,
+    "through": "2026-06-30"
+  },
+  "house|AZ|9|Dani Sterbinsky": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 354107,
+    "pacDollars": 0,
+    "otherDollars": 275,
+    "through": "2026-07-01"
+  },
+  "house|CA|17|Ro Khanna": {
+    "individual": 91,
+    "pacs": 0,
+    "other": 9,
+    "individualDollars": 12454411,
+    "pacDollars": 1000,
+    "otherDollars": 1306079,
+    "through": "2026-06-30"
+  },
+  "house|CA|31|Gil Cisneros": {
+    "individual": 34,
+    "pacs": 64,
+    "other": 2,
+    "individualDollars": 239666,
+    "pacDollars": 453650,
+    "otherDollars": 11947,
+    "through": "2026-06-30"
+  },
+  "house|FL|13|Tony D'Arrigo": {
+    "individual": 75,
+    "pacs": 0,
+    "other": 25,
+    "individualDollars": 21221,
+    "pacDollars": 0,
+    "otherDollars": 6960,
+    "through": "2026-06-30"
+  },
+  "house|GA|10|Pam Delancy": {
+    "individual": 67,
+    "pacs": 0,
+    "other": 33,
+    "individualDollars": 15480,
+    "pacDollars": 0,
+    "otherDollars": 7600,
+    "through": "2026-06-30"
+  },
+  "house|ID|1|Russ Fulcher": {
+    "individual": 53,
+    "pacs": 46,
+    "other": 1,
+    "individualDollars": 352795,
+    "pacDollars": 301350,
+    "otherDollars": 8471,
+    "through": "2026-06-30"
+  },
+  "house|IL|10|Brad Schneider": {
+    "individual": 56,
+    "pacs": 43,
+    "other": 1,
+    "individualDollars": 1626638,
+    "pacDollars": 1266239,
+    "otherDollars": 16186,
+    "through": "2026-06-30"
+  },
+  "house|IN|5|J. D. Ford": {
+    "individual": 91,
+    "pacs": 9,
+    "other": 0,
+    "individualDollars": 529676,
+    "pacDollars": 49904,
+    "otherDollars": 2506,
+    "through": "2026-06-30"
+  },
+  "house|IN|9|Brad Meyer": {
+    "individual": 89,
+    "pacs": 0,
+    "other": 11,
+    "individualDollars": 94169,
+    "pacDollars": 0,
+    "otherDollars": 11342,
+    "through": "2026-06-30"
+  },
+  "house|IA|1|Mariannette Miller-Meeks": {
+    "individual": 52,
+    "pacs": 44,
+    "other": 4,
+    "individualDollars": 2875552,
+    "pacDollars": 2416207,
+    "otherDollars": 230476,
+    "through": "2026-06-30"
+  },
+  "house|MD|2|Johnny Olszewski": {
+    "individual": 65,
+    "pacs": 32,
+    "other": 3,
+    "individualDollars": 675837,
+    "pacDollars": 334224,
+    "otherDollars": 30328,
+    "through": "2026-06-30"
+  },
+  "house|MI|9|Ray Pooley": {
+    "individual": 100,
+    "pacs": 0,
+    "other": 0,
+    "individualDollars": 8084,
+    "pacDollars": 0,
+    "otherDollars": 0,
+    "through": "2026-07-15"
+  },
+  "house|MN|8|Pete Stauber": {
+    "individual": 46,
+    "pacs": 50,
+    "other": 4,
+    "individualDollars": 845129,
+    "pacDollars": 931660,
+    "otherDollars": 70492,
+    "through": "2026-07-22"
+  },
+  "house|MO|2|Fred Wellman": {
+    "individual": 95,
+    "pacs": 4,
+    "other": 1,
+    "individualDollars": 1094941,
+    "pacDollars": 53250,
+    "otherDollars": 7689,
+    "through": "2026-07-15"
+  },
+  "house|OR|4|Val Hoyle": {
+    "individual": 49,
+    "pacs": 50,
+    "other": 1,
+    "individualDollars": 601795,
+    "pacDollars": 609627,
+    "otherDollars": 11500,
+    "through": "2026-06-30"
+  },
+  "house|PA|15|Ray Bilger": {
+    "individual": 98,
+    "pacs": 1,
+    "other": 1,
+    "individualDollars": 136068,
+    "pacDollars": 1750,
+    "otherDollars": 1702,
+    "through": "2026-06-30"
+  },
+  "house|RI|2|Vic Mellor": {
+    "individual": 1,
+    "pacs": 0,
+    "other": 99,
+    "individualDollars": 30373,
+    "pacDollars": 0,
+    "otherDollars": 2988402,
+    "through": "2026-08-20"
+  },
+  "house|WV|1|Vince George": {
+    "individual": 7,
+    "pacs": 0,
+    "other": 93,
+    "individualDollars": 18330,
+    "pacDollars": 0,
+    "otherDollars": 240000,
+    "through": "2026-06-30"
+  },
+  "house|WI|6|Brad Smith": {
+    "individual": 92,
+    "pacs": 1,
+    "other": 7,
+    "individualDollars": 152692,
+    "pacDollars": 1000,
+    "otherDollars": 12369,
+    "through": "2026-07-22"
+  },
+  "house|WI|7|Fred Clark": {
+    "individual": 96,
+    "pacs": 2,
+    "other": 2,
+    "individualDollars": 408192,
+    "pacDollars": 6500,
+    "otherDollars": 8349,
+    "through": "2026-07-22"
+  }
+}
