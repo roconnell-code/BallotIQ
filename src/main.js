@@ -311,8 +311,8 @@ function renderDetail() {
   });
   const legend = document.querySelector(".legend");
   legend.innerHTML = level === "federal"
-    ? `<span><i class="swatch" style="background:#d8c39a"></i>Senate race this year</span><span><i class="swatch" style="background:#eadcbf"></i>House races only</span>`
-    : `<span><i class="swatch" style="background:#c9d7cc"></i>Governor or mayor on the ballot</span><span><i class="swatch" style="background:#f3eadb"></i>No statewide executive race</span>`;
+    ? `<span><i class="swatch" style="background:#7ea0cc"></i>Senate race this year</span><span><i class="swatch" style="background:#d5e1f0"></i>House races only</span>`
+    : `<span><i class="swatch" style="background:#e7a3ab"></i>Governor or mayor on the ballot</span><span><i class="swatch" style="background:#e7eef6"></i>No statewide executive race</span>`;
 }
 
 function render() {
@@ -349,17 +349,20 @@ function readHash() {
 
 function mount() {
   app.innerHTML = `
-    <main class="wrap">
-      <header class="mast">
-        <p class="eyebrow">November 3, 2026</p>
-        <h1>Canvass</h1>
-        <p class="lede">Elections and candidates, one state at a time. Start with federal or state races, then pick a state and read the record and the policy.</p>
+    <header class="mast">
+      <div class="mast-inner">
+        <p class="eyebrow">United States · November 3, 2026</p>
+        <h1>Ballot<span>IQ</span></h1>
+        <p class="lede">BallotIQ is a state-by-state guide to the November 3, 2026 election. Federal covers the U.S. Senate races on this year's ballot and all 435 House seats. State covers 36 governors and the mayor of the District of Columbia. Choose a state to read who is running, what they have already done, and the policies they are campaigning on.</p>
         <div class="counts">
           <span>${senateRaces.length} Senate elections</span>
           <span>${HOUSE_COUNT} House seats</span>
           <span>${governorRaces.filter((race) => race.state !== "DC").length} governor's races</span>
         </div>
-      </header>
+      </div>
+      <div class="flag-rule" aria-hidden="true"></div>
+    </header>
+    <main class="wrap">
       <div class="level" role="group" aria-label="Federal or state">
         <button type="button" data-level="federal" aria-pressed="true">
           <strong>Federal</strong>
