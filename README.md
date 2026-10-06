@@ -1,6 +1,6 @@
 # BallotIQ
 
-A state-by-state guide to the November 3, 2026 U.S. election. Switch between federal and state races, choose a state on the map, and read the candidates, their records, and their policies.
+A state-by-state guide to U.S. elections. The home page is the November 3, 2026 election. [Future elections](/future.html) uses the same map for 2027, 2028, 2029, and 2030. Switch between federal and state races, choose a state on the map, and read the candidates, their records, and their policies.
 
 Federal covers every U.S. House district and the 35 Senate elections on this year's ballot (33 Class 2 seats, plus specials in Florida and Ohio). State covers the 36 governor's races and the mayor's race in the District of Columbia.
 

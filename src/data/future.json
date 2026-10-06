@@ -1,0 +1,1567 @@
+{
+  "cycles": [
+    {
+      "year": 2027,
+      "date": "November 2, 2027",
+      "extra": "Louisiana holds its gubernatorial election on October 9, 2027.",
+      "federalNote": "There is no regular election for the U.S. Senate or the U.S. House in 2027. Those offices are on the ballot in even-numbered years.",
+      "president": false,
+      "house": false,
+      "senate": [],
+      "governors": [
+        {
+          "state": "KY",
+          "office": "Governor",
+          "summary": "Andy Beshear, the Democratic governor, is term-limited and is not a candidate. Two Democrats have announced. No Republican candidate is listed in the race summary.",
+          "candidates": [
+            {
+              "name": "Rocky Adkins",
+              "party": "Democratic",
+              "role": "Announced candidate",
+              "experience": [
+                "Announced a 2027 campaign for governor on July 21, 2026.",
+                "That announcement described him as a former advisor to Gov. Andy Beshear."
+              ]
+            },
+            {
+              "name": "Jacqueline Coleman",
+              "party": "Democratic",
+              "role": "Announced candidate",
+              "experience": [
+                "Announced a 2027 Democratic campaign for governor on April 20, 2026."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "LA",
+          "office": "Governor",
+          "summary": "Jeff Landry, the Republican governor, was elected in 2023 with 51.6 percent. He is eligible to run again and has not said whether he will. Louisiana votes on October 9, 2027. No challenger is listed.",
+          "candidates": [
+            {
+              "name": "Jeff Landry",
+              "party": "Republican",
+              "role": "Incumbent governor. Has not said whether he will run.",
+              "experience": [
+                "Elected governor in 2023 with 51.6 percent.",
+                "Eligible for another term. The race summary lists the candidate field as not set."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MS",
+          "office": "Governor",
+          "summary": "Tate Reeves, the Republican governor, is term-limited and is not a candidate. Four Republicans have announced. No Democratic candidate is listed as announced in the race summary.",
+          "candidates": [
+            {
+              "name": "Lynn Fitch",
+              "party": "Republican",
+              "role": "Announced candidate",
+              "experience": [
+                "Announced a 2027 campaign for governor on August 4, 2026."
+              ]
+            },
+            {
+              "name": "Andy Gipson",
+              "party": "Republican",
+              "role": "Announced candidate",
+              "experience": [
+                "Mississippi agriculture commissioner.",
+                "Announced a 2027 campaign for governor on June 11, 2025."
+              ]
+            },
+            {
+              "name": "Philip Gunn",
+              "party": "Republican",
+              "role": "Announced candidate",
+              "experience": [
+                "Former speaker of the Mississippi House.",
+                "Entered the 2027 governor's race on April 14, 2026."
+              ],
+              "promises": [
+                "The announcement described a pledge of tax reform and job growth."
+              ]
+            },
+            {
+              "name": "Shad White",
+              "party": "Republican",
+              "role": "Announced candidate",
+              "experience": [
+                "Mississippi state auditor.",
+                "Announced a 2027 campaign for governor on December 10, 2025."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2028,
+      "date": "November 7, 2028",
+      "extra": "New Hampshire and Vermont also elect governors in 2028 because those terms are two years.",
+      "federalNote": "Every U.S. House seat is on the 2028 ballot. The representative will be whoever wins that district in 2026, so no 2028 House field is listed.",
+      "president": true,
+      "house": true,
+      "senate": [
+        {
+          "state": "AL",
+          "office": "U.S. Senate",
+          "summary": "Katie Britt holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Katie Britt",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "AK",
+          "office": "U.S. Senate",
+          "summary": "Lisa Murkowski holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Lisa Murkowski",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2002, 2004, 2016, 2022, 2010.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "AZ",
+          "office": "U.S. Senate",
+          "summary": "Mark Kelly holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Mark Kelly",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2020, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "AR",
+          "office": "U.S. Senate",
+          "summary": "John Boozman holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "John Boozman",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "CA",
+          "office": "U.S. Senate",
+          "summary": "Alex Padilla holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Alex Padilla",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2021, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "CO",
+          "office": "U.S. Senate",
+          "summary": "Michael Bennet holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Michael Bennet",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2009, 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "CT",
+          "office": "U.S. Senate",
+          "summary": "Richard Blumenthal holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Richard Blumenthal",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "FL",
+          "office": "U.S. Senate",
+          "summary": "This Senate seat is on the 2028 ballot. The incumbent will be whoever wins the 2026 special election. No 2028 candidate is listed.",
+          "candidates": []
+        },
+        {
+          "state": "GA",
+          "office": "U.S. Senate",
+          "summary": "Raphael Warnock holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Raphael Warnock",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2021, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "HI",
+          "office": "U.S. Senate",
+          "summary": "Brian Schatz holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Brian Schatz",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "ID",
+          "office": "U.S. Senate",
+          "summary": "Mike Crapo holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Mike Crapo",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 1998, 2004, 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "IL",
+          "office": "U.S. Senate",
+          "summary": "Tammy Duckworth holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Tammy Duckworth",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "IN",
+          "office": "U.S. Senate",
+          "summary": "Todd Young holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Todd Young",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "IA",
+          "office": "U.S. Senate",
+          "summary": "Chuck Grassley holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Chuck Grassley",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 1980, 1986, 1992, 1998, 2004, 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "KS",
+          "office": "U.S. Senate",
+          "summary": "Jerry Moran holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Jerry Moran",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "KY",
+          "office": "U.S. Senate",
+          "summary": "Rand Paul holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Rand Paul",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "LA",
+          "office": "U.S. Senate",
+          "summary": "John Kennedy holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "John Kennedy",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MD",
+          "office": "U.S. Senate",
+          "summary": "Chris Van Hollen holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Chris Van Hollen",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MO",
+          "office": "U.S. Senate",
+          "summary": "Eric Schmitt holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Eric Schmitt",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NV",
+          "office": "U.S. Senate",
+          "summary": "Catherine Cortez Masto holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Catherine Cortez Masto",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NH",
+          "office": "U.S. Senate",
+          "summary": "Maggie Hassan holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Maggie Hassan",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NY",
+          "office": "U.S. Senate",
+          "summary": "Chuck Schumer holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Chuck Schumer",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 1998, 2004, 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NC",
+          "office": "U.S. Senate",
+          "summary": "Ted Budd is the incumbent and is listed as running. No opponent is listed. The rest of the field is not set.",
+          "candidates": [
+            {
+              "name": "Ted Budd",
+              "party": "Republican",
+              "role": "Incumbent senator, running",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2022.",
+                "The race summary lists this senator as running."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "ND",
+          "office": "U.S. Senate",
+          "summary": "John Hoeven holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "John Hoeven",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "OH",
+          "office": "U.S. Senate",
+          "summary": "This Senate seat is on the 2028 ballot. The incumbent will be whoever wins the 2026 special election. No 2028 candidate is listed.",
+          "candidates": []
+        },
+        {
+          "state": "OK",
+          "office": "U.S. Senate",
+          "summary": "James Lankford holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "James Lankford",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2014, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "OR",
+          "office": "U.S. Senate",
+          "summary": "Ron Wyden is the incumbent and is listed as running. No opponent is listed. The rest of the field is not set.",
+          "candidates": [
+            {
+              "name": "Ron Wyden",
+              "party": "Democratic",
+              "role": "Incumbent senator, running",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 1996, 1998, 2004, 2010, 2016, 2022.",
+                "The race summary lists this senator as running."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "PA",
+          "office": "U.S. Senate",
+          "summary": "John Fetterman holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "John Fetterman",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "SC",
+          "office": "U.S. Senate",
+          "summary": "Tim Scott is the incumbent and is listed as running. No opponent is listed. The rest of the field is not set.",
+          "candidates": [
+            {
+              "name": "Tim Scott",
+              "party": "Republican",
+              "role": "Incumbent senator, running",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2013, 2016, 2022.",
+                "The race summary lists this senator as running."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "SD",
+          "office": "U.S. Senate",
+          "summary": "John Thune is the incumbent and is listed as running. No opponent is listed. The rest of the field is not set.",
+          "candidates": [
+            {
+              "name": "John Thune",
+              "party": "Republican",
+              "role": "Incumbent senator, running",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2004, 2010, 2016, 2022.",
+                "The race summary lists this senator as running."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "UT",
+          "office": "U.S. Senate",
+          "summary": "Mike Lee holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Mike Lee",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "VT",
+          "office": "U.S. Senate",
+          "summary": "Peter Welch holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Peter Welch",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "WA",
+          "office": "U.S. Senate",
+          "summary": "Patty Murray is the incumbent and is listed as running. No opponent is listed. The rest of the field is not set.",
+          "candidates": [
+            {
+              "name": "Patty Murray",
+              "party": "Democratic",
+              "role": "Incumbent senator, running",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 1992, 1998, 2004, 2010, 2016, 2022.",
+                "The race summary lists this senator as running."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "WI",
+          "office": "U.S. Senate",
+          "summary": "Ron Johnson holds this seat. The race summary does not say whether they will run in 2028. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Ron Johnson",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2010, 2016, 2022.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        }
+      ],
+      "governors": [
+        {
+          "state": "DE",
+          "office": "Governor",
+          "summary": "Matt Meyer, the Democratic governor, was first elected in 2024 with 56.1 percent and is eligible to run. No 2028 challenger is listed.",
+          "candidates": [
+            {
+              "name": "Matt Meyer",
+              "party": "Democratic",
+              "role": "Incumbent governor, eligible to run",
+              "experience": [
+                "First elected in 2024 with 56.1 percent.",
+                "The race summary lists no 2028 opponent."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "IN",
+          "office": "Governor",
+          "summary": "Mike Braun, the Republican governor, was first elected in 2024 with 54.4 percent and is eligible to run. No 2028 challenger is listed.",
+          "candidates": [
+            {
+              "name": "Mike Braun",
+              "party": "Republican",
+              "role": "Incumbent governor, eligible to run",
+              "experience": [
+                "First elected in 2024 with 54.4 percent.",
+                "The race summary lists no 2028 opponent."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MO",
+          "office": "Governor",
+          "summary": "Mike Kehoe, the Republican governor, was first elected in 2024 with 59.1 percent and is eligible to run. No 2028 challenger is listed.",
+          "candidates": [
+            {
+              "name": "Mike Kehoe",
+              "party": "Republican",
+              "role": "Incumbent governor, eligible to run",
+              "experience": [
+                "First elected in 2024 with 59.1 percent.",
+                "The race summary lists no 2028 opponent."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MT",
+          "office": "Governor",
+          "summary": "Greg Gianforte, the Republican governor, is term-limited. He is not listed as a 2028 candidate. No successor is listed.",
+          "candidates": []
+        },
+        {
+          "state": "NH",
+          "office": "Governor",
+          "summary": "New Hampshire elects its governor every two years. The 2028 incumbent will be whoever wins in 2026. No 2028 candidate is listed.",
+          "candidates": []
+        },
+        {
+          "state": "NC",
+          "office": "Governor",
+          "summary": "Josh Stein, the Democratic governor, was first elected in 2024 with 54.9 percent and is eligible to run. No 2028 challenger is listed.",
+          "candidates": [
+            {
+              "name": "Josh Stein",
+              "party": "Democratic",
+              "role": "Incumbent governor, eligible to run",
+              "experience": [
+                "First elected in 2024 with 54.9 percent.",
+                "The race summary lists no 2028 opponent."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "ND",
+          "office": "Governor",
+          "summary": "Kelly Armstrong, the Republican governor, was first elected in 2024 with 68.3 percent and is eligible to run. No 2028 challenger is listed.",
+          "candidates": [
+            {
+              "name": "Kelly Armstrong",
+              "party": "Republican",
+              "role": "Incumbent governor, eligible to run",
+              "experience": [
+                "First elected in 2024 with 68.3 percent.",
+                "The race summary lists no 2028 opponent."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "UT",
+          "office": "Governor",
+          "summary": "Spencer Cox, the Republican governor, is retiring. He is not listed as a 2028 candidate. No successor is listed.",
+          "candidates": []
+        },
+        {
+          "state": "VT",
+          "office": "Governor",
+          "summary": "Vermont elects its governor every two years. The 2028 incumbent will be whoever wins in 2026. No 2028 candidate is listed.",
+          "candidates": []
+        },
+        {
+          "state": "WA",
+          "office": "Governor",
+          "summary": "Bob Ferguson, the Democratic governor, was first elected in 2024 with 55.5 percent and is eligible to run. No 2028 challenger is listed.",
+          "candidates": [
+            {
+              "name": "Bob Ferguson",
+              "party": "Democratic",
+              "role": "Incumbent governor, eligible to run",
+              "experience": [
+                "First elected in 2024 with 55.5 percent.",
+                "The race summary lists no 2028 opponent."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "WV",
+          "office": "Governor",
+          "summary": "Patrick Morrisey, the Republican governor, was first elected in 2024 with 62.0 percent and is eligible to run. No 2028 challenger is listed.",
+          "candidates": [
+            {
+              "name": "Patrick Morrisey",
+              "party": "Republican",
+              "role": "Incumbent governor, eligible to run",
+              "experience": [
+                "First elected in 2024 with 62.0 percent.",
+                "The race summary lists no 2028 opponent."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2029,
+      "date": "November 6, 2029",
+      "extra": "New Jersey and Virginia are the regular gubernatorial elections in 2029.",
+      "federalNote": "There is no regular election for the U.S. Senate or the U.S. House in 2029.",
+      "president": false,
+      "house": false,
+      "senate": [],
+      "governors": [
+        {
+          "state": "NJ",
+          "office": "Governor",
+          "summary": "Mikie Sherrill, the Democratic governor, was elected in 2025 with 56.9 percent. She is eligible for another term and has not said whether she will run. No challenger is listed.",
+          "candidates": [
+            {
+              "name": "Mikie Sherrill",
+              "party": "Democratic",
+              "role": "Incumbent governor. Has not said whether she will run.",
+              "experience": [
+                "Elected governor in 2025 with 56.9 percent.",
+                "Eligible for a second term. The race summary lists no 2029 opponent."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "VA",
+          "office": "Governor",
+          "summary": "Abigail Spanberger, the Democratic governor, was elected in 2025 with 57.6 percent. Virginia does not allow a governor to serve consecutive terms, so she is not a 2029 candidate. No announced candidate is listed.",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "year": 2030,
+      "date": "November 5, 2030",
+      "extra": "Senate seats in this cycle are the Class 1 seats last elected in 2024.",
+      "federalNote": "Every U.S. House seat is on the 2030 ballot. Those representatives will not be known until the 2026 and 2028 elections, so no 2030 House field is listed.",
+      "president": false,
+      "house": true,
+      "senate": [
+        {
+          "state": "AZ",
+          "office": "U.S. Senate",
+          "summary": "Ruben Gallego holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Ruben Gallego",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "CA",
+          "office": "U.S. Senate",
+          "summary": "Adam Schiff holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Adam Schiff",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "CT",
+          "office": "U.S. Senate",
+          "summary": "Chris Murphy holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Chris Murphy",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "DE",
+          "office": "U.S. Senate",
+          "summary": "Lisa Blunt Rochester holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Lisa Blunt Rochester",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "FL",
+          "office": "U.S. Senate",
+          "summary": "Rick Scott holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Rick Scott",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "HI",
+          "office": "U.S. Senate",
+          "summary": "Mazie Hirono holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Mazie Hirono",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "IN",
+          "office": "U.S. Senate",
+          "summary": "Jim Banks holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Jim Banks",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "ME",
+          "office": "U.S. Senate",
+          "summary": "Angus King holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Angus King",
+              "party": "Independent",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MD",
+          "office": "U.S. Senate",
+          "summary": "Angela Alsobrooks holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Angela Alsobrooks",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MA",
+          "office": "U.S. Senate",
+          "summary": "Elizabeth Warren holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Elizabeth Warren",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MI",
+          "office": "U.S. Senate",
+          "summary": "Elissa Slotkin holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Elissa Slotkin",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MN",
+          "office": "U.S. Senate",
+          "summary": "Amy Klobuchar holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Amy Klobuchar",
+              "party": "Democratic-Farmer-Labor",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2006, 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MS",
+          "office": "U.S. Senate",
+          "summary": "Roger Wicker holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Roger Wicker",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2007, 2012, 2018, 2024, 2008.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MO",
+          "office": "U.S. Senate",
+          "summary": "Josh Hawley holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Josh Hawley",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "MT",
+          "office": "U.S. Senate",
+          "summary": "Tim Sheehy holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Tim Sheehy",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NE",
+          "office": "U.S. Senate",
+          "summary": "Deb Fischer holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Deb Fischer",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NV",
+          "office": "U.S. Senate",
+          "summary": "Jacky Rosen holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Jacky Rosen",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NJ",
+          "office": "U.S. Senate",
+          "summary": "Andy Kim holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Andy Kim",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NM",
+          "office": "U.S. Senate",
+          "summary": "Martin Heinrich holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Martin Heinrich",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "NY",
+          "office": "U.S. Senate",
+          "summary": "Kirsten Gillibrand holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Kirsten Gillibrand",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2009, 2012, 2018, 2024, 2010.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "ND",
+          "office": "U.S. Senate",
+          "summary": "Kevin Cramer holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Kevin Cramer",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "OH",
+          "office": "U.S. Senate",
+          "summary": "Bernie Moreno holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Bernie Moreno",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "PA",
+          "office": "U.S. Senate",
+          "summary": "David McCormick holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "David McCormick",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "RI",
+          "office": "U.S. Senate",
+          "summary": "Sheldon Whitehouse holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Sheldon Whitehouse",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2006, 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "TN",
+          "office": "U.S. Senate",
+          "summary": "Marsha Blackburn holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Marsha Blackburn",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "TX",
+          "office": "U.S. Senate",
+          "summary": "Ted Cruz holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Ted Cruz",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "UT",
+          "office": "U.S. Senate",
+          "summary": "John Curtis holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "John Curtis",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "VT",
+          "office": "U.S. Senate",
+          "summary": "Bernie Sanders holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Bernie Sanders",
+              "party": "Independent",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2006, 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "VA",
+          "office": "U.S. Senate",
+          "summary": "Tim Kaine holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Tim Kaine",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "WA",
+          "office": "U.S. Senate",
+          "summary": "Maria Cantwell holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Maria Cantwell",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2000, 2006, 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "WV",
+          "office": "U.S. Senate",
+          "summary": "Jim Justice holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Jim Justice",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "WI",
+          "office": "U.S. Senate",
+          "summary": "Tammy Baldwin holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "Tammy Baldwin",
+              "party": "Democratic",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2012, 2018, 2024.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        },
+        {
+          "state": "WY",
+          "office": "U.S. Senate",
+          "summary": "John Barrasso holds this seat. The race summary does not say whether they will run in 2030. No opponent is listed.",
+          "candidates": [
+            {
+              "name": "John Barrasso",
+              "party": "Republican",
+              "role": "Incumbent senator. Has not said whether they will run.",
+              "experience": [
+                "Current U.S. senator. Election years listed for this seat: 2007, 2012, 2018, 2024, 2008.",
+                "The race summary does not say whether this senator will run. This is the current officeholder, not a certified nominee."
+              ]
+            }
+          ]
+        }
+      ],
+      "governors": [
+        {
+          "state": "AL",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "AK",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "AZ",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "AR",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "CA",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "CO",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "CT",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "FL",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "GA",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "HI",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "ID",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "IL",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "IA",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "KS",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "ME",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "MD",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "MA",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "MI",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "MN",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "NE",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "NV",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "NH",
+          "office": "Governor",
+          "summary": "New Hampshire elects a governor every two years, including 2026, 2028, and 2030. The 2030 field is not compiled.",
+          "candidates": []
+        },
+        {
+          "state": "NM",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "NY",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "OH",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "OK",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "OR",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "PA",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "RI",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "SC",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "SD",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "TN",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "TX",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "VT",
+          "office": "Governor",
+          "summary": "Vermont elects a governor every two years, including 2026, 2028, and 2030. The 2030 field is not compiled.",
+          "candidates": []
+        },
+        {
+          "state": "WI",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "WY",
+          "office": "Governor",
+          "summary": "This state elects a governor in 2026 and, on a four-year term, again in 2030. The 2030 governor will be whoever wins in 2026. No candidate list is compiled.",
+          "candidates": []
+        },
+        {
+          "state": "DC",
+          "office": "Mayor",
+          "summary": "The District elects a mayor in 2026. The next regular election after that is 2030. The 2030 field is not compiled, because it depends on the 2026 result.",
+          "candidates": []
+        }
+      ]
+    }
+  ]
+}

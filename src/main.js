@@ -472,6 +472,10 @@ function mount() {
           <span>${HOUSE_COUNT} House seats</span>
           <span>${governorRaces.filter((race) => race.state !== "DC").length} governor's races</span>
         </div>
+        <nav class="cycle-nav" aria-label="Election cycle">
+          <a href="/" aria-current="page">2026 election</a>
+          <a href="/future.html">Future elections</a>
+        </nav>
       </div>
       <div class="flag-rule" aria-hidden="true"></div>
     </header>
