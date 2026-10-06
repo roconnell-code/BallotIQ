@@ -394,6 +394,50 @@ input[type="search"]:focus, select:focus {
 .person.ind { border-left-color: var(--ind); }
 .person.other { border-left-color: var(--other); }
 
+.person-top {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+  margin-bottom: 0.15rem;
+}
+
+.portrait {
+  margin: 0;
+  width: 88px;
+  flex: none;
+}
+
+.portrait img,
+.portrait.missing {
+  width: 88px;
+  height: 112px;
+  object-fit: cover;
+  object-position: center 18%;
+  display: block;
+  background: #e7eef6;
+  border: 1px solid var(--line);
+}
+
+.portrait.missing {
+  display: grid;
+  place-items: center;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 0.04em;
+  color: var(--navy);
+}
+
+.photo-credit {
+  margin: 0.35rem 0 0;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.photo-credit a {
+  color: inherit;
+}
+
 .party-kicker {
   margin: 0;
   font-size: 0.72rem;
@@ -647,9 +691,42 @@ details summary { cursor: pointer; color: var(--navy); font-weight: 700; }
 .matchup {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.35rem 0.65rem;
+  align-items: center;
+  gap: 0.45rem 0.75rem;
   margin: 0.35rem 0 0;
+}
+
+.nominee {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.nominee-photo,
+.nominee-photo img,
+.nominee-photo.missing {
+  width: 46px;
+  height: 58px;
+  object-fit: cover;
+  object-position: center 18%;
+  display: block;
+  flex: none;
+  background: #e7eef6;
+  border: 1px solid var(--line);
+}
+
+.nominee-photo.missing {
+  display: grid;
+  place-items: center;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: var(--navy);
+}
+
+.nominee span {
+  display: flex;
+  flex-direction: column;
 }
 
 .matchup.is-empty {

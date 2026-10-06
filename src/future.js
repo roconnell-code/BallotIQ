@@ -1,5 +1,6 @@
 import cyclesFile from "./data/future.json";
 import houseByState from "./data/house.json";
+import { portraitCredit, portraitFigure } from "./portrait.js";
 
 const CYCLES = cyclesFile.cycles;
 const HOUSE_COUNT = Object.values(houseByState).reduce((sum, list) => sum + list.length, 0);
@@ -73,7 +74,8 @@ function governorBy(current) {
   return Object.fromEntries(current.governors.map((race) => [race.state, race]));
 }
 
-function personCard(person) {
+function personCard(person, stateAbbr) {
+  person = { ...person, state: stateAbbr };
   const kind = partyKind(person.party);
   const sections = PROFILE_SECTIONS.map(([key, label]) => {
     const items = key === "experience"
@@ -88,9 +90,15 @@ function personCard(person) {
   }).join("");
   return `
     <article class="person ${kind}">
-      <p class="party-kicker">${esc(person.party)}</p>
-      <h4>${esc(person.name)}</h4>
-      <p class="role">${esc(person.role)}</p>
+      <div class="person-top">
+        ${portraitFigure(person.name, person.state)}
+        <div>
+          <p class="party-kicker">${esc(person.party)}</p>
+          <h4>${esc(person.name)}</h4>
+          <p class="role">${esc(person.role)}</p>
+          ${portraitCredit(person.name, person.state)}
+        </div>
+      </div>
       <div class="profile">${sections}</div>
       <section class="money">
         <h5>Where does the candidate's money come from?</h5>
@@ -106,7 +114,7 @@ function raceBlock(race) {
     <section class="race">
       <div class="race-head"><h3>${esc(race.office)}</h3></div>
       <p class="summary">${esc(race.summary)}</p>
-      ${people.length ? `<div class="people">${people.map(personCard).join("")}</div>` : ""}
+      ${people.length ? `<div class="people">${people.map((person) => personCard(person, race.state)).join("")}</div>` : ""}
     </section>
   `;
 }
@@ -358,7 +366,7 @@ function mount() {
         <section class="panel detail-col" id="detail" tabindex="-1"></section>
       </div>
       <footer class="foot">
-        <p>Office lists and incumbent status were taken from the Wikipedia race summaries for the 2027, 2028, and 2029 gubernatorial elections and the 2028 and 2030 Senate elections. Announced candidates are included only when that summary says they have announced. People described as interested, or as possible candidates, are left off. The 2030 governor map is the set of states that elect a governor in 2026. House candidates for 2028 and 2030 are not listed. This is a reading guide, not an official ballot.</p>
+        <p>Office lists and incumbent status were taken from the Wikipedia race summaries for the 2027, 2028, and 2029 gubernatorial elections and the 2028 and 2030 Senate elections. Announced candidates are included only when that summary says they have announced. People described as interested, or as possible candidates, are left off. The 2030 governor map is the set of states that elect a governor in 2026. House candidates for 2028 and 2030 are not listed. Photos are freely licensed portraits from Wikimedia Commons, with the photographer and license on the card. Initials appear when no free portrait matched that candidate and state. This is a reading guide, not an official ballot.</p>
       </footer>
     </main>
   `;

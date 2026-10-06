@@ -2,6 +2,7 @@ import senateRaces from "./data/senate.json";
 import governorRaces from "./data/governors.json";
 import houseByState from "./data/house.json";
 import moneyByCandidate from "./data/money.json";
+import { portraitCredit, portraitFigure, portraitThumb } from "./portrait.js";
 
 const STATES = [
   ["AL", "Alabama"], ["AK", "Alaska"], ["AZ", "Arizona"], ["AR", "Arkansas"],
@@ -181,7 +182,7 @@ function buildProfile(person) {
   return profile;
 }
 
-function personCard(person) {
+function personCard(person, stateAbbr) {
   const kind = partyKind(person.party);
   const profile = buildProfile(person);
   const sections = PROFILE_SECTIONS.map(([key, label]) => {
@@ -193,9 +194,15 @@ function personCard(person) {
   }).join("");
   return `
     <article class="person ${kind}">
-      <p class="party-kicker">${esc(person.party)}</p>
-      <h4>${esc(person.name)}</h4>
-      <p class="role">${esc(person.role)}</p>
+      <div class="person-top">
+        ${portraitFigure(person.name, stateAbbr)}
+        <div>
+          <p class="party-kicker">${esc(person.party)}</p>
+          <h4>${esc(person.name)}</h4>
+          <p class="role">${esc(person.role)}</p>
+          ${portraitCredit(person.name, stateAbbr)}
+        </div>
+      </div>
       <div class="profile">${sections}</div>
       ${moneyBlock(person)}
     </article>
@@ -285,7 +292,7 @@ function contestBlock(race) {
       </div>
       <p class="summary">${esc(race.summary)}</p>
       <div class="people ${people.length === 2 ? "pair" : ""}">
-        ${people.map(personCard).join("")}
+        ${people.map((person) => personCard(person, race.state)).join("")}
       </div>
       ${othersList(race.others)}
     </section>
@@ -319,7 +326,7 @@ function houseBlock(abbr) {
           ...houseProfile(candidate, current),
           moneyKey: `house|${abbr}|${current.district}|${candidate.name}`,
           moneyScope: "federal",
-        })).join("")}
+        }, abbr)).join("")}
       </div>
     `
     : `<p class="summary">Choose a district. All ${districts.length} ${districts.length === 1 ? "seat is" : "seats are"} on the November 3 ballot.</p>`;
@@ -528,7 +535,7 @@ function mount() {
         <section class="panel detail-col" id="detail" tabindex="-1"></section>
       </div>
       <footer class="foot">
-        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each profile uses the same sections. A section says “Not compiled in this guide” when those summaries did not include a sourced line for voting record, donors, endorsements, legislation, or attendance. The money bar uses the FEC all-candidates file for federal candidates and is left blank when no filing is matched. State races are not filled from federal reports. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
+        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each profile uses the same sections. A section says “Not compiled in this guide” when those summaries did not include a sourced line for voting record, donors, endorsements, legislation, or attendance. The money bar uses the FEC all-candidates file for federal candidates and is left blank when no filing is matched. State races are not filled from federal reports. Photos are freely licensed portraits from Wikimedia Commons. The photographer and license are on the card. Initials appear when no free portrait matched that candidate and state. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
       </footer>
       <section class="news" aria-labelledby="news-button">
         <button type="button" id="news-button" aria-expanded="false" aria-controls="news-panel">
@@ -596,15 +603,18 @@ let newsLoaded = false;
 let newsOpen = false;
 let ballotOpen = false;
 
-function ballotMatchup(candidates) {
+function ballotMatchup(candidates, stateAbbr) {
   const people = sortPeople(candidates || []);
   if (!people.length) {
     return `<p class="matchup is-empty">No candidates are listed for this race.</p>`;
   }
   const bits = people.map((person) => `
     <span class="nominee ${partyKind(person.party)}">
-      <strong>${esc(person.name)}</strong>
-      <em>${esc(person.party)}</em>
+      ${portraitThumb(person.name, stateAbbr)}
+      <span>
+        <strong>${esc(person.name)}</strong>
+        <em>${esc(person.party)}</em>
+      </span>
     </span>
   `);
   return `<p class="matchup">${bits.join('<span class="vs">vs.</span>')}</p>`;
@@ -679,7 +689,7 @@ function renderBallot(abbr, districtKey) {
   const district = districts.find((item) => item.district === districtKey) || null;
 
   const senateBody = senate
-    ? ballotMatchup(senate.candidates)
+    ? ballotMatchup(senate.candidates, abbr)
     : `<p class="matchup is-empty">No U.S. Senate election in ${esc(state.name)} this year.</p>`;
 
   let houseTitle = "U.S. House";
@@ -692,12 +702,12 @@ function renderBallot(abbr, districtKey) {
     houseTitle = district.district === "at-large"
       ? "U.S. House — At-large"
       : `U.S. House — District ${district.district}`;
-    houseBody = ballotMatchup(district.candidates);
+    houseBody = ballotMatchup(district.candidates, abbr);
   }
 
   const govTitle = governor ? governor.office : "Governor";
   const govBody = governor
-    ? ballotMatchup(governor.candidates)
+    ? ballotMatchup(governor.candidates, abbr)
     : `<p class="matchup is-empty">No governor's race in ${esc(state.name)} in 2026.</p>`;
 
   const place = !districts.length
