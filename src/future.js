@@ -327,8 +327,7 @@ function mount() {
           <span>${HOUSE_COUNT} House seats in even years</span>
         </div>
         <nav class="cycle-nav" aria-label="Election cycle">
-          <a href="/">Home</a>
-          <a href="/guide.html">2026 election</a>
+          <a href="/">2026 election</a>
           <a href="/future.html" aria-current="page">Future elections</a>
         </nav>
       </div>

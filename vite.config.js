@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         main: fileURLToPath(new URL("./index.html", import.meta.url)),
         guide: fileURLToPath(new URL("./guide.html", import.meta.url)),
+        promo: fileURLToPath(new URL("./promo.html", import.meta.url)),
         future: fileURLToPath(new URL("./future.html", import.meta.url)),
       },
     },
