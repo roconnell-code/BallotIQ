@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BallotIQ — Read the ballot before you vote</title>
+    <title>BallotIQ — See who is running</title>
     <meta
       name="description"
-      content="BallotIQ is a state-by-state reading guide to U.S. elections from 2026 through 2030. See who is running, the same eight-part profile for every candidate, and where federal campaign money comes from."
+      content="BallotIQ is a state map for U.S. elections. Click a state to see who is running, their profile, and where federal campaign money comes from."
     />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,192 +18,19 @@
     <link rel="stylesheet" href="/src/promo.css" />
   </head>
   <body>
-    <a class="skip" href="#on-the-ballot">Skip to the guide</a>
+    <a class="skip" href="#demo">Skip to the map</a>
     <header class="mast">
       <div class="mast-inner">
-        <p class="eyebrow">United States · a reading guide, not an official ballot</p>
-        <h1>Ballot<span>IQ</span></h1>
-        <p class="deck">Read the ballot before you vote.</p>
-        <p class="lede">
-          Pick a state. See who is running for Senate, the House, and governor.
-          Every candidate gets the same profile, a portrait when a free photo exists,
-          and a bar for where federal campaign money comes from. The map starts with
-          November 3, 2026, and continues through 2030.
-        </p>
-        <div class="actions">
-          <a class="btn btn-solid" href="/">Open the 2026 guide</a>
-          <a class="btn btn-ghost" href="/?ballot=1">Look up your district</a>
-          <a class="btn btn-ghost" href="/future.html">Elections through 2030</a>
+        <p class="eyebrow">A reading guide, not an official ballot</p>
+        <div class="mast-row">
+          <h1>Ballot<span>IQ</span></h1>
+          <a class="btn btn-solid" href="/">Open the guide</a>
         </div>
+        <p class="deck">Click a state. See who is running.</p>
       </div>
       <div class="flag-rule" aria-hidden="true"></div>
     </header>
-
-    <main>
-      <section class="sheet" id="on-the-ballot">
-        <div class="front">
-          <div>
-            <p class="kicker">November 3, 2026</p>
-            <h2>What is on the ballot</h2>
-            <p>
-              Federal covers the Senate seats up this year and all 435 House districts.
-              State covers 36 governor’s races and the mayor of the District of Columbia.
-              Lists were compiled from public reporting as of October 1, 2026.
-            </p>
-            <ul class="stats">
-              <li><strong>35</strong> Senate elections</li>
-              <li><strong>435</strong> House seats</li>
-              <li><strong>36</strong> governor’s races</li>
-            </ul>
-
-            <article class="feature">
-              <p class="kicker">How a race looks in the guide</p>
-              <div class="feature-head">
-                <h2>Texas Senate</h2>
-                <span class="rating">Tossup</span>
-              </div>
-              <p>
-                John Cornyn lost the Republican runoff. Attorney General Ken Paxton is the nominee
-                against state Representative James Talarico.
-              </p>
-              <div class="faceoff">
-                <article class="person">
-                  <img src="/portraits/ken-paxton-tx.jpg" alt="Portrait of Ken Paxton" width="240" height="300" />
-                  <div>
-                    <p class="party rep">Republican</p>
-                    <h3>Ken Paxton</h3>
-                    <p class="role">Texas attorney general</p>
-                    <p class="money-label">Where the money comes from</p>
-                    <div class="money-bar" role="img" aria-label="Individual donors 97 percent, PACs 2 percent, other 1 percent">
-                      <span class="individual" style="width: 97%"></span>
-                      <span class="pacs" style="width: 2%"></span>
-                      <span class="other" style="width: 1%"></span>
-                    </div>
-                    <ul class="legend">
-                      <li><i class="swatch individual"></i> Individual donors — 97%</li>
-                      <li><i class="swatch pacs"></i> PACs — 2%</li>
-                      <li><i class="swatch other"></i> Other — 1%</li>
-                    </ul>
-                    <p class="fine">About $8.9 million from individuals. FEC all-candidates file, coverage through June 30, 2026.</p>
-                    <p class="fine">Photo: <a href="https://commons.wikimedia.org/wiki/File:K_Paxton.jpg">Gage Skidmore</a>, CC BY-SA 4.0</p>
-                  </div>
-                </article>
-                <p class="vs">vs.</p>
-                <article class="person">
-                  <img src="/portraits/james-talarico-tx.jpg" alt="Portrait of James Talarico" width="240" height="300" />
-                  <div>
-                    <p class="party dem">Democratic</p>
-                    <h3>James Talarico</h3>
-                    <p class="role">State representative and former teacher</p>
-                    <p class="money-label">Where the money comes from</p>
-                    <div class="money-bar" role="img" aria-label="Individual donors 98 percent, PACs 1 percent, other 1 percent">
-                      <span class="individual" style="width: 98%"></span>
-                      <span class="pacs" style="width: 1%"></span>
-                      <span class="other" style="width: 1%"></span>
-                    </div>
-                    <ul class="legend">
-                      <li><i class="swatch individual"></i> Individual donors — 98%</li>
-                      <li><i class="swatch pacs"></i> PACs — 1%</li>
-                      <li><i class="swatch other"></i> Other — 1%</li>
-                    </ul>
-                    <p class="fine">About $64.7 million from individuals. FEC all-candidates file, coverage through June 30, 2026.</p>
-                    <p class="fine">Photo: <a href="https://commons.wikimedia.org/wiki/File:James_Talarico_Press_Conference_%28cropped%29.jpg">Antonioaesparza</a>, CC BY-SA 4.0</p>
-                  </div>
-                </article>
-              </div>
-              <p class="more"><a href="/#federal/TX">Read the full Texas Senate race</a></p>
-            </article>
-          </div>
-
-          <aside>
-            <section class="panel">
-              <p class="kicker">Four steps</p>
-              <h2>Use the guide</h2>
-              <ol class="steps">
-                <li><strong>Choose federal or state.</strong> Senate and House on one side. Governors, and the D.C. mayor, on the other.</li>
-                <li><strong>Pick a state on the map.</strong> Search by name if you don’t want to hunt for it.</li>
-                <li><strong>Open the district.</strong> Every House seat is on the 2026 ballot, including at-large states.</li>
-                <li><strong>Or type the district.</strong> What’s my ballot lists the Senate, House, and governor matchup for that place.</li>
-              </ol>
-            </section>
-
-            <section class="panel">
-              <p class="kicker">Same questions, every name</p>
-              <h2>The profile</h2>
-              <ol class="questions">
-                <li>Experience</li>
-                <li>Voting record</li>
-                <li>Key issues</li>
-                <li>Campaign promises</li>
-                <li>Major donors</li>
-                <li>Endorsements</li>
-                <li>Legislative record</li>
-                <li>Attendance / voting participation</li>
-              </ol>
-              <p class="fine">
-                A section says “Not compiled in this guide” when the public summaries had no sourced line.
-                BallotIQ does not guess a platform, a donor, or a vote.
-              </p>
-            </section>
-          </aside>
-        </div>
-      </section>
-
-      <section class="years-band" aria-labelledby="later-heading">
-        <div class="sheet">
-          <p class="kicker">The same map, later years</p>
-          <h2 id="later-heading">Elections after 2026</h2>
-          <p class="years-intro">
-            A name appears only when a race summary lists that person as the incumbent or as an announced candidate.
-            People described as interested, or as possible candidates, are left off.
-          </p>
-          <div class="years">
-            <a href="/future.html#2027/state/KY">
-              <strong>2027</strong>
-              <span>November 2</span>
-              <em>Governors in Kentucky, Louisiana, and Mississippi. Louisiana votes October 9. No regular Senate or House election.</em>
-            </a>
-            <a href="/future.html#2028/federal/">
-              <strong>2028</strong>
-              <span>November 7</span>
-              <em>President, 34 Senate seats, 11 governors, and every House seat.</em>
-            </a>
-            <a href="/future.html#2029/state/NJ">
-              <strong>2029</strong>
-              <span>November 6</span>
-              <em>Governors in New Jersey and Virginia. No regular Senate or House election.</em>
-            </a>
-            <a href="/future.html#2030/federal/">
-              <strong>2030</strong>
-              <span>November 5</span>
-              <em>33 Senate seats, 37 governors, and every House seat.</em>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="sheet sources">
-        <p class="kicker">Where the pages come from</p>
-        <h2>Public records, labeled gaps</h2>
-        <ul>
-          <li>Candidate lists and race notes come from public reporting, including the Wikipedia pages for these elections, as of October 1, 2026.</li>
-          <li>Ratings on the 2026 guide are Cook Political Report labels from that same window.</li>
-          <li>The money bar uses the FEC all-candidates file for federal candidates. State races are not filled from federal reports.</li>
-          <li>Portraits are freely licensed photos from Wikimedia Commons. The photographer and license are printed on the card. Initials appear when no free portrait matched that person and state.</li>
-          <li>A button at the bottom of the 2026 guide loads today’s headlines from NPR, PBS NewsHour, and The New York Times while the app is running.</li>
-        </ul>
-        <div class="actions end-actions">
-          <a class="btn btn-red" href="/">Open the 2026 guide</a>
-          <a class="btn btn-navy" href="https://github.com/roconnell-code/BallotIQ">View on GitHub</a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="foot">
-      <p>
-        BallotIQ is a reading guide. It is not an official ballot, a campaign, or an endorsement.
-        Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.
-      </p>
-    </footer>
+    <main id="demo" class="demo">Loading the map…</main>
+    <script type="module" src="/src/promo.js"></script>
   </body>
 </html>
