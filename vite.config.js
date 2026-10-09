@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: fileURLToPath(new URL("./index.html", import.meta.url)),
+        guide: fileURLToPath(new URL("./guide.html", import.meta.url)),
         future: fileURLToPath(new URL("./future.html", import.meta.url)),
       },
     },

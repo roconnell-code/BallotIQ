@@ -480,7 +480,8 @@ function mount() {
           <span>${governorRaces.filter((race) => race.state !== "DC").length} governor's races</span>
         </div>
         <nav class="cycle-nav" aria-label="Election cycle">
-          <a href="/" aria-current="page">2026 election</a>
+          <a href="/">Home</a>
+          <a href="/guide.html" aria-current="page">2026 election</a>
           <a href="/future.html">Future elections</a>
         </nav>
       </div>
@@ -597,6 +598,7 @@ function mount() {
 
   render();
   loadMap();
+  if (new URLSearchParams(location.search).has("ballot")) toggleBallot();
 }
 
 let newsLoaded = false;
