@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/promo.css" />
@@ -21,14 +21,28 @@
     <a class="skip" href="#demo">Skip to the map</a>
     <header class="mast">
       <div class="mast-inner">
-        <p class="eyebrow">A reading guide, not an official ballot</p>
         <div class="mast-row">
-          <h1>Ballot<span>IQ</span></h1>
-          <a class="btn btn-solid" href="/">Open the guide</a>
+          <div>
+            <p class="eyebrow">A reading guide, not an official ballot</p>
+            <h1>BallotIQ</h1>
+            <p class="deck">Click a state. See who is running.</p>
+          </div>
+          <div class="mast-actions">
+            <section class="countdown" id="countdown" aria-label="Time until Election Day">
+              <p class="countdown-kicker">Election Day</p>
+              <p class="countdown-when" data-countdown-when>November 3, 2026</p>
+              <div class="countdown-units" data-countdown-units>
+                <div><strong data-countdown-days>—</strong><span>Days</span></div>
+                <div><strong data-countdown-hours>—</strong><span>Hours</span></div>
+                <div><strong data-countdown-minutes>—</strong><span>Minutes</span></div>
+                <div><strong data-countdown-seconds>—</strong><span>Seconds</span></div>
+              </div>
+              <p class="countdown-status" data-countdown-status hidden></p>
+            </section>
+            <a class="btn btn-solid" href="/">Open the guide</a>
+          </div>
         </div>
-        <p class="deck">Click a state. See who is running.</p>
       </div>
-      <div class="flag-rule" aria-hidden="true"></div>
     </header>
     <main id="demo" class="demo">Loading the map…</main>
     <script type="module" src="/src/promo.js"></script>

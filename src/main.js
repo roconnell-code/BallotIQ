@@ -3,6 +3,7 @@ import governorRaces from "./data/governors.json";
 import houseByState from "./data/house.json";
 import moneyByCandidate from "./data/money.json";
 import { portraitCredit, portraitFigure, portraitThumb } from "./portrait.js";
+import { ELECTION_2026, countdownMarkup, startCountdown } from "./countdown.js";
 
 const STATES = [
   ["AL", "Alabama"], ["AK", "Alaska"], ["AZ", "Arizona"], ["AR", "Arkansas"],
@@ -24,7 +25,6 @@ const senateBy = Object.fromEntries(senateRaces.map((race) => [race.state, race]
 const governorBy = Object.fromEntries(governorRaces.map((race) => [race.state, race]));
 
 const HOUSE_COUNT = Object.values(houseByState).reduce((sum, list) => sum + list.length, 0);
-const PROFILE_GAP = "Not compiled in this guide.";
 
 const PROFILE_SECTIONS = [
   ["experience", "Experience"],
@@ -124,20 +124,18 @@ function houseProfile(candidate, district) {
   const incumbentName = runningIncumbentName(district);
   const isIncumbent = incumbentName === candidate.name;
   const open = !district.incumbent || !incumbentIsRunning(district.status);
-  const accomplishments = [];
+  let line;
   if (isIncumbent) {
-    accomplishments.push(`Incumbent in ${district.label}. First elected ${district.since}.`);
-    accomplishments.push(`${district.status}.`);
+    const since = district.since ? ` First elected ${district.since}.` : "";
+    line = `Incumbent representative for ${district.label}.${since}`;
   } else if (open) {
-    accomplishments.push(`${candidate.party} candidate for ${district.label}, an open seat this year.`);
-    accomplishments.push(`${district.status}.`);
+    line = `${candidate.party} candidate for the open seat in ${district.label}.`;
   } else {
-    accomplishments.push(`${candidate.party} candidate for ${district.label}.`);
-    accomplishments.push(`Incumbent ${district.incumbent} (${district.incumbentParty}) is running. ${district.status}.`);
+    line = `${candidate.party} candidate challenging ${district.incumbent} in ${district.label}.`;
   }
   return {
     role: isIncumbent ? "Incumbent representative" : "On the November 3 ballot",
-    accomplishments,
+    accomplishments: [line],
     policy: [],
   };
 }
@@ -146,15 +144,15 @@ function addLine(list, item) {
   if (item && !list.includes(item)) list.push(item);
 }
 
-function profileBuckets(text) {
+function classifyLine(text) {
   const t = text.toLowerCase();
-  const buckets = [];
-  if (/\b(donors include|major donors|funded by|contributions? from|super pac)\b/.test(t)) buckets.push("majorDonors");
-  if (/\bendorsed (him|her|them)\b|\bendorsement\b/.test(t)) buckets.push("endorsements");
-  if (/\b(attendance|missed votes?|voting participation)\b/.test(t)) buckets.push("attendance");
-  if (/\b(sponsor|sponsored|legislation|bills?|resolution|enacted|amendment)\b/.test(t)) buckets.push("legislativeRecord");
-  if (/\b(voting record|voted|votes)\b/.test(t) && !/state that has voted|usually votes/.test(t)) buckets.push("votingRecord");
-  return buckets;
+  if (/\b(donors include|major donors|funded by|contributions? from|super pac)\b/.test(t)) return "majorDonors";
+  if (/\bendors/.test(t)) return "endorsements";
+  if (/\b(attendance|missed votes?|voting participation)\b/.test(t)) return "attendance";
+  if (/\b(sponsor|sponsored|legislation|bills?|resolution|enacted|amendment|legislative record)\b/.test(t)) return "legislativeRecord";
+  if (/\b(voting record|voted|votes with|votes as)\b/.test(t) && !/usually votes|state that has voted/.test(t)) return "votingRecord";
+  if (/\b(pledges?|pledged|promises|promise to|plans to|calls for|running on|her campaign|his campaign|public campaign|campaign has)\b/.test(t)) return "campaignPromises";
+  return null;
 }
 
 function buildProfile(person) {
@@ -169,29 +167,37 @@ function buildProfile(person) {
     attendance: [],
   };
   for (const item of person.accomplishments || []) {
-    addLine(profile.experience, item);
-    for (const bucket of profileBuckets(item)) addLine(profile[bucket], item);
+    addLine(profile[classifyLine(item) || "experience"], item);
   }
   for (const item of person.policy || []) {
-    addLine(profile.keyIssues, item);
-    if (/\b(campaign|campaigns|promise|promises|pledges?|pledged|plans to|calls for|running on)\b/.test(item.toLowerCase())) {
-      addLine(profile.campaignPromises, item);
-    }
-    for (const bucket of profileBuckets(item)) addLine(profile[bucket], item);
+    const bucket = classifyLine(item);
+    addLine(profile[bucket || "keyIssues"], item);
   }
   return profile;
+}
+
+function gapSentence(labels) {
+  const nice = labels.map((label) => (
+    label === "Attendance / voting participation" ? "attendance" : label.toLowerCase()
+  ));
+  if (nice.length === 1) return `Not compiled in this guide: ${nice[0]}.`;
+  const last = nice.pop();
+  return `Not compiled in this guide: ${nice.join(", ")}, and ${last}.`;
 }
 
 function personCard(person, stateAbbr) {
   const kind = partyKind(person.party);
   const profile = buildProfile(person);
-  const sections = PROFILE_SECTIONS.map(([key, label]) => {
+  const missing = [];
+  const sections = PROFILE_SECTIONS.flatMap(([key, label]) => {
     const items = profile[key];
-    const body = items.length
-      ? `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>`
-      : `<p class="profile-gap">${PROFILE_GAP}</p>`;
-    return `<section><h5>${label}</h5>${body}</section>`;
+    if (!items.length) {
+      missing.push(label);
+      return [];
+    }
+    return [`<section><h5>${label}</h5><ul>${items.map((item) => `<li>${esc(item)}</li>`).join("")}</ul></section>`];
   }).join("");
+  const gap = missing.length ? `<p class="profile-gap">${gapSentence(missing)}</p>` : "";
   return `
     <article class="person ${kind}">
       <div class="person-top">
@@ -203,7 +209,7 @@ function personCard(person, stateAbbr) {
           ${portraitCredit(person.name, stateAbbr)}
         </div>
       </div>
-      <div class="profile">${sections}</div>
+      <div class="profile">${sections}${gap}</div>
       ${moneyBlock(person)}
     </article>
   `;
@@ -431,8 +437,8 @@ function renderDetail() {
   });
   const legend = document.querySelector(".legend");
   legend.innerHTML = level === "federal"
-    ? `<span><i class="swatch" style="background:#7ea0cc"></i>Senate race this year</span><span><i class="swatch" style="background:#d5e1f0"></i>House races only</span>`
-    : `<span><i class="swatch" style="background:#e7a3ab"></i>Governor or mayor on the ballot</span><span><i class="swatch" style="background:#e7eef6"></i>No statewide executive race</span>`;
+    ? `<span><i class="swatch senate"></i>Senate race this year</span><span><i class="swatch house"></i>House races only</span>`
+    : `<span><i class="swatch gov"></i>Governor or mayor on the ballot</span><span><i class="swatch quiet"></i>No statewide executive race</span>`;
 }
 
 function render() {
@@ -471,20 +477,26 @@ function mount() {
   app.innerHTML = `
     <header class="mast">
       <div class="mast-inner">
-        <p class="eyebrow">United States · November 3, 2026</p>
-        <h1>Ballot<span>IQ</span></h1>
-        <p class="lede">BallotIQ is a state-by-state guide to the November 3, 2026 election. Federal covers the U.S. Senate races on this year's ballot and all 435 House seats. State covers 36 governors and the mayor of the District of Columbia. Choose a state to read who is running, what they have already done, and the policies they are campaigning on.</p>
-        <div class="counts">
-          <span>${senateRaces.length} Senate elections</span>
-          <span>${HOUSE_COUNT} House seats</span>
-          <span>${governorRaces.filter((race) => race.state !== "DC").length} governor's races</span>
+        <div class="mast-top">
+          <div>
+            <p class="eyebrow">United States · November 3, 2026</p>
+            <h1>BallotIQ</h1>
+            <p class="lede">A state-by-state reading guide for Election Day. Federal covers this year's Senate races and all 435 House seats. State covers 36 governors and the mayor of the District of Columbia.</p>
+          </div>
+          ${countdownMarkup()}
         </div>
-        <nav class="cycle-nav" aria-label="Election cycle">
-          <a href="/" aria-current="page">2026 election</a>
-          <a href="/future.html">Future elections</a>
-        </nav>
+        <div class="mast-bar">
+          <div class="counts">
+            <span>${senateRaces.length} Senate elections</span>
+            <span>${HOUSE_COUNT} House seats</span>
+            <span>${governorRaces.filter((race) => race.state !== "DC").length} governor's races</span>
+          </div>
+          <nav class="cycle-nav" aria-label="Election cycle">
+            <a href="/" aria-current="page">2026 election</a>
+            <a href="/future.html">Future elections</a>
+          </nav>
+        </div>
       </div>
-      <div class="flag-rule" aria-hidden="true"></div>
     </header>
     <main class="wrap">
       <section class="ballot" aria-labelledby="ballot-button">
@@ -535,7 +547,7 @@ function mount() {
         <section class="panel detail-col" id="detail" tabindex="-1"></section>
       </div>
       <footer class="foot">
-        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each profile uses the same sections. A section says “Not compiled in this guide” when those summaries did not include a sourced line for voting record, donors, endorsements, legislation, or attendance. The money bar uses the FEC all-candidates file for federal candidates and is left blank when no filing is matched. State races are not filled from federal reports. Photos are freely licensed portraits from Wikimedia Commons. The photographer and license are on the card. Initials appear when no free portrait matched that candidate and state. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
+        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each fact appears once, in the section it belongs to. Sections without a sourced line are named together at the bottom of the card, instead of repeating the same note. The money bar uses the FEC all-candidates file for federal candidates and is left blank when no filing is matched. State races are not filled from federal reports. Photos are freely licensed portraits from Wikimedia Commons. The photographer and license are on the card. Initials appear when no free portrait matched that candidate and state. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
       </footer>
       <section class="news" aria-labelledby="news-button">
         <button type="button" id="news-button" aria-expanded="false" aria-controls="news-panel">
@@ -597,6 +609,7 @@ function mount() {
 
   render();
   loadMap();
+  startCountdown(document.querySelector("#countdown"), () => ELECTION_2026);
   if (new URLSearchParams(location.search).has("ballot")) toggleBallot();
 }
 

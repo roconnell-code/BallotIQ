@@ -52,20 +52,25 @@
       {
         "name": "Treg Taylor",
         "party": "Republican",
-        "role": "Republican candidate",
+        "role": "Former Alaska attorney general",
         "accomplishments": [
-          "Advanced to the ranked-choice general for the open governorship."
+          "Alaska attorney general from 2021 to 2025. He advanced to the ranked-choice general for the open governorship."
         ],
-        "policy": []
+        "policy": [
+          "His official candidate statement emphasizes public safety, resource development, the Permanent Fund dividend, and cutting state spending."
+        ]
       },
       {
         "name": "Bernadette Wilson",
         "party": "Republican",
-        "role": "Republican candidate",
+        "role": "Anchorage business owner",
         "accomplishments": [
-          "Advanced to the ranked-choice general for the open governorship."
+          "Owns a commercial refuse company in Anchorage. She finished as the top Republican in the August 18, 2026 primary and advanced to the ranked-choice general."
         ],
-        "policy": []
+        "policy": [
+          "Campaigns on spending cuts, resource development, and restoring the statutory Permanent Fund dividend.",
+          "One of the primary sponsors of the initiative to repeal ranked-choice voting."
+        ]
       },
       {
         "name": "Jonathan Kreiss-Tomkins",
@@ -289,11 +294,14 @@
       {
         "name": "Rick Jackson",
         "party": "Republican",
-        "role": "Republican nominee",
+        "role": "Founder of Jackson Healthcare",
         "accomplishments": [
-          "Republican nominee for the open governorship."
+          "Founder of Jackson Healthcare, a medical-staffing company based in Alpharetta. He won the June 16, 2026 Republican runoff over Burt Jones."
         ],
-        "policy": []
+        "policy": [
+          "Has said he wants to cut Georgia's income tax and limit property-tax increases.",
+          "His campaign said Jackson Healthcare will not bid on new state contracts and will unwind existing ones if he is elected."
+        ]
       },
       {
         "name": "Keisha Lance Bottoms",
@@ -483,9 +491,9 @@
       {
         "name": "Robert B. Charles",
         "party": "Republican",
-        "role": "Republican nominee",
+        "role": "Former assistant secretary of state",
         "accomplishments": [
-          "Republican nominee for the open governorship."
+          "Former U.S. assistant secretary of state for international narcotics and law enforcement. He won Maine's June 9, 2026 Republican primary for the open governorship."
         ],
         "policy": []
       },
@@ -622,9 +630,9 @@
       {
         "name": "Lisa Demuth",
         "party": "Republican",
-        "role": "Republican nominee",
+        "role": "Speaker of the Minnesota House",
         "accomplishments": [
-          "Republican nominee for the open governorship."
+          "Speaker of the Minnesota House. She won the August 11, 2026 Republican primary over Mike Lindell and is the nominee against Amy Klobuchar."
         ],
         "policy": []
       }
@@ -750,9 +758,9 @@
       {
         "name": "Gregg Hull",
         "party": "Republican",
-        "role": "Republican nominee",
+        "role": "Mayor of Rio Rancho",
         "accomplishments": [
-          "Republican nominee for the open governorship."
+          "Mayor of Rio Rancho. He is the Republican nominee for New Mexico's open governorship."
         ],
         "policy": []
       }
@@ -1035,11 +1043,13 @@
       {
         "name": "Jerri Green",
         "party": "Democratic",
-        "role": "Democratic nominee",
+        "role": "Memphis city councilor",
         "accomplishments": [
-          "Democratic nominee for the open governorship."
+          "Memphis city councilor and Shelby County chief public defender. She won the August 6, 2026 Democratic primary with 69 percent."
         ],
-        "policy": []
+        "policy": [
+          "Her campaign has said a first budget would pay down medical debt and accept federal Medicaid expansion funds without raising taxes."
+        ]
       }
     ],
     "others": [
@@ -1165,9 +1175,9 @@
       {
         "name": "Eric Barlow",
         "party": "Republican",
-        "role": "Republican nominee",
+        "role": "Wyoming state senator",
         "accomplishments": [
-          "Republican nominee for the open governorship."
+          "State senator from Wyoming's 23rd district. He won the August 18, 2026 Republican primary for the open governorship."
         ],
         "policy": []
       },
@@ -1176,7 +1186,7 @@
         "party": "Democratic",
         "role": "Democratic nominee",
         "accomplishments": [
-          "Democratic nominee for the open governorship."
+          "Democratic nominee for Wyoming's open governorship. He also ran for the office in 2002 and 2018, and was unopposed in the 2026 primary."
         ],
         "policy": []
       }

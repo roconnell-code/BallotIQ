@@ -4,6 +4,7 @@ import houseByState from "./data/house.json";
 import moneyByCandidate from "./data/money.json";
 import futureFile from "./data/future.json";
 import { portraitRecord } from "./portrait.js";
+import { ELECTION_2026, startCountdown } from "./countdown.js";
 
 const STATES = [
   ["AL", "Alabama"], ["AK", "Alaska"], ["AZ", "Arizona"], ["AR", "Arkansas"],
@@ -89,15 +90,15 @@ function addLine(list, item) {
   if (item && !list.includes(item)) list.push(item);
 }
 
-function profileBuckets(text) {
+function classifyLine(text) {
   const t = text.toLowerCase();
-  const buckets = [];
-  if (/\b(donors include|major donors|funded by|contributions? from|super pac)\b/.test(t)) buckets.push("majorDonors");
-  if (/\bendorsed (him|her|them)\b|\bendorsement\b/.test(t)) buckets.push("endorsements");
-  if (/\b(attendance|missed votes?|voting participation)\b/.test(t)) buckets.push("attendance");
-  if (/\b(sponsor|sponsored|legislation|bills?|resolution|enacted|amendment)\b/.test(t)) buckets.push("legislativeRecord");
-  if (/\b(voting record|voted|votes)\b/.test(t) && !/state that has voted|usually votes/.test(t)) buckets.push("votingRecord");
-  return buckets;
+  if (/\b(donors include|major donors|funded by|contributions? from|super pac)\b/.test(t)) return "majorDonors";
+  if (/\bendors/.test(t)) return "endorsements";
+  if (/\b(attendance|missed votes?|voting participation)\b/.test(t)) return "attendance";
+  if (/\b(sponsor|sponsored|legislation|bills?|resolution|enacted|amendment|legislative record)\b/.test(t)) return "legislativeRecord";
+  if (/\b(voting record|voted|votes with|votes as)\b/.test(t) && !/usually votes|state that has voted/.test(t)) return "votingRecord";
+  if (/\b(pledges?|pledged|promises|promise to|plans to|calls for|running on|her campaign|his campaign|public campaign|campaign has)\b/.test(t)) return "campaignPromises";
+  return null;
 }
 
 function profileLines(person) {
@@ -124,15 +125,10 @@ function profileLines(person) {
     attendance: [],
   };
   for (const item of person.accomplishments || []) {
-    addLine(profile.experience, item);
-    for (const bucket of profileBuckets(item)) addLine(profile[bucket], item);
+    addLine(profile[classifyLine(item) || "experience"], item);
   }
   for (const item of person.policy || []) {
-    addLine(profile.keyIssues, item);
-    if (/\b(campaign|campaigns|promise|promises|pledges?|pledged|plans to|calls for|running on)\b/.test(item.toLowerCase())) {
-      addLine(profile.campaignPromises, item);
-    }
-    for (const bucket of profileBuckets(item)) addLine(profile[bucket], item);
+    addLine(profile[classifyLine(item) || "keyIssues"], item);
   }
   return profile;
 }
@@ -455,3 +451,4 @@ demo.addEventListener("keydown", (event) => {
 
 render();
 loadMap();
+startCountdown(document.querySelector("#countdown"), () => ELECTION_2026);

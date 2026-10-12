@@ -1,10 +1,10 @@
 import cyclesFile from "./data/future.json";
 import houseByState from "./data/house.json";
 import { portraitCredit, portraitFigure } from "./portrait.js";
+import { countdownMarkup, parseUsDate, startCountdown } from "./countdown.js";
 
 const CYCLES = cyclesFile.cycles;
 const HOUSE_COUNT = Object.values(houseByState).reduce((sum, list) => sum + list.length, 0);
-const PROFILE_GAP = "Not compiled in this guide.";
 const PROFILE_SECTIONS = [
   ["experience", "Experience"],
   ["votingRecord", "Voting record"],
@@ -74,20 +74,33 @@ function governorBy(current) {
   return Object.fromEntries(current.governors.map((race) => [race.state, race]));
 }
 
+function gapSentence(labels) {
+  const nice = labels.map((label) => (
+    label === "Attendance / voting participation" ? "attendance" : label.toLowerCase()
+  ));
+  if (!nice.length) return "";
+  if (nice.length === 1) return `Not compiled in this guide: ${nice[0]}.`;
+  const last = nice.pop();
+  return `Not compiled in this guide: ${nice.join(", ")}, and ${last}.`;
+}
+
 function personCard(person, stateAbbr) {
   person = { ...person, state: stateAbbr };
   const kind = partyKind(person.party);
-  const sections = PROFILE_SECTIONS.map(([key, label]) => {
+  const missing = [];
+  const sections = PROFILE_SECTIONS.flatMap(([key, label]) => {
     const items = key === "experience"
       ? person.experience || []
       : key === "campaignPromises"
         ? person.promises || []
         : [];
-    const body = items.length
-      ? `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>`
-      : `<p class="profile-gap">${PROFILE_GAP}</p>`;
-    return `<section><h5>${label}</h5>${body}</section>`;
+    if (!items.length) {
+      missing.push(label);
+      return [];
+    }
+    return [`<section><h5>${label}</h5><ul>${items.map((item) => `<li>${esc(item)}</li>`).join("")}</ul></section>`];
   }).join("");
+  const gap = missing.length ? `<p class="profile-gap">${gapSentence(missing)}</p>` : "";
   return `
     <article class="person ${kind}">
       <div class="person-top">
@@ -99,7 +112,7 @@ function personCard(person, stateAbbr) {
           ${portraitCredit(person.name, person.state)}
         </div>
       </div>
-      <div class="profile">${sections}</div>
+      <div class="profile">${sections}${gap}</div>
       <section class="money">
         <h5>Where does the candidate's money come from?</h5>
         <p class="profile-gap">Campaign-finance breakdowns are not compiled for elections after 2026.</p>
@@ -261,10 +274,10 @@ function renderChrome() {
   const legend = document.querySelector(".legend");
   if (level === "federal") {
     legend.innerHTML = current.senate.length
-      ? `<span><i class="swatch" style="background:#7ea0cc"></i>Senate seat up in ${year}</span><span><i class="swatch" style="background:#e7eef6"></i>No Senate seat that year</span>`
-      : `<span><i class="swatch" style="background:#e7eef6"></i>No regular federal election in ${year}</span>`;
+      ? `<span><i class="swatch senate"></i>Senate seat up in ${year}</span><span><i class="swatch quiet"></i>No Senate seat that year</span>`
+      : `<span><i class="swatch quiet"></i>No regular federal election in ${year}</span>`;
   } else {
-    legend.innerHTML = `<span><i class="swatch" style="background:#e7a3ab"></i>Governor or mayor up in ${year}</span><span><i class="swatch" style="background:#e7eef6"></i>No statewide executive race</span>`;
+    legend.innerHTML = `<span><i class="swatch gov"></i>Governor or mayor up in ${year}</span><span><i class="swatch quiet"></i>No statewide executive race</span>`;
   }
   document.querySelector("#detail").innerHTML = detailHtml();
 }
@@ -318,20 +331,26 @@ function mount() {
   app.innerHTML = `
     <header class="mast">
       <div class="mast-inner">
-        <p class="eyebrow">United States · after 2026</p>
-        <h1>Ballot<span>IQ</span></h1>
-        <p class="lede">Future elections uses the same state map as the 2026 guide. It covers the regular contests already on the calendar for 2027, 2028, 2029, and 2030. A name appears only when a Wikipedia race summary lists that person as the incumbent or as an announced candidate. Open seats and later House fields stay blank.</p>
-        <div class="counts">
-          <span>${CYCLES.length} cycles</span>
-          <span id="cycle-count"></span>
-          <span>${HOUSE_COUNT} House seats in even years</span>
+        <div class="mast-top">
+          <div>
+            <p class="eyebrow">United States · after 2026</p>
+            <h1>BallotIQ</h1>
+            <p class="lede">The same state map, for the contests already on the calendar in 2027, 2028, 2029, and 2030. A name appears only when a race summary lists that person as the incumbent or as an announced candidate.</p>
+          </div>
+          ${countdownMarkup()}
         </div>
-        <nav class="cycle-nav" aria-label="Election cycle">
-          <a href="/">2026 election</a>
-          <a href="/future.html" aria-current="page">Future elections</a>
-        </nav>
+        <div class="mast-bar">
+          <div class="counts">
+            <span>${CYCLES.length} cycles</span>
+            <span id="cycle-count"></span>
+            <span>${HOUSE_COUNT} House seats in even years</span>
+          </div>
+          <nav class="cycle-nav" aria-label="Election cycle">
+            <a href="/">2026 election</a>
+            <a href="/future.html" aria-current="page">Future elections</a>
+          </nav>
+        </div>
       </div>
-      <div class="flag-rule" aria-hidden="true"></div>
     </header>
     <main class="wrap">
       <div class="years" role="group" aria-label="Election year">
@@ -413,6 +432,7 @@ function mount() {
 
   render();
   loadMap();
+  startCountdown(document.querySelector("#countdown"), () => parseUsDate(cycle().date));
 }
 
 async function loadMap() {
