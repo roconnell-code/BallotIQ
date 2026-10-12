@@ -351,6 +351,7 @@ function mount() {
           </nav>
         </div>
       </div>
+      <div class="flag-rule" aria-hidden="true"></div>
     </header>
     <main class="wrap">
       <div class="years" role="group" aria-label="Election year">

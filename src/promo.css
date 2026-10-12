@@ -45,9 +45,8 @@ select:focus-visible {
 .skip:focus { top: 0.75rem; }
 
 .mast {
-  background: white;
-  color: var(--ink);
-  border-bottom: 1px solid var(--line);
+  background: #0a3161;
+  color: white;
 }
 
 .mast-inner {
@@ -82,7 +81,7 @@ h1 {
 
 .deck {
   margin: 0.4rem 0 0;
-  color: var(--muted);
+  color: #e7eef8;
   font-size: 1.05rem;
 }
 
@@ -92,15 +91,21 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: #c5d4ea;
+}
+
+.flag-rule {
+  height: 8px;
+  background: repeating-linear-gradient(90deg, #bf0a30 0 16px, #ffffff 16px 26px);
 }
 
 .countdown {
-  background: #f7f8fa;
-  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 16px;
   padding: 0.7rem 0.8rem 0.65rem;
   min-width: 250px;
+  color: white;
 }
 
 .countdown-kicker {
@@ -109,7 +114,7 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--red);
+  color: #ffc1cb;
 }
 
 .countdown-when {
@@ -136,7 +141,7 @@ h1 {
   font-size: 1.25rem;
   letter-spacing: -0.04em;
   line-height: 1;
-  color: var(--navy);
+  color: white;
 }
 
 .countdown-units span {
@@ -146,7 +151,7 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: #d5e4f7;
 }
 
 .countdown-status {
@@ -161,8 +166,8 @@ h1 {
   justify-content: center;
   min-height: 44px;
   padding: 0.4rem 0.9rem;
-  background: var(--navy);
-  color: white;
+  background: white;
+  color: #0a3161;
   text-decoration: none;
   border-radius: 999px;
   font-weight: 650;

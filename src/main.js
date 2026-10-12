@@ -4,6 +4,18 @@ import houseByState from "./data/house.json";
 import moneyByCandidate from "./data/money.json";
 import { portraitCredit, portraitFigure, portraitThumb } from "./portrait.js";
 import { ELECTION_2026, countdownMarkup, startCountdown } from "./countdown.js";
+import {
+  highlightId,
+  isHighlightSaved,
+  isPersonSaved,
+  isStorySaved,
+  loadSaved,
+  personId,
+  removeSaved,
+  toggleHighlight,
+  togglePerson,
+  toggleStory,
+} from "./saved.js";
 
 const STATES = [
   ["AL", "Alabama"], ["AK", "Alaska"], ["AZ", "Arizona"], ["AR", "Arkansas"],
@@ -185,8 +197,30 @@ function gapSentence(labels) {
   return `Not compiled in this guide: ${nice.join(", ")}, and ${last}.`;
 }
 
-function personCard(person, stateAbbr) {
+function researchMeta(person, stateAbbr, context = {}) {
+  return {
+    name: person.name,
+    party: person.party || "",
+    role: person.role || "",
+    state: stateAbbr,
+    level: context.level || level,
+    office: context.office || "",
+    district: context.district || "",
+  };
+}
+
+function factList(items, section, meta) {
+  return `<ul>${items.map((item) => {
+    const marked = isHighlightSaved(highlightId(meta, section, item));
+    const payload = esc(JSON.stringify({ ...meta, section, text: item }));
+    return `<li class="${marked ? "is-marked" : ""}"><span>${esc(item)}</span><button type="button" class="mark" data-highlight="${payload}" aria-pressed="${marked}">${marked ? "Highlighted" : "Highlight"}</button></li>`;
+  }).join("")}</ul>`;
+}
+
+function personCard(person, stateAbbr, context) {
   const kind = partyKind(person.party);
+  const meta = researchMeta(person, stateAbbr, context);
+  const saved = isPersonSaved(personId(meta));
   const profile = buildProfile(person);
   const missing = [];
   const sections = PROFILE_SECTIONS.flatMap(([key, label]) => {
@@ -195,11 +229,11 @@ function personCard(person, stateAbbr) {
       missing.push(label);
       return [];
     }
-    return [`<section><h5>${label}</h5><ul>${items.map((item) => `<li>${esc(item)}</li>`).join("")}</ul></section>`];
+    return [`<section><h5>${label}</h5>${factList(items, label, meta)}</section>`];
   }).join("");
   const gap = missing.length ? `<p class="profile-gap">${gapSentence(missing)}</p>` : "";
   return `
-    <article class="person ${kind}">
+    <article class="person ${kind}${saved ? " is-saved" : ""}">
       <div class="person-top">
         ${portraitFigure(person.name, stateAbbr)}
         <div>
@@ -207,6 +241,7 @@ function personCard(person, stateAbbr) {
           <h4>${esc(person.name)}</h4>
           <p class="role">${esc(person.role)}</p>
           ${portraitCredit(person.name, stateAbbr)}
+          <button type="button" class="save-person" data-save-person="${esc(JSON.stringify(meta))}" aria-pressed="${saved}">${saved ? "Saved" : "Save"}</button>
         </div>
       </div>
       <div class="profile">${sections}${gap}</div>
@@ -298,7 +333,7 @@ function contestBlock(race) {
       </div>
       <p class="summary">${esc(race.summary)}</p>
       <div class="people ${people.length === 2 ? "pair" : ""}">
-        ${people.map((person) => personCard(person, race.state)).join("")}
+        ${people.map((person) => personCard(person, race.state, { level, office: race.office })).join("")}
       </div>
       ${othersList(race.others)}
     </section>
@@ -332,7 +367,7 @@ function houseBlock(abbr) {
           ...houseProfile(candidate, current),
           moneyKey: `house|${abbr}|${current.district}|${candidate.name}`,
           moneyScope: "federal",
-        }, abbr)).join("")}
+        }, abbr, { level: "federal", office: "U.S. House", district: String(current.district) })).join("")}
       </div>
     `
     : `<p class="summary">Choose a district. All ${districts.length} ${districts.length === 1 ? "seat is" : "seats are"} on the November 3 ballot.</p>`;
@@ -497,8 +532,15 @@ function mount() {
           </nav>
         </div>
       </div>
+      <div class="flag-rule" aria-hidden="true"></div>
     </header>
     <main class="wrap">
+      <section class="saved" aria-labelledby="saved-button">
+        <button type="button" id="saved-button" aria-expanded="false" aria-controls="saved-panel">
+          Saved research
+        </button>
+        <div id="saved-panel" hidden></div>
+      </section>
       <section class="ballot" aria-labelledby="ballot-button">
         <button type="button" id="ballot-button" aria-expanded="false" aria-controls="ballot-panel">
           What's my ballot
@@ -547,12 +589,22 @@ function mount() {
         <section class="panel detail-col" id="detail" tabindex="-1"></section>
       </div>
       <footer class="foot">
-        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each fact appears once, in the section it belongs to. Sections without a sourced line are named together at the bottom of the card, instead of repeating the same note. The money bar uses the FEC all-candidates file for federal candidates and is left blank when no filing is matched. State races are not filled from federal reports. Photos are freely licensed portraits from Wikimedia Commons. The photographer and license are on the card. Initials appear when no free portrait matched that candidate and state. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
+        <p>Candidate lists were compiled from public reporting as of October 1, 2026, including the Wikipedia pages for the 2026 Senate, House, and governor elections. Ratings shown are Cook Political Report labels from that same window. Each fact appears once, in the section it belongs to. Sections without a sourced line are named together at the bottom of the card, instead of repeating the same note. Save and Highlight stay in this browser. The money bar uses the FEC all-candidates file for federal candidates and is left blank when no filing is matched. State races are not filled from federal reports. Photos are freely licensed portraits from Wikimedia Commons. The photographer and license are on the card. Initials appear when no free portrait matched that candidate and state. This is a reading guide, not an official ballot. Platforms move, and small-party filings can be incomplete. Check your state election office before you vote.</p>
       </footer>
       <section class="news" aria-labelledby="news-button">
-        <button type="button" id="news-button" aria-expanded="false" aria-controls="news-panel">
-          Today's American news
-        </button>
+        <div class="news-head">
+          <button type="button" id="news-button" aria-expanded="false" aria-controls="news-panel">
+            Today's American news
+          </button>
+          <label class="field news-topic-field">Topic
+            <select id="news-topic" aria-label="News topic">
+              <option value="breaking">Breaking news</option>
+              <option value="economy">Economy</option>
+              <option value="foreign">Foreign relations</option>
+              <option value="trump">Trump</option>
+            </select>
+          </label>
+        </div>
         <div id="news-panel" hidden></div>
       </section>
     </main>
@@ -570,13 +622,42 @@ function mount() {
       return;
     }
     const jump = event.target.closest("[data-jump]");
-    if (jump) choose(jump.dataset.jump);
+    if (jump) {
+      choose(jump.dataset.jump);
+      return;
+    }
+    if (event.target.closest("[data-save-person]")) {
+      savePersonFrom(event.target.closest("[data-save-person]"));
+      return;
+    }
+    if (event.target.closest("[data-highlight]")) {
+      highlightFrom(event.target.closest("[data-highlight]"));
+      return;
+    }
+    if (event.target.closest("[data-save-story]")) {
+      saveStoryFrom(event.target.closest("[data-save-story]"));
+      return;
+    }
+    if (event.target.closest("[data-open-saved]")) {
+      openSaved(JSON.parse(event.target.closest("[data-open-saved]").getAttribute("data-open-saved")));
+      return;
+    }
+    const remove = event.target.closest("[data-remove-saved]");
+    if (remove) {
+      removeSaved(remove.dataset.removeKind, remove.dataset.removeSaved);
+      renderSaved();
+      renderDetail();
+    }
   });
 
   app.addEventListener("change", (event) => {
     if (event.target.id === "district-select") {
       districtId = event.target.value || null;
       renderDetail();
+    }
+    if (event.target.id === "news-topic") {
+      newsTopic = event.target.value;
+      if (newsOpen) loadNews();
     }
   });
 
@@ -606,16 +687,28 @@ function mount() {
   });
   document.querySelector("#ballot-form").addEventListener("submit", showBallot);
   document.querySelector("#news-button").addEventListener("click", toggleNews);
+  document.querySelector("#saved-button").addEventListener("click", toggleSaved);
 
   render();
+  renderSaved();
   loadMap();
   startCountdown(document.querySelector("#countdown"), () => ELECTION_2026);
   if (new URLSearchParams(location.search).has("ballot")) toggleBallot();
 }
 
-let newsLoaded = false;
+const newsCache = new Map();
+let newsTopic = "breaking";
 let newsOpen = false;
+let newsRequest = 0;
 let ballotOpen = false;
+let savedOpen = false;
+
+const NEWS_NOTES = {
+  breaking: "Breaking headlines from NPR, PBS NewsHour, and The New York Times.",
+  economy: "Economy headlines from NPR, PBS NewsHour, and The New York Times.",
+  foreign: "Foreign-relations headlines from NPR, PBS NewsHour, and The New York Times.",
+  trump: "Politics headlines from those three outlets that mention Trump.",
+};
 
 function ballotMatchup(candidates, stateAbbr) {
   const people = sortPeople(candidates || []);
@@ -788,6 +881,16 @@ function formatWhen(value) {
   }).format(date);
 }
 
+function storySaveButton(story) {
+  const saved = isStorySaved(story.url);
+  const payload = esc(JSON.stringify({
+    url: story.url,
+    title: story.title,
+    source: story.source,
+  }));
+  return `<button type="button" class="mark" data-save-story="${payload}" aria-pressed="${saved}">${saved ? "Saved" : "Save story"}</button>`;
+}
+
 function newsCard(story) {
   const when = formatWhen(story.published);
   return `
@@ -795,39 +898,187 @@ function newsCard(story) {
       <p class="news-source">${esc(story.source)}${when ? ` · ${esc(when)} ET` : ""}</p>
       <h3><a href="${esc(story.url)}" target="_blank" rel="noopener noreferrer">${esc(story.title)}</a></h3>
       ${story.summary ? `<p>${esc(story.summary)}</p>` : ""}
+      ${storySaveButton(story)}
     </article>
   `;
 }
 
-async function toggleNews() {
+function popularBlock(story) {
+  if (!story) return "";
+  const when = formatWhen(story.published);
+  return `
+    <section class="news-lead">
+      <p class="news-kicker">Most viewed today</p>
+      <p class="news-source">${esc(story.source)}${when ? ` · ${esc(when)} ET` : ""}</p>
+      <h3><a href="${esc(story.url)}" target="_blank" rel="noopener noreferrer">${esc(story.title)}</a></h3>
+      ${story.summary ? `<p>${esc(story.summary)}</p>` : ""}
+      <p class="news-note">The lead story on The New York Times most-viewed list.</p>
+      ${storySaveButton(story)}
+    </section>
+  `;
+}
+
+function newsBody(data) {
+  const list = data.stories?.length
+    ? `<div class="news-list">${data.stories.map(newsCard).join("")}</div>`
+    : `<p class="news-status">No headlines matched this topic.</p>`;
+  return `
+    ${popularBlock(data.popular)}
+    <p class="news-note">${esc(NEWS_NOTES[data.topic] || NEWS_NOTES.breaking)} Each link opens the original story.</p>
+    ${list}
+  `;
+}
+
+async function loadNews() {
+  const panel = document.querySelector("#news-panel");
+  const select = document.querySelector("#news-topic");
+  if (select) select.value = newsTopic;
+  const topic = newsTopic;
+  const request = ++newsRequest;
+  const cached = newsCache.get(topic);
+  if (cached) {
+    panel.innerHTML = newsBody(cached);
+    return;
+  }
+  panel.innerHTML = `<p class="news-status">Getting today's headlines…</p>`;
+  try {
+    const response = await fetch(`/api/news?topic=${encodeURIComponent(topic)}`);
+    if (!response.ok) throw new Error("news");
+    const data = await response.json();
+    if (request !== newsRequest) return;
+    if (!data.stories?.length && !data.popular) throw new Error("empty");
+    newsCache.set(topic, data);
+    panel.innerHTML = newsBody(data);
+  } catch {
+    if (request !== newsRequest) return;
+    panel.innerHTML = `<p class="news-status">The news feeds did not load. <button type="button" id="news-retry">Try again</button></p>`;
+    document.querySelector("#news-retry")?.addEventListener("click", () => {
+      newsCache.delete(topic);
+      loadNews();
+    });
+  }
+}
+
+function toggleNews() {
   const button = document.querySelector("#news-button");
   const panel = document.querySelector("#news-panel");
   newsOpen = !newsOpen;
   button.setAttribute("aria-expanded", newsOpen ? "true" : "false");
   button.textContent = newsOpen ? "Hide today's American news" : "Today's American news";
   panel.hidden = !newsOpen;
-  if (!newsOpen || newsLoaded) return;
-  panel.innerHTML = `<p class="news-status">Getting today's headlines from NPR, PBS NewsHour, and The New York Times…</p>`;
-  try {
-    const response = await fetch("/api/news");
-    if (!response.ok) throw new Error("news");
-    const data = await response.json();
-    if (!data.stories?.length) throw new Error("empty");
-    newsLoaded = true;
-    panel.innerHTML = `
-      <p class="news-note">Headlines from NPR, PBS NewsHour, and The New York Times. Each link opens the original story.</p>
-      <div class="news-list">
-        ${data.stories.map(newsCard).join("")}
-      </div>
-    `;
-  } catch {
-    panel.innerHTML = `<p class="news-status">The news feeds did not load. <button type="button" id="news-retry">Try again</button></p>`;
-    document.querySelector("#news-retry").addEventListener("click", () => {
-      newsLoaded = false;
-      newsOpen = false;
-      toggleNews();
-    });
+  if (newsOpen) loadNews();
+}
+
+function readPayload(button, attr) {
+  return JSON.parse(button.getAttribute(attr));
+}
+
+function savePersonFrom(button) {
+  const meta = readPayload(button, "data-save-person");
+  const saved = togglePerson(meta);
+  button.setAttribute("aria-pressed", saved ? "true" : "false");
+  button.textContent = saved ? "Saved" : "Save";
+  button.closest(".person")?.classList.toggle("is-saved", saved);
+  renderSaved();
+}
+
+function highlightFrom(button) {
+  const meta = readPayload(button, "data-highlight");
+  const marked = toggleHighlight(meta, meta.section, meta.text);
+  button.setAttribute("aria-pressed", marked ? "true" : "false");
+  button.textContent = marked ? "Highlighted" : "Highlight";
+  button.closest("li")?.classList.toggle("is-marked", marked);
+  renderSaved();
+}
+
+function saveStoryFrom(button) {
+  const story = readPayload(button, "data-save-story");
+  const saved = toggleStory(story);
+  button.setAttribute("aria-pressed", saved ? "true" : "false");
+  button.textContent = saved ? "Saved" : "Save story";
+  document.querySelectorAll("[data-save-story]").forEach((other) => {
+    const otherStory = readPayload(other, "data-save-story");
+    if (otherStory.url !== story.url) return;
+    const on = isStorySaved(story.url);
+    other.setAttribute("aria-pressed", on ? "true" : "false");
+    other.textContent = on ? "Saved" : "Save story";
+  });
+  renderSaved();
+}
+
+function openSaved(entry) {
+  level = entry.level === "state" ? "state" : "federal";
+  selected = STATES.some((state) => state.abbr === entry.state) ? entry.state : null;
+  districtId = entry.district || null;
+  writeHash();
+  render();
+  document.querySelector("#detail")?.focus();
+}
+
+function savedGroup(title, items, renderItem) {
+  if (!items.length) return "";
+  return `<section class="saved-group"><h3>${title}</h3><ul>${items.map(renderItem).join("")}</ul></section>`;
+}
+
+function renderSaved() {
+  const data = loadSaved();
+  const count = data.people.length + data.highlights.length + data.stories.length;
+  const button = document.querySelector("#saved-button");
+  if (button) button.textContent = count ? `Saved research (${count})` : "Saved research";
+  const panel = document.querySelector("#saved-panel");
+  if (!panel) return;
+  if (!count) {
+    panel.innerHTML = `<p class="news-status">Nothing saved yet. Use Save on a candidate, Highlight on a line, or Save story on a headline. This stays in this browser.</p>`;
+    return;
   }
+  const place = (entry) => STATES.find((state) => state.abbr === entry.state)?.name || entry.state;
+  panel.innerHTML = `
+    ${savedGroup("Candidates", data.people, (entry) => `
+      <li>
+        <div>
+          <strong>${esc(entry.name)}</strong>
+          <span>${esc(entry.party)}${entry.office ? ` · ${esc(entry.office)}` : ""} · ${esc(place(entry))}</span>
+        </div>
+        <span class="saved-actions">
+          <button type="button" data-open-saved="${esc(JSON.stringify(entry))}">Open</button>
+          <button type="button" data-remove-saved="${esc(entry.id)}" data-remove-kind="person">Remove</button>
+        </span>
+      </li>
+    `)}
+    ${savedGroup("Highlights", data.highlights, (entry) => `
+      <li>
+        <div>
+          <strong>${esc(entry.name)}</strong>
+          <span>${esc(entry.section || "Note")} · ${esc(place(entry))}</span>
+          <p>${esc(entry.text)}</p>
+        </div>
+        <span class="saved-actions">
+          <button type="button" data-open-saved="${esc(JSON.stringify(entry))}">Open</button>
+          <button type="button" data-remove-saved="${esc(entry.id)}" data-remove-kind="highlight">Remove</button>
+        </span>
+      </li>
+    `)}
+    ${savedGroup("Stories", data.stories, (entry) => `
+      <li>
+        <div>
+          <strong><a href="${esc(entry.url)}" target="_blank" rel="noopener noreferrer">${esc(entry.title)}</a></strong>
+          <span>${esc(entry.source || "")}</span>
+        </div>
+        <span class="saved-actions">
+          <button type="button" data-remove-saved="${esc(entry.url)}" data-remove-kind="story">Remove</button>
+        </span>
+      </li>
+    `)}
+  `;
+}
+
+function toggleSaved() {
+  const button = document.querySelector("#saved-button");
+  const panel = document.querySelector("#saved-panel");
+  savedOpen = !savedOpen;
+  button.setAttribute("aria-expanded", savedOpen ? "true" : "false");
+  panel.hidden = !savedOpen;
+  if (savedOpen) renderSaved();
 }
 
 async function loadMap() {
